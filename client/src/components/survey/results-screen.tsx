@@ -1,10 +1,12 @@
+import React from "react";
 import { useQuery } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { BarChart3, RotateCcw, Share, TrendingUp, Users, Globe, Leaf } from "lucide-react";
+import { BarChart3, RotateCcw, Share, TrendingUp, Users, Globe, Leaf, Compass } from "lucide-react";
 import type { Party, SurveyResult, QuestionCount } from "@shared/schema";
 import { PartyLogo } from "@/components/party-logos";
+import { PoliticalCompass } from "./political-compass";
 
 interface ResultsScreenProps {
   sessionId: string;
@@ -19,6 +21,8 @@ interface ResultsResponse {
 }
 
 export function ResultsScreen({ sessionId, currentQuestionCount, onRestart, onContinueWithMore }: ResultsScreenProps) {
+  const [viewMode, setViewMode] = React.useState<"percentage" | "compass">("percentage");
+  
   const { data, isLoading, error } = useQuery<ResultsResponse>({
     queryKey: ["/api/results", sessionId],
   });
@@ -98,9 +102,31 @@ export function ResultsScreen({ sessionId, currentQuestionCount, onRestart, onCo
       <div className="text-center mb-8">
         <BarChart3 className="text-primary text-6xl mb-4 mx-auto w-16 h-16" />
         <h2 className="text-3xl font-bold text-neutral-900 mb-4">Τα Αποτελέσματά σας</h2>
-        <p className="text-lg text-neutral-500">
+        <p className="text-lg text-neutral-500 mb-6">
           Βάσει των απαντήσεών σας, ανατρέξαμε στα προγράμματα των κομμάτων
         </p>
+        
+        {/* View Mode Toggle */}
+        <div className="flex justify-center space-x-2 mb-6">
+          <Button
+            variant={viewMode === "percentage" ? "default" : "outline"}
+            size="sm"
+            onClick={() => setViewMode("percentage")}
+            className="flex items-center space-x-2"
+          >
+            <BarChart3 className="w-4 h-4" />
+            <span>Ποσοστά</span>
+          </Button>
+          <Button
+            variant={viewMode === "compass" ? "default" : "outline"}
+            size="sm"
+            onClick={() => setViewMode("compass")}
+            className="flex items-center space-x-2"
+          >
+            <Compass className="w-4 h-4" />
+            <span>Πολιτικός Πυξίδα</span>
+          </Button>
+        </div>
       </div>
 
       {/* Main Result */}
@@ -125,31 +151,39 @@ export function ResultsScreen({ sessionId, currentQuestionCount, onRestart, onCo
         </CardContent>
       </Card>
 
-      {/* All Party Results */}
-      <Card className="bg-white shadow-md mb-8">
-        <CardContent className="p-8">
-          <h3 className="text-xl font-semibold text-neutral-900 mb-6">Αναλυτικά Αποτελέσματα</h3>
-          
-          <div className="space-y-4">
-            {sortedParties.map((party) => (
-              <Card key={party.id} className="border border-neutral-200">
-                <CardContent className="p-4">
-                  <div className="flex items-center justify-between mb-2">
-                    <div className="flex items-center space-x-3">
-                      <PartyLogo party={party.shortName} className="w-6 h-6" />
-                      <span className="font-medium text-neutral-900">{party.name}</span>
-                      <span className="text-sm text-neutral-500">({party.shortName})</span>
+      {/* Results Display */}
+      {viewMode === "percentage" ? (
+        /* All Party Results */
+        <Card className="bg-white shadow-md mb-8">
+          <CardContent className="p-8">
+            <h3 className="text-xl font-semibold text-neutral-900 mb-6">Αναλυτικά Αποτελέσματα</h3>
+            
+            <div className="space-y-4">
+              {sortedParties.map((party) => (
+                <Card key={party.id} className="border border-neutral-200">
+                  <CardContent className="p-4">
+                    <div className="flex items-center justify-between mb-2">
+                      <div className="flex items-center space-x-3">
+                        <PartyLogo party={party.shortName} className="w-6 h-6" />
+                        <span className="font-medium text-neutral-900">{party.name}</span>
+                        <span className="text-sm text-neutral-500">({party.shortName})</span>
+                      </div>
+                      <span className="font-semibold text-primary">{party.alignment}%</span>
                     </div>
-                    <span className="font-semibold text-primary">{party.alignment}%</span>
-                  </div>
-                  <Progress value={party.alignment} className="mb-2" />
-                  <p className="text-sm text-neutral-500">{party.description}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </CardContent>
-      </Card>
+                    <Progress value={party.alignment} className="mb-2" />
+                    <p className="text-sm text-neutral-500">{party.description}</p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+      ) : (
+        /* Political Compass */
+        <div className="mb-8">
+          <PoliticalCompass parties={parties} userResult={result} />
+        </div>
+      )}
 
       {/* Key Issues Analysis */}
       <Card className="bg-white shadow-md mb-8">

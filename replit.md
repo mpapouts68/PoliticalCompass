@@ -52,6 +52,8 @@ User requested: Auto-advance to next question upon selection (implemented with 8
 - Added party logos to results display for better visual identification
 - Improved header layout: moved party logos next to app title with clickable links to official websites
 - Removed "Κόμματα:" label for cleaner design
+- Implemented Political Compass visualization: 2D chart showing party positions and user alignment
+- Added toggle between percentage view and compass view for comprehensive result analysis
 
 ### Data Models
 - **Questions**: Political statements with category and party position mappings for all 9 parliamentary parties
