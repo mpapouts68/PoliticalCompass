@@ -3,11 +3,13 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { BarChart3, RotateCcw, Share, TrendingUp, Users, Globe, Leaf } from "lucide-react";
-import type { Party, SurveyResult } from "@shared/schema";
+import type { Party, SurveyResult, QuestionCount } from "@shared/schema";
 
 interface ResultsScreenProps {
   sessionId: string;
+  currentQuestionCount: QuestionCount;
   onRestart: () => void;
+  onContinueWithMore: (newQuestionCount: QuestionCount) => void;
 }
 
 interface ResultsResponse {
@@ -15,7 +17,7 @@ interface ResultsResponse {
   parties: Party[];
 }
 
-export function ResultsScreen({ sessionId, onRestart }: ResultsScreenProps) {
+export function ResultsScreen({ sessionId, currentQuestionCount, onRestart, onContinueWithMore }: ResultsScreenProps) {
   const { data, isLoading, error } = useQuery<ResultsResponse>({
     queryKey: ["/api/results", sessionId],
   });
@@ -52,6 +54,11 @@ export function ResultsScreen({ sessionId, onRestart }: ResultsScreenProps) {
     .sort((a, b) => b.alignment - a.alignment);
 
   const topParty = sortedParties[0];
+
+  // Get available upgrade options
+  const questionCounts: QuestionCount[] = ["15", "30", "60", "100"];
+  const currentIndex = questionCounts.indexOf(currentQuestionCount);
+  const availableUpgrades = questionCounts.slice(currentIndex + 1);
 
   // Mock issue analysis data
   const issueAnalysis = [
@@ -169,6 +176,32 @@ export function ResultsScreen({ sessionId, onRestart }: ResultsScreenProps) {
           </div>
         </CardContent>
       </Card>
+
+      {/* Continue with More Questions */}
+      {availableUpgrades.length > 0 && (
+        <Card className="bg-white shadow-md mb-8">
+          <CardContent className="p-8">
+            <h3 className="text-xl font-semibold text-neutral-900 mb-4 text-center">
+              Θέλετε περισσότερη ακρίβεια;
+            </h3>
+            <p className="text-neutral-600 text-center mb-6">
+              Συνεχίστε με περισσότερες ερωτήσεις για ακριβέστερα αποτελέσματα. Οι απαντήσεις σας θα διατηρηθούν!
+            </p>
+            <div className="flex flex-wrap gap-3 justify-center">
+              {availableUpgrades.map((count) => (
+                <Button
+                  key={count}
+                  variant="outline"
+                  onClick={() => onContinueWithMore(count)}
+                  className="px-6"
+                >
+                  Συνέχεια με {count} ερωτήσεις
+                </Button>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+      )}
 
       {/* Actions */}
       <div className="flex flex-col sm:flex-row gap-4 justify-center">

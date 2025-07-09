@@ -26,14 +26,29 @@ export default function Survey() {
     setSelectedQuestionCount(null);
   };
 
+  const handleContinueWithMore = (newQuestionCount: QuestionCount) => {
+    setSelectedQuestionCount(newQuestionCount);
+    setCurrentStep("questions");
+  };
+
   return (
     <div className="min-h-screen bg-neutral-50">
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-4 py-4">
-          <div className="flex items-center space-x-3">
-            <Vote className="text-primary text-2xl w-8 h-8" />
-            <h1 className="text-xl font-semibold text-neutral-900">ΤιΨηφίζω</h1>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center space-x-3">
+              <Vote className="text-primary text-2xl w-8 h-8" />
+              <h1 className="text-xl font-semibold text-neutral-900">ΤιΨηφίζω</h1>
+            </div>
+            {currentStep !== "welcome" && (
+              <button
+                onClick={handleRestart}
+                className="text-neutral-500 hover:text-primary transition-colors text-sm"
+              >
+                ← Πίσω στην αρχή
+              </button>
+            )}
           </div>
         </div>
       </header>
@@ -52,8 +67,13 @@ export default function Survey() {
           />
         )}
         
-        {currentStep === "results" && (
-          <ResultsScreen sessionId={sessionId} onRestart={handleRestart} />
+        {currentStep === "results" && selectedQuestionCount && (
+          <ResultsScreen 
+            sessionId={sessionId} 
+            currentQuestionCount={selectedQuestionCount}
+            onRestart={handleRestart}
+            onContinueWithMore={handleContinueWithMore}
+          />
         )}
       </main>
 

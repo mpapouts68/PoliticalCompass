@@ -9,7 +9,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.get("/api/questions/:count", async (req, res) => {
     try {
       const count = questionCountSchema.parse(req.params.count);
-      const questions = await storage.getQuestions(count);
+      const excludeIds = req.query.exclude ? (req.query.exclude as string).split(',').map(Number) : [];
+      const questions = await storage.getQuestions(count, excludeIds);
       res.json(questions);
     } catch (error) {
       res.status(400).json({ error: "Invalid question count" });
@@ -23,6 +24,17 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.json(parties);
     } catch (error) {
       res.status(500).json({ error: "Failed to fetch parties" });
+    }
+  });
+
+  // Get survey responses by session
+  app.get("/api/responses/:sessionId", async (req, res) => {
+    try {
+      const { sessionId } = req.params;
+      const responses = await storage.getSurveyResponses(sessionId);
+      res.json(responses);
+    } catch (error) {
+      res.status(500).json({ error: "Failed to fetch responses" });
     }
   });
 

@@ -21,7 +21,19 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
   const [currentAnswer, setCurrentAnswer] = useState<string>("");
 
   const { data: questions, isLoading } = useQuery<Question[]>({
-    queryKey: ["/api/questions", questionCount],
+    queryKey: ["/api/questions", questionCount, sessionId],
+    queryFn: async () => {
+      // Get existing responses to filter out already answered questions
+      const existingResponses = await fetch(`/api/responses/${sessionId}`).then(res => 
+        res.ok ? res.json() : []
+      ).catch(() => []);
+      
+      const answeredQuestionIds = new Set(existingResponses.map((r: any) => r.questionId));
+      
+      // Get new questions, excluding already answered ones
+      const response = await fetch(`/api/questions/${questionCount}?sessionId=${sessionId}&exclude=${Array.from(answeredQuestionIds).join(',')}`);
+      return response.json();
+    }
   });
 
   const saveResponseMutation = useMutation({
