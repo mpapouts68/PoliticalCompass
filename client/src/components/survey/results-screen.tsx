@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { BarChart3, RotateCcw, Share, TrendingUp, Users, Globe, Leaf } from "lucide-react";
 import type { Party, SurveyResult, QuestionCount } from "@shared/schema";
+import { PartyLogo } from "@/components/party-logos";
 
 interface ResultsScreenProps {
   sessionId: string;
@@ -106,9 +107,12 @@ export function ResultsScreen({ sessionId, currentQuestionCount, onRestart, onCo
       <Card className="bg-white shadow-md mb-8 border-l-4 border-primary">
         <CardContent className="p-8">
           <div className="text-center">
-            <h3 className="text-2xl font-bold text-primary mb-2">
-              Είστε ψηφοφόρος {topParty.name}
-            </h3>
+            <div className="flex items-center justify-center space-x-3 mb-4">
+              <PartyLogo party={topParty.shortName} className="w-12 h-12" />
+              <h3 className="text-2xl font-bold text-primary">
+                Είστε ψηφοφόρος {topParty.name}
+              </h3>
+            </div>
             <p className="text-neutral-600 mb-4">
               Οι απόψεις σας ταιριάζουν κατά {topParty.alignment}% με το πρόγραμμα του κόμματος
             </p>
@@ -132,11 +136,9 @@ export function ResultsScreen({ sessionId, currentQuestionCount, onRestart, onCo
                 <CardContent className="p-4">
                   <div className="flex items-center justify-between mb-2">
                     <div className="flex items-center space-x-3">
-                      <div 
-                        className="w-4 h-4 rounded"
-                        style={{ backgroundColor: party.color }}
-                      />
+                      <PartyLogo party={party.shortName} className="w-6 h-6" />
                       <span className="font-medium text-neutral-900">{party.name}</span>
+                      <span className="text-sm text-neutral-500">({party.shortName})</span>
                     </div>
                     <span className="font-semibold text-primary">{party.alignment}%</span>
                   </div>

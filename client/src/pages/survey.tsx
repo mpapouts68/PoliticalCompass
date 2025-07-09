@@ -4,6 +4,7 @@ import { QuestionScreen } from "@/components/survey/question-screen";
 import { ResultsScreen } from "@/components/survey/results-screen";
 import type { QuestionCount } from "@shared/schema";
 import { Vote } from "lucide-react";
+import { PartyLogosHeader } from "@/components/party-logos";
 
 type SurveyStep = "welcome" | "questions" | "results";
 
@@ -51,6 +52,7 @@ export default function Survey() {
             )}
           </div>
         </div>
+        <PartyLogosHeader />
       </header>
 
       {/* Main Content */}
