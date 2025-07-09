@@ -44,10 +44,14 @@ User requested: Auto-advance to next question upon selection (implemented with 8
 - Removed manual navigation buttons in favor of smoother user experience
 - Updated welcome screen title to match new branding
 - Modified welcome screen to auto-start survey when user clicks on question count (no "Start Test" button needed)
+- Added ability to continue with more questions while preserving existing answers
+- Added "Back to Home" button for navigation
+- Expanded to include all 9 parliamentary parties: ΝΔ, ΣΥΡΙΖΑ, ΠΑΣΟΚ, ΚΚΕ, ΕΛ, Πλεύση Ελευθερίας, Νίκη, Σπαρτιάτες, Νέα Αριστερά
+- Updated all 100+ questions with political positions for all parties
 
 ### Data Models
-- **Questions**: Political statements with category and party position mappings
-- **Parties**: Greek political parties with names, colors, and ideological descriptions
+- **Questions**: Political statements with category and party position mappings for all 9 parliamentary parties
+- **Parties**: All Greek parliamentary parties including ΝΔ, ΣΥΡΙΖΑ, ΠΑΣΟΚ, ΚΚΕ, ΕΛ, Πλεύση Ελευθερίας, Νίκη, Σπαρτιάτες, Νέα Αριστερά
 - **Survey Responses**: User answers linked to sessions
 - **Survey Results**: Calculated party alignments per session
 
