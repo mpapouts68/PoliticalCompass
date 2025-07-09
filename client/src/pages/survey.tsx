@@ -8,8 +8,8 @@ import { Vote } from "lucide-react";
 type SurveyStep = "welcome" | "questions" | "results";
 
 export default function Survey() {
-  const [currentStep, setCurrentStep] = useState<SurveyStep>("welcome");
-  const [selectedQuestionCount, setSelectedQuestionCount] = useState<QuestionCount | null>(null);
+  const [currentStep, setCurrentStep] = useState<SurveyStep>("questions");
+  const [selectedQuestionCount, setSelectedQuestionCount] = useState<QuestionCount>("30"); // Default to 30 questions
   const [sessionId] = useState(() => `session_${Date.now()}_${Math.random()}`);
 
   const handleStartSurvey = (questionCount: QuestionCount) => {
@@ -44,7 +44,7 @@ export default function Survey() {
           <WelcomeScreen onStartSurvey={handleStartSurvey} />
         )}
         
-        {currentStep === "questions" && selectedQuestionCount && (
+        {currentStep === "questions" && (
           <QuestionScreen
             questionCount={selectedQuestionCount}
             sessionId={sessionId}
