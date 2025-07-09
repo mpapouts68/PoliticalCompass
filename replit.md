@@ -43,7 +43,7 @@ User requested: Auto-advance to next question upon selection (implemented with 8
 - Implemented auto-advance functionality: questions automatically proceed after user selects an answer
 - Removed manual navigation buttons in favor of smoother user experience
 - Updated welcome screen title to match new branding
-- Changed app to start directly with survey questions (30 questions by default) instead of showing welcome screen first
+- Modified welcome screen to auto-start survey when user clicks on question count (no "Start Test" button needed)
 
 ### Data Models
 - **Questions**: Political statements with category and party position mappings

@@ -9,7 +9,6 @@ interface WelcomeScreenProps {
 }
 
 export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
-  const [selectedCount, setSelectedCount] = useState<QuestionCount | null>(null);
 
   const questionOptions = [
     {
@@ -62,15 +61,12 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
           {questionOptions.map((option) => {
             const Icon = option.icon;
-            const isSelected = selectedCount === option.count;
             
             return (
               <Card
                 key={option.count}
-                className={`cursor-pointer transition-all hover:border-primary hover:bg-primary/5 ${
-                  isSelected ? "border-primary bg-primary/10" : "border-neutral-200"
-                }`}
-                onClick={() => setSelectedCount(option.count)}
+                className="cursor-pointer transition-all hover:border-primary hover:bg-primary/5 border-neutral-200"
+                onClick={() => onStartSurvey(option.count)}
               >
                 <CardContent className="p-6">
                   <div className="text-center">
@@ -86,14 +82,9 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
         </div>
 
         <div className="text-center">
-          <Button
-            onClick={() => selectedCount && onStartSurvey(selectedCount)}
-            disabled={!selectedCount}
-            className="px-8 py-3 text-base"
-          >
-            <Play className="mr-2 w-4 h-4" />
-            Έναρξη Τεστ
-          </Button>
+          <p className="text-neutral-500 text-sm">
+            Επιλέξτε τον αριθμό ερωτήσεων για να ξεκινήσει αυτόματα το τεστ
+          </p>
         </div>
 
         {/* Disclaimer */}
