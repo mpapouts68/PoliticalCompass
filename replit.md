@@ -50,6 +50,8 @@ User requested: Auto-advance to next question upon selection (implemented with 8
 - Updated all 100+ questions with political positions for all parties
 - Enhanced header with distinctive SVG logos for all 9 parties
 - Added party logos to results display for better visual identification
+- Improved header layout: moved party logos next to app title with clickable links to official websites
+- Removed "Κόμματα:" label for cleaner design
 
 ### Data Models
 - **Questions**: Political statements with category and party position mappings for all 9 parliamentary parties

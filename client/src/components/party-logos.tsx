@@ -85,16 +85,31 @@ export function PartyLogo({ party, className = "w-8 h-8" }: PartyLogoProps) {
 }
 
 export function PartyLogosHeader() {
-  const parties = ["ΝΔ", "ΣΥΡΙΖΑ", "ΠΑΣΟΚ", "ΚΚΕ", "ΕΛ", "ΠΕ", "ΝΙΚΗ", "ΣΠΑΡ", "ΝΑ"];
+  const parties = [
+    { shortName: "ΝΔ", website: "https://nd.gr" },
+    { shortName: "ΣΥΡΙΖΑ", website: "https://syriza.gr" },
+    { shortName: "ΠΑΣΟΚ", website: "https://pasok.gr" },
+    { shortName: "ΚΚΕ", website: "https://kke.gr" },
+    { shortName: "ΕΛ", website: "https://elliniki-lysi.gr" },
+    { shortName: "ΠΕ", website: "https://plefsi.gr" },
+    { shortName: "ΝΙΚΗ", website: "https://niki.gr" },
+    { shortName: "ΣΠΑΡ", website: "https://spartiates.gr" },
+    { shortName: "ΝΑ", website: "https://nea-aristera.gr" }
+  ];
   
   return (
-    <div className="flex items-center justify-center space-x-2 py-2 border-t border-neutral-200">
-      <span className="text-xs text-neutral-500 mr-2">Κόμματα:</span>
+    <div className="flex items-center space-x-2">
       {parties.map((party) => (
-        <div key={party} className="flex flex-col items-center">
-          <PartyLogo party={party} className="w-6 h-6" />
-          <span className="text-xs text-neutral-600 mt-1">{party}</span>
-        </div>
+        <a
+          key={party.shortName}
+          href={party.website}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:opacity-80 transition-opacity"
+          title={`Επισκεφθείτε την ιστοσελίδα του ${party.shortName}`}
+        >
+          <PartyLogo party={party.shortName} className="w-6 h-6" />
+        </a>
       ))}
     </div>
   );
