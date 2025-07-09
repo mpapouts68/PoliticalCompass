@@ -33,7 +33,7 @@ export default function Survey() {
         <div className="max-w-4xl mx-auto px-4 py-4">
           <div className="flex items-center space-x-3">
             <Vote className="text-primary text-2xl w-8 h-8" />
-            <h1 className="text-xl font-semibold text-neutral-900">Πολιτικός Σύμβουλος</h1>
+            <h1 className="text-xl font-semibold text-neutral-900">ΤιΨηφίζω</h1>
           </div>
         </div>
       </header>

@@ -1,12 +1,13 @@
-# Political Survey Application
+# ΤιΨηφίζω - Political Survey Application
 
 ## Overview
 
-This is a full-stack political survey application built with React, Express, and PostgreSQL. The application allows users to take political surveys of varying lengths and receive results showing their alignment with different Greek political parties.
+This is a full-stack political survey application built with React, Express, and PostgreSQL. The application allows users to take political surveys of varying lengths and receive results showing their alignment with different Greek political parties. The app is called "ΤιΨηφίζω" (What Do I Vote) and features auto-advancing questions for better user experience.
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+User requested: Auto-advance to next question upon selection (implemented with 800ms delay).
 
 ## System Architecture
 
@@ -34,8 +35,14 @@ Preferred communication style: Simple, everyday language.
 
 ### Survey Flow
 1. **Welcome Screen**: User selects survey length (15, 30, 60, or 100 questions)
-2. **Question Screen**: Sequential presentation of political questions with 5-point Likert scale
+2. **Question Screen**: Sequential presentation of political questions with 5-point Likert scale and auto-advance (800ms delay)
 3. **Results Screen**: Displays party alignment percentages with visual progress bars
+
+### Recent Changes (Jan 2025)
+- Renamed application to "ΤιΨηφίζω" (What Do I Vote)
+- Implemented auto-advance functionality: questions automatically proceed after user selects an answer
+- Removed manual navigation buttons in favor of smoother user experience
+- Updated welcome screen title to match new branding
 
 ### Data Models
 - **Questions**: Political statements with category and party position mappings

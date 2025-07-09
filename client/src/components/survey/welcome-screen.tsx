@@ -52,7 +52,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
         <div className="text-center mb-8">
           <ChartPie className="text-primary text-6xl mb-4 mx-auto w-16 h-16" />
           <h2 className="text-3xl font-bold text-neutral-900 mb-4">
-            Ανακαλύψτε τη Πολιτική σας Ταυτότητα
+            Τι Ψηφίζω;
           </h2>
           <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
             Απαντήστε σε ερωτήσεις βασισμένες στα προγράμματα των κομμάτων και ανακαλύψτε ποιο κόμμα ταιριάζει περισσότερο στις απόψεις σας.

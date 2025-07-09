@@ -59,6 +59,36 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
     }
   }, [currentQuestion, answers]);
 
+  // Auto-advance to next question when answer is selected
+  useEffect(() => {
+    if (currentAnswer !== "" && !saveResponseMutation.isPending && !calculateResultsMutation.isPending) {
+      const timer = setTimeout(async () => {
+        if (!currentQuestion || currentAnswer === "") return;
+
+        const answerValue = parseInt(currentAnswer) as AnswerValue;
+        const newAnswers = { ...answers, [currentQuestion.id]: answerValue };
+        setAnswers(newAnswers);
+
+        // Save response
+        await saveResponseMutation.mutateAsync({
+          sessionId,
+          questionId: currentQuestion.id,
+          answer: answerValue,
+        });
+
+        if (questions && currentQuestionIndex < questions.length - 1) {
+          setCurrentQuestionIndex(currentQuestionIndex + 1);
+          setCurrentAnswer("");
+        } else {
+          // Calculate results
+          await calculateResultsMutation.mutateAsync();
+        }
+      }, 800); // Small delay for better UX
+      
+      return () => clearTimeout(timer);
+    }
+  }, [currentAnswer, saveResponseMutation.isPending, calculateResultsMutation.isPending]);
+
   const handleNext = async () => {
     if (!currentQuestion || currentAnswer === "") return;
 
@@ -155,24 +185,18 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
         </CardContent>
       </Card>
 
-      {/* Navigation */}
-      <div className="flex justify-between items-center">
-        <Button
-          variant="outline"
-          onClick={handlePrevious}
-          disabled={currentQuestionIndex === 0}
-        >
-          <ChevronLeft className="mr-2 w-4 h-4" />
-          Προηγούμενη
-        </Button>
-
-        <Button
-          onClick={handleNext}
-          disabled={currentAnswer === "" || saveResponseMutation.isPending || calculateResultsMutation.isPending}
-        >
-          {currentQuestionIndex === questions.length - 1 ? "Ολοκλήρωση" : "Επόμενη"}
-          <ChevronRight className="ml-2 w-4 h-4" />
-        </Button>
+      {/* Navigation - Auto-advance enabled */}
+      <div className="flex justify-center items-center">
+        <div className="text-center">
+          <p className="text-sm text-neutral-500 mb-4">
+            Η επόμενη ερώτηση θα εμφανιστεί αυτόματα μετά την επιλογή σας
+          </p>
+          {(saveResponseMutation.isPending || calculateResultsMutation.isPending) && (
+            <div className="text-primary font-medium">
+              {calculateResultsMutation.isPending ? "Υπολογισμός αποτελεσμάτων..." : "Αποθήκευση απάντησης..."}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
