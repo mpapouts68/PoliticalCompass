@@ -10,6 +10,7 @@ import syrizaLogo from "@assets/syriza_1752220256393.png";
 import ndLogo from "@assets/nd_1752220256393.png";
 import plefsiLogo from "@assets/Plefsi-Eleftherias-Logo-Purple-100mm-width_1752220431867.png";
 import kkeLogo from "@assets/κκε_1752220431868.png";
+import nikiLogo from "@assets/NIKH-v1_1752220538161.png";
 
 interface PartyLogoProps {
   party: string;
@@ -61,12 +62,11 @@ export function PartyLogo({ party, className = "w-8 h-8" }: PartyLogoProps) {
       />
     ),
     "ΝΙΚΗ": (
-      <svg viewBox="0 0 100 100" className={className}>
-        <rect width="100" height="100" fill="#dc2626" rx="8"/>
-        <path d="M50 15 L40 35 L60 35 Z" fill="white"/>
-        <rect x="45" y="35" width="10" height="25" fill="white"/>
-        <text x="50" y="85" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold">ΝΙΚΗ</text>
-      </svg>
+      <img 
+        src={nikiLogo} 
+        alt="ΝΙΚΗ Logo"
+        className={`${className} object-contain rounded`}
+      />
     ),
     "ΣΠΑΡ": (
       <img 

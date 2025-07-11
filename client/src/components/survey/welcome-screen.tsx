@@ -75,9 +75,9 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
           </h3>
           
           {/* Party Logos Row */}
-          <div className="flex flex-wrap justify-center items-center gap-3 mb-6">
+          <div className="flex flex-wrap justify-center items-center gap-4 mb-6">
             {["ΝΔ", "ΣΥΡΙΖΑ", "ΠΑΣΟΚ", "ΚΚΕ", "ΕΛ", "ΠΕ", "ΝΙΚΗ", "ΣΠΑΡ", "ΝΑ"].map((party) => (
-              <PartyLogo key={party} party={party} className="w-8 h-8" />
+              <PartyLogo key={party} party={party} className="w-12 h-12" />
             ))}
           </div>
           
