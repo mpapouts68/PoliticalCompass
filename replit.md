@@ -59,6 +59,9 @@ User requested: Auto-advance to next question upon selection (implemented with 8
 - Implemented donation section with PayPal integration supporting project sustainability
 - Added three donation tiers: Coffee (€3.50), Support (€7.00), Development (€15.00)
 - Included prominent "Free for all users" messaging to clarify no payment required
+- Added comprehensive social sharing functionality for survey results
+- Social sharing includes Twitter, Facebook, copy-to-clipboard, and native mobile sharing
+- PayPal button sizing properly constrained within donation cards (40px height, 100% width)
 
 ### Data Models
 - **Questions**: Political statements with category and party position mappings for all 9 parliamentary parties
