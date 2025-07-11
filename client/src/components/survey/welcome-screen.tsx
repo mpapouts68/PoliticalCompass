@@ -49,11 +49,23 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
     <Card className="bg-white shadow-md mb-8">
       <CardContent className="p-8">
         <div className="text-center mb-8">
-          <ChartPie className="text-primary text-6xl mb-4 mx-auto w-16 h-16" />
-          <h2 className="text-3xl font-bold text-neutral-900 mb-4">
-            Τι Ψηφίζω;
+          <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-gradient-to-br from-red-500 via-blue-500 to-green-500 flex items-center justify-center shadow-lg">
+            <svg viewBox="0 0 24 24" className="w-12 h-12 text-white" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="m7 11 2-2-2-2"/>
+              <path d="M11 13h4"/>
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+            </svg>
+          </div>
+          <h2 className="text-4xl font-bold text-neutral-900 mb-2">
+            Μάθε ποιος είσαι πολιτικά
           </h2>
+          <h3 className="text-2xl font-semibold text-neutral-700 mb-4">
+            Ιδεολόγος <span className="text-blue-600">online</span>
+          </h3>
           <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
+            <span className="text-blue-600 font-medium">με 15 έως 100 ερωτήσεις</span>
+          </p>
+          <p className="text-base text-neutral-500 max-w-2xl mx-auto mt-2">
             Απαντήστε σε ερωτήσεις βασισμένες στα προγράμματα των κομμάτων και ανακαλύψτε ποιο κόμμα ταιριάζει περισσότερο στις απόψεις σας.
           </p>
         </div>

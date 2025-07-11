@@ -1,8 +1,8 @@
-# ΤιΨηφίζω - Political Survey Application
+# Ιδεολόγος - Political Survey Application
 
 ## Overview
 
-This is a full-stack political survey application built with React, Express, and PostgreSQL. The application allows users to take political surveys of varying lengths and receive results showing their alignment with different Greek political parties. The app is called "ΤιΨηφίζω" (What Do I Vote) and features auto-advancing questions for better user experience.
+This is a full-stack political survey application built with React, Express, and PostgreSQL. The application allows users to take political surveys of varying lengths and receive results showing their alignment with different Greek political parties. The app is called "Ιδεολόγος" and features auto-advancing questions for better user experience with real-time election-style analytics.
 
 ## User Preferences
 
@@ -39,10 +39,12 @@ User requested: Auto-advance to next question upon selection (implemented with 8
 3. **Results Screen**: Displays party alignment percentages with visual progress bars
 
 ### Recent Changes (Jan 2025)
-- Renamed application to "ΤιΨηφίζω" (What Do I Vote)
+- Rebranded application to "Ιδεολόγος" with new political compass logo design
 - Implemented auto-advance functionality: questions automatically proceed after user selects an answer
 - Removed manual navigation buttons in favor of smoother user experience
-- Updated welcome screen title to match new branding
+- Updated welcome screen with "Μάθε ποιος είσαι πολιτικά" messaging and Ιδεολόγος online branding
+- Implemented PostgreSQL database storage for persistent survey results and analytics
+- Added comprehensive election-style results dashboard with real-time statistics
 - Modified welcome screen to auto-start survey when user clicks on question count (no "Start Test" button needed)
 - Added ability to continue with more questions while preserving existing answers
 - Added "Back to Home" button for navigation

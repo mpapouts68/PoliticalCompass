@@ -39,8 +39,14 @@ export default function Survey() {
         <div className="max-w-4xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <Vote className="text-primary text-2xl w-8 h-8" />
-              <h1 className="text-xl font-semibold text-neutral-900">ΤιΨηφίζω</h1>
+              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-red-500 via-blue-500 to-green-500 flex items-center justify-center">
+                <svg viewBox="0 0 24 24" className="w-5 h-5 text-white" fill="none" stroke="currentColor" strokeWidth="3">
+                  <path d="m7 11 2-2-2-2"/>
+                  <path d="M11 13h4"/>
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                </svg>
+              </div>
+              <h1 className="text-xl font-semibold text-neutral-900">Ιδεολόγος</h1>
             </div>
             {currentStep !== "welcome" && (
               <button
