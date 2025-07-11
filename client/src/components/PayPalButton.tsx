@@ -121,13 +121,26 @@ export default function PayPalButton({
 
       const onClick = async () => {
         try {
+          console.log("PayPal button clicked, creating order...");
           const checkoutOptionsPromise = createOrder();
+          console.log("Order created, starting PayPal checkout...");
           await paypalCheckout.start(
             { paymentFlow: "popup" },
             checkoutOptionsPromise,
           );
         } catch (e) {
           console.error("PayPal checkout error:", e);
+          // Try fallback approach
+          try {
+            const orderResponse = await createOrder();
+            console.log("Fallback: Order created with ID:", orderResponse.orderId);
+            // Open PayPal approval URL manually
+            const approvalUrl = `https://www.sandbox.paypal.com/checkoutnow?token=${orderResponse.orderId}`;
+            window.open(approvalUrl, '_blank', 'width=400,height=600');
+          } catch (fallbackError) {
+            console.error("Fallback also failed:", fallbackError);
+            alert("PayPal checkout failed. Please try again.");
+          }
         }
       };
 
