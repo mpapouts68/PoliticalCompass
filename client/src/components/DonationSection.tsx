@@ -3,21 +3,20 @@ import { Heart, Coffee, Laptop, ExternalLink, Euro } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
+import PayPalButton from "./PayPalButton";
 
 export function DonationSection() {
   const [customAmount, setCustomAmount] = useState("");
+  const [selectedAmount, setSelectedAmount] = useState<string | null>(null);
 
-  const handleDonationClick = (amount: string) => {
-    // Open PayPal donation page - this will work even if the SDK has issues
-    const baseUrl = "https://www.paypal.com/paypalme/your-username"; // Replace with your PayPal.me link
-    window.open(`${baseUrl}/${amount}EUR`, '_blank');
+  const handleSelectAmount = (amount: string) => {
+    setSelectedAmount(amount);
   };
 
-  const handleCustomDonation = () => {
+  const handleSelectCustomAmount = () => {
     const amount = parseFloat(customAmount);
     if (amount && amount > 0) {
-      handleDonationClick(amount.toFixed(2));
-      setCustomAmount("");
+      setSelectedAmount(amount.toFixed(2));
     }
   };
 
@@ -73,15 +72,22 @@ export function DonationSection() {
                 <h4 className="font-semibold text-gray-800 mb-1">{option.title}</h4>
                 <p className="text-sm text-gray-600 mb-3">{option.description}</p>
                 <div className="text-lg font-bold text-blue-600 mb-3 flex-1 flex items-center justify-center">€{option.amount}</div>
-                <Button 
-                  onClick={() => handleDonationClick(option.amount)}
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white mt-auto"
-                  size="sm"
-                >
-                  <Heart className="w-4 h-4 mr-2" />
-                  Δωρεά €{option.amount}
-                  <ExternalLink className="w-4 h-4 ml-2" />
-                </Button>
+                {selectedAmount === option.amount ? (
+                  <PayPalButton 
+                    amount={option.amount}
+                    currency="EUR"
+                    intent="CAPTURE"
+                  />
+                ) : (
+                  <Button 
+                    onClick={() => handleSelectAmount(option.amount)}
+                    className="w-full bg-blue-600 hover:bg-blue-700 text-white mt-auto"
+                    size="sm"
+                  >
+                    <Heart className="w-4 h-4 mr-2" />
+                    Δωρεά €{option.amount}
+                  </Button>
+                )}
               </div>
             </div>
           ))}
@@ -105,16 +111,23 @@ export function DonationSection() {
                   className="text-center max-w-20"
                 />
               </div>
-              <Button 
-                onClick={handleCustomDonation}
-                disabled={!customAmount || parseFloat(customAmount) <= 0}
-                className="w-full bg-green-600 hover:bg-green-700 text-white disabled:bg-gray-300 mt-auto"
-                size="sm"
-              >
-                <Heart className="w-4 h-4 mr-2" />
-                Δωρεά
-                <ExternalLink className="w-4 h-4 ml-2" />
-              </Button>
+              {selectedAmount === customAmount && customAmount ? (
+                <PayPalButton 
+                  amount={customAmount}
+                  currency="EUR"
+                  intent="CAPTURE"
+                />
+              ) : (
+                <Button 
+                  onClick={handleSelectCustomAmount}
+                  disabled={!customAmount || parseFloat(customAmount) <= 0}
+                  className="w-full bg-green-600 hover:bg-green-700 text-white disabled:bg-gray-300 mt-auto"
+                  size="sm"
+                >
+                  <Heart className="w-4 h-4 mr-2" />
+                  Δωρεά
+                </Button>
+              )}
             </div>
           </div>
         </div>
