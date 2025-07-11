@@ -4,6 +4,10 @@ import React from "react";
 // Import real party logos
 import pasokLogo from "@assets/Flag_of_PASOK_(Panhellenic_Socialist_Movement)_1752220171012.png";
 import neaAristeraLogo from "@assets/να_1752220175233.jpg";
+import spartiatesLogo from "@assets/logo-spartiates-home-scaled_1752220242373.jpg";
+import ellinikilisiLogo from "@assets/Elliniki-lisi-logo_1752220256392.png";
+import syrizaLogo from "@assets/syriza_1752220256393.png";
+import ndLogo from "@assets/nd_1752220256393.png";
 
 interface PartyLogoProps {
   party: string;
@@ -13,22 +17,18 @@ interface PartyLogoProps {
 export function PartyLogo({ party, className = "w-8 h-8" }: PartyLogoProps) {
   const logos = {
     "ΝΔ": (
-      <svg viewBox="0 0 100 100" className={className}>
-        <rect width="100" height="100" fill="#004B9F" rx="8"/>
-        <rect x="15" y="30" width="70" height="6" fill="white"/>
-        <rect x="15" y="40" width="70" height="6" fill="white"/>
-        <rect x="15" y="50" width="70" height="6" fill="white"/>
-        <rect x="15" y="60" width="70" height="6" fill="white"/>
-        <text x="50" y="85" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold">ΝΔ</text>
-      </svg>
+      <img 
+        src={ndLogo} 
+        alt="Νέα Δημοκρατία Logo"
+        className={`${className} object-contain rounded`}
+      />
     ),
     "ΣΥΡΙΖΑ": (
-      <svg viewBox="0 0 100 100" className={className}>
-        <rect width="100" height="100" fill="#E4002B" rx="8"/>
-        <path d="M30 25 L50 35 L70 25 L70 45 L50 55 L30 45 Z" fill="white"/>
-        <circle cx="50" cy="65" r="8" fill="white"/>
-        <text x="50" y="88" textAnchor="middle" fill="white" fontSize="10" fontWeight="bold">ΣΥΡΙΖΑ</text>
-      </svg>
+      <img 
+        src={syrizaLogo} 
+        alt="ΣΥΡΙΖΑ Logo"
+        className={`${className} object-contain rounded`}
+      />
     ),
     "ΠΑΣΟΚ": (
       <img 
@@ -46,12 +46,11 @@ export function PartyLogo({ party, className = "w-8 h-8" }: PartyLogoProps) {
       </svg>
     ),
     "ΕΛ": (
-      <svg viewBox="0 0 100 100" className={className}>
-        <rect width="100" height="100" fill="#663399" rx="8"/>
-        <rect x="20" y="30" width="60" height="8" fill="white"/>
-        <rect x="20" y="46" width="60" height="8" fill="white"/>
-        <rect x="20" y="62" width="60" height="8" fill="white"/>
-      </svg>
+      <img 
+        src={ellinikilisiLogo} 
+        alt="Ελληνική Λύση Logo"
+        className={`${className} object-contain rounded`}
+      />
     ),
     "ΠΕ": (
       <svg viewBox="0 0 100 100" className={className}>
@@ -69,12 +68,11 @@ export function PartyLogo({ party, className = "w-8 h-8" }: PartyLogoProps) {
       </svg>
     ),
     "ΣΠΑΡ": (
-      <svg viewBox="0 0 100 100" className={className}>
-        <rect width="100" height="100" fill="#7c2d12" rx="8"/>
-        <rect x="20" y="25" width="60" height="6" fill="#FFD700"/>
-        <circle cx="50" cy="45" r="12" fill="#FFD700"/>
-        <rect x="20" y="65" width="60" height="6" fill="#FFD700"/>
-      </svg>
+      <img 
+        src={spartiatesLogo} 
+        alt="Σπαρτιάτες Logo"
+        className={`${className} object-contain rounded`}
+      />
     ),
     "ΝΑ": (
       <img 
