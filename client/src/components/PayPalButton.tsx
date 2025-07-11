@@ -88,9 +88,16 @@ export default function PayPalButton({
             ? "https://www.paypal.com/web-sdk/v6/core"
             : "https://www.sandbox.paypal.com/web-sdk/v6/core";
           script.async = true;
-          script.onload = () => initPayPal();
+          script.onload = () => {
+            console.log("PayPal SDK loaded successfully");
+            initPayPal();
+          };
+          script.onerror = () => {
+            console.error("Failed to load PayPal SDK");
+          };
           document.body.appendChild(script);
         } else {
+          console.log("PayPal SDK already loaded");
           await initPayPal();
         }
       } catch (e) {
@@ -102,11 +109,18 @@ export default function PayPalButton({
   }, []);
   const initPayPal = async () => {
     try {
+      console.log("Initializing PayPal...");
       const clientToken: string = await fetch("/paypal/setup")
-        .then((res) => res.json())
+        .then((res) => {
+          console.log("PayPal setup response:", res.status);
+          return res.json();
+        })
         .then((data) => {
+          console.log("PayPal setup data received");
           return data.clientToken;
         });
+      
+      console.log("Creating PayPal instance...");
       const sdkInstance = await (window as any).paypal.createInstance({
         clientToken,
         components: ["paypal-payments"],
@@ -122,11 +136,12 @@ export default function PayPalButton({
       const onClick = async () => {
         try {
           console.log("PayPal button clicked, creating order...");
-          const checkoutOptionsPromise = createOrder();
-          console.log("Order created, starting PayPal checkout...");
+          const orderResponse = await createOrder();
+          console.log("Order created:", orderResponse);
+          
           await paypalCheckout.start(
             { paymentFlow: "popup" },
-            checkoutOptionsPromise,
+            Promise.resolve(orderResponse),
           );
         } catch (e) {
           console.error("PayPal checkout error:", e);
@@ -148,6 +163,9 @@ export default function PayPalButton({
 
       if (paypalButton) {
         paypalButton.addEventListener("click", onClick);
+        console.log("PayPal button click handler attached");
+      } else {
+        console.error("PayPal button not found");
       }
 
       return () => {
@@ -156,7 +174,7 @@ export default function PayPalButton({
         }
       };
     } catch (e) {
-      console.error(e);
+      console.error("PayPal initialization error:", e);
     }
   };
 

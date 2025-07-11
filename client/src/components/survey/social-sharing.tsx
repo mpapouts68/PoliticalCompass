@@ -22,13 +22,13 @@ export function SocialSharing({ result, parties, topParty, questionCount }: Soci
   // Generate sharing text
   const shareText = `Ολοκλήρωσα το πολιτικό τεστ στο Ιδεολόγος! Η κορυφαία μου συμφωνία είναι με ${topParty.name} (${topPercentage}%). Δες και εσύ ποιος είσαι πολιτικά!`;
   
-  const shareUrl = window.location.origin;
+  const shareUrl = "https://ideologos.online";
   const hashtags = '#Ιδεολόγος #ΠολιτικόΤεστ #ΕλληνικήΠολιτική';
 
   // Social media URLs
   const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}&hashtags=${encodeURIComponent('Ιδεολόγος,ΠολιτικόΤεστ,ΕλληνικήΠολιτική')}`;
   
-  const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl + '?text=' + encodeURIComponent(shareText))}`;
+  const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`;
 
   const handleCopyLink = async () => {
     const fullShareText = `${shareText}\n\n${shareUrl}\n\n${hashtags}`;
@@ -112,6 +112,10 @@ export function SocialSharing({ result, parties, topParty, questionCount }: Soci
                 setTimeout(() => {
                   alert('Το κείμενο αντιγράφηκε! Κάντε επικόλληση (Ctrl+V) στο Facebook για να μοιραστείτε το αποτέλεσμα.');
                 }, 500);
+              }).catch(() => {
+                // Fallback if clipboard fails
+                window.open(facebookUrl, '_blank', 'width=600,height=400');
+                alert('Ανοίγει το Facebook. Αντιγράψτε αυτό το κείμενο:\n\n' + tempText);
               });
             }}
             variant="outline"
