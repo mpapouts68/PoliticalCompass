@@ -207,6 +207,8 @@ export default function PayPalButton({
             }),
           });
           
+          console.log("PayPal response status:", response.status);
+          
           if (!response.ok) {
             const errorData = await response.text();
             console.error("PayPal API error:", response.status, errorData);
@@ -214,13 +216,21 @@ export default function PayPalButton({
           }
           
           const orderData = await response.json();
-          console.log("Order data:", orderData);
+          console.log("Order data received:", orderData);
+          
+          if (!orderData.id) {
+            console.error("No order ID in response:", orderData);
+            throw new Error("PayPal order creation failed - no order ID");
+          }
           
           const approvalUrl = `https://www.sandbox.paypal.com/checkoutnow?token=${orderData.id}`;
-          console.log("Opening:", approvalUrl);
+          console.log("Opening PayPal URL:", approvalUrl);
+          
           const popup = window.open(approvalUrl, '_blank', 'width=500,height=700,scrollbars=yes,resizable=yes');
           if (!popup) {
             alert('Popup blocked! Please allow popups for this site and try again.');
+          } else {
+            console.log("PayPal popup opened successfully");
           }
         } catch (error) {
           console.error("PayPal error:", error);
