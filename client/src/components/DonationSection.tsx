@@ -4,10 +4,9 @@ import { Button } from "@/components/ui/button";
 
 export function DonationSection() {
   const handleDonationClick = (amount: string) => {
-    // For now, open PayPal directly with a donation link
-    // This can be replaced with the PayPal SDK integration once credentials are configured
-    const paypalUrl = `https://www.paypal.com/donate/?hosted_button_id=YOUR_BUTTON_ID&amount=${amount}&currency_code=EUR`;
-    window.open(paypalUrl, '_blank');
+    // Open PayPal donation page - this will work even if the SDK has issues
+    const baseUrl = "https://www.paypal.com/paypalme/your-username"; // Replace with your PayPal.me link
+    window.open(`${baseUrl}/${amount}EUR`, '_blank');
   };
 
   const donationOptions = [
