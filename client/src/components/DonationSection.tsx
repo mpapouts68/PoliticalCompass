@@ -1,12 +1,24 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Heart, Coffee, Laptop, ExternalLink } from "lucide-react";
+import { Heart, Coffee, Laptop, ExternalLink, Euro } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { useState } from "react";
 
 export function DonationSection() {
+  const [customAmount, setCustomAmount] = useState("");
+
   const handleDonationClick = (amount: string) => {
     // Open PayPal donation page - this will work even if the SDK has issues
     const baseUrl = "https://www.paypal.com/paypalme/your-username"; // Replace with your PayPal.me link
     window.open(`${baseUrl}/${amount}EUR`, '_blank');
+  };
+
+  const handleCustomDonation = () => {
+    const amount = parseFloat(customAmount);
+    if (amount && amount > 0) {
+      handleDonationClick(amount.toFixed(2));
+      setCustomAmount("");
+    }
   };
 
   const donationOptions = [
@@ -51,7 +63,7 @@ export function DonationSection() {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+        <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 mb-6">
           {donationOptions.map((option) => (
             <div key={option.amount} className="bg-white rounded-lg p-4 border border-gray-200 hover:border-blue-300 transition-colors">
               <div className="text-center">
@@ -73,6 +85,38 @@ export function DonationSection() {
               </div>
             </div>
           ))}
+          
+          {/* Custom Amount Option */}
+          <div className="bg-white rounded-lg p-4 border border-gray-200 hover:border-blue-300 transition-colors">
+            <div className="text-center">
+              <div className="flex justify-center text-blue-600 mb-2">
+                <Euro className="w-5 h-5" />
+              </div>
+              <h4 className="font-semibold text-gray-800 mb-1">Προσαρμοσμένο</h4>
+              <p className="text-sm text-gray-600 mb-3">Δικό σας ποσό</p>
+              <div className="mb-3">
+                <Input
+                  type="number"
+                  placeholder="€"
+                  value={customAmount}
+                  onChange={(e) => setCustomAmount(e.target.value)}
+                  min="0.50"
+                  step="0.50"
+                  className="text-center"
+                />
+              </div>
+              <Button 
+                onClick={handleCustomDonation}
+                disabled={!customAmount || parseFloat(customAmount) <= 0}
+                className="w-full bg-green-600 hover:bg-green-700 text-white disabled:bg-gray-300"
+                size="sm"
+              >
+                <Heart className="w-4 h-4 mr-2" />
+                Δωρεά
+                <ExternalLink className="w-4 h-4 ml-2" />
+              </Button>
+            </div>
+          </div>
         </div>
         
         <div className="text-center">
