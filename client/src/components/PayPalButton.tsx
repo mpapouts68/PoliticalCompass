@@ -59,16 +59,24 @@ export default function PayPalButton({
 
   const onApprove = async (data: any) => {
     console.log("onApprove", data);
-    const orderData = await captureOrder(data.orderId);
-    console.log("Capture result", orderData);
+    try {
+      const orderData = await captureOrder(data.orderId);
+      console.log("Capture result", orderData);
+      alert("Η δωρεά ολοκληρώθηκε επιτυχώς! Ευχαριστούμε για την υποστήριξή σας!");
+    } catch (error) {
+      console.error("Capture error:", error);
+      alert("Υπήρξε πρόβλημα με την επεξεργασία της δωρεάς. Παρακαλώ δοκιμάστε ξανά.");
+    }
   };
 
   const onCancel = async (data: any) => {
     console.log("onCancel", data);
+    alert("Η δωρεά ακυρώθηκε.");
   };
 
   const onError = async (data: any) => {
     console.log("onError", data);
+    alert("Υπήρξε σφάλμα με το PayPal. Παρακαλώ δοκιμάστε ξανά ή επικοινωνήστε μαζί μας.");
   };
 
   useEffect(() => {
@@ -115,11 +123,11 @@ export default function PayPalButton({
         try {
           const checkoutOptionsPromise = createOrder();
           await paypalCheckout.start(
-            { paymentFlow: "auto" },
+            { paymentFlow: "iframe" },
             checkoutOptionsPromise,
           );
         } catch (e) {
-          console.error(e);
+          console.error("PayPal checkout error:", e);
         }
       };
 
