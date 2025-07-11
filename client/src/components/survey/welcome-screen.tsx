@@ -49,21 +49,11 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
     <Card className="bg-white shadow-md mb-8">
       <CardContent className="p-8">
         <div className="text-center mb-8">
-          <div className="w-24 h-24 mx-auto mb-6 rounded-full border-4 border-black bg-white flex items-center justify-center shadow-lg relative">
-            <div className="absolute inset-2 rounded-full overflow-hidden">
-              <div className="w-full h-full relative">
-                <div className="absolute inset-0 bg-red-500 rounded-full" style={{ clipPath: 'polygon(50% 50%, 0% 0%, 50% 0%)' }}></div>
-                <div className="absolute inset-0 bg-blue-500 rounded-full" style={{ clipPath: 'polygon(50% 50%, 50% 0%, 100% 0%, 100% 50%)' }}></div>
-                <div className="absolute inset-0 bg-green-500 rounded-full" style={{ clipPath: 'polygon(50% 50%, 100% 50%, 100% 100%, 50% 100%)' }}></div>
-                <div className="absolute inset-0 bg-purple-500 rounded-full" style={{ clipPath: 'polygon(50% 50%, 50% 100%, 0% 100%, 0% 50%, 0% 0%)' }}></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <svg viewBox="0 0 24 24" className="w-8 h-8 text-black" fill="currentColor">
-                    <path d="M12 2L8 12L12 10L16 12L12 2Z"/>
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </div>
+          <img 
+            src="/attached_assets/ideologo-lo_1752218850166.PNG" 
+            alt="Ιδεολόγος Logo" 
+            className="w-24 h-24 mx-auto mb-6"
+          />
           <h2 className="text-4xl font-bold text-neutral-900 mb-2">
             Μάθε ποιος είσαι πολιτικά
           </h2>
