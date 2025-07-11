@@ -5,6 +5,7 @@ import { ChartPie, Zap, Scale, Microscope, GraduationCap, Info, Play } from "luc
 import type { QuestionCount } from "@shared/schema";
 import { PartyLogo } from "@/components/party-logos";
 import { DonationSection } from "@/components/DonationSection";
+import { MiniResultsGraph } from "./mini-results-graph";
 // SVG version of the Ιδεολόγος compass logo
 const CompassLogo = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 100 100" className={className}>
@@ -129,6 +130,11 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
         </div>
       </CardContent>
     </Card>
+    
+    {/* Mini Results Graph */}
+    <div className="mb-8">
+      <MiniResultsGraph />
+    </div>
     
     {/* Donation Section */}
     <DonationSection />

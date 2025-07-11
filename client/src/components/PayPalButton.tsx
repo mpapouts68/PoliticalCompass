@@ -123,7 +123,7 @@ export default function PayPalButton({
         try {
           const checkoutOptionsPromise = createOrder();
           await paypalCheckout.start(
-            { paymentFlow: "iframe" },
+            { paymentFlow: "popup" },
             checkoutOptionsPromise,
           );
         } catch (e) {
