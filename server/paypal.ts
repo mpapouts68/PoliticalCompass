@@ -19,19 +19,22 @@ import { Request, Response } from "express";
 
 const { PAYPAL_CLIENT_ID, PAYPAL_CLIENT_SECRET } = process.env;
 
+console.log("PayPal initialization check:");
+console.log("PAYPAL_CLIENT_ID exists:", !!PAYPAL_CLIENT_ID);
+console.log("PAYPAL_CLIENT_SECRET exists:", !!PAYPAL_CLIENT_SECRET);
+
 if (!PAYPAL_CLIENT_ID || !PAYPAL_CLIENT_SECRET) {
-  console.warn("PayPal credentials not found. PayPal functionality will be disabled.");
+  console.error("PayPal credentials missing! PayPal functionality will be disabled.");
+  console.error("Required: PAYPAL_CLIENT_ID and PAYPAL_CLIENT_SECRET environment variables");
 }
+
 const client = PAYPAL_CLIENT_ID && PAYPAL_CLIENT_SECRET ? new Client({
   clientCredentialsAuthCredentials: {
     oAuthClientId: PAYPAL_CLIENT_ID,
     oAuthClientSecret: PAYPAL_CLIENT_SECRET,
   },
   timeout: 0,
-  environment:
-                process.env.NODE_ENV === "production"
-                  ? Environment.Production
-                  : Environment.Sandbox,
+  environment: Environment.Sandbox, // Always use sandbox for development
   logging: {
     logLevel: LogLevel.Info,
     logRequest: {
@@ -45,6 +48,12 @@ const client = PAYPAL_CLIENT_ID && PAYPAL_CLIENT_SECRET ? new Client({
 
 const ordersController = client ? new OrdersController(client) : null;
 const oAuthAuthorizationController = client ? new OAuthAuthorizationController(client) : null;
+
+if (client) {
+  console.log("PayPal client initialized successfully");
+} else {
+  console.error("PayPal client initialization failed - missing credentials");
+}
 
 /* Token generation helpers */
 
@@ -173,12 +182,18 @@ export async function capturePaypalOrder(req: Request, res: Response) {
 
 export async function loadPaypalDefault(req: Request, res: Response) {
   try {
+    if (!oAuthAuthorizationController) {
+      console.error("PayPal not configured for token generation");
+      return res.status(503).json({ error: "PayPal not configured" });
+    }
+    
     const clientToken = await getClientToken();
     res.json({
       clientToken,
     });
   } catch (error) {
-    res.status(503).json({ error: "PayPal not configured" });
+    console.error("Failed to load PayPal default:", error);
+    res.status(503).json({ error: "PayPal service unavailable" });
   }
 }
 // <END_EXACT_CODE>
