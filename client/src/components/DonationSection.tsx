@@ -12,19 +12,19 @@ export function DonationSection() {
 
   const donationOptions = [
     {
-      amount: "5.00",
+      amount: "3.50",
       icon: <Coffee className="w-5 h-5" />,
       title: "Καφές",
       description: "Ένα καφέ για τον δημιουργό"
     },
     {
-      amount: "10.00", 
+      amount: "7.00", 
       icon: <Heart className="w-5 h-5" />,
       title: "Υποστήριξη",
       description: "Υποστήριξη του έργου"
     },
     {
-      amount: "25.00",
+      amount: "15.00",
       icon: <Laptop className="w-5 h-5" />,
       title: "Ανάπτυξη",
       description: "Βοήθεια στην ανάπτυξη"
@@ -40,6 +40,11 @@ export function DonationSection() {
             <h3 className="text-xl font-semibold text-gray-800">
               Υποστήριξε το Ιδεολόγος
             </h3>
+          </div>
+          <div className="bg-green-50 border border-green-200 rounded-lg p-3 mb-4 inline-block">
+            <p className="text-green-700 font-medium text-sm">
+              🆓 Δωρεάν χρήση για όλους - Χωρίς κρυφές χρεώσεις
+            </p>
           </div>
           <p className="text-gray-600 max-w-2xl mx-auto text-sm leading-relaxed">
             Το Ιδεολόγος είναι ένα ανεξάρτητο έργο που βοηθά τους Έλληνες πολίτες να κατανοήσουν 
@@ -74,7 +79,7 @@ export function DonationSection() {
         <div className="text-center">
           <p className="text-xs text-gray-500">
             Οι δωρεές επεξεργάζονται με ασφάλεια μέσω PayPal • 
-            Δεν υπάρχουν υποχρεωτικές δωρεές για τη χρήση της πλατφόρμας
+            Η πλατφόρμα παραμένει πάντα δωρεάν για όλους τους χρήστες
           </p>
         </div>
       </CardContent>

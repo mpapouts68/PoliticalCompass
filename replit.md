@@ -56,6 +56,9 @@ User requested: Auto-advance to next question upon selection (implemented with 8
 - Simplified header layout by removing small party logos
 - Implemented Political Compass visualization: 2D chart showing party positions and user alignment
 - Added toggle between percentage view and compass view for comprehensive result analysis
+- Implemented donation section with PayPal integration supporting project sustainability
+- Added three donation tiers: Coffee (€3.50), Support (€7.00), Development (€15.00)
+- Included prominent "Free for all users" messaging to clarify no payment required
 
 ### Data Models
 - **Questions**: Political statements with category and party position mappings for all 9 parliamentary parties
