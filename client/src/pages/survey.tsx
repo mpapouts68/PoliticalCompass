@@ -4,7 +4,7 @@ import { QuestionScreen } from "@/components/survey/question-screen";
 import { ResultsScreen } from "@/components/survey/results-screen";
 import type { QuestionCount } from "@shared/schema";
 import { Vote } from "lucide-react";
-import { PartyLogosHeader } from "@/components/party-logos";
+import { PartyLogosSidebar } from "@/components/party-logos";
 
 type SurveyStep = "welcome" | "questions" | "results";
 
@@ -38,12 +38,9 @@ export default function Survey() {
       <header className="bg-white shadow-sm border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center space-x-3">
-                <Vote className="text-primary text-2xl w-8 h-8" />
-                <h1 className="text-xl font-semibold text-neutral-900">ΤιΨηφίζω</h1>
-              </div>
-              <PartyLogosHeader />
+            <div className="flex items-center space-x-3">
+              <Vote className="text-primary text-2xl w-8 h-8" />
+              <h1 className="text-xl font-semibold text-neutral-900">ΤιΨηφίζω</h1>
             </div>
             {currentStep !== "welcome" && (
               <button
@@ -57,8 +54,11 @@ export default function Survey() {
         </div>
       </header>
 
+      {/* Party Logos Sidebar */}
+      <PartyLogosSidebar />
+
       {/* Main Content */}
-      <main className="max-w-4xl mx-auto px-4 py-8">
+      <main className="max-w-4xl mx-auto px-4 py-8 pr-20">
         {currentStep === "welcome" && (
           <WelcomeScreen onStartSurvey={handleStartSurvey} />
         )}

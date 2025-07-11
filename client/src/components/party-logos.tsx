@@ -84,7 +84,7 @@ export function PartyLogo({ party, className = "w-8 h-8" }: PartyLogoProps) {
   );
 }
 
-export function PartyLogosHeader() {
+export function PartyLogosSidebar() {
   const parties = [
     { shortName: "ΝΔ", website: "https://nd.gr" },
     { shortName: "ΣΥΡΙΖΑ", website: "https://syriza.gr" },
@@ -98,19 +98,26 @@ export function PartyLogosHeader() {
   ];
   
   return (
-    <div className="flex items-center space-x-2">
-      {parties.map((party) => (
-        <a
-          key={party.shortName}
-          href={party.website}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:opacity-80 transition-opacity"
-          title={`Επισκεφθείτε την ιστοσελίδα του ${party.shortName}`}
-        >
-          <PartyLogo party={party.shortName} className="w-6 h-6" />
-        </a>
-      ))}
+    <div className="fixed right-4 top-1/2 transform -translate-y-1/2 bg-white rounded-lg shadow-lg border border-neutral-200 p-3 z-50">
+      <div className="flex flex-col space-y-3">
+        {parties.map((party) => (
+          <a
+            key={party.shortName}
+            href={party.website}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:opacity-80 hover:scale-110 transition-all duration-200 group"
+            title={`Επισκεφθείτε την ιστοσελίδα του ${party.shortName}`}
+          >
+            <div className="flex flex-col items-center">
+              <PartyLogo party={party.shortName} className="w-10 h-10" />
+              <span className="text-xs text-neutral-600 mt-1 group-hover:text-neutral-900 font-medium">
+                {party.shortName}
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
     </div>
   );
 }

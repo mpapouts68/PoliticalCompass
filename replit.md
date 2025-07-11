@@ -50,8 +50,8 @@ User requested: Auto-advance to next question upon selection (implemented with 8
 - Updated all 100+ questions with political positions for all parties
 - Enhanced header with distinctive SVG logos for all 9 parties
 - Added party logos to results display for better visual identification
-- Improved header layout: moved party logos next to app title with clickable links to official websites
-- Removed "Κόμματα:" label for cleaner design
+- Created vertical sidebar with larger party logos and clickable links to official websites
+- Simplified header layout by removing small party logos
 - Implemented Political Compass visualization: 2D chart showing party positions and user alignment
 - Added toggle between percentage view and compass view for comprehensive result analysis
 
