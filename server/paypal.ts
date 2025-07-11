@@ -71,13 +71,18 @@ export async function getClientToken() {
 
 export async function createPaypalOrder(req: Request, res: Response) {
   try {
+    console.log("PayPal order request:", req.body);
+    
     if (!ordersController) {
+      console.error("PayPal not configured - missing ordersController");
       return res.status(503).json({ error: "PayPal not configured" });
     }
 
     const { amount, currency, intent } = req.body;
+    console.log("PayPal order params:", { amount, currency, intent });
 
     if (!amount || isNaN(parseFloat(amount)) || parseFloat(amount) <= 0) {
+      console.error("Invalid amount:", amount);
       return res
         .status(400)
         .json({
@@ -86,12 +91,14 @@ export async function createPaypalOrder(req: Request, res: Response) {
     }
 
     if (!currency) {
+      console.error("Missing currency");
       return res
         .status(400)
         .json({ error: "Invalid currency. Currency is required." });
     }
 
     if (!intent) {
+      console.error("Missing intent");
       return res
         .status(400)
         .json({ error: "Invalid intent. Intent is required." });
@@ -112,16 +119,30 @@ export async function createPaypalOrder(req: Request, res: Response) {
       prefer: "return=minimal",
     };
 
+    console.log("Creating PayPal order with data:", JSON.stringify(collect, null, 2));
+
     const { body, ...httpResponse } =
           await ordersController.createOrder(collect);
+
+    console.log("PayPal API response status:", httpResponse.statusCode);
+    console.log("PayPal API response body:", String(body));
 
     const jsonResponse = JSON.parse(String(body));
     const httpStatusCode = httpResponse.statusCode;
 
+    if (httpStatusCode >= 400) {
+      console.error("PayPal API error:", httpStatusCode, jsonResponse);
+      return res.status(httpStatusCode).json(jsonResponse);
+    }
+
     res.status(httpStatusCode).json(jsonResponse);
   } catch (error) {
-    console.error("Failed to create order:", error);
-    res.status(500).json({ error: "Failed to create order." });
+    console.error("Failed to create order - detailed error:", error);
+    if (error instanceof Error) {
+      console.error("Error message:", error.message);
+      console.error("Error stack:", error.stack);
+    }
+    res.status(500).json({ error: "Failed to create order.", details: error instanceof Error ? error.message : String(error) });
   }
 }
 
