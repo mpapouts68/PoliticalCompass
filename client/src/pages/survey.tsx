@@ -34,12 +34,8 @@ export default function Survey() {
 
   return (
     <div className="min-h-screen bg-neutral-50">
-
-      {/* Party Logos Sidebar */}
-      <PartyLogosSidebar />
-
       {/* Main Content */}
-      <main className="max-w-4xl mx-auto px-4 py-8 pr-20">
+      <main className="max-w-4xl mx-auto px-4 py-8">
         {/* Back to Home Button - only show when not on welcome */}
         {currentStep !== "welcome" && (
           <div className="mb-6">

@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ChartPie, Zap, Scale, Microscope, GraduationCap, Info, Play } from "lucide-react";
 import type { QuestionCount } from "@shared/schema";
+import { PartyLogo } from "@/components/party-logos";
 // SVG version of the Ιδεολόγος compass logo
 const CompassLogo = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 100 100" className={className}>
@@ -72,6 +73,14 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
           <h3 className="text-2xl font-semibold text-neutral-700 mb-4">
             Ιδεολόγος <span className="text-blue-600">online</span>
           </h3>
+          
+          {/* Party Logos Row */}
+          <div className="flex flex-wrap justify-center items-center gap-3 mb-6">
+            {["ΝΔ", "ΣΥΡΙΖΑ", "ΠΑΣΟΚ", "ΚΚΕ", "ΕΛ", "ΠΕ", "ΝΙΚΗ", "ΣΠΑΡ", "ΝΑ"].map((party) => (
+              <PartyLogo key={party} party={party} className="w-8 h-8" />
+            ))}
+          </div>
+          
           <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
             <span className="text-blue-600 font-medium">με 15 έως 100 ερωτήσεις</span>
           </p>
