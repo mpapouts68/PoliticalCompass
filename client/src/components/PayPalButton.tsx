@@ -139,6 +139,6 @@ export default function PayPalButton({
     }
   };
 
-  return <paypal-button id="paypal-button"></paypal-button>;
+  return <paypal-button id="paypal-button" style={{width: '100%', maxWidth: '100%', height: '40px', display: 'block'}}></paypal-button>;
 }
 // <END_EXACT_CODE>

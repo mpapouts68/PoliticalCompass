@@ -73,11 +73,13 @@ export function DonationSection() {
                 <p className="text-sm text-gray-600 mb-3">{option.description}</p>
                 <div className="text-lg font-bold text-blue-600 mb-3 flex-1 flex items-center justify-center">€{option.amount}</div>
                 {selectedAmount === option.amount ? (
-                  <PayPalButton 
-                    amount={option.amount}
-                    currency="EUR"
-                    intent="CAPTURE"
-                  />
+                  <div className="w-full">
+                    <PayPalButton 
+                      amount={option.amount}
+                      currency="EUR"
+                      intent="CAPTURE"
+                    />
+                  </div>
                 ) : (
                   <Button 
                     onClick={() => handleSelectAmount(option.amount)}
@@ -112,11 +114,13 @@ export function DonationSection() {
                 />
               </div>
               {selectedAmount === customAmount && customAmount ? (
-                <PayPalButton 
-                  amount={customAmount}
-                  currency="EUR"
-                  intent="CAPTURE"
-                />
+                <div className="w-full">
+                  <PayPalButton 
+                    amount={customAmount}
+                    currency="EUR"
+                    intent="CAPTURE"
+                  />
+                </div>
               ) : (
                 <Button 
                   onClick={handleSelectCustomAmount}
