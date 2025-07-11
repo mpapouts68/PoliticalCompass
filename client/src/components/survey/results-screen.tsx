@@ -8,6 +8,7 @@ import { Link } from "wouter";
 import type { Party, SurveyResult, QuestionCount } from "@shared/schema";
 import { PartyLogo } from "@/components/party-logos";
 import { PoliticalCompass } from "./political-compass";
+import { SocialSharing } from "./social-sharing";
 
 interface ResultsScreenProps {
   sessionId: string;
@@ -240,16 +241,19 @@ export function ResultsScreen({ sessionId, currentQuestionCount, onRestart, onCo
         </Card>
       )}
 
+      {/* Social Sharing */}
+      <SocialSharing 
+        result={result}
+        parties={parties}
+        topParty={topParty}
+        questionCount={currentQuestionCount}
+      />
+
       {/* Actions */}
-      <div className="flex flex-col sm:flex-row gap-4 justify-center">
+      <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
         <Button variant="outline" onClick={onRestart}>
           <RotateCcw className="mr-2 w-4 h-4" />
           Νέο Τεστ
-        </Button>
-        
-        <Button variant="secondary">
-          <Share className="mr-2 w-4 h-4" />
-          Μοιραστείτε το
         </Button>
         
         <Link href="/αποτελεσματα">
