@@ -1,6 +1,10 @@
 // SVG logos for Greek political parties
 import React from "react";
 
+// Import real party logos
+import pasokLogo from "@assets/Flag_of_PASOK_(Panhellenic_Socialist_Movement)_1752220171012.png";
+import neaAristeraLogo from "@assets/να_1752220175233.jpg";
+
 interface PartyLogoProps {
   party: string;
   className?: string;
@@ -27,12 +31,11 @@ export function PartyLogo({ party, className = "w-8 h-8" }: PartyLogoProps) {
       </svg>
     ),
     "ΠΑΣΟΚ": (
-      <svg viewBox="0 0 100 100" className={className}>
-        <rect width="100" height="100" fill="#00A651" rx="8"/>
-        <circle cx="50" cy="35" r="18" fill="white"/>
-        <circle cx="50" cy="35" r="10" fill="#00A651"/>
-        <text x="50" y="80" textAnchor="middle" fill="white" fontSize="11" fontWeight="bold">ΠΑΣΟΚ</text>
-      </svg>
+      <img 
+        src={pasokLogo} 
+        alt="ΠΑΣΟΚ Logo"
+        className={`${className} object-contain rounded`}
+      />
     ),
     "ΚΚΕ": (
       <svg viewBox="0 0 100 100" className={className}>
@@ -74,12 +77,11 @@ export function PartyLogo({ party, className = "w-8 h-8" }: PartyLogoProps) {
       </svg>
     ),
     "ΝΑ": (
-      <svg viewBox="0 0 100 100" className={className}>
-        <rect width="100" height="100" fill="#7c3aed" rx="8"/>
-        <circle cx="35" cy="35" r="8" fill="white"/>
-        <circle cx="65" cy="35" r="8" fill="white"/>
-        <path d="M30 55 Q50 75 70 55" stroke="white" strokeWidth="6" fill="none"/>
-      </svg>
+      <img 
+        src={neaAristeraLogo} 
+        alt="Νέα Αριστερά Logo"
+        className={`${className} object-contain rounded`}
+      />
     )
   };
 
