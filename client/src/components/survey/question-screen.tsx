@@ -7,6 +7,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { apiRequest } from "@/lib/queryClient";
+import { useTranslation } from "@/lib/i18n";
 import type { Question, QuestionCount, InsertSurveyResponse, AnswerValue } from "@shared/schema";
 
 interface QuestionScreenProps {
@@ -19,6 +20,7 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, AnswerValue>>({});
   const [currentAnswer, setCurrentAnswer] = useState<string>("");
+  const { t } = useTranslation();
 
   const { data: questions, isLoading } = useQuery<Question[]>({
     queryKey: ["/api/questions", questionCount, sessionId],
@@ -57,11 +59,11 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
   const progress = questions ? Math.round(((currentQuestionIndex + 1) / questions.length) * 100) : 0;
 
   const answerOptions = [
-    { value: "2", label: "Συμφωνώ απόλυτα", numericValue: 2 as AnswerValue },
-    { value: "1", label: "Συμφωνώ", numericValue: 1 as AnswerValue },
-    { value: "0", label: "Ουδέτερος/Αδιάφορος", numericValue: 0 as AnswerValue },
-    { value: "-1", label: "Διαφωνώ", numericValue: -1 as AnswerValue },
-    { value: "-2", label: "Διαφωνώ απόλυτα", numericValue: -2 as AnswerValue },
+    { value: "2", label: t('stronglyAgree'), numericValue: 2 as AnswerValue },
+    { value: "1", label: t('agree'), numericValue: 1 as AnswerValue },
+    { value: "0", label: t('neutral'), numericValue: 0 as AnswerValue },
+    { value: "-1", label: t('disagree'), numericValue: -1 as AnswerValue },
+    { value: "-2", label: t('stronglyDisagree'), numericValue: -2 as AnswerValue },
   ];
 
   useEffect(() => {
@@ -135,7 +137,9 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
     return (
       <Card className="bg-white shadow-md">
         <CardContent className="p-8 text-center">
-          <div className="text-lg text-neutral-600">Φόρτωση ερωτήσεων...</div>
+          <div className="text-lg text-neutral-600">
+            {t('language') === 'el' ? 'Φόρτωση ερωτήσεων...' : 'Loading questions...'}
+          </div>
         </CardContent>
       </Card>
     );

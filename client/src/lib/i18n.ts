@@ -59,6 +59,8 @@ export const translations = {
     shareResults: 'Μοίρασε τα Αποτελέσματα',
     continueWithMore: 'Συνέχισε με περισσότερες ερωτήσεις',
     restartSurvey: 'Ξεκίνα από την Αρχή',
+    calculateResults: 'Υπολογισμός αποτελεσμάτων...',
+    errorLoadingResults: 'Σφάλμα κατά τη φόρτωση των αποτελεσμάτων',
     
     // Social sharing
     shareOnTwitter: 'Μοιράσου στο Twitter',
@@ -138,6 +140,8 @@ export const translations = {
     shareResults: 'Share Results',
     continueWithMore: 'Continue with More Questions',
     restartSurvey: 'Start Over',
+    calculateResults: 'Calculating results...',
+    errorLoadingResults: 'Error loading results',
     
     // Social sharing
     shareOnTwitter: 'Share on Twitter',

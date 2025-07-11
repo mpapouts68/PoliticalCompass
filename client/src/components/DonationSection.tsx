@@ -4,10 +4,12 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import PayPalButton from "./PayPalButton";
+import { useTranslation } from "@/lib/i18n";
 
 export function DonationSection() {
   const [customAmount, setCustomAmount] = useState("");
   const [selectedAmount, setSelectedAmount] = useState<string | null>(null);
+  const { t } = useTranslation();
 
   const handleSelectAmount = (amount: string) => {
     setSelectedAmount(amount);
@@ -24,20 +26,20 @@ export function DonationSection() {
     {
       amount: "3.50",
       icon: <Coffee className="w-5 h-5" />,
-      title: "Καφές",
-      description: "Για τον δημιουργό"
+      title: t('buyMeCoffee'),
+      description: t('language') === 'el' ? "Για τον δημιουργό" : "For the creator"
     },
     {
       amount: "7.00", 
       icon: <Heart className="w-5 h-5" />,
-      title: "Υποστήριξη",
-      description: "Υποστήριξη του έργου"
+      title: t('supportDevelopment'),
+      description: t('language') === 'el' ? "Υποστήριξη του έργου" : "Support the project"
     },
     {
       amount: "15.00",
       icon: <Laptop className="w-5 h-5" />,
-      title: "Ανάπτυξη",
-      description: "Βοήθεια στην ανάπτυξη"
+      title: t('boostDevelopment'),
+      description: t('language') === 'el' ? "Βοήθεια στην ανάπτυξη" : "Help development"
     }
   ];
 
@@ -48,17 +50,16 @@ export function DonationSection() {
           <div className="flex justify-center items-center mb-3">
             <Heart className="w-6 h-6 text-red-500 mr-2" />
             <h3 className="text-xl font-semibold text-gray-800">
-              Υποστήριξε το Ιδεολόγος
+              {t('supportProject')}
             </h3>
           </div>
           <div className="bg-green-50 border border-green-200 rounded-lg p-3 mb-4 inline-block">
             <p className="text-green-700 font-medium text-sm">
-              🆓 Δωρεάν χρήση για όλους - Χωρίς κρυφές χρεώσεις
+              🆓 {t('freeForAll')} - {t('language') === 'el' ? 'Χωρίς κρυφές χρεώσεις' : 'No hidden charges'}
             </p>
           </div>
           <p className="text-gray-600 max-w-2xl mx-auto text-sm leading-relaxed">
-            Το Ιδεολόγος είναι ένα ανεξάρτητο έργο που βοηθά τους Έλληνες πολίτες να κατανοήσουν 
-            τις πολιτικές τους θέσεις. Η υποστήριξή σας βοηθά στη συντήρηση και βελτίωση της πλατφόρμας.
+            {t('donationDescription')}
           </p>
         </div>
         
@@ -87,7 +88,7 @@ export function DonationSection() {
                     size="sm"
                   >
                     <Heart className="w-4 h-4 mr-2" />
-                    Δωρεά €{option.amount}
+                    {t('language') === 'el' ? `Δωρεά €${option.amount}` : `Donate €${option.amount}`}
                   </Button>
                 )}
               </div>
@@ -100,8 +101,12 @@ export function DonationSection() {
               <div className="flex justify-center text-blue-600 mb-2">
                 <Euro className="w-5 h-5" />
               </div>
-              <h4 className="font-semibold text-gray-800 mb-1">Προσαρμοσμένο</h4>
-              <p className="text-sm text-gray-600 mb-3">Δικό σας ποσό</p>
+              <h4 className="font-semibold text-gray-800 mb-1">
+                {t('language') === 'el' ? 'Προσαρμοσμένο' : 'Custom'}
+              </h4>
+              <p className="text-sm text-gray-600 mb-3">
+                {t('language') === 'el' ? 'Δικό σας ποσό' : 'Your amount'}
+              </p>
               <div className="flex-1 flex items-center justify-center mb-3">
                 <Input
                   type="number"
@@ -129,7 +134,7 @@ export function DonationSection() {
                   size="sm"
                 >
                   <Heart className="w-4 h-4 mr-2" />
-                  Δωρεά
+                  {t('language') === 'el' ? 'Δωρεά' : 'Donate'}
                 </Button>
               )}
             </div>
@@ -138,8 +143,9 @@ export function DonationSection() {
         
         <div className="text-center">
           <p className="text-xs text-gray-500">
-            Οι δωρεές επεξεργάζονται με ασφάλεια μέσω PayPal • 
-            Η πλατφόρμα παραμένει πάντα δωρεάν για όλους τους χρήστες
+            {t('language') === 'el' 
+              ? 'Οι δωρεές επεξεργάζονται με ασφάλεια μέσω PayPal • Η πλατφόρμα παραμένει πάντα δωρεάν για όλους τους χρήστες'
+              : 'Donations processed securely via PayPal • Platform remains always free for all users'}
           </p>
         </div>
       </CardContent>
