@@ -8,6 +8,8 @@ import spartiatesLogo from "@assets/logo-spartiates-home-scaled_1752220242373.jp
 import ellinikilisiLogo from "@assets/Elliniki-lisi-logo_1752220256392.png";
 import syrizaLogo from "@assets/syriza_1752220256393.png";
 import ndLogo from "@assets/nd_1752220256393.png";
+import plefsiLogo from "@assets/Plefsi-Eleftherias-Logo-Purple-100mm-width_1752220431867.png";
+import kkeLogo from "@assets/κκε_1752220431868.png";
 
 interface PartyLogoProps {
   party: string;
@@ -38,12 +40,11 @@ export function PartyLogo({ party, className = "w-8 h-8" }: PartyLogoProps) {
       />
     ),
     "ΚΚΕ": (
-      <svg viewBox="0 0 100 100" className={className}>
-        <rect width="100" height="100" fill="#B71C1C" rx="8"/>
-        <path d="M25 25 L50 40 L75 25 L75 50 L50 65 L25 50 Z" fill="#FFD700"/>
-        <circle cx="50" cy="45" r="8" fill="#B71C1C"/>
-        <text x="50" y="85" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold">ΚΚΕ</text>
-      </svg>
+      <img 
+        src={kkeLogo} 
+        alt="ΚΚΕ Logo"
+        className={`${className} object-contain rounded`}
+      />
     ),
     "ΕΛ": (
       <img 
@@ -53,11 +54,11 @@ export function PartyLogo({ party, className = "w-8 h-8" }: PartyLogoProps) {
       />
     ),
     "ΠΕ": (
-      <svg viewBox="0 0 100 100" className={className}>
-        <rect width="100" height="100" fill="#059669" rx="8"/>
-        <path d="M50 20 L30 40 L35 45 L50 30 L65 45 L70 40 Z" fill="white"/>
-        <text x="50" y="75" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold">ΠΕ</text>
-      </svg>
+      <img 
+        src={plefsiLogo} 
+        alt="Πλεύση Ελευθερίας Logo"
+        className={`${className} object-contain rounded`}
+      />
     ),
     "ΝΙΚΗ": (
       <svg viewBox="0 0 100 100" className={className}>
