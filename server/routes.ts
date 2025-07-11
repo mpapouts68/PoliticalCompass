@@ -117,6 +117,22 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Get election statistics
+  app.get("/api/election-stats", async (req, res) => {
+    try {
+      const totalVotes = await storage.getTotalSurveyCount();
+      const partyStats = await storage.getPartyStatistics();
+      
+      res.json({
+        totalVotes,
+        partyStats
+      });
+    } catch (error) {
+      console.error("Error getting election stats:", error);
+      res.status(500).json({ error: "Failed to get election statistics" });
+    }
+  });
+
   const httpServer = createServer(app);
   return httpServer;
 }

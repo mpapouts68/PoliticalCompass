@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { BarChart3, RotateCcw, Share, TrendingUp, Users, Globe, Leaf, Compass } from "lucide-react";
+import { Link } from "wouter";
 import type { Party, SurveyResult, QuestionCount } from "@shared/schema";
 import { PartyLogo } from "@/components/party-logos";
 import { PoliticalCompass } from "./political-compass";
@@ -250,6 +251,13 @@ export function ResultsScreen({ sessionId, currentQuestionCount, onRestart, onCo
           <Share className="mr-2 w-4 h-4" />
           Μοιραστείτε το
         </Button>
+        
+        <Link href="/αποτελεσματα">
+          <Button variant="default">
+            <BarChart3 className="mr-2 w-4 h-4" />
+            Αποτελέσματα Εκλογών
+          </Button>
+        </Link>
       </div>
     </div>
   );

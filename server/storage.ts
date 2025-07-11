@@ -13,6 +13,8 @@ import {
   type InsertSurveyResult,
   type QuestionCount
 } from "@shared/schema";
+import { db } from "./db";
+import { eq, desc, count, sql } from "drizzle-orm";
 
 export interface IStorage {
   // Questions
@@ -31,6 +33,11 @@ export interface IStorage {
   // Survey results
   saveSurveyResult(result: InsertSurveyResult): Promise<SurveyResult>;
   getSurveyResult(sessionId: string): Promise<SurveyResult | undefined>;
+  
+  // Election statistics
+  getTotalSurveyCount(): Promise<number>;
+  getPartyStatistics(): Promise<Array<{party: string; percentage: number; count: number}>>;
+  getRecentResults(limit?: number): Promise<SurveyResult[]>;
 }
 
 export class MemStorage implements IStorage {
@@ -770,6 +777,164 @@ export class MemStorage implements IStorage {
   async getSurveyResult(sessionId: string): Promise<SurveyResult | undefined> {
     return this.results.get(sessionId);
   }
+
+  async getTotalSurveyCount(): Promise<number> {
+    return this.results.size;
+  }
+
+  async getPartyStatistics(): Promise<Array<{party: string; percentage: number; count: number}>> {
+    const partyStats: Record<string, number> = {};
+    let totalResults = 0;
+
+    Array.from(this.results.values()).forEach(result => {
+      const alignments = result.partyAlignments as Record<string, number>;
+      let topParty = '';
+      let topAlignment = 0;
+
+      Object.entries(alignments).forEach(([party, alignment]) => {
+        if (alignment > topAlignment) {
+          topAlignment = alignment;
+          topParty = party;
+        }
+      });
+
+      if (topParty) {
+        partyStats[topParty] = (partyStats[topParty] || 0) + 1;
+        totalResults++;
+      }
+    });
+
+    return Object.entries(partyStats).map(([party, count]) => ({
+      party,
+      count,
+      percentage: totalResults > 0 ? Math.round((count / totalResults) * 100) : 0
+    })).sort((a, b) => b.percentage - a.percentage);
+  }
+
+  async getRecentResults(limit = 50): Promise<SurveyResult[]> {
+    return Array.from(this.results.values())
+      .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())
+      .slice(0, limit);
+  }
 }
 
-export const storage = new MemStorage();
+// Database Storage Implementation
+export class DatabaseStorage implements IStorage {
+  async getQuestions(count: QuestionCount, excludeIds: number[] = []): Promise<Question[]> {
+    const limit = parseInt(count);
+    const query = db.select().from(questions).limit(limit);
+    
+    if (excludeIds.length > 0) {
+      // For now, just get all and filter - can optimize later
+      const allQuestions = await db.select().from(questions);
+      const filtered = allQuestions.filter(q => !excludeIds.includes(q.id));
+      return filtered.slice(0, limit);
+    }
+    
+    return await query;
+  }
+
+  async getAllQuestions(): Promise<Question[]> {
+    return await db.select().from(questions);
+  }
+
+  async createQuestion(insertQuestion: InsertQuestion): Promise<Question> {
+    const [question] = await db
+      .insert(questions)
+      .values(insertQuestion)
+      .returning();
+    return question;
+  }
+
+  async getAllParties(): Promise<Party[]> {
+    return await db.select().from(parties);
+  }
+
+  async createParty(insertParty: InsertParty): Promise<Party> {
+    const [party] = await db
+      .insert(parties)
+      .values(insertParty)
+      .returning();
+    return party;
+  }
+
+  async saveSurveyResponse(insertResponse: InsertSurveyResponse): Promise<SurveyResponse> {
+    const [response] = await db
+      .insert(surveyResponses)
+      .values(insertResponse)
+      .returning();
+    return response;
+  }
+
+  async getSurveyResponses(sessionId: string): Promise<SurveyResponse[]> {
+    return await db
+      .select()
+      .from(surveyResponses)
+      .where(eq(surveyResponses.sessionId, sessionId));
+  }
+
+  async saveSurveyResult(insertResult: InsertSurveyResult): Promise<SurveyResult> {
+    const [result] = await db
+      .insert(surveyResults)
+      .values(insertResult)
+      .returning();
+    return result;
+  }
+
+  async getSurveyResult(sessionId: string): Promise<SurveyResult | undefined> {
+    const [result] = await db
+      .select()
+      .from(surveyResults)
+      .where(eq(surveyResults.sessionId, sessionId));
+    return result;
+  }
+
+  async getTotalSurveyCount(): Promise<number> {
+    const [result] = await db
+      .select({ count: count() })
+      .from(surveyResults);
+    return result.count;
+  }
+
+  async getPartyStatistics(): Promise<Array<{party: string; percentage: number; count: number}>> {
+    // Get all results and calculate party statistics
+    const results = await db.select().from(surveyResults);
+    const partyStats: Record<string, number> = {};
+    let totalResults = 0;
+
+    results.forEach(result => {
+      const alignments = result.partyAlignments as Record<string, number>;
+      let topParty = '';
+      let topAlignment = 0;
+
+      Object.entries(alignments).forEach(([party, alignment]) => {
+        if (alignment > topAlignment) {
+          topAlignment = alignment;
+          topParty = party;
+        }
+      });
+
+      if (topParty) {
+        partyStats[topParty] = (partyStats[topParty] || 0) + 1;
+        totalResults++;
+      }
+    });
+
+    return Object.entries(partyStats).map(([party, count]) => ({
+      party,
+      count,
+      percentage: totalResults > 0 ? Math.round((count / totalResults) * 100) : 0
+    })).sort((a, b) => b.percentage - a.percentage);
+  }
+
+  async getRecentResults(limit = 50): Promise<SurveyResult[]> {
+    return await db
+      .select()
+      .from(surveyResults)
+      .orderBy(desc(surveyResults.createdAt))
+      .limit(limit);
+  }
+}
+
+export const storage = new DatabaseStorage();
+export const dbStorage = new DatabaseStorage();

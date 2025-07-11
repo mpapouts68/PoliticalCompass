@@ -10,30 +10,36 @@ export function PartyLogo({ party, className = "w-8 h-8" }: PartyLogoProps) {
   const logos = {
     "ΝΔ": (
       <svg viewBox="0 0 100 100" className={className}>
-        <rect width="100" height="100" fill="#0066CC" rx="8"/>
-        <text x="50" y="60" textAnchor="middle" fill="white" fontSize="24" fontWeight="bold">ΝΔ</text>
+        <rect width="100" height="100" fill="#004B9F" rx="8"/>
+        <rect x="15" y="30" width="70" height="6" fill="white"/>
+        <rect x="15" y="40" width="70" height="6" fill="white"/>
+        <rect x="15" y="50" width="70" height="6" fill="white"/>
+        <rect x="15" y="60" width="70" height="6" fill="white"/>
+        <text x="50" y="85" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold">ΝΔ</text>
       </svg>
     ),
     "ΣΥΡΙΖΑ": (
       <svg viewBox="0 0 100 100" className={className}>
-        <rect width="100" height="100" fill="#CC0000" rx="8"/>
-        <circle cx="50" cy="30" r="8" fill="white"/>
-        <rect x="35" y="45" width="30" height="6" fill="white"/>
-        <text x="50" y="85" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold">ΣΥΡΙΖΑ</text>
+        <rect width="100" height="100" fill="#E4002B" rx="8"/>
+        <path d="M30 25 L50 35 L70 25 L70 45 L50 55 L30 45 Z" fill="white"/>
+        <circle cx="50" cy="65" r="8" fill="white"/>
+        <text x="50" y="88" textAnchor="middle" fill="white" fontSize="10" fontWeight="bold">ΣΥΡΙΖΑ</text>
       </svg>
     ),
     "ΠΑΣΟΚ": (
       <svg viewBox="0 0 100 100" className={className}>
-        <rect width="100" height="100" fill="#009900" rx="8"/>
-        <circle cx="50" cy="40" r="15" fill="white"/>
-        <text x="50" y="80" textAnchor="middle" fill="white" fontSize="14" fontWeight="bold">ΠΑΣΟΚ</text>
+        <rect width="100" height="100" fill="#00A651" rx="8"/>
+        <circle cx="50" cy="35" r="18" fill="white"/>
+        <circle cx="50" cy="35" r="10" fill="#00A651"/>
+        <text x="50" y="80" textAnchor="middle" fill="white" fontSize="11" fontWeight="bold">ΠΑΣΟΚ</text>
       </svg>
     ),
     "ΚΚΕ": (
       <svg viewBox="0 0 100 100" className={className}>
-        <rect width="100" height="100" fill="#990000" rx="8"/>
-        <path d="M30 25 L70 25 L70 45 L55 45 L55 75 L45 75 L45 45 L30 45 Z" fill="#FFD700"/>
-        <circle cx="62" cy="35" r="8" fill="#FFD700"/>
+        <rect width="100" height="100" fill="#B71C1C" rx="8"/>
+        <path d="M25 25 L50 40 L75 25 L75 50 L50 65 L25 50 Z" fill="#FFD700"/>
+        <circle cx="50" cy="45" r="8" fill="#B71C1C"/>
+        <text x="50" y="85" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold">ΚΚΕ</text>
       </svg>
     ),
     "ΕΛ": (
