@@ -9,6 +9,7 @@ import type { Party, SurveyResult, QuestionCount } from "@shared/schema";
 import { PartyLogo } from "@/components/party-logos";
 import { PoliticalCompass } from "./political-compass";
 import { SocialSharing } from "./social-sharing";
+import { useTranslation } from "@/lib/i18n";
 
 interface ResultsScreenProps {
   sessionId: string;
@@ -24,6 +25,7 @@ interface ResultsResponse {
 
 export function ResultsScreen({ sessionId, currentQuestionCount, onRestart, onContinueWithMore }: ResultsScreenProps) {
   const [viewMode, setViewMode] = React.useState<"percentage" | "compass">("percentage");
+  const { t } = useTranslation();
   
   const { data, isLoading, error } = useQuery<ResultsResponse>({
     queryKey: ["/api/results", sessionId],

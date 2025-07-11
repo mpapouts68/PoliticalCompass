@@ -7,6 +7,7 @@ import { PartyLogo } from "@/components/party-logos";
 import { DonationSection } from "@/components/DonationSection";
 import { MiniResultsGraph } from "./mini-results-graph";
 import { LanguageSelector } from "@/components/LanguageSelector";
+import { ContactSection } from "@/components/ContactSection";
 import { useTranslation } from "@/lib/i18n";
 
 // SVG version of the Ιδεολόγος compass logo
@@ -163,6 +164,9 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
     
     {/* Donation Section */}
     <DonationSection />
+    
+    {/* Contact Section */}
+    <ContactSection />
     </div>
     </div>
   );

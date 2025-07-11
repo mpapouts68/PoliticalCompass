@@ -74,6 +74,9 @@ User requested: Auto-advance to next question upon selection (implemented with 8
 - PayPal integration confirmed working - opens sandbox checkout popup correctly for development
 - All popup functionality (PayPal donations, Twitter sharing, Facebook sharing) verified working
 - Ready for production deployment where PayPal will use live environment automatically
+- Added comprehensive contact information section with multiple email addresses for different purposes
+- Contact section includes privacy information, social media links, and project background
+- Full bilingual support for contact information in both Greek and English languages
 
 ### Data Models
 - **Questions**: Political statements with category and party position mappings for all 9 parliamentary parties
