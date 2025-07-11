@@ -65,17 +65,17 @@ export function DonationSection() {
         
         <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 mb-6">
           {donationOptions.map((option) => (
-            <div key={option.amount} className="bg-white rounded-lg p-4 border border-gray-200 hover:border-blue-300 transition-colors">
-              <div className="text-center">
+            <div key={option.amount} className="bg-white rounded-lg p-4 border border-gray-200 hover:border-blue-300 transition-colors flex flex-col h-full">
+              <div className="text-center flex-1 flex flex-col">
                 <div className="flex justify-center text-blue-600 mb-2">
                   {option.icon}
                 </div>
                 <h4 className="font-semibold text-gray-800 mb-1">{option.title}</h4>
                 <p className="text-sm text-gray-600 mb-3">{option.description}</p>
-                <div className="text-lg font-bold text-blue-600 mb-3">€{option.amount}</div>
+                <div className="text-lg font-bold text-blue-600 mb-3 flex-1 flex items-center justify-center">€{option.amount}</div>
                 <Button 
                   onClick={() => handleDonationClick(option.amount)}
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white"
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white mt-auto"
                   size="sm"
                 >
                   <Heart className="w-4 h-4 mr-2" />
@@ -87,14 +87,14 @@ export function DonationSection() {
           ))}
           
           {/* Custom Amount Option */}
-          <div className="bg-white rounded-lg p-4 border border-gray-200 hover:border-blue-300 transition-colors">
-            <div className="text-center">
+          <div className="bg-white rounded-lg p-4 border border-gray-200 hover:border-blue-300 transition-colors flex flex-col h-full">
+            <div className="text-center flex-1 flex flex-col">
               <div className="flex justify-center text-blue-600 mb-2">
                 <Euro className="w-5 h-5" />
               </div>
               <h4 className="font-semibold text-gray-800 mb-1">Προσαρμοσμένο</h4>
               <p className="text-sm text-gray-600 mb-3">Δικό σας ποσό</p>
-              <div className="mb-3">
+              <div className="flex-1 flex items-center justify-center mb-3">
                 <Input
                   type="number"
                   placeholder="€"
@@ -102,13 +102,13 @@ export function DonationSection() {
                   onChange={(e) => setCustomAmount(e.target.value)}
                   min="0.50"
                   step="0.50"
-                  className="text-center"
+                  className="text-center max-w-20"
                 />
               </div>
               <Button 
                 onClick={handleCustomDonation}
                 disabled={!customAmount || parseFloat(customAmount) <= 0}
-                className="w-full bg-green-600 hover:bg-green-700 text-white disabled:bg-gray-300"
+                className="w-full bg-green-600 hover:bg-green-700 text-white disabled:bg-gray-300 mt-auto"
                 size="sm"
               >
                 <Heart className="w-4 h-4 mr-2" />
