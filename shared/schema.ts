@@ -5,6 +5,7 @@ import { z } from "zod";
 export const questions = pgTable("questions", {
   id: serial("id").primaryKey(),
   text: text("text").notNull(),
+  textEn: text("text_en"), // English translation
   category: text("category").notNull(),
   partyPositions: jsonb("party_positions").notNull(), // Record<string, number>
 });

@@ -5,6 +5,7 @@ import { ResultsScreen } from "@/components/survey/results-screen";
 import type { QuestionCount } from "@shared/schema";
 import { Vote, ArrowLeft } from "lucide-react";
 import { PartyLogosSidebar } from "@/components/party-logos";
+import { useTranslation } from "@/lib/i18n";
 
 type SurveyStep = "welcome" | "questions" | "results";
 
@@ -12,6 +13,7 @@ export default function Survey() {
   const [currentStep, setCurrentStep] = useState<SurveyStep>("welcome");
   const [selectedQuestionCount, setSelectedQuestionCount] = useState<QuestionCount | null>(null);
   const [sessionId] = useState(() => `session_${Date.now()}_${Math.random()}`);
+  const { t } = useTranslation();
 
   const handleStartSurvey = (questionCount: QuestionCount) => {
     setSelectedQuestionCount(questionCount);
@@ -44,7 +46,7 @@ export default function Survey() {
               className="text-neutral-500 hover:text-primary transition-colors text-sm flex items-center space-x-2"
             >
               <ArrowLeft className="w-4 h-4" />
-              <span>Πίσω στην αρχή</span>
+              <span>{t('backToHome')}</span>
             </button>
           </div>
         )}

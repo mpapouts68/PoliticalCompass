@@ -149,7 +149,9 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
     return (
       <Card className="bg-white shadow-md">
         <CardContent className="p-8 text-center">
-          <div className="text-lg text-red-600">Σφάλμα φόρτωσης ερωτήσεων</div>
+          <div className="text-lg text-red-600">
+            {t('language') === 'el' ? 'Σφάλμα φόρτωσης ερωτήσεων' : 'Error loading questions'}
+          </div>
         </CardContent>
       </Card>
     );
@@ -161,9 +163,11 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
       <Card className="bg-white shadow-md mb-6">
         <CardContent className="p-6">
           <div className="flex items-center justify-between mb-2">
-            <span className="text-sm font-medium text-neutral-500">Πρόοδος</span>
+            <span className="text-sm font-medium text-neutral-500">
+              {t('language') === 'el' ? 'Πρόοδος' : 'Progress'}
+            </span>
             <span className="text-sm font-medium text-primary">
-              {currentQuestionIndex + 1} από {questions.length}
+              {currentQuestionIndex + 1} {t('language') === 'el' ? 'από' : 'of'} {questions.length}
             </span>
           </div>
           <Progress value={progress} className="h-2" />
@@ -178,7 +182,9 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
               {currentQuestion.category}
             </span>
             <h3 className="text-xl font-semibold text-neutral-900 leading-relaxed">
-              {currentQuestion.text}
+              {t('language') === 'el' 
+                ? currentQuestion.text 
+                : (currentQuestion.textEn || currentQuestion.text)}
             </h3>
           </div>
 
@@ -205,11 +211,16 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
       <div className="flex justify-center items-center">
         <div className="text-center">
           <p className="text-sm text-neutral-500 mb-4">
-            Η επόμενη ερώτηση θα εμφανιστεί αυτόματα μετά την επιλογή σας
+            {t('language') === 'el' 
+              ? 'Η επόμενη ερώτηση θα εμφανιστεί αυτόματα μετά την επιλογή σας'
+              : 'Next question will appear automatically after your selection'}
           </p>
           {(saveResponseMutation.isPending || calculateResultsMutation.isPending) && (
             <div className="text-primary font-medium">
-              {calculateResultsMutation.isPending ? "Υπολογισμός αποτελεσμάτων..." : "Αποθήκευση απάντησης..."}
+              {calculateResultsMutation.isPending 
+                ? (t('language') === 'el' ? "Υπολογισμός αποτελεσμάτων..." : "Calculating results...")
+                : (t('language') === 'el' ? "Αποθήκευση απάντησης..." : "Saving answer...")
+              }
             </div>
           )}
         </div>
