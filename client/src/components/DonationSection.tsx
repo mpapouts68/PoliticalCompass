@@ -15,7 +15,7 @@ export function DonationSection() {
       amount: "3.50",
       icon: <Coffee className="w-5 h-5" />,
       title: "Καφές",
-      description: "Ένα καφέ για τον δημιουργό"
+      description: "Για τον δημιουργό"
     },
     {
       amount: "7.00", 
