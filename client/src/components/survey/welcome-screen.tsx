@@ -6,6 +6,8 @@ import type { QuestionCount } from "@shared/schema";
 import { PartyLogo } from "@/components/party-logos";
 import { DonationSection } from "@/components/DonationSection";
 import { MiniResultsGraph } from "./mini-results-graph";
+import { LanguageSelector } from "@/components/LanguageSelector";
+import { useTranslation } from "@/lib/i18n";
 
 // SVG version of the Ιδεολόγος compass logo
 const CompassLogo = ({ className }: { className?: string }) => (
@@ -29,53 +31,71 @@ interface WelcomeScreenProps {
 }
 
 export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
+  const { t } = useTranslation();
 
   const questionOptions = [
     {
       count: "15" as QuestionCount,
-      title: "Γρήγορο Τεστ",
-      description: "15 ερωτήσεις",
-      duration: "~5 λεπτά",
+      title: t('quickTest'),
+      description: `15 ${t('questions')}`,
+      duration: t('language') === 'el' ? "~5 λεπτά" : "~5 min",
       icon: Zap,
       color: "text-accent"
     },
     {
       count: "30" as QuestionCount,
-      title: "Βασικό Τεστ",
-      description: "30 ερωτήσεις",
-      duration: "~10 λεπτά",
+      title: t('standardTest'),
+      description: `30 ${t('questions')}`,
+      duration: t('language') === 'el' ? "~10 λεπτά" : "~10 min",
       icon: Scale,
       color: "text-secondary"
     },
     {
       count: "60" as QuestionCount,
-      title: "Αναλυτικό Τεστ",
-      description: "60 ερωτήσεις",
-      duration: "~20 λεπτά",
+      title: t('detailedTest'),
+      description: `60 ${t('questions')}`,
+      duration: t('language') === 'el' ? "~20 λεπτά" : "~20 min",
       icon: Microscope,
       color: "text-primary"
     },
     {
       count: "100" as QuestionCount,
-      title: "Εκτενές Τεστ",
-      description: "100 ερωτήσεις",
-      duration: "~30 λεπτά",
+      title: t('completeTest'),
+      description: `100 ${t('questions')}`,
+      duration: t('language') === 'el' ? "~30 λεπτά" : "~30 min",
       icon: GraduationCap,
       color: "text-neutral-900"
     }
   ];
 
   return (
-    <div>
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+    {/* Header with language selector */}
+    <div className="bg-white dark:bg-gray-800 shadow-sm border-b">
+      <div className="max-w-6xl mx-auto px-4 py-3">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <CompassLogo className="w-10 h-10" />
+            <div>
+              <h1 className="text-xl font-bold text-gray-900 dark:text-white">{t('appTitle')}</h1>
+              <p className="text-sm text-gray-600 dark:text-gray-300">online</p>
+            </div>
+          </div>
+          <LanguageSelector />
+        </div>
+      </div>
+    </div>
+
+    <div className="max-w-4xl mx-auto px-4 py-8">
     <Card className="bg-white shadow-md mb-8">
       <CardContent className="p-8">
         <div className="text-center mb-8">
           <CompassLogo className="w-24 h-24 mx-auto mb-6" />
           <h2 className="text-4xl font-bold text-neutral-900 mb-2">
-            Μάθε ποιος είσαι πολιτικά
+            {t('appSubtitle')}
           </h2>
           <h3 className="text-2xl font-semibold text-neutral-700 mb-4">
-            Ιδεολόγος <span className="text-blue-600">online</span>
+            {t('appTitle')} <span className="text-blue-600">online</span>
           </h3>
           
           {/* Party Logos Row */}
@@ -86,10 +106,10 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
           </div>
           
           <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-            <span className="text-blue-600 font-medium">με 15 έως 100 ερωτήσεις</span>
+            <span className="text-blue-600 font-medium">{t('surveyLength')}</span>
           </p>
           <p className="text-base text-neutral-500 max-w-2xl mx-auto mt-2">
-            Απαντήστε σε ερωτήσεις βασισμένες στα προγράμματα των κομμάτων και ανακαλύψτε ποιο κόμμα ταιριάζει περισσότερο στις απόψεις σας.
+            {t('appDescription')}
           </p>
         </div>
 
@@ -118,7 +138,9 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
 
         <div className="text-center">
           <p className="text-neutral-500 text-sm">
-            Επιλέξτε τον αριθμό ερωτήσεων για να ξεκινήσει αυτόματα το τεστ
+            {t('language') === 'el' 
+              ? 'Επιλέξτε τον αριθμό ερωτήσεων για να ξεκινήσει αυτόματα το τεστ'
+              : 'Select the number of questions to automatically start the test'}
           </p>
         </div>
 
@@ -126,7 +148,9 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
         <div className="mt-8 p-4 bg-accent/10 border border-accent/20 rounded-lg">
           <p className="text-sm text-neutral-600 text-center">
             <Info className="inline text-accent mr-2 w-4 h-4" />
-            Αυτό το εργαλείο έχει εκπαιδευτικό χαρακτήρα και βοηθά στην κατανόηση των πολιτικών θέσεων. Δεν αντικαθιστά την προσωπική έρευνα και κρίση.
+            {t('language') === 'el' 
+              ? 'Αυτό το εργαλείο έχει εκπαιδευτικό χαρακτήρα και βοηθά στην κατανόηση των πολιτικών θέσεων. Δεν αντικαθιστά την προσωπική έρευνα και κρίση.'
+              : 'This tool is educational and helps understand political positions. It does not replace personal research and judgment.'}
           </p>
         </div>
       </CardContent>
@@ -139,6 +163,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
     
     {/* Donation Section */}
     <DonationSection />
+    </div>
     </div>
   );
 }
