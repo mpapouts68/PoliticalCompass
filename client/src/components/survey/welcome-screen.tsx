@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ChartPie, Zap, Scale, Microscope, GraduationCap, Info, Play } from "lucide-react";
 import type { QuestionCount } from "@shared/schema";
 import { PartyLogo } from "@/components/party-logos";
+import { DonationSection } from "@/components/DonationSection";
 // SVG version of the Ιδεολόγος compass logo
 const CompassLogo = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 100 100" className={className}>
@@ -63,6 +64,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
   ];
 
   return (
+    <div>
     <Card className="bg-white shadow-md mb-8">
       <CardContent className="p-8">
         <div className="text-center mb-8">
@@ -127,5 +129,9 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
         </div>
       </CardContent>
     </Card>
+    
+    {/* Donation Section */}
+    <DonationSection />
+    </div>
   );
 }

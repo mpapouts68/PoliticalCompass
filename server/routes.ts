@@ -3,6 +3,7 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertSurveyResponseSchema, insertSurveyResultSchema, questionCountSchema } from "@shared/schema";
 import { z } from "zod";
+import { createPaypalOrder, capturePaypalOrder, loadPaypalDefault } from "./paypal";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Get questions for survey
@@ -131,6 +132,20 @@ export async function registerRoutes(app: Express): Promise<Server> {
       console.error("Error getting election stats:", error);
       res.status(500).json({ error: "Failed to get election statistics" });
     }
+  });
+
+  // PayPal routes
+  app.get("/paypal/setup", async (req, res) => {
+    await loadPaypalDefault(req, res);
+  });
+
+  app.post("/paypal/order", async (req, res) => {
+    // Request body should contain: { intent, amount, currency }
+    await createPaypalOrder(req, res);
+  });
+
+  app.post("/paypal/order/:orderID/capture", async (req, res) => {
+    await capturePaypalOrder(req, res);
   });
 
   const httpServer = createServer(app);
