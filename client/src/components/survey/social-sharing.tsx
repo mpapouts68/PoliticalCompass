@@ -92,7 +92,13 @@ export function SocialSharing({ result, parties, topParty, questionCount }: Soci
 
           {/* Twitter */}
           <Button
-            onClick={() => window.open(twitterUrl, '_blank', 'width=600,height=400')}
+            onClick={() => {
+              console.log("Opening Twitter:", twitterUrl);
+              const popup = window.open(twitterUrl, '_blank', 'width=600,height=400,scrollbars=yes,resizable=yes');
+              if (!popup) {
+                alert('Popup blocked! Please allow popups and try again.');
+              }
+            }}
             variant="outline"
             className="w-full justify-start gap-3 hover:bg-blue-50 hover:border-blue-200"
           >
@@ -103,20 +109,23 @@ export function SocialSharing({ result, parties, topParty, questionCount }: Soci
           {/* Facebook */}
           <Button
             onClick={() => {
-              // Copy the result text to clipboard first
-              const tempText = `${shareText}\n\n${shareUrl}\n\n${hashtags}`;
-              navigator.clipboard.writeText(tempText).then(() => {
-                // Then open Facebook
-                window.open(facebookUrl, '_blank', 'width=600,height=400');
-                // Show instruction
-                setTimeout(() => {
-                  alert('Το κείμενο αντιγράφηκε! Κάντε επικόλληση (Ctrl+V) στο Facebook για να μοιραστείτε το αποτέλεσμα.');
-                }, 500);
-              }).catch(() => {
-                // Fallback if clipboard fails
-                window.open(facebookUrl, '_blank', 'width=600,height=400');
-                alert('Ανοίγει το Facebook. Αντιγράψτε αυτό το κείμενο:\n\n' + tempText);
-              });
+              console.log("Opening Facebook:", facebookUrl);
+              const popup = window.open(facebookUrl, '_blank', 'width=600,height=400,scrollbars=yes,resizable=yes');
+              if (!popup) {
+                alert('Popup blocked! Please allow popups and try again.');
+              } else {
+                // Copy text to clipboard
+                const tempText = `${shareText}\n\n${shareUrl}\n\n${hashtags}`;
+                navigator.clipboard.writeText(tempText).then(() => {
+                  setTimeout(() => {
+                    alert('Facebook opened! Text copied to clipboard - paste it in your Facebook post.');
+                  }, 1000);
+                }).catch(() => {
+                  setTimeout(() => {
+                    alert('Facebook opened! Copy this text:\n\n' + tempText);
+                  }, 1000);
+                });
+              }
             }}
             variant="outline"
             className="w-full justify-start gap-3 hover:bg-blue-50 hover:border-blue-200"

@@ -178,6 +178,41 @@ export default function PayPalButton({
     }
   };
 
-  return <paypal-button id="paypal-button" style={{width: '100%', maxWidth: '100%', height: '40px', display: 'block'}}></paypal-button>;
+  return (
+    <button 
+      id="paypal-button"
+      style={{
+        width: '100%', 
+        maxWidth: '100%', 
+        height: '40px', 
+        display: 'block',
+        backgroundColor: '#0070ba',
+        color: 'white',
+        border: 'none',
+        borderRadius: '6px',
+        fontSize: '14px',
+        fontWeight: 'bold',
+        cursor: 'pointer'
+      }}
+      onClick={async () => {
+        try {
+          console.log("Direct PayPal button click");
+          const orderResponse = await createOrder();
+          console.log("Order response:", orderResponse);
+          const approvalUrl = `https://www.sandbox.paypal.com/checkoutnow?token=${orderResponse.orderId}`;
+          console.log("Opening:", approvalUrl);
+          const popup = window.open(approvalUrl, '_blank', 'width=500,height=700,scrollbars=yes,resizable=yes');
+          if (!popup) {
+            alert('Popup blocked! Please allow popups for this site and try again.');
+          }
+        } catch (error) {
+          console.error("PayPal error:", error);
+          alert('PayPal error: ' + error.message);
+        }
+      }}
+    >
+      PayPal
+    </button>
+  );
 }
 // <END_EXACT_CODE>
