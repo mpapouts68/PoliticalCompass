@@ -16,7 +16,7 @@ export function SocialSharing({ result, parties, topParty, questionCount }: Soci
   const [copied, setCopied] = useState(false);
 
   // Find the top party percentage from the result
-  const topPartyResult = JSON.parse(result.partyAlignment)[topParty.shortName];
+  const topPartyResult = result.partyAlignments[topParty.shortName];
   const topPercentage = Math.round(topPartyResult || 0);
   
   // Generate sharing text
