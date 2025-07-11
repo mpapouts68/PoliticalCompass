@@ -28,7 +28,7 @@ export function SocialSharing({ result, parties, topParty, questionCount }: Soci
   // Social media URLs
   const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}&hashtags=${encodeURIComponent('Ιδεολόγος,ΠολιτικόΤεστ,ΕλληνικήΠολιτική')}`;
   
-  const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`;
+  const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl + '?text=' + encodeURIComponent(shareText))}`;
 
   const handleCopyLink = async () => {
     const fullShareText = `${shareText}\n\n${shareUrl}\n\n${hashtags}`;
@@ -102,7 +102,18 @@ export function SocialSharing({ result, parties, topParty, questionCount }: Soci
 
           {/* Facebook */}
           <Button
-            onClick={() => window.open(facebookUrl, '_blank', 'width=600,height=400')}
+            onClick={() => {
+              // Copy the result text to clipboard first
+              const tempText = `${shareText}\n\n${shareUrl}\n\n${hashtags}`;
+              navigator.clipboard.writeText(tempText).then(() => {
+                // Then open Facebook
+                window.open(facebookUrl, '_blank', 'width=600,height=400');
+                // Show instruction
+                setTimeout(() => {
+                  alert('Το κείμενο αντιγράφηκε! Κάντε επικόλληση (Ctrl+V) στο Facebook για να μοιραστείτε το αποτέλεσμα.');
+                }, 500);
+              });
+            }}
             variant="outline"
             className="w-full justify-start gap-3 hover:bg-blue-50 hover:border-blue-200"
           >

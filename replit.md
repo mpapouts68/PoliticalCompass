@@ -62,6 +62,10 @@ User requested: Auto-advance to next question upon selection (implemented with 8
 - Added comprehensive social sharing functionality for survey results
 - Social sharing includes Twitter, Facebook, copy-to-clipboard, and native mobile sharing
 - PayPal button sizing properly constrained within donation cards (40px height, 100% width)
+- Added mini results graph prominently displayed on main page showing real-time survey statistics
+- Fixed Facebook sharing to automatically copy result text to clipboard with user instruction
+- Added Open Graph meta tags for better social media sharing appearance
+- Enhanced social sharing with preview text display
 
 ### Data Models
 - **Questions**: Political statements with category and party position mappings for all 9 parliamentary parties
