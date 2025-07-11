@@ -197,9 +197,26 @@ export default function PayPalButton({
       onClick={async () => {
         try {
           console.log("Direct PayPal button click");
-          const orderResponse = await createOrder();
-          console.log("Order response:", orderResponse);
-          const approvalUrl = `https://www.sandbox.paypal.com/checkoutnow?token=${orderResponse.orderId}`;
+          const response = await fetch("/paypal/order", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              amount: amount,
+              currency: currency,
+              intent: intent,
+            }),
+          });
+          
+          if (!response.ok) {
+            const errorData = await response.text();
+            console.error("PayPal API error:", response.status, errorData);
+            throw new Error(`PayPal API error: ${response.status} - ${errorData}`);
+          }
+          
+          const orderData = await response.json();
+          console.log("Order data:", orderData);
+          
+          const approvalUrl = `https://www.sandbox.paypal.com/checkoutnow?token=${orderData.id}`;
           console.log("Opening:", approvalUrl);
           const popup = window.open(approvalUrl, '_blank', 'width=500,height=700,scrollbars=yes,resizable=yes');
           if (!popup) {

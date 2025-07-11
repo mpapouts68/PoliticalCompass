@@ -6,7 +6,7 @@ import type { QuestionCount } from "@shared/schema";
 import { PartyLogo } from "@/components/party-logos";
 import { DonationSection } from "@/components/DonationSection";
 import { MiniResultsGraph } from "./mini-results-graph";
-import { TestButtons } from "@/components/TestButtons";
+
 // SVG version of the Ιδεολόγος compass logo
 const CompassLogo = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 100 100" className={className}>
@@ -137,11 +137,6 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
       <MiniResultsGraph />
     </div>
     
-    {/* Test Buttons for debugging */}
-    <div className="mb-8">
-      <TestButtons />
-    </div>
-
     {/* Donation Section */}
     <DonationSection />
     </div>
