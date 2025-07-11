@@ -20,12 +20,15 @@ export default function ElectionDashboard() {
               </Link>
               <div className="h-6 w-px bg-neutral-300" />
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 rounded-full bg-gradient-to-br from-red-500 via-blue-500 to-green-500 flex items-center justify-center">
-                  <svg viewBox="0 0 24 24" className="w-5 h-5 text-white" fill="none" stroke="currentColor" strokeWidth="3">
-                    <path d="m7 11 2-2-2-2"/>
-                    <path d="M11 13h4"/>
-                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-                  </svg>
+                <div className="w-8 h-8 rounded-full border-2 border-black bg-white flex items-center justify-center relative">
+                  <div className="absolute inset-1 rounded-full overflow-hidden">
+                    <div className="w-full h-full bg-gradient-to-br from-red-500 via-blue-500 to-green-500"></div>
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <svg viewBox="0 0 24 24" className="w-4 h-4 text-black" fill="currentColor">
+                        <path d="M12 2L8 12L12 10L16 12L12 2Z"/>
+                      </svg>
+                    </div>
+                  </div>
                 </div>
                 <h1 className="text-2xl font-bold text-neutral-900">
                   Ιδεολόγος - Αποτελέσματα Εκλογών
