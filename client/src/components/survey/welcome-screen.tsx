@@ -3,6 +3,22 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ChartPie, Zap, Scale, Microscope, GraduationCap, Info, Play } from "lucide-react";
 import type { QuestionCount } from "@shared/schema";
+// SVG version of the Ιδεολόγος compass logo
+const CompassLogo = ({ className }: { className?: string }) => (
+  <svg viewBox="0 0 100 100" className={className}>
+    {/* Black border circle */}
+    <circle cx="50" cy="50" r="48" fill="none" stroke="black" strokeWidth="4"/>
+    
+    {/* Colored quadrants */}
+    <path d="M 50,50 L 50,2 A 48,48 0 0,1 98,50 Z" fill="#ff6b6b" />
+    <path d="M 50,50 L 98,50 A 48,48 0 0,1 50,98 Z" fill="#4ecdc4" />
+    <path d="M 50,50 L 50,98 A 48,48 0 0,1 2,50 Z" fill="#45b7d1" />
+    <path d="M 50,50 L 2,50 A 48,48 0 0,1 50,2 Z" fill="#9b59b6" />
+    
+    {/* Compass needle */}
+    <path d="M 50,15 L 40,50 L 50,40 L 60,50 Z" fill="black" />
+  </svg>
+);
 
 interface WelcomeScreenProps {
   onStartSurvey: (questionCount: QuestionCount) => void;
@@ -49,11 +65,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
     <Card className="bg-white shadow-md mb-8">
       <CardContent className="p-8">
         <div className="text-center mb-8">
-          <img 
-            src="/attached_assets/ideologo-lo_1752218850166.PNG" 
-            alt="Ιδεολόγος Logo" 
-            className="w-24 h-24 mx-auto mb-6"
-          />
+          <CompassLogo className="w-24 h-24 mx-auto mb-6" />
           <h2 className="text-4xl font-bold text-neutral-900 mb-2">
             Μάθε ποιος είσαι πολιτικά
           </h2>
