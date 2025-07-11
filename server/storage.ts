@@ -938,3 +938,53 @@ export class DatabaseStorage implements IStorage {
 
 export const storage = new DatabaseStorage();
 export const dbStorage = new DatabaseStorage();
+
+// Initialize database with data if empty
+async function initializeDatabase() {
+  try {
+    const questionCount = await storage.getAllQuestions();
+    const partyCount = await storage.getAllParties();
+    
+    if (questionCount.length === 0 || partyCount.length === 0) {
+      console.log("Database is empty, initializing with data...");
+      
+      // Create a temporary MemStorage to get the data
+      const tempMemStorage = new MemStorage();
+      
+      // Copy parties
+      if (partyCount.length === 0) {
+        const parties = await tempMemStorage.getAllParties();
+        for (const party of parties) {
+          await storage.createParty({
+            name: party.name,
+            shortName: party.shortName,
+            color: party.color,
+            description: party.description,
+            ideology: party.ideology,
+            website: party.website,
+            founded: party.founded
+          });
+        }
+        console.log(`Initialized ${parties.length} parties`);
+      }
+      
+      // Copy questions  
+      if (questionCount.length === 0) {
+        const questions = await tempMemStorage.getAllQuestions();
+        for (const question of questions) {
+          await storage.createQuestion({
+            text: question.text,
+            category: question.category,
+            partyPositions: question.partyPositions
+          });
+        }
+        console.log(`Initialized ${questions.length} questions`);
+      }
+    }
+  } catch (error) {
+    console.error("Failed to initialize database:", error);
+  }
+}
+
+// Initialize on startup
+initializeDatabase();
