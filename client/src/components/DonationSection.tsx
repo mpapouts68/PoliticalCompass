@@ -4,12 +4,13 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import PayPalButton from "./PayPalButton";
-import { useTranslation } from "@/lib/i18n";
+import { useTranslation, useLanguage } from "@/lib/i18n";
 
 export function DonationSection() {
   const [customAmount, setCustomAmount] = useState("");
   const [selectedAmount, setSelectedAmount] = useState<string | null>(null);
   const { t } = useTranslation();
+  const { language } = useLanguage();
 
   const handleSelectAmount = (amount: string) => {
     setSelectedAmount(amount);
@@ -27,19 +28,19 @@ export function DonationSection() {
       amount: "3.50",
       icon: <Coffee className="w-5 h-5" />,
       title: t('buyMeCoffee'),
-      description: t('language') === 'el' ? "Για τον δημιουργό" : "For the creator"
+      description: language === 'el' ? "Για τον δημιουργό" : "For the creator"
     },
     {
       amount: "7.00", 
       icon: <Heart className="w-5 h-5" />,
       title: t('supportDevelopment'),
-      description: t('language') === 'el' ? "Υποστήριξη του έργου" : "Support the project"
+      description: language === 'el' ? "Υποστήριξη του έργου" : "Support the project"
     },
     {
       amount: "15.00",
       icon: <Laptop className="w-5 h-5" />,
       title: t('boostDevelopment'),
-      description: t('language') === 'el' ? "Βοήθεια στην ανάπτυξη" : "Help development"
+      description: language === 'el' ? "Βοήθεια στην ανάπτυξη" : "Help development"
     }
   ];
 
@@ -55,7 +56,7 @@ export function DonationSection() {
           </div>
           <div className="bg-green-50 border border-green-200 rounded-lg p-3 mb-4 inline-block">
             <p className="text-green-700 font-medium text-sm">
-              🆓 {t('freeForAll')} - {t('language') === 'el' ? 'Χωρίς κρυφές χρεώσεις' : 'No hidden charges'}
+              🆓 {t('freeForAll')} - {language === 'el' ? 'Χωρίς κρυφές χρεώσεις' : 'No hidden charges'}
             </p>
           </div>
           <p className="text-gray-600 max-w-2xl mx-auto text-sm leading-relaxed">
@@ -88,7 +89,7 @@ export function DonationSection() {
                     size="sm"
                   >
                     <Heart className="w-4 h-4 mr-2" />
-                    {t('language') === 'el' ? `Δωρεά €${option.amount}` : `Donate €${option.amount}`}
+                    {language === 'el' ? `Δωρεά €${option.amount}` : `Donate €${option.amount}`}
                   </Button>
                 )}
               </div>

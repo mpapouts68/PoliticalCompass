@@ -2,36 +2,37 @@ import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Mail, MessageCircle, Github, Twitter, Globe, Users, Shield, Info } from 'lucide-react';
-import { useTranslation } from '@/lib/i18n';
+import { useTranslation, useLanguage } from '@/lib/i18n';
 
 export function ContactSection() {
   const { t } = useTranslation();
+  const { language } = useLanguage();
 
   const contactMethods = [
     {
       icon: Mail,
-      label: t('language') === 'el' ? 'Email' : 'Email',
+      label: language === 'el' ? 'Email' : 'Email',
       value: 'info@ideologos.online',
       href: 'mailto:info@ideologos.online',
-      description: t('language') === 'el' 
+      description: language === 'el' 
         ? 'Για γενικές ερωτήσεις και υποστήριξη'
         : 'For general inquiries and support'
     },
     {
       icon: MessageCircle,
-      label: t('language') === 'el' ? 'Τεχνική Υποστήριξη' : 'Technical Support',
+      label: language === 'el' ? 'Τεχνική Υποστήριξη' : 'Technical Support',
       value: 'support@ideologos.online', 
       href: 'mailto:support@ideologos.online',
-      description: t('language') === 'el'
+      description: language === 'el'
         ? 'Για τεχνικά προβλήματα και σφάλματα'
         : 'For technical issues and bug reports'
     },
     {
       icon: Users,
-      label: t('language') === 'el' ? 'Συνεργασίες' : 'Partnerships',
+      label: language === 'el' ? 'Συνεργασίες' : 'Partnerships',
       value: 'partnerships@ideologos.online',
       href: 'mailto:partnerships@ideologos.online', 
-      description: t('language') === 'el'
+      description: language === 'el'
         ? 'Για ακαδημαϊκές συνεργασίες και ερευνητικά έργα'
         : 'For academic collaborations and research projects'
     }

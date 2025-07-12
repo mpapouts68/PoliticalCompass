@@ -9,7 +9,7 @@ import type { Party, SurveyResult, QuestionCount } from "@shared/schema";
 import { PartyLogo } from "@/components/party-logos";
 import { PoliticalCompass } from "./political-compass";
 import { SocialSharing } from "./social-sharing";
-import { useTranslation } from "@/lib/i18n";
+import { useTranslation, useLanguage } from "@/lib/i18n";
 
 interface ResultsScreenProps {
   sessionId: string;
@@ -26,6 +26,7 @@ interface ResultsResponse {
 export function ResultsScreen({ sessionId, currentQuestionCount, onRestart, onContinueWithMore }: ResultsScreenProps) {
   const [viewMode, setViewMode] = React.useState<"percentage" | "compass">("percentage");
   const { t } = useTranslation();
+  const { language } = useLanguage();
   
   const { data, isLoading, error } = useQuery<ResultsResponse>({
     queryKey: ["/api/results", sessionId],
@@ -107,7 +108,7 @@ export function ResultsScreen({ sessionId, currentQuestionCount, onRestart, onCo
         <BarChart3 className="text-primary text-6xl mb-4 mx-auto w-16 h-16" />
         <h2 className="text-3xl font-bold text-neutral-900 mb-4">{t('yourResults')}</h2>
         <p className="text-lg text-neutral-500 mb-6">
-          {t('language') === 'el' 
+          {language === 'el' 
             ? 'Βάσει των απαντήσεών σας, ανατρέξαμε στα προγράμματα των κομμάτων'
             : 'Based on your answers, we analyzed party manifestos'}
         </p>

@@ -7,7 +7,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { apiRequest } from "@/lib/queryClient";
-import { useTranslation } from "@/lib/i18n";
+import { useTranslation, useLanguage } from "@/lib/i18n";
 import type { Question, QuestionCount, InsertSurveyResponse, AnswerValue } from "@shared/schema";
 
 interface QuestionScreenProps {
@@ -21,6 +21,7 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
   const [answers, setAnswers] = useState<Record<number, AnswerValue>>({});
   const [currentAnswer, setCurrentAnswer] = useState<string>("");
   const { t } = useTranslation();
+  const { language } = useLanguage();
 
   const { data: questions, isLoading } = useQuery<Question[]>({
     queryKey: ["/api/questions", questionCount, sessionId],
@@ -164,10 +165,10 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
         <CardContent className="p-6">
           <div className="flex items-center justify-between mb-2">
             <span className="text-sm font-medium text-neutral-500">
-              {t('language') === 'el' ? 'Πρόοδος' : 'Progress'}
+              {language === 'el' ? 'Πρόοδος' : 'Progress'}
             </span>
             <span className="text-sm font-medium text-primary">
-              {currentQuestionIndex + 1} {t('language') === 'el' ? 'από' : 'of'} {questions.length}
+              {currentQuestionIndex + 1} {language === 'el' ? 'από' : 'of'} {questions.length}
             </span>
           </div>
           <Progress value={progress} className="h-2" />
@@ -182,7 +183,7 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
               {currentQuestion.category}
             </span>
             <h3 className="text-xl font-semibold text-neutral-900 leading-relaxed">
-              {t('language') === 'el' 
+              {language === 'el' 
                 ? currentQuestion.text 
                 : (currentQuestion.textEn || currentQuestion.text)}
             </h3>
@@ -211,7 +212,7 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
       <div className="flex justify-center items-center">
         <div className="text-center">
           <p className="text-sm text-neutral-500 mb-4">
-            {t('language') === 'el' 
+            {language === 'el' 
               ? 'Η επόμενη ερώτηση θα εμφανιστεί αυτόματα μετά την επιλογή σας'
               : 'Next question will appear automatically after your selection'}
           </p>
