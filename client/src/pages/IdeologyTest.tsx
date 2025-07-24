@@ -11,7 +11,7 @@ import { useTranslation } from "@/lib/i18n";
 interface IdeologyQuestion {
   id: number;
   text: string;
-  textEn: string | null;
+  text_en: string | null;
   category: string;
   leftScore: number;
   rightScore: number;
@@ -292,7 +292,7 @@ export default function IdeologyTest() {
               </div>
               
               <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-8 text-center leading-relaxed">
-                {t('language') === 'el' ? currentQuestion.text : (currentQuestion.textEn || currentQuestion.text)}
+                {t('language') === 'el' ? currentQuestion.text : (currentQuestion.text_en || currentQuestion.text)}
               </h2>
               
               <div className="grid grid-cols-1 gap-3">
