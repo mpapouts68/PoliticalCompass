@@ -170,6 +170,28 @@ export const translations = {
     authoritarian: 'Authoritarian',
     libertarian: 'Libertarian',
     
+    // Ideology Test
+    ideologyTest: 'Ideology Test',
+    ideologyTestDescription: 'Discover your political position on the left-center-right spectrum',
+    ideologyResults: 'Ideology Test Results',
+    yourPoliticalPosition: 'Your political position on the left-center-right spectrum',
+    category: 'Category:',
+    description: 'Description',
+    characteristics: 'Characteristics',
+    score: 'Score:',
+    from: 'from',
+    to: 'to',
+    left: 'Left',
+    center: 'Center',
+    right: 'Right',
+    homePage: 'Home Page',
+    partyAlignmentTest: 'Party Alignment Test',
+    calculatingResults: 'Calculating results...',
+    loadingQuestions: 'Loading questions...',
+    errorLoadingQuestions: 'Error loading questions',
+    question: 'Question',
+    of: 'of',
+    
     // Parties (English descriptions)
     parties: {
       'ΝΔ': 'New Democracy (ND)',

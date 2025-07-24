@@ -49,22 +49,19 @@ export default function IdeologyTest() {
   const [showResults, setShowResults] = useState(false);
   const queryClient = useQueryClient();
 
-  const { data: questions, isLoading } = useQuery({
+  const { data: questions, isLoading } = useQuery<IdeologyQuestion[]>({
     queryKey: ['/api/ideology/questions/30'],
     enabled: !isComplete
   });
 
-  const { data: resultData } = useQuery({
+  const { data: resultData } = useQuery<{ result: IdeologyResult }>({
     queryKey: ['/api/ideology/results', sessionId],
     enabled: showResults
   });
 
   const saveResponseMutation = useMutation({
     mutationFn: (response: IdeologyResponse) => 
-      apiRequest('/api/ideology/responses', {
-        method: 'POST',
-        body: JSON.stringify(response)
-      }),
+      apiRequest('/api/ideology/responses', 'POST', response),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['/api/ideology/responses'] });
     }
@@ -72,10 +69,7 @@ export default function IdeologyTest() {
 
   const calculateResultsMutation = useMutation({
     mutationFn: (sessionId: string) => 
-      apiRequest('/api/ideology/results', {
-        method: 'POST',
-        body: JSON.stringify({ sessionId })
-      }),
+      apiRequest('/api/ideology/results', 'POST', { sessionId }),
     onSuccess: () => {
       setShowResults(true);
       queryClient.invalidateQueries({ queryKey: ['/api/ideology/results', sessionId] });
@@ -115,7 +109,7 @@ export default function IdeologyTest() {
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
           <p className="text-lg">
-            {t('language') === 'el' ? 'Φόρτωση ερωτήσεων...' : 'Loading questions...'}
+            {t('loadingQuestions')}
           </p>
         </div>
       </div>
@@ -132,7 +126,7 @@ export default function IdeologyTest() {
             <Link href="/">
               <Button variant="ghost" className="mb-4">
                 <ChevronLeft className="h-4 w-4 mr-2" />
-                {t('language') === 'el' ? 'Αρχική' : 'Home'}
+                {t('home')}
               </Button>
             </Link>
           </div>
@@ -141,13 +135,10 @@ export default function IdeologyTest() {
             <CardHeader className="text-center">
               <CardTitle className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">
                 <Compass className="h-8 w-8 inline-block mr-2" />
-                {t('language') === 'el' ? 'Αποτελέσματα Ιδεολογικού Τεστ' : 'Ideology Test Results'}
+                {t('ideologyResults')}
               </CardTitle>
               <p className="text-gray-600 dark:text-gray-300">
-                {t('language') === 'el' 
-                  ? 'Η πολιτική σας θέση στο φάσμα αριστερά-κέντρο-δεξιά'
-                  : 'Your political position on the left-center-right spectrum'
-                }
+                {t('yourPoliticalPosition')}
               </p>
             </CardHeader>
             <CardContent>
@@ -159,10 +150,7 @@ export default function IdeologyTest() {
                   {t('language') === 'el' ? getGreekLabel(result.label) : result.label}
                 </div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">
-                  {t('language') === 'el' 
-                    ? `Βαθμολογία: ${result.totalScore.toFixed(2)} (από -3 έως +3)`
-                    : `Score: ${result.totalScore.toFixed(2)} (from -3 to +3)`
-                  }
+                  {t('score')} {result.totalScore.toFixed(2)} ({t('from')} -3 {t('to')} +3)
                 </div>
               </div>
 
@@ -179,9 +167,9 @@ export default function IdeologyTest() {
                   </div>
                 </div>
                 <div className="flex justify-between text-xs text-gray-600 dark:text-gray-400 mt-2">
-                  <span>{t('language') === 'el' ? 'Αριστερά' : 'Left'}</span>
-                  <span>{t('language') === 'el' ? 'Κέντρο' : 'Center'}</span>
-                  <span>{t('language') === 'el' ? 'Δεξιά' : 'Right'}</span>
+                  <span>{t('left')}</span>
+                  <span>{t('center')}</span>
+                  <span>{t('right')}</span>
                 </div>
               </div>
 
@@ -189,7 +177,7 @@ export default function IdeologyTest() {
                 <Card>
                   <CardHeader>
                     <CardTitle className="text-lg">
-                      {t('language') === 'el' ? 'Περιγραφή' : 'Description'}
+                      {t('description')}
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
@@ -202,7 +190,7 @@ export default function IdeologyTest() {
                 <Card>
                   <CardHeader>
                     <CardTitle className="text-lg">
-                      {t('language') === 'el' ? 'Χαρακτηριστικά' : 'Characteristics'}
+                      {t('characteristics')}
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
@@ -221,12 +209,12 @@ export default function IdeologyTest() {
               <div className="text-center mt-8">
                 <Link href="/">
                   <Button size="lg" className="mr-4">
-                    {t('language') === 'el' ? 'Αρχική Σελίδα' : 'Home Page'}
+                    {t('homePage')}
                   </Button>
                 </Link>
                 <Link href="/survey">
                   <Button variant="outline" size="lg">
-                    {t('language') === 'el' ? 'Τεστ Κομματικής Ταύτισης' : 'Party Alignment Test'}
+                    {t('partyAlignmentTest')}
                   </Button>
                 </Link>
               </div>
@@ -243,7 +231,7 @@ export default function IdeologyTest() {
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
           <p className="text-lg">
-            {t('language') === 'el' ? 'Υπολογισμός αποτελεσμάτων...' : 'Calculating results...'}
+            {t('calculatingResults')}
           </p>
         </div>
       </div>
@@ -255,7 +243,7 @@ export default function IdeologyTest() {
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <p className="text-lg">
-            {t('language') === 'el' ? 'Σφάλμα φόρτωσης ερωτήσεων' : 'Error loading questions'}
+            {t('errorLoadingQuestions')}
           </p>
         </div>
       </div>
@@ -269,17 +257,14 @@ export default function IdeologyTest() {
           <Link href="/">
             <Button variant="ghost" className="mb-4">
               <ChevronLeft className="h-4 w-4 mr-2" />
-              {t('language') === 'el' ? 'Αρχική' : 'Home'}
+              {t('home')}
             </Button>
           </Link>
           
           <div className="mb-4">
             <div className="flex justify-between items-center mb-2">
               <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                {t('language') === 'el' 
-                  ? `Ερώτηση ${currentQuestionIndex + 1} από ${questions?.length || 30}`
-                  : `Question ${currentQuestionIndex + 1} of ${questions?.length || 30}`
-                }
+{t('question')} {currentQuestionIndex + 1} {t('of')} {questions?.length || 30}
               </span>
               <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
                 {Math.round(progress)}%
@@ -292,20 +277,17 @@ export default function IdeologyTest() {
         <Card className="mb-8">
           <CardHeader>
             <CardTitle className="text-center text-2xl font-bold text-gray-800 dark:text-gray-200">
-              {t('language') === 'el' ? 'Ιδεολογικό Τεστ' : 'Ideology Test'}
+              {t('ideologyTest')}
             </CardTitle>
             <p className="text-center text-gray-600 dark:text-gray-400">
-              {t('language') === 'el' 
-                ? 'Ανακαλύψτε την πολιτική σας θέση στο φάσμα αριστερά-κέντρο-δεξιά'
-                : 'Discover your political position on the left-center-right spectrum'
-              }
+              {t('ideologyTestDescription')}
             </p>
           </CardHeader>
           <CardContent>
             <div className="mb-8">
               <div className="bg-blue-50 dark:bg-blue-900/20 p-3 rounded-lg mb-6">
                 <p className="text-sm text-blue-800 dark:text-blue-200">
-                  <strong>{t('language') === 'el' ? 'Κατηγορία:' : 'Category:'}</strong> {currentQuestion.category}
+                  <strong>{t('category')}</strong> {currentQuestion.category}
                 </p>
               </div>
               
