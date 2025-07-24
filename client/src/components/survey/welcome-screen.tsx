@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ChartPie, Zap, Scale, Microscope, GraduationCap, Info, Play } from "lucide-react";
+import { ChartPie, Zap, Scale, Microscope, GraduationCap, Info, Play, Compass } from "lucide-react";
 import type { QuestionCount } from "@shared/schema";
 import { PartyLogo } from "@/components/party-logos";
 import { DonationSection } from "@/components/DonationSection";
@@ -9,6 +9,7 @@ import { MiniResultsGraph } from "./mini-results-graph";
 import { LanguageSelector } from "@/components/LanguageSelector";
 import { ContactSection } from "@/components/ContactSection";
 import { useTranslation } from "@/lib/i18n";
+import { Link } from "wouter";
 
 // SVG version of the Ιδεολόγος compass logo
 const CompassLogo = ({ className }: { className?: string }) => (
@@ -138,11 +139,29 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
         </div>
 
         <div className="text-center">
-          <p className="text-neutral-500 text-sm">
+          <p className="text-neutral-500 text-sm mb-6">
             {t('language') === 'el' 
               ? 'Επιλέξτε τον αριθμό ερωτήσεων για να ξεκινήσει αυτόματα το τεστ'
               : 'Select the number of questions to automatically start the test'}
           </p>
+          
+          {/* Ideology Test Button */}
+          <div className="border-t pt-6">
+            <h4 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-3">
+              {t('language') === 'el' ? 'Ή δοκιμάστε το Ιδεολογικό Τεστ' : 'Or try the Ideology Test'}
+            </h4>
+            <Link href="/ideology">
+              <Button size="lg" variant="outline" className="bg-purple-50 hover:bg-purple-100 border-purple-200 text-purple-700">
+                <Compass className="w-5 h-5 mr-2" />
+                {t('language') === 'el' ? 'Ιδεολογικό Τεστ (30 ερωτήσεις)' : 'Ideology Test (30 questions)'}
+              </Button>
+            </Link>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
+              {t('language') === 'el' 
+                ? 'Μάθετε την πολιτική σας θέση στο φάσμα αριστερά-κέντρο-δεξιά'
+                : 'Learn your political position on the left-center-right spectrum'}
+            </p>
+          </div>
         </div>
 
         {/* Disclaimer */}

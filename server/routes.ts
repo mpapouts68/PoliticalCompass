@@ -1,9 +1,10 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { insertSurveyResponseSchema, insertSurveyResultSchema, questionCountSchema } from "@shared/schema";
+import { insertSurveyResponseSchema, insertSurveyResultSchema, insertIdeologyResponseSchema, insertIdeologyResultSchema, questionCountSchema, ideologyQuestions } from "@shared/schema";
 import { z } from "zod";
 import { createPaypalOrder, capturePaypalOrder, loadPaypalDefault } from "./paypal";
+import { db } from "./db";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Get questions for survey
@@ -131,6 +132,127 @@ export async function registerRoutes(app: Express): Promise<Server> {
     } catch (error) {
       console.error("Error getting election stats:", error);
       res.status(500).json({ error: "Failed to get election statistics" });
+    }
+  });
+
+  // Ideology test routes
+  app.get("/api/ideology/questions/:count", async (req, res) => {
+    try {
+      const count = parseInt(req.params.count);
+      if (isNaN(count) || count < 1 || count > 300) {
+        return res.status(400).json({ error: "Invalid question count" });
+      }
+      const questions = await storage.getRandomIdeologyQuestions(count);
+      res.json(questions);
+    } catch (error) {
+      res.status(500).json({ error: "Failed to fetch ideology questions" });
+    }
+  });
+
+  app.post("/api/ideology/responses", async (req, res) => {
+    try {
+      const responseData = insertIdeologyResponseSchema.parse(req.body);
+      const response = await storage.saveIdeologyResponse(responseData);
+      res.json(response);
+    } catch (error) {
+      res.status(400).json({ error: "Invalid ideology response data" });
+    }
+  });
+
+  app.post("/api/ideology/results", async (req, res) => {
+    try {
+      const { sessionId } = req.body;
+      
+      if (!sessionId) {
+        return res.status(400).json({ error: "Session ID required" });
+      }
+
+      const responses = await storage.getIdeologyResponses(sessionId);
+      const questions = await db.select().from(ideologyQuestions);
+
+      // Calculate ideology score
+      let totalScore = 0;
+      let questionCount = 0;
+
+      for (const response of responses) {
+        const question = questions.find(q => q.id === response.questionId);
+        if (question) {
+          // Map answer (1-5) to score based on question scoring
+          const answerScore = response.answer; // 1-5
+          let questionScore;
+          
+          if (answerScore === 1) { // Strongly Disagree
+            questionScore = question.leftScore;
+          } else if (answerScore === 2) { // Disagree
+            questionScore = question.leftScore * 0.5;
+          } else if (answerScore === 3) { // Neutral
+            questionScore = 0;
+          } else if (answerScore === 4) { // Agree  
+            questionScore = question.rightScore * 0.5;
+          } else { // Strongly Agree
+            questionScore = question.rightScore;
+          }
+          
+          totalScore += questionScore;
+          questionCount++;
+        }
+      }
+
+      const averageScore = questionCount > 0 ? totalScore / questionCount : 0;
+      
+      // Determine label and percentage based on score
+      let label: string;
+      let percentage: number;
+      
+      if (averageScore <= -2.5) {
+        label = "Far Left";
+        percentage = Math.max(0, (averageScore + 3) * 100 / 0.5);
+      } else if (averageScore <= -1.5) {
+        label = "Left";
+        percentage = 10 + (averageScore + 2.5) * 15;
+      } else if (averageScore <= -0.5) {
+        label = "Center-Left";
+        percentage = 25 + (averageScore + 1.5) * 15;
+      } else if (averageScore <= 0.5) {
+        label = "Center";
+        percentage = 40 + (averageScore + 0.5) * 20;
+      } else if (averageScore <= 1.5) {
+        label = "Center-Right";
+        percentage = 60 + (averageScore - 0.5) * 15;
+      } else if (averageScore <= 2.5) {
+        label = "Right";
+        percentage = 75 + (averageScore - 1.5) * 15;
+      } else {
+        label = "Far Right";
+        percentage = Math.min(100, 90 + (averageScore - 2.5) * 20);
+      }
+
+      const result = await storage.saveIdeologyResult({
+        sessionId,
+        totalScore: averageScore,
+        label,
+        percentage
+      });
+
+      res.json({ result, averageScore, questionCount });
+    } catch (error) {
+      console.error("Error calculating ideology results:", error);
+      res.status(500).json({ error: "Failed to calculate ideology results" });
+    }
+  });
+
+  app.get("/api/ideology/results/:sessionId", async (req, res) => {
+    try {
+      const { sessionId } = req.params;
+      const result = await storage.getIdeologyResult(sessionId);
+      
+      if (!result) {
+        return res.status(404).json({ error: "Ideology results not found" });
+      }
+
+      res.json({ result });
+    } catch (error) {
+      res.status(500).json({ error: "Failed to fetch ideology results" });
     }
   });
 

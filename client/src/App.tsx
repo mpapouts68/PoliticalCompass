@@ -6,12 +6,15 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import Survey from "@/pages/survey";
 import ElectionDashboard from "@/pages/election-dashboard";
+import IdeologyTest from "@/pages/IdeologyTest";
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Survey} />
       <Route path="/αποτελεσματα" component={ElectionDashboard} />
+      <Route path="/ideology" component={IdeologyTest} />
+      <Route path="/ιδεολογια" component={IdeologyTest} />
       <Route component={NotFound} />
     </Switch>
   );
