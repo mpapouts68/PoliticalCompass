@@ -33,11 +33,11 @@ interface IdeologyResult {
 }
 
 const ANSWER_OPTIONS = [
-  { value: 1, labelGr: "Διαφωνώ απόλυτα", labelEn: "Strongly Disagree" },
-  { value: 2, labelGr: "Διαφωνώ", labelEn: "Disagree" },
-  { value: 3, labelGr: "Ουδέτερος/η", labelEn: "Neutral" },
-  { value: 4, labelGr: "Συμφωνώ", labelEn: "Agree" },
-  { value: 5, labelGr: "Συμφωνώ απόλυτα", labelEn: "Strongly Agree" }
+  { value: 1, key: "stronglyDisagree" },
+  { value: 2, key: "disagree" },
+  { value: 3, key: "neutral" },
+  { value: 4, key: "agree" },
+  { value: 5, key: "stronglyAgree" }
 ];
 
 export default function IdeologyTest() {
@@ -147,7 +147,7 @@ export default function IdeologyTest() {
                   {Math.round(result.percentage)}%
                 </div>
                 <div className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">
-                  {t('language') === 'el' ? getGreekLabel(result.label) : result.label}
+                  {getLocalizedLabel(result.label, t('language'))}
                 </div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">
                   {t('score')} {result.totalScore.toFixed(2)} ({t('from')} -3 {t('to')} +3)
@@ -309,7 +309,7 @@ export default function IdeologyTest() {
                         <span className="text-blue-600 font-semibold">{option.value}</span>
                       </div>
                       <span className="text-gray-700 dark:text-gray-300">
-                        {t('language') === 'el' ? option.labelGr : option.labelEn}
+                        {t(option.key)}
                       </span>
                     </div>
                   </Button>
@@ -324,15 +324,15 @@ export default function IdeologyTest() {
 }
 
 // Helper functions for labels and descriptions
-function getGreekLabel(label: string): string {
+function getLocalizedLabel(label: string, language: string): string {
   const translations: Record<string, string> = {
-    "Far Left": "Ακροαριστερά",
-    "Left": "Αριστερά", 
-    "Center-Left": "Κεντροαριστερά",
-    "Center": "Κέντρο",
-    "Center-Right": "Κεντροδεξιά",
-    "Right": "Δεξιά",
-    "Far Right": "Ακροδεξιά"
+    "Far Left": language === 'el' ? "Ακροαριστερά" : "Far Left",
+    "Left": language === 'el' ? "Αριστερά" : "Left", 
+    "Center-Left": language === 'el' ? "Κεντροαριστερά" : "Center-Left",
+    "Center": language === 'el' ? "Κέντρο" : "Center",
+    "Center-Right": language === 'el' ? "Κεντροδεξιά" : "Center-Right",  
+    "Right": language === 'el' ? "Δεξιά" : "Right",
+    "Far Right": language === 'el' ? "Ακροδεξιά" : "Far Right"
   };
   return translations[label] || label;
 }

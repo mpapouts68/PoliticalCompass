@@ -89,6 +89,28 @@ export const translations = {
     authoritarian: 'Αυταρχικός',
     libertarian: 'Φιλελεύθερος',
     
+    // Ideology Test
+    ideologyTest: 'Ιδεολογικό Τεστ',
+    ideologyTestDescription: 'Ανακαλύψτε την πολιτική σας θέση στο φάσμα αριστερά-κέντρο-δεξιά',
+    ideologyResults: 'Αποτελέσματα Ιδεολογικού Τεστ',
+    yourPoliticalPosition: 'Η πολιτική σας θέση στο φάσμα αριστερά-κέντρο-δεξιά',
+    loadingQuestions: 'Φόρτωση ερωτήσεων...',
+    calculatingResults: 'Υπολογισμός αποτελεσμάτων...',
+    errorLoadingQuestions: 'Σφάλμα φόρτωσης ερωτήσεων',
+    score: 'Βαθμολογία:',
+    from: 'από',
+    to: 'έως',
+    left: 'Αριστερά',
+    center: 'Κέντρο',
+    right: 'Δεξιά',
+    description: 'Περιγραφή',
+    characteristics: 'Χαρακτηριστικά',
+    homePage: 'Αρχική Σελίδα',
+    partyAlignmentTest: 'Τεστ Κομματικής Ταύτισης',
+    question: 'Ερώτηση',
+    of: 'από',
+    category: 'Κατηγορία:',
+
     // Parties (keep Greek names but add descriptions)
     parties: {
       'ΝΔ': 'Νέα Δημοκρατία',
