@@ -61,7 +61,7 @@ export default function IdeologyTest() {
 
   const saveResponseMutation = useMutation({
     mutationFn: (response: IdeologyResponse) => 
-      apiRequest('/api/ideology/responses', 'POST', response),
+      apiRequest('POST', '/api/ideology/responses', response),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['/api/ideology/responses'] });
     }
@@ -69,7 +69,7 @@ export default function IdeologyTest() {
 
   const calculateResultsMutation = useMutation({
     mutationFn: (sessionId: string) => 
-      apiRequest('/api/ideology/results', 'POST', { sessionId }),
+      apiRequest('POST', '/api/ideology/results', { sessionId }),
     onSuccess: () => {
       setShowResults(true);
       queryClient.invalidateQueries({ queryKey: ['/api/ideology/results', sessionId] });
