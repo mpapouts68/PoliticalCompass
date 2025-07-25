@@ -80,6 +80,10 @@ User requested: Auto-advance to next question upon selection (implemented with 8
 - Restructured main page into 2 clearly separate columns: narrower left column for party alignment tests (15-100 questions) and wider right column for ideology test
 - Improved visual separation and organization of the two main testing sections with distinct styling and icons
 - Enhanced ideology test presentation with political spectrum visualization and dedicated call-to-action
+- Enhanced ideology test with same question structure as party alignment (15, 30, 60, 100 questions) with URL parameter support
+- Added ideology statistics badge showing real-time results from all participants alongside party alignment results
+- Moved party logos inside the party alignment section for better organization and visual clarity
+- Fixed layout to ensure both main tests display side by side on desktop while remaining mobile-friendly
 
 ### Data Models
 - **Questions**: Political statements with category and party position mappings for all 9 parliamentary parties

@@ -99,17 +99,10 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
         <h3 className="text-2xl font-semibold text-neutral-700 mb-4">
           {t('appTitle')} <span className="text-blue-600">online</span>
         </h3>
-        
-        {/* Party Logos Row */}
-        <div className="flex flex-wrap justify-center items-center gap-4 mb-6">
-          {["ΝΔ", "ΣΥΡΙΖΑ", "ΠΑΣΟΚ", "ΚΚΕ", "ΕΛ", "ΠΕ", "ΝΙΚΗ", "ΣΠΑΡ", "ΝΑ"].map((party) => (
-            <PartyLogo key={party} party={party} className="w-12 h-12" />
-          ))}
-        </div>
       </div>
 
-      {/* Two Column Layout - Equal Width */}
-      <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+      {/* Two Column Layout - Side by Side */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
         
         {/* LEFT COLUMN - Party Alignment Tests */}
         <div className="w-full">
@@ -125,6 +118,14 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
                     ? 'Ανακαλύψτε ποιο κόμμα ταιριάζει περισσότερο στις απόψεις σας'
                     : 'Discover which party best matches your views'}
                 </p>
+                
+                {/* Party Logos Row */}
+                <div className="flex flex-wrap justify-center items-center gap-2 mb-4">
+                  {["ΝΔ", "ΣΥΡΙΖΑ", "ΠΑΣΟΚ", "ΚΚΕ", "ΕΛ", "ΠΕ", "ΝΙΚΗ", "ΣΠΑΡ", "ΝΑ"].map((party) => (
+                    <PartyLogo key={party} party={party} className="w-8 h-8" />
+                  ))}
+                </div>
+                
                 <p className="text-sm text-blue-600 font-medium mb-4">
                   {t('surveyLength')}
                 </p>
@@ -244,7 +245,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
       </div>
     
     {/* Results Section - Two Columns */}
-    <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
       <MiniResultsGraph />
       <IdeologyMiniResults />
     </div>
