@@ -149,9 +149,7 @@ export function ContactSection() {
             {t('aboutProject')}
           </h3>
           <p className="text-sm text-blue-800 dark:text-blue-300">
-            {t('language') === 'el'
-              ? 'Το Ιδεολόγος είναι ένα ανεξάρτητο, μη-κερδοσκοπικό εργαλείο που στοχεύει στην πολιτική εκπαίδευση και ενημέρωση των πολιτών. Δημιουργήθηκε από ερευνητές και προγραμματιστές με σκοπό την ενίσχυση της δημοκρατικής συμμετοχής.'
-              : 'Ideologos is an independent, non-profit tool aimed at political education and citizen awareness. Created by researchers and developers to enhance democratic participation.'}
+            {t('aboutProjectDescription')}
           </p>
         </CardContent>
       </Card>

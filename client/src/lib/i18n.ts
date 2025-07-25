@@ -138,6 +138,7 @@ export const translations = {
     statisticalUseOnly: 'Χρησιμοποιούμε τα δεδομένα μόνο για στατιστικούς σκοπούς',
     gdprCompliance: 'Πλήρης συμμόρφωση με τον GDPR',
     privacyQuestions: 'Ερωτήσεις Απορρήτου',
+    aboutProjectDescription: 'Το Ιδεολόγος είναι ένα ανεξάρτητο, μη-κερδοσκοπικό εργαλείο που στοχεύει στην πολιτική εκπαίδευση και ενημέρωση των πολιτών. Δημιουργήθηκε από ερευνητές και προγραμματιστές με σκοπό την ενίσχυση της δημοκρατικής συμμετοχής.',
 
     // Parties (keep Greek names but add descriptions)
     parties: {
@@ -269,6 +270,7 @@ export const translations = {
     statisticalUseOnly: 'Data is used only for statistical purposes',
     gdprCompliance: 'Full GDPR compliance',
     privacyQuestions: 'Privacy Questions',
+    aboutProjectDescription: 'Ideologos is an independent, non-profit tool aimed at political education and citizen awareness. Created by researchers and developers to enhance democratic participation.',
     
     // Parties (English descriptions)
     parties: {
