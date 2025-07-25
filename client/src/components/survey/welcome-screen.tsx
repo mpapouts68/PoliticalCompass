@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ChartPie, Zap, Scale, Microscope, GraduationCap, Info, Play, Compass } from "lucide-react";
+import { ChartPie, Zap, Scale, Microscope, GraduationCap, Info, Play, Compass, Brain, Crown } from "lucide-react";
 import type { QuestionCount } from "@shared/schema";
 import { PartyLogo } from "@/components/party-logos";
 import { DonationSection } from "@/components/DonationSection";
@@ -243,6 +243,75 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
     {/* Donation Section */}
     <DonationSection />
     
+    {/* New Gamification Features Section */}
+    <div className="mb-8 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-6">
+      <h2 className="text-2xl font-bold text-center mb-6 text-gray-800">
+        {t('language') === 'el' ? '🎮 Νέα Χαρακτηριστικά' : '🎮 New Features'}
+      </h2>
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* Knowledge Challenge Card */}
+        <Link href="/quiz">
+          <Card className="cursor-pointer hover:shadow-lg transition-all duration-300 border-2 border-blue-200 hover:border-blue-400 bg-gradient-to-br from-blue-50 to-blue-100">
+            <CardContent className="p-6 text-center">
+              <div className="flex justify-center mb-4">
+                <Brain className="w-12 h-12 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-bold text-blue-900 mb-2">
+                {t('knowledgeChallenge')}
+              </h3>
+              <p className="text-blue-700 text-sm mb-4">
+                {t('language') === 'el' 
+                  ? 'Δοκιμάστε τις γνώσεις σας στην ελληνική πολιτική ιστορία, το Σύνταγμα και τα κόμματα'
+                  : 'Test your knowledge of Greek political history, Constitution and parties'}
+              </p>
+              <div className="flex justify-center space-x-2 text-xs text-blue-600">
+                <span className="bg-blue-200 px-2 py-1 rounded">
+                  {t('language') === 'el' ? 'Ιστορία' : 'History'}
+                </span>
+                <span className="bg-blue-200 px-2 py-1 rounded">
+                  {t('language') === 'el' ? 'Σύνταγμα' : 'Constitution'}
+                </span>
+                <span className="bg-blue-200 px-2 py-1 rounded">
+                  {t('language') === 'el' ? 'Κόμματα' : 'Parties'}
+                </span>
+              </div>
+            </CardContent>
+          </Card>
+        </Link>
+
+        {/* Prime Minister Scenario Card */}
+        <Link href="/prime-minister">
+          <Card className="cursor-pointer hover:shadow-lg transition-all duration-300 border-2 border-purple-200 hover:border-purple-400 bg-gradient-to-br from-purple-50 to-purple-100">
+            <CardContent className="p-6 text-center">
+              <div className="flex justify-center mb-4">
+                <Crown className="w-12 h-12 text-purple-600" />
+              </div>
+              <h3 className="text-xl font-bold text-purple-900 mb-2">
+                {t('primeMinisterForADay')}
+              </h3>
+              <p className="text-purple-700 text-sm mb-4">
+                {t('language') === 'el' 
+                  ? 'Αναλάβετε δύσκολες αποφάσεις διακυβέρνησης και δείτε τις συνέπειες των επιλογών σας'
+                  : 'Take on difficult governance decisions and see the consequences of your choices'}
+              </p>
+              <div className="flex justify-center space-x-2 text-xs text-purple-600">
+                <span className="bg-purple-200 px-2 py-1 rounded">
+                  {t('language') === 'el' ? 'Οικονομία' : 'Economy'}
+                </span>
+                <span className="bg-purple-200 px-2 py-1 rounded">
+                  {t('language') === 'el' ? 'Κοινωνία' : 'Society'}
+                </span>
+                <span className="bg-purple-200 px-2 py-1 rounded">
+                  {t('language') === 'el' ? 'Κρίσεις' : 'Crises'}
+                </span>
+              </div>
+            </CardContent>
+          </Card>
+        </Link>
+      </div>
+    </div>
+
     {/* Contact Section */}
     <ContactSection />
     </div>

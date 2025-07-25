@@ -1,7 +1,16 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { insertSurveyResponseSchema, insertSurveyResultSchema, insertIdeologyResponseSchema, insertIdeologyResultSchema, questionCountSchema, ideologyQuestions } from "@shared/schema";
+import { 
+  insertSurveyResponseSchema, 
+  insertSurveyResultSchema, 
+  insertIdeologyResponseSchema, 
+  insertIdeologyResultSchema,
+  insertQuizResultSchema,
+  insertPmDecisionSchema,
+  questionCountSchema, 
+  ideologyQuestions 
+} from "@shared/schema";
 import { z } from "zod";
 import { createPaypalOrder, capturePaypalOrder, loadPaypalDefault } from "./paypal";
 import { db } from "./db";
@@ -279,6 +288,86 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
   app.post("/paypal/order/:orderID/capture", async (req, res) => {
     await capturePaypalOrder(req, res);
+  });
+
+  // Knowledge Challenge Quiz routes
+  app.get("/api/quiz/questions/:count", async (req, res) => {
+    try {
+      const count = parseInt(req.params.count);
+      const difficulty = req.query.difficulty ? parseInt(req.query.difficulty as string) : undefined;
+      
+      if (isNaN(count) || count < 1 || count > 20) {
+        return res.status(400).json({ error: "Invalid question count (1-20)" });
+      }
+      
+      const questions = await storage.getRandomQuizQuestions(count, difficulty);
+      res.json(questions);
+    } catch (error) {
+      console.error("Error fetching quiz questions:", error);
+      res.status(500).json({ error: "Failed to fetch quiz questions" });
+    }
+  });
+
+  app.post("/api/quiz/results", async (req, res) => {
+    try {
+      const resultData = insertQuizResultSchema.parse(req.body);
+      const result = await storage.saveQuizResult(resultData);
+      res.json(result);
+    } catch (error) {
+      console.error("Error saving quiz result:", error);
+      res.status(400).json({ error: "Invalid quiz result data" });
+    }
+  });
+
+  app.get("/api/quiz/results/:sessionId", async (req, res) => {
+    try {
+      const { sessionId } = req.params;
+      const results = await storage.getQuizResults(sessionId);
+      res.json(results);
+    } catch (error) {
+      console.error("Error fetching quiz results:", error);
+      res.status(500).json({ error: "Failed to fetch quiz results" });
+    }
+  });
+
+  // Prime Minister scenario routes
+  app.get("/api/pm/scenario", async (req, res) => {
+    try {
+      const difficulty = req.query.difficulty ? parseInt(req.query.difficulty as string) : undefined;
+      const scenario = await storage.getRandomPmScenario(difficulty);
+      
+      if (!scenario) {
+        return res.status(404).json({ error: "No scenarios available" });
+      }
+
+      const scenarioWithOptions = await storage.getPmScenarioWithOptions(scenario.id);
+      res.json(scenarioWithOptions);
+    } catch (error) {
+      console.error("Error fetching PM scenario:", error);
+      res.status(500).json({ error: "Failed to fetch scenario" });
+    }
+  });
+
+  app.post("/api/pm/decisions", async (req, res) => {
+    try {
+      const decisionData = insertPmDecisionSchema.parse(req.body);
+      const decision = await storage.savePmDecision(decisionData);
+      res.json(decision);
+    } catch (error) {
+      console.error("Error saving PM decision:", error);
+      res.status(400).json({ error: "Invalid decision data" });
+    }
+  });
+
+  app.get("/api/pm/decisions/:sessionId", async (req, res) => {
+    try {
+      const { sessionId } = req.params;
+      const decisions = await storage.getPmDecisions(sessionId);
+      res.json(decisions);
+    } catch (error) {
+      console.error("Error fetching PM decisions:", error);
+      res.status(500).json({ error: "Failed to fetch decisions" });
+    }
   });
 
   const httpServer = createServer(app);

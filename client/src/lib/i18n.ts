@@ -139,6 +139,31 @@ export const translations = {
     gdprCompliance: 'Πλήρης συμμόρφωση με τον GDPR',
     privacyQuestions: 'Ερωτήσεις Απορρήτου',
     aboutProjectDescription: 'Το Ιδεολόγος είναι ένα ανεξάρτητο, μη-κερδοσκοπικό εργαλείο που στοχεύει στην πολιτική εκπαίδευση και ενημέρωση των πολιτών. Δημιουργήθηκε από ερευνητές και προγραμματιστές με σκοπό την ενίσχυση της δημοκρατικής συμμετοχής.',
+    
+    // Knowledge Challenge
+    knowledgeChallenge: 'Κουίζ Γνώσεων',
+    noQuestionsAvailable: 'Δεν υπάρχουν διαθέσιμες ερωτήσεις',
+    difficulty: 'Δυσκολία',
+    correct: 'Σωστό!',
+    incorrect: 'Λάθος',
+    submitAnswer: 'Υποβολή Απάντησης',
+    nextQuestion: 'Επόμενη Ερώτηση',
+    finishQuiz: 'Τέλος Κουίζ',
+    
+    // Prime Minister Scenario
+    primeMinisterForADay: 'Πρωθυπουργός για μια Μέρα',
+    loadingScenario: 'Φόρτωση σεναρίου...',
+    noScenariosAvailable: 'Δεν υπάρχουν διαθέσιμα σενάρια',
+    urgentScenario: 'ΕΠΕΙΓΟΝ ΣΕΝΑΡΙΟ',
+    timeLimit2Minutes: 'Έχετε 2 λεπτά για να αποφασίσετε!',
+    context: 'Πλαίσιο',
+    yourOptions: 'Οι Επιλογές σας',
+    political: 'Πολιτικό Κόστος',
+    economic: 'Οικονομικός Αντίκτυπος',
+    social: 'Κοινωνικός Αντίκτυπος',
+    partySupport: 'Κομματική Στήριξη',
+    makeDecision: 'Λήψη Απόφασης',
+    submittingDecision: 'Υποβολή Απόφασης...',
 
     // Parties (keep Greek names but add descriptions)
     parties: {
@@ -173,6 +198,31 @@ export const translations = {
     standardTest: 'Standard Test',
     detailedTest: 'Detailed Test',
     completeTest: 'Complete Test',
+    
+    // Knowledge Challenge
+    knowledgeChallenge: 'Knowledge Challenge',
+    noQuestionsAvailable: 'No questions available',
+    difficulty: 'Difficulty',
+    correct: 'Correct!',
+    incorrect: 'Incorrect',
+    submitAnswer: 'Submit Answer',
+    nextQuestion: 'Next Question',
+    finishQuiz: 'Finish Quiz',
+    
+    // Prime Minister Scenario
+    primeMinisterForADay: 'Prime Minister for a Day',
+    loadingScenario: 'Loading scenario...',
+    noScenariosAvailable: 'No scenarios available',
+    urgentScenario: 'URGENT SCENARIO',
+    timeLimit2Minutes: 'You have 2 minutes to decide!',
+    context: 'Context',
+    yourOptions: 'Your Options',
+    political: 'Political Cost',
+    economic: 'Economic Impact',
+    social: 'Social Impact',
+    partySupport: 'Party Support',
+    makeDecision: 'Make Decision',
+    submittingDecision: 'Submitting Decision...',
     questions: 'questions',
     
     // Answer options

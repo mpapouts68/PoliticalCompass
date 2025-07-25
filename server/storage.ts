@@ -6,6 +6,11 @@ import {
   ideologyQuestions,
   ideologyResponses,
   ideologyResults,
+  quizQuestions,
+  quizResults,
+  pmScenarios,
+  pmPolicyOptions,
+  pmDecisions,
   type Question, 
   type Party, 
   type SurveyResponse, 
@@ -13,12 +18,22 @@ import {
   type IdeologyQuestion,
   type IdeologyResponse,
   type IdeologyResult,
+  type QuizQuestion,
+  type QuizResult,
+  type PmScenario,
+  type PmPolicyOption,
+  type PmDecision,
   type InsertQuestion,
   type InsertParty,
   type InsertSurveyResponse,
   type InsertSurveyResult,
   type InsertIdeologyResponse,
   type InsertIdeologyResult,
+  type InsertQuizQuestion,
+  type InsertQuizResult,
+  type InsertPmScenario,
+  type InsertPmPolicyOption,
+  type InsertPmDecision,
   type QuestionCount
 } from "@shared/schema";
 import { db } from "./db";
@@ -208,6 +223,75 @@ export class DatabaseStorage implements IStorage {
       totalTests,
       ideologyStats
     };
+  }
+
+  // Knowledge Challenge Quiz methods
+  async getRandomQuizQuestions(count: number, difficulty?: number): Promise<QuizQuestion[]> {
+    let query = db.select().from(quizQuestions);
+    
+    if (difficulty) {
+      query = query.where(eq(quizQuestions.difficulty, difficulty));
+    }
+    
+    const allQuestions = await query;
+    const shuffled = allQuestions.sort(() => Math.random() - 0.5);
+    return shuffled.slice(0, count);
+  }
+
+  async saveQuizResult(result: InsertQuizResult): Promise<QuizResult> {
+    const [inserted] = await db.insert(quizResults).values(result).returning();
+    return inserted;
+  }
+
+  async getQuizResults(sessionId: string): Promise<QuizResult[]> {
+    return await db.select().from(quizResults).where(eq(quizResults.sessionId, sessionId));
+  }
+
+  async createQuizQuestion(question: InsertQuizQuestion): Promise<QuizQuestion> {
+    const [result] = await db.insert(quizQuestions).values(question).returning();
+    return result;
+  }
+
+  // Prime Minister scenarios methods
+  async getRandomPmScenario(difficulty?: number): Promise<PmScenario | undefined> {
+    let query = db.select().from(pmScenarios);
+    
+    if (difficulty) {
+      query = query.where(eq(pmScenarios.difficulty, difficulty));
+    }
+    
+    const scenarios = await query;
+    if (scenarios.length === 0) return undefined;
+    
+    const randomIndex = Math.floor(Math.random() * scenarios.length);
+    return scenarios[randomIndex];
+  }
+
+  async getPmScenarioWithOptions(scenarioId: number): Promise<{ scenario: PmScenario; options: PmPolicyOption[] } | undefined> {
+    const [scenario] = await db.select().from(pmScenarios).where(eq(pmScenarios.id, scenarioId));
+    if (!scenario) return undefined;
+
+    const options = await db.select().from(pmPolicyOptions).where(eq(pmPolicyOptions.scenarioId, scenarioId));
+    return { scenario, options };
+  }
+
+  async savePmDecision(decision: InsertPmDecision): Promise<PmDecision> {
+    const [result] = await db.insert(pmDecisions).values(decision).returning();
+    return result;
+  }
+
+  async getPmDecisions(sessionId: string): Promise<PmDecision[]> {
+    return await db.select().from(pmDecisions).where(eq(pmDecisions.sessionId, sessionId));
+  }
+
+  async createPmScenario(scenario: InsertPmScenario): Promise<PmScenario> {
+    const [result] = await db.insert(pmScenarios).values(scenario).returning();
+    return result;
+  }
+
+  async createPmPolicyOption(option: InsertPmPolicyOption): Promise<PmPolicyOption> {
+    const [result] = await db.insert(pmPolicyOptions).values(option).returning();
+    return result;
   }
 }
 

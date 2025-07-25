@@ -84,6 +84,15 @@ User requested: Auto-advance to next question upon selection (implemented with 8
 - Added ideology statistics badge showing real-time results from all participants alongside party alignment results
 - Moved party logos inside the party alignment section for better organization and visual clarity
 - Fixed layout to ensure both main tests display side by side on desktop while remaining mobile-friendly
+- **MAJOR UPDATE (Jan 2025): Implemented comprehensive gamification features**
+  - Knowledge Challenge: Interactive quiz system with 15+ Greek political history questions across 3 difficulty levels
+  - Prime Minister for a Day: Realistic governing scenario simulations with economic, social, and political impact calculations
+  - Full bilingual support for both new features with comprehensive translations
+  - Advanced scoring systems: quiz accuracy ratings and PM decision impact analysis
+  - Database integration with new tables: quiz_questions, quiz_results, pm_scenarios, pm_policy_options, pm_decisions
+  - New dedicated pages at /quiz, /κουιζ, /prime-minister, /πρωθυπουργος with full navigation
+  - Sample data includes 15 history questions (easy-hard) and 5 PM scenarios (economic, social, foreign policy, environmental, healthcare crises)
+  - Real-time countdown timers for urgent scenarios and detailed consequence feedback system
 
 ### Data Models
 - **Questions**: Political statements with category and party position mappings for all 9 parliamentary parties

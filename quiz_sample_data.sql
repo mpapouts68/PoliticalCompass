@@ -1,0 +1,36 @@
+-- Sample Knowledge Challenge Questions for Greek Political History
+
+INSERT INTO quiz_questions (question, question_en, correct_answer, wrong_answers, explanation, explanation_en, category, difficulty, era) VALUES 
+-- Modern History (1974-1990)
+('Ποιος ήταν ο πρώτος πρωθυπουργός της Μεταπολίτευσης;', 'Who was the first Prime Minister of the Metapolitefsi?', 'Κωνσταντίνος Καραμανλής', ARRAY['Ανδρέας Παπανδρέου', 'Γεώργιος Ράλλης', 'Ιωάννης Πεσμαζόγλου'], 'Ο Κωνσταντίνος Καραμανλής επέστρεψε από το Παρίσι και έγινε πρωθυπουργός την 24η Ιουλίου 1974, ηγούμενος της μετάβασης από τη δικτατορία στη δημοκρατία.', 'Konstantinos Karamanlis returned from Paris and became Prime Minister on July 24, 1974, leading the transition from dictatorship to democracy.', 'modern_history', 1, '1974-1990'),
+
+('Σε ποια χρονιά ιδρύθηκε το ΠΑΣΟΚ;', 'In which year was PASOK founded?', '1974', ARRAY['1973', '1975', '1976'], 'Το ΠΑΣΟΚ ιδρύθηκε στις 3 Σεπτεμβρίου 1974 από τον Ανδρέα Παπανδρέου, λίγους μήνες μετά την πτώση της δικτατορίας.', 'PASOK was founded on September 3, 1974, by Andreas Papandreou, just months after the fall of the dictatorship.', 'parties', 1, '1974-1990'),
+
+('Ποιο κόμμα κέρδισε τις εκλογές του 1981;', 'Which party won the 1981 elections?', 'ΠΑΣΟΚ', ARRAY['Νέα Δημοκρατία', 'ΚΚΕ', 'ΕΔΗΚ'], 'Το ΠΑΣΟΚ του Ανδρέα Παπανδρέου κέρδισε τις εκλογές του 1981 με 48.1% και 172 έδρες, φέρνοντας την αλλαγή που είχε υποσχεθεί.', 'PASOK under Andreas Papandreou won the 1981 elections with 48.1% and 172 seats, bringing the promised change.', 'modern_history', 2, '1974-1990'),
+
+('Ποιος ήταν ο πρώτος Πρόεδρος της Δημοκρατίας μετά τη Μεταπολίτευση;', 'Who was the first President of the Republic after the Metapolitefsi?', 'Μιχάλης Στασινόπουλος', ARRAY['Κωνσταντίνος Τσάτσος', 'Χρήστος Σαρτζετάκης', 'Κωνσταντίνος Καραμανλής'], 'Ο Μιχάλης Στασινόπουλος εξελέγη προσωρινός Πρόεδρος της Δημοκρατίας τον Δεκέμβριο του 1974 και διετέλεσε μέχρι τον Ιούνιο του 1975.', 'Michalis Stasinopoulos was elected interim President of the Republic in December 1974 and served until June 1975.', 'constitutional', 3, '1974-1990'),
+
+-- 1990-2010 Era
+('Ποιος ήταν πρωθυπουργός όταν η Ελλάδα εισήλθε στην ΟΝΕ;', 'Who was Prime Minister when Greece entered the EMU?', 'Κώστας Σημίτης', ARRAY['Ανδρέας Παπανδρέου', 'Κώστας Καραμανλής', 'Αντώνης Σαμαράς'], 'Ο Κώστας Σημίτης ήταν πρωθυπουργός όταν η Ελλάδα ενώθηκε στην Οικονομική και Νομισματική Ένωση και υιοθέτησε το ευρώ το 2001.', 'Kostas Simitis was Prime Minister when Greece joined the Economic and Monetary Union and adopted the euro in 2001.', 'modern_history', 2, '1990-2010'),
+
+('Σε ποια χρονιά διοργανώθηκαν οι Ολυμπιακοί Αγώνες στην Αθήνα;', 'In which year were the Olympic Games held in Athens?', '2004', ARRAY['2000', '2008', '2002'], 'Οι Ολυμπιακοί Αγώνες της Αθήνας διοργανώθηκαν το 2004, με πρωθυπουργό τον Κώστα Καραμανλή (ΝΔ).', 'The Athens Olympic Games were held in 2004, with Kostas Karamanlis (ND) as Prime Minister.', 'modern_history', 1, '1990-2010'),
+
+('Ποιος πρωθυπουργός παραιτήθηκε το 2004 μετά την ήττα στις εκλογές;', 'Which Prime Minister resigned in 2004 after the electoral defeat?', 'Κώστας Σημίτης', ARRAY['Γιώργος Παπανδρέου', 'Ανδρέας Παπανδρέου', 'Μιλτιάδης Έβερτ'], 'Ο Κώστας Σημίτης παραιτήθηκε από αρχηγός του ΠΑΣΟΚ μετά την ήττα στις εκλογές του Μαρτίου 2004 από τη Νέα Δημοκρατία του Καραμανλή.', 'Kostas Simitis resigned as PASOK leader after the defeat in the March 2004 elections to Karamanlis'' New Democracy.', 'leaders', 2, '1990-2010'),
+
+('Ποιο κόμμα ιδρύθηκε το 2004 από τον Γιώργο Καρατζαφέρη;', 'Which party was founded in 2004 by Giorgos Karatzaferis?', 'ΛΑΟΣ', ARRAY['Χρυσή Αυγή', 'ΑΝΕΛ', 'Ελληνική Λύση'], 'Ο Λαϊκός Ορθόδοξος Συναγερμός (ΛΑΟΣ) ιδρύθηκε το 2004 από τον Γιώργο Καρατζαφέρη, αφού αποχώρησε από τη Νέα Δημοκρατία.', 'The Popular Orthodox Rally (LAOS) was founded in 2004 by Giorgos Karatzaferis after leaving New Democracy.', 'parties', 3, '1990-2010'),
+
+-- Crisis Era (2010-present)
+('Ποιος ήταν πρωθυπουργός όταν υπογράφηκε το πρώτο μνημόνιο;', 'Who was Prime Minister when the first memorandum was signed?', 'Γιώργος Παπανδρέου', ARRAY['Λουκάς Παπαδήμος', 'Κώστας Καραμανλής', 'Αντώνης Σαμαράς'], 'Ο Γιώργος Παπανδρέου ήταν πρωθυπουργός όταν υπογράφηκε το πρώτο μνημόνιο τον Μάιο του 2010 με την τρόικα.', 'George Papandreou was Prime Minister when the first memorandum was signed in May 2010 with the troika.', 'modern_history', 1, '2010-present'),
+
+('Σε ποια χρονιά ιδρύθηκε ο ΣΥΡΙΖΑ;', 'In which year was SYRIZA founded?', '2004', ARRAY['2008', '2012', '2000'], 'Ο ΣΥΡΙΖΑ ιδρύθηκε το 2004 ως συνασπισμός αριστερών κομμάτων και οργανώσεων, με βάση το Σύνασπισμα της Αριστεράς και της Προόδου.', 'SYRIZA was founded in 2004 as a coalition of left-wing parties and organizations, based on the Coalition of the Left and Progress.', 'parties', 2, '2010-present'),
+
+('Ποιος ήταν ο τελευταίος πρωθυπουργός της Νέας Δημοκρατίας πριν τον Κυριάκο Μητσοτάκη;', 'Who was the last New Democracy Prime Minister before Kyriakos Mitsotakis?', 'Αντώνης Σαμαράς', ARRAY['Κώστας Καραμανλής', 'Κώστας Μπακογιάννης', 'Βαγγέλης Μεϊμαράκης'], 'Ο Αντώνης Σαμαράς ήταν πρωθυπουργός από τον Ιούνιο 2012 έως τον Ιανουάριο 2015, όταν έχασε τις εκλογές από τον ΣΥΡΙΖΑ.', 'Antonis Samaras was Prime Minister from June 2012 to January 2015, when he lost the elections to SYRIZA.', 'leaders', 2, '2010-present'),
+
+('Ποιο κόμμα ιδρύθηκε το 2019 από τον Κυριάκο Βελόπουλο;', 'Which party was founded in 2019 by Kyriakos Velopoulos?', 'Ελληνική Λύση', ARRAY['ΝΙΚΗ', 'Φωνή Λογικής', 'Εθνική Δημιουργία'], 'Η Ελληνική Λύση ιδρύθηκε το 2019 από τον Κυριάκο Βελόπουλο και εισήλθε στη Βουλή στις εκλογές του Ιουλίου 2019.', 'Greek Solution was founded in 2019 by Kyriakos Velopoulos and entered Parliament in the July 2019 elections.', 'parties', 1, '2010-present'),
+
+-- Constitutional Knowledge
+('Πόσα άρθρα έχει το Σύνταγμα της Ελλάδας;', 'How many articles does the Greek Constitution have?', '120', ARRAY['100', '150', '180'], 'Το ισχύον Σύνταγμα της Ελλάδας του 1975/1986/2001/2008/2019 έχει 120 άρθρα οργανωμένα σε τέσσερα μέρη.', 'The current Greek Constitution of 1975/1986/2001/2008/2019 has 120 articles organized in four parts.', 'constitutional', 3, '1974-1990'),
+
+('Ποια είναι η θητεία του Προέδρου της Δημοκρατίας;', 'What is the term of the President of the Republic?', '5 χρόνια', ARRAY['4 χρόνια', '6 χρόνια', '7 χρόνια'], 'Σύμφωνα με το άρθρο 30 του Συντάγματος, ο Πρόεδρος της Δημοκρατίας εκλέγεται για πενταετή θητεία.', 'According to Article 30 of the Constitution, the President of the Republic is elected for a five-year term.', 'constitutional', 2, '1974-1990'),
+
+('Πόσους βουλευτές έχει η Ελληνική Βουλή;', 'How many MPs does the Greek Parliament have?', '300', ARRAY['250', '350', '200'], 'Η Ελληνική Βουλή αποτελείται από 300 βουλευτές που εκλέγονται για τετραετή θητεία με σύστημα αναλογικής εκπροσώπησης.', 'The Greek Parliament consists of 300 MPs elected for a four-year term through a proportional representation system.', 'constitutional', 1, '1974-1990');
