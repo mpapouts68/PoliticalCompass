@@ -3,6 +3,7 @@ import { ElectionResults } from "@/components/survey/election-results";
 import { Link } from "wouter";
 import { ArrowLeft, Home } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "@/lib/i18n";
 // SVG version of the Ιδεολόγος compass logo
 const CompassLogo = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 100 100" className={className}>
@@ -21,6 +22,8 @@ const CompassLogo = ({ className }: { className?: string }) => (
 );
 
 export default function ElectionDashboard() {
+  const { t } = useTranslation();
+  
   return (
     <div className="min-h-screen bg-neutral-50">
       {/* Header */}
@@ -31,21 +34,21 @@ export default function ElectionDashboard() {
               <Link href="/">
                 <Button variant="ghost" size="sm" className="flex items-center space-x-2">
                   <ArrowLeft className="w-4 h-4" />
-                  <span>Πίσω στο Τεστ</span>
+                  <span>{t('backToHome')}</span>
                 </Button>
               </Link>
               <div className="h-6 w-px bg-neutral-300" />
               <div className="flex items-center space-x-3">
                 <CompassLogo className="w-8 h-8" />
                 <h1 className="text-2xl font-bold text-neutral-900">
-                  Ιδεολόγος - Αποτελέσματα Εκλογών
+                  {t('appTitle')} - {t('electionDashboard')}
                 </h1>
               </div>
             </div>
             <Link href="/">
               <Button variant="outline" size="sm" className="flex items-center space-x-2">
                 <Home className="w-4 h-4" />
-                <span>Αρχική</span>
+                <span>{t('home')}</span>
               </Button>
             </Link>
           </div>

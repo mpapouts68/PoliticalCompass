@@ -110,6 +110,9 @@ export const translations = {
     question: 'Ερώτηση',
     of: 'από',
     category: 'Κατηγορία:',
+    progress: 'Πρόοδος',
+    autoAdvanceMessage: 'Η επόμενη ερώτηση θα εμφανιστεί αυτόματα μετά την επιλογή σας',
+    savingAnswer: 'Αποθήκευση απάντησης...',
 
     // Parties (keep Greek names but add descriptions)
     parties: {
@@ -197,7 +200,6 @@ export const translations = {
     ideologyTestDescription: 'Discover your political position on the left-center-right spectrum',
     ideologyResults: 'Ideology Test Results',
     yourPoliticalPosition: 'Your political position on the left-center-right spectrum',
-    category: 'Category:',
     description: 'Description',
     characteristics: 'Characteristics',
     score: 'Score:',
@@ -213,6 +215,10 @@ export const translations = {
     errorLoadingQuestions: 'Error loading questions',
     question: 'Question',
     of: 'of',
+    category: 'Category:',
+    progress: 'Progress',
+    autoAdvanceMessage: 'Next question will appear automatically after your selection',
+    savingAnswer: 'Saving answer...',
     
     // Parties (English descriptions)
     parties: {

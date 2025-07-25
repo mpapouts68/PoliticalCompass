@@ -139,7 +139,7 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
       <Card className="bg-white shadow-md">
         <CardContent className="p-8 text-center">
           <div className="text-lg text-neutral-600">
-            {t('language') === 'el' ? 'Φόρτωση ερωτήσεων...' : 'Loading questions...'}
+            {t('loadingQuestions')}
           </div>
         </CardContent>
       </Card>
@@ -151,7 +151,7 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
       <Card className="bg-white shadow-md">
         <CardContent className="p-8 text-center">
           <div className="text-lg text-red-600">
-            {t('language') === 'el' ? 'Σφάλμα φόρτωσης ερωτήσεων' : 'Error loading questions'}
+            {t('errorLoadingQuestions')}
           </div>
         </CardContent>
       </Card>
@@ -165,10 +165,10 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
         <CardContent className="p-6">
           <div className="flex items-center justify-between mb-2">
             <span className="text-sm font-medium text-neutral-500">
-              {language === 'el' ? 'Πρόοδος' : 'Progress'}
+              {t('progress')}
             </span>
             <span className="text-sm font-medium text-primary">
-              {currentQuestionIndex + 1} {language === 'el' ? 'από' : 'of'} {questions.length}
+              {currentQuestionIndex + 1} {t('of')} {questions.length}
             </span>
           </div>
           <Progress value={progress} className="h-2" />
@@ -212,15 +212,13 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
       <div className="flex justify-center items-center">
         <div className="text-center">
           <p className="text-sm text-neutral-500 mb-4">
-            {language === 'el' 
-              ? 'Η επόμενη ερώτηση θα εμφανιστεί αυτόματα μετά την επιλογή σας'
-              : 'Next question will appear automatically after your selection'}
+            {t('autoAdvanceMessage')}
           </p>
           {(saveResponseMutation.isPending || calculateResultsMutation.isPending) && (
             <div className="text-primary font-medium">
               {calculateResultsMutation.isPending 
-                ? (t('language') === 'el' ? "Υπολογισμός αποτελεσμάτων..." : "Calculating results...")
-                : (t('language') === 'el' ? "Αποθήκευση απάντησης..." : "Saving answer...")
+                ? t('calculatingResults')
+                : t('savingAnswer')
               }
             </div>
           )}

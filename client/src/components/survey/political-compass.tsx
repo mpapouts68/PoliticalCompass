@@ -1,6 +1,7 @@
 import React from "react";
 import { PartyLogo } from "@/components/party-logos";
 import type { Party, SurveyResult } from "@shared/schema";
+import { useTranslation } from "@/lib/i18n";
 
 interface PoliticalCompassProps {
   parties: Party[];
@@ -13,6 +14,7 @@ interface CompassPosition {
 }
 
 export function PoliticalCompass({ parties, userResult }: PoliticalCompassProps) {
+  const { t } = useTranslation();
   // Define party positions on the political compass
   const partyPositions: Record<string, CompassPosition> = {
     "ΝΔ": { economic: 1.2, social: 0.3 },
@@ -35,7 +37,8 @@ export function PoliticalCompass({ parties, userResult }: PoliticalCompassProps)
     let totalWeight = 0;
 
     parties.forEach(party => {
-      const alignment = userResult.partyAlignments[party.shortName] || 0;
+      const alignments = userResult.partyAlignments as Record<string, number>;
+      const alignment = alignments?.[party.shortName] || 0;
       const position = partyPositions[party.shortName];
       if (position && alignment > 0) {
         const weight = alignment / 100;
@@ -64,7 +67,7 @@ export function PoliticalCompass({ parties, userResult }: PoliticalCompassProps)
   return (
     <div className="bg-white p-6 rounded-lg shadow-sm border">
       <h3 className="text-xl font-semibold text-neutral-900 mb-4 text-center">
-        Πολιτικός Πυξίδα
+        {t('politicalCompass')}
       </h3>
       
       <div className="flex justify-center mb-4">
@@ -97,16 +100,16 @@ export function PoliticalCompass({ parties, userResult }: PoliticalCompassProps)
           
           {/* Axis labels */}
           <text x="200" y="15" textAnchor="middle" fontSize="11" fill="#374151" fontWeight="bold">
-            Φιλελεύθερο
+            {t('libertarian')}
           </text>
           <text x="200" y="395" textAnchor="middle" fontSize="11" fill="#374151" fontWeight="bold">
-            Αυταρχικό
+            {t('authoritarian')}
           </text>
           <text x="10" y="205" textAnchor="middle" fontSize="11" fill="#374151" fontWeight="bold" transform="rotate(-90, 10, 205)">
-            Αριστερά
+            {t('economicLeft')}
           </text>
           <text x="390" y="205" textAnchor="middle" fontSize="11" fill="#374151" fontWeight="bold" transform="rotate(90, 390, 205)">
-            Δεξιά
+            {t('economicRight')}
           </text>
 
           {/* Party positions */}
@@ -166,7 +169,7 @@ export function PoliticalCompass({ parties, userResult }: PoliticalCompassProps)
                 fill="#3b82f6"
                 fontWeight="bold"
               >
-                ΕΣΕΙΣ
+                {t('language') === 'el' ? 'ΕΣΕΙΣ' : 'YOU'}
               </text>
             </g>
           )}
@@ -177,22 +180,28 @@ export function PoliticalCompass({ parties, userResult }: PoliticalCompassProps)
       <div className="flex justify-center space-x-8 text-sm text-neutral-600">
         <div className="flex items-center space-x-2">
           <div className="w-4 h-4 rounded-full bg-blue-500"></div>
-          <span>Η θέση σας</span>
+          <span>{t('language') === 'el' ? 'Η θέση σας' : 'Your position'}</span>
         </div>
         <div className="flex items-center space-x-2">
           <div className="w-4 h-4 rounded border-2 border-neutral-400"></div>
-          <span>Κόμματα</span>
+          <span>{t('language') === 'el' ? 'Κόμματα' : 'Parties'}</span>
         </div>
       </div>
 
       {/* Explanation */}
       <div className="mt-4 p-4 bg-neutral-50 rounded text-sm text-neutral-600">
         <p className="mb-2">
-          <strong>Πολιτικός Πυξίδα:</strong> Αυτό το διάγραμμα δείχνει την ιδεολογική θέση κάθε κόμματος και τη δική σας θέση με βάση τις απαντήσεις σας.
+          <strong>{t('politicalCompass')}:</strong> {t('language') === 'el' 
+            ? 'Αυτό το διάγραμμα δείχνει την ιδεολογική θέση κάθε κόμματος και τη δική σας θέση με βάση τις απαντήσεις σας.'
+            : 'This diagram shows the ideological position of each party and your position based on your answers.'}
         </p>
         <ul className="list-disc list-inside space-y-1">
-          <li><strong>Οριζόντιος άξονας:</strong> Οικονομικές απόψεις (Αριστερά ↔ Δεξιά)</li>
-          <li><strong>Κάθετος άξονας:</strong> Κοινωνικές απόψεις (Αυταρχικό ↔ Φιλελεύθερο)</li>
+          <li><strong>{t('language') === 'el' ? 'Οριζόντιος άξονας:' : 'Horizontal axis:'}:</strong> {t('language') === 'el' 
+            ? 'Οικονομικές απόψεις (Αριστερά ↔ Δεξιά)' 
+            : 'Economic views (Left ↔ Right)'}</li>
+          <li><strong>{t('language') === 'el' ? 'Κάθετος άξονας:' : 'Vertical axis:'}:</strong> {t('language') === 'el' 
+            ? 'Κοινωνικές απόψεις (Αυταρχικό ↔ Φιλελεύθερο)' 
+            : 'Social views (Authoritarian ↔ Libertarian)'}</li>
         </ul>
       </div>
     </div>
