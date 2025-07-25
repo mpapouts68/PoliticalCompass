@@ -123,6 +123,9 @@ export const translations = {
     tests: 'τεστ',
     ideologyResultsBasedOn: 'Βασισμένο σε',
     completedIdeologyTests: 'ολοκληρωμένα ιδεολογικά τεστ',
+    chooseQuestionCount: 'Επιλέξτε αριθμό ερωτήσεων',
+    selectQuestionCount: 'Επιλέξτε τον αριθμό ερωτήσεων για να ξεκινήσει αυτόματα το τεστ',
+    educationalDisclaimer: 'Αυτό το εργαλείο έχει εκπαιδευτικό χαρακτήρα και βοηθά στην κατανόηση των πολιτικών θέσεων. Δεν αντικαθιστά την προσωπική έρευνα και κρίση.',
 
     // Parties (keep Greek names but add descriptions)
     parties: {
@@ -239,6 +242,9 @@ export const translations = {
     tests: 'tests',
     ideologyResultsBasedOn: 'Based on',
     completedIdeologyTests: 'completed ideology tests',
+    chooseQuestionCount: 'Choose question count',
+    selectQuestionCount: 'Select the number of questions to automatically start the test',
+    educationalDisclaimer: 'This tool is educational and helps understand political positions. It does not replace personal research and judgment.',
     
     // Parties (English descriptions)
     parties: {

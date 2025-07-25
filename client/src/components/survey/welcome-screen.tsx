@@ -155,9 +155,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
               </div>
 
               <p className="text-neutral-500 text-sm text-center">
-                {t('language') === 'el' 
-                  ? 'Επιλέξτε τον αριθμό ερωτήσεων για να ξεκινήσει αυτόματα το τεστ'
-                  : 'Select the number of questions to automatically start the test'}
+                {t('selectQuestionCount')}
               </p>
             </CardContent>
           </Card>
@@ -170,15 +168,13 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
               <div className="text-center mb-6">
                 <Compass className="w-16 h-16 mx-auto mb-4 text-purple-600" />
                 <h3 className="text-2xl font-bold text-neutral-900 mb-2">
-                  {t('language') === 'el' ? 'Ιδεολογικό Τεστ' : 'Ideology Test'}
+                  {t('ideologyTest')}
                 </h3>
                 <p className="text-base text-neutral-600 mb-4">
-                  {t('language') === 'el' 
-                    ? 'Μάθετε την πολιτική σας θέση στο φάσμα αριστερά-κέντρο-δεξιά'
-                    : 'Learn your political position on the left-center-right spectrum'}
+                  {t('ideologyTestDescription')}
                 </p>
                 <p className="text-sm text-purple-600 font-medium mb-4">
-                  {t('language') === 'el' ? 'Επιλέξτε αριθμό ερωτήσεων' : 'Choose question count'}
+                  {t('chooseQuestionCount')}
                 </p>
               </div>
 
@@ -207,13 +203,13 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
                 <div className="text-center">
                   <div className="flex justify-between items-center mb-2">
                     <span className="text-red-600 font-semibold text-xs">
-                      {t('language') === 'el' ? 'ΑΡΙΣΤΕΡΑ' : 'LEFT'}
+                      {t('left').toUpperCase()}
                     </span>
                     <span className="text-gray-600 font-semibold text-xs">
-                      {t('language') === 'el' ? 'ΚΕΝΤΡΟ' : 'CENTER'}
+                      {t('center').toUpperCase()}
                     </span>
                     <span className="text-blue-600 font-semibold text-xs">
-                      {t('language') === 'el' ? 'ΔΕΞΙΑ' : 'RIGHT'}
+                      {t('right').toUpperCase()}
                     </span>
                   </div>
                   <div className="h-2 bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500 rounded-full"></div>
@@ -221,9 +217,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
               </div>
 
               <p className="text-neutral-500 text-sm text-center">
-                {t('language') === 'el' 
-                  ? 'Επιλέξτε τον αριθμό ερωτήσεων για να ξεκινήσει αυτόματα το τεστ'
-                  : 'Select the number of questions to automatically start the test'}
+                {t('selectQuestionCount')}
               </p>
             </CardContent>
           </Card>
@@ -236,9 +230,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
           <CardContent className="p-4">
             <p className="text-sm text-neutral-600 text-center">
               <Info className="inline text-accent mr-2 w-4 h-4" />
-              {t('language') === 'el' 
-                ? 'Αυτό το εργαλείο έχει εκπαιδευτικό χαρακτήρα και βοηθά στην κατανόηση των πολιτικών θέσεων. Δεν αντικαθιστά την προσωπική έρευνα και κρίση.'
-                : 'This tool is educational and helps understand political positions. It does not replace personal research and judgment.'}
+              {t('educationalDisclaimer')}
             </p>
           </CardContent>
         </Card>
