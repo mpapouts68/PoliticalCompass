@@ -18,7 +18,7 @@ import {
   Zap
 } from "lucide-react";
 import { apiRequest } from "@/lib/queryClient";
-import { useTranslation } from "@/lib/i18n";
+import { useTranslation, useLanguage } from "@/lib/i18n";
 
 interface PmScenario {
   id: number;
@@ -80,6 +80,7 @@ export function PrimeMinisterScenario({
   const [startTime, setStartTime] = useState<number>(Date.now());
   const [timeLeft, setTimeLeft] = useState<number | null>(null);
   const { t } = useTranslation();
+  const { language } = useLanguage();
 
   const { data: scenarioData, isLoading } = useQuery<{ scenario: PmScenario; options: PolicyOption[] }>({
     queryKey: ['/api/pm/scenario', difficulty],
@@ -101,7 +102,7 @@ export function PrimeMinisterScenario({
             scenario: scenarioData.scenario,
             chosenOption,
             decisionTime,
-            consequences: t('language') === 'el' 
+            consequences: language === 'el' 
               ? chosenOption.consequences 
               : (chosenOption.consequencesEn || chosenOption.consequences),
             impacts: {
@@ -247,14 +248,14 @@ export function PrimeMinisterScenario({
           {/* Scenario Title and Description */}
           <div className="bg-purple-50 p-6 rounded-lg">
             <h2 className="text-xl font-bold text-purple-900 mb-3">
-              {t('language') === 'el' ? scenario.title : (scenario.titleEn || scenario.title)}
+              {language === 'el' ? scenario.title : (scenario.titleEn || scenario.title)}
             </h2>
             <p className="text-purple-800 text-lg leading-relaxed mb-4">
-              {t('language') === 'el' ? scenario.description : (scenario.descriptionEn || scenario.description)}
+              {language === 'el' ? scenario.description : (scenario.descriptionEn || scenario.description)}
             </p>
             <div className="bg-purple-100 p-4 rounded border-l-4 border-purple-400">
               <p className="text-sm text-purple-700 leading-relaxed">
-                <strong>{t('context')}:</strong> {t('language') === 'el' ? scenario.context : (scenario.contextEn || scenario.context)}
+                <strong>{t('context')}:</strong> {language === 'el' ? scenario.context : (scenario.contextEn || scenario.context)}
               </p>
             </div>
           </div>
@@ -285,7 +286,7 @@ export function PrimeMinisterScenario({
                       >
                         <div>
                           <p className="text-base font-medium text-gray-900 mb-2">
-                            {t('language') === 'el' ? option.optionText : (option.optionTextEn || option.optionText)}
+                            {language === 'el' ? option.optionText : (option.optionTextEn || option.optionText)}
                           </p>
                           
                           {/* Impact Indicators */}

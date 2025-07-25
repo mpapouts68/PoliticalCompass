@@ -243,9 +243,6 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
       <IdeologyMiniResults />
     </div>
     
-    {/* Donation Section */}
-    <DonationSection />
-    
     {/* New Gamification Features Section */}
     <div className="mb-8 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-6">
       <h2 className="text-2xl font-bold text-center mb-6 text-gray-800">
@@ -310,6 +307,9 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
         </Link>
       </div>
     </div>
+
+    {/* Donation Section */}
+    <DonationSection />
 
     {/* Contact Section */}
     <ContactSection />
