@@ -53,6 +53,12 @@ export interface IStorage {
   getTotalSurveyCount(): Promise<number>;
   getPartyStatistics(): Promise<Array<{party: string; percentage: number; count: number}>>;
   getRecentResults(limit?: number): Promise<SurveyResult[]>;
+  
+  // Ideology statistics
+  getIdeologyStats(): Promise<{
+    totalTests: number;
+    ideologyStats: Array<{label: string; percentage: number; count: number}>;
+  }>;
 }
 
 export class DatabaseStorage implements IStorage {
@@ -176,6 +182,32 @@ export class DatabaseStorage implements IStorage {
       .from(surveyResults)
       .orderBy(desc(surveyResults.createdAt))
       .limit(limit);
+  }
+
+  async getIdeologyStats(): Promise<{
+    totalTests: number;
+    ideologyStats: Array<{label: string; percentage: number; count: number}>;
+  }> {
+    const results = await db.select().from(ideologyResults);
+    
+    const labelStats: Record<string, number> = {};
+    const totalTests = results.length;
+
+    results.forEach(result => {
+      const label = result.label;
+      labelStats[label] = (labelStats[label] || 0) + 1;
+    });
+
+    const ideologyStats = Object.entries(labelStats).map(([label, count]) => ({
+      label,
+      count,
+      percentage: totalTests > 0 ? Math.round((count / totalTests) * 100) : 0
+    })).sort((a, b) => b.count - a.count);
+
+    return {
+      totalTests,
+      ideologyStats
+    };
   }
 }
 

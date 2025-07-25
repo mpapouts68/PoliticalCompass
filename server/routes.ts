@@ -135,6 +135,17 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Get ideology statistics
+  app.get("/api/ideology-stats", async (req, res) => {
+    try {
+      const stats = await storage.getIdeologyStats();
+      res.json(stats);
+    } catch (error) {
+      console.error("Error getting ideology stats:", error);
+      res.status(500).json({ error: "Failed to get ideology statistics" });
+    }
+  });
+
   // Ideology test routes
   app.get("/api/ideology/questions/:count", async (req, res) => {
     try {

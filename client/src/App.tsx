@@ -8,13 +8,19 @@ import Survey from "@/pages/survey";
 import ElectionDashboard from "@/pages/election-dashboard";
 import IdeologyTest from "@/pages/IdeologyTest";
 
+function IdeologyTestWrapper() {
+  const searchParams = new URLSearchParams(window.location.search);
+  const count = parseInt(searchParams.get('count') || '30');
+  return <IdeologyTest questionCount={count} />;
+}
+
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Survey} />
       <Route path="/αποτελεσματα" component={ElectionDashboard} />
-      <Route path="/ideology" component={IdeologyTest} />
-      <Route path="/ιδεολογια" component={IdeologyTest} />
+      <Route path="/ideology" component={IdeologyTestWrapper} />
+      <Route path="/ιδεολογια" component={IdeologyTestWrapper} />
       <Route component={NotFound} />
     </Switch>
   );

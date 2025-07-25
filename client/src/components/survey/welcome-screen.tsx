@@ -6,6 +6,7 @@ import type { QuestionCount } from "@shared/schema";
 import { PartyLogo } from "@/components/party-logos";
 import { DonationSection } from "@/components/DonationSection";
 import { MiniResultsGraph } from "./mini-results-graph";
+import { IdeologyMiniResults } from "./ideology-mini-results";
 import { LanguageSelector } from "@/components/LanguageSelector";
 import { ContactSection } from "@/components/ContactSection";
 import { useTranslation } from "@/lib/i18n";
@@ -107,11 +108,11 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
         </div>
       </div>
 
-      {/* Two Column Layout */}
-      <div className="grid lg:grid-cols-12 gap-8 mb-8">
+      {/* Two Column Layout - Equal Width */}
+      <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
         
-        {/* LEFT COLUMN - Party Alignment Tests (Narrower) */}
-        <div className="lg:col-span-5">
+        {/* LEFT COLUMN - Party Alignment Tests */}
+        <div className="w-full">
           <Card className="bg-white shadow-md h-full">
             <CardContent className="p-6">
               <div className="text-center mb-6">
@@ -129,7 +130,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+              <div className="grid grid-cols-2 gap-3 mb-6">
                 {questionOptions.map((option) => {
                   const Icon = option.icon;
                   
@@ -161,8 +162,8 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
           </Card>
         </div>
 
-        {/* RIGHT COLUMN - Ideology Test (Wider) */}
-        <div className="lg:col-span-7">
+        {/* RIGHT COLUMN - Ideology Test */}
+        <div className="w-full">
           <Card className="bg-white shadow-md h-full">
             <CardContent className="p-6">
               <div className="text-center mb-6">
@@ -175,49 +176,54 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
                     ? 'Μάθετε την πολιτική σας θέση στο φάσμα αριστερά-κέντρο-δεξιά'
                     : 'Learn your political position on the left-center-right spectrum'}
                 </p>
-                <p className="text-sm text-purple-600 font-medium mb-6">
-                  {t('language') === 'el' ? '30 ερωτήσεις | ~10 λεπτά' : '30 questions | ~10 min'}
+                <p className="text-sm text-purple-600 font-medium mb-4">
+                  {t('language') === 'el' ? 'Επιλέξτε αριθμό ερωτήσεων' : 'Choose question count'}
                 </p>
               </div>
 
-              <div className="bg-gradient-to-r from-red-100 via-yellow-100 to-blue-100 p-6 rounded-lg mb-6">
+              <div className="grid grid-cols-2 gap-3 mb-6">
+                {questionOptions.map((option) => {
+                  const Icon = option.icon;
+                  
+                  return (
+                    <Link key={option.count} href={`/ideology?count=${option.count}`}>
+                      <Card className="cursor-pointer transition-all hover:border-purple-500 hover:bg-purple-50 border-neutral-200 w-full">
+                        <CardContent className="p-4">
+                          <div className="text-center">
+                            <Icon className="text-purple-600 text-xl mb-2 mx-auto w-6 h-6" />
+                            <h4 className="font-semibold text-base mb-1">{option.title}</h4>
+                            <p className="text-neutral-500 text-xs mb-2">{option.description}</p>
+                            <span className="text-purple-600 font-medium text-sm">{option.duration}</span>
+                          </div>
+                        </CardContent>
+                      </Card>
+                    </Link>
+                  );
+                })}
+              </div>
+
+              <div className="bg-gradient-to-r from-red-100 via-yellow-100 to-blue-100 p-4 rounded-lg mb-4">
                 <div className="text-center">
-                  <div className="flex justify-between items-center mb-4">
-                    <span className="text-red-600 font-semibold text-sm">
+                  <div className="flex justify-between items-center mb-2">
+                    <span className="text-red-600 font-semibold text-xs">
                       {t('language') === 'el' ? 'ΑΡΙΣΤΕΡΑ' : 'LEFT'}
                     </span>
-                    <span className="text-gray-600 font-semibold text-sm">
+                    <span className="text-gray-600 font-semibold text-xs">
                       {t('language') === 'el' ? 'ΚΕΝΤΡΟ' : 'CENTER'}
                     </span>
-                    <span className="text-blue-600 font-semibold text-sm">
+                    <span className="text-blue-600 font-semibold text-xs">
                       {t('language') === 'el' ? 'ΔΕΞΙΑ' : 'RIGHT'}
                     </span>
                   </div>
-                  <div className="h-3 bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500 rounded-full mb-4"></div>
-                  <p className="text-sm text-gray-700">
-                    {t('language') === 'el' 
-                      ? 'Το τεστ αξιολογεί τις απόψεις σας και σας τοποθετεί στο πολιτικό φάσμα'
-                      : 'The test evaluates your views and places you on the political spectrum'}
-                  </p>
+                  <div className="h-2 bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500 rounded-full"></div>
                 </div>
               </div>
 
-              <div className="text-center">
-                <Link href="/ideology">
-                  <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 text-lg">
-                    <Compass className="w-6 h-6 mr-2" />
-                    {t('language') === 'el' ? 'Ξεκινήστε το Ιδεολογικό Τεστ' : 'Start Ideology Test'}
-                  </Button>
-                </Link>
-              </div>
-
-              <div className="mt-6 text-center">
-                <p className="text-xs text-gray-500">
-                  {t('language') === 'el' 
-                    ? 'Βασισμένο σε 300+ ερωτήσεις με τυχαία επιλογή 30 για κάθε τεστ'
-                    : 'Based on 300+ questions with random selection of 30 per test'}
-                </p>
-              </div>
+              <p className="text-neutral-500 text-sm text-center">
+                {t('language') === 'el' 
+                  ? 'Επιλέξτε τον αριθμό ερωτήσεων για να ξεκινήσει αυτόματα το τεστ'
+                  : 'Select the number of questions to automatically start the test'}
+              </p>
             </CardContent>
           </Card>
         </div>
@@ -237,9 +243,10 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
         </Card>
       </div>
     
-    {/* Mini Results Graph */}
-    <div className="mb-8">
+    {/* Results Section - Two Columns */}
+    <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
       <MiniResultsGraph />
+      <IdeologyMiniResults />
     </div>
     
     {/* Donation Section */}

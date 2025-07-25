@@ -40,7 +40,11 @@ const ANSWER_OPTIONS = [
   { value: 5, key: "stronglyAgree" }
 ];
 
-export default function IdeologyTest() {
+interface IdeologyTestProps {
+  questionCount?: number;
+}
+
+export default function IdeologyTest({ questionCount = 30 }: IdeologyTestProps) {
   const { t } = useTranslation();
   const [sessionId] = useState(() => `ideology-${Date.now()}-${Math.random()}`);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -50,7 +54,7 @@ export default function IdeologyTest() {
   const queryClient = useQueryClient();
 
   const { data: questions, isLoading } = useQuery<IdeologyQuestion[]>({
-    queryKey: ['/api/ideology/questions/30'],
+    queryKey: [`/api/ideology/questions/${questionCount}`],
     enabled: !isComplete
   });
 
