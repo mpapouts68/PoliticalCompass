@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useQuery, useMutation } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -72,10 +72,12 @@ export function KnowledgeChallenge({
   const currentQuestion = questions?.[currentQuestionIndex];
   const progress = questions ? Math.round(((currentQuestionIndex + 1) / questions.length) * 100) : 0;
 
-  // Shuffle answers for display
-  const shuffledAnswers = currentQuestion ? 
-    [currentQuestion.correctAnswer, ...currentQuestion.wrongAnswers]
-      .sort(() => Math.random() - 0.5) : [];
+  // Shuffle answers for display (memoized to prevent re-shuffling on re-renders)
+  const shuffledAnswers = useMemo(() => {
+    if (!currentQuestion) return [];
+    return [currentQuestion.correctAnswer, ...currentQuestion.wrongAnswers]
+      .sort(() => Math.random() - 0.5);
+  }, [currentQuestion?.id]); // Only re-shuffle when question changes
 
   useEffect(() => {
     if (currentQuestion) {
