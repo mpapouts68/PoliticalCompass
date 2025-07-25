@@ -55,15 +55,15 @@ export function IdeologyMiniResults() {
         <div className="flex items-center gap-2 mb-4">
           <Compass className="w-5 h-5 text-purple-600" />
           <h3 className="text-lg font-semibold text-gray-800">
-            {t('language') === 'el' ? 'Ιδεολογικά Αποτελέσματα' : 'Ideology Results'}
+            {t('ideologyResults')}
           </h3>
         </div>
         
         <div className="flex items-center gap-2 mb-4 text-sm text-gray-600">
           <Users className="w-4 h-4" />
-          <span>{stats.totalTests.toLocaleString()} {t('language') === 'el' ? 'τεστ' : 'tests'}</span>
+          <span>{stats.totalTests.toLocaleString()} {t('tests')}</span>
           <TrendingUp className="w-4 h-4 ml-2" />
-          <span>{t('language') === 'el' ? 'Ενημερώνεται ζωντανά' : 'Updating live'}</span>
+          <span>{t('updatingLive')}</span>
         </div>
 
         <div className="space-y-3">
@@ -93,9 +93,7 @@ export function IdeologyMiniResults() {
 
         <div className="mt-4 pt-4 border-t border-gray-200">
           <p className="text-xs text-gray-500 text-center">
-            {t('language') === 'el' 
-              ? `Βασισμένο σε ${stats.totalTests.toLocaleString()} ολοκληρωμένα ιδεολογικά τεστ`
-              : `Based on ${stats.totalTests.toLocaleString()} completed ideology tests`}
+            {t('ideologyResultsBasedOn')} {stats.totalTests.toLocaleString()} {t('completedIdeologyTests')}
           </p>
         </div>
       </CardContent>

@@ -113,6 +113,16 @@ export const translations = {
     progress: 'Πρόοδος',
     autoAdvanceMessage: 'Η επόμενη ερώτηση θα εμφανιστεί αυτόματα μετά την επιλογή σας',
     savingAnswer: 'Αποθήκευση απάντησης...',
+    
+    // Contact and Statistics
+    contactInformation: 'Επικοινωνία',
+    participants: 'συμμετοχές',
+    updatingLive: 'Ενημερώνεται ζωντανά',
+    resultsBasedOn: 'Τα αποτελέσματα βασίζονται σε',
+    completedTests: 'ολοκληρωμένα τεστ',
+    tests: 'τεστ',
+    ideologyResultsBasedOn: 'Βασισμένο σε',
+    completedIdeologyTests: 'ολοκληρωμένα ιδεολογικά τεστ',
 
     // Parties (keep Greek names but add descriptions)
     parties: {
@@ -219,6 +229,16 @@ export const translations = {
     progress: 'Progress',
     autoAdvanceMessage: 'Next question will appear automatically after your selection',
     savingAnswer: 'Saving answer...',
+    
+    // Contact and Statistics
+    contactInformation: 'Contact Information',
+    participants: 'participants',
+    updatingLive: 'Updating live',
+    resultsBasedOn: 'Results based on',
+    completedTests: 'completed tests',
+    tests: 'tests',
+    ideologyResultsBasedOn: 'Based on',
+    completedIdeologyTests: 'completed ideology tests',
     
     // Parties (English descriptions)
     parties: {

@@ -60,7 +60,7 @@ export function ContactSection() {
         <CardHeader>
           <CardTitle className="flex items-center gap-2 text-gray-900 dark:text-white">
             <Info className="w-5 h-5" />
-            {t('language') === 'el' ? 'Επικοινωνία' : 'Contact Information'}
+            {t('contactInformation')}
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
