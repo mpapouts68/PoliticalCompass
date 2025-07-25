@@ -77,6 +77,9 @@ User requested: Auto-advance to next question upon selection (implemented with 8
 - Added comprehensive contact information section with multiple email addresses for different purposes
 - Contact section includes privacy information, social media links, and project background
 - Full bilingual support for contact information in both Greek and English languages
+- Restructured main page into 2 clearly separate columns: narrower left column for party alignment tests (15-100 questions) and wider right column for ideology test
+- Improved visual separation and organization of the two main testing sections with distinct styling and icons
+- Enhanced ideology test presentation with political spectrum visualization and dedicated call-to-action
 
 ### Data Models
 - **Questions**: Political statements with category and party position mappings for all 9 parliamentary parties

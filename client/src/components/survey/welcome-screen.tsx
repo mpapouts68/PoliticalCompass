@@ -88,93 +88,154 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
       </div>
     </div>
 
-    <div className="max-w-4xl mx-auto px-4 py-8">
-    <Card className="bg-white shadow-md mb-8">
-      <CardContent className="p-8">
-        <div className="text-center mb-8">
-          <CompassLogo className="w-24 h-24 mx-auto mb-6" />
-          <h2 className="text-4xl font-bold text-neutral-900 mb-2">
-            {t('appSubtitle')}
-          </h2>
-          <h3 className="text-2xl font-semibold text-neutral-700 mb-4">
-            {t('appTitle')} <span className="text-blue-600">online</span>
-          </h3>
-          
-          {/* Party Logos Row */}
-          <div className="flex flex-wrap justify-center items-center gap-4 mb-6">
-            {["ΝΔ", "ΣΥΡΙΖΑ", "ΠΑΣΟΚ", "ΚΚΕ", "ΕΛ", "ΠΕ", "ΝΙΚΗ", "ΣΠΑΡ", "ΝΑ"].map((party) => (
-              <PartyLogo key={party} party={party} className="w-12 h-12" />
-            ))}
-          </div>
-          
-          <p className="text-lg text-neutral-500 max-w-2xl mx-auto">
-            <span className="text-blue-600 font-medium">{t('surveyLength')}</span>
-          </p>
-          <p className="text-base text-neutral-500 max-w-2xl mx-auto mt-2">
-            {t('appDescription')}
-          </p>
+    <div className="max-w-7xl mx-auto px-4 py-8">
+      {/* Main Title Section */}
+      <div className="text-center mb-8">
+        <CompassLogo className="w-24 h-24 mx-auto mb-6" />
+        <h2 className="text-4xl font-bold text-neutral-900 mb-2">
+          {t('appSubtitle')}
+        </h2>
+        <h3 className="text-2xl font-semibold text-neutral-700 mb-4">
+          {t('appTitle')} <span className="text-blue-600">online</span>
+        </h3>
+        
+        {/* Party Logos Row */}
+        <div className="flex flex-wrap justify-center items-center gap-4 mb-6">
+          {["ΝΔ", "ΣΥΡΙΖΑ", "ΠΑΣΟΚ", "ΚΚΕ", "ΕΛ", "ΠΕ", "ΝΙΚΗ", "ΣΠΑΡ", "ΝΑ"].map((party) => (
+            <PartyLogo key={party} party={party} className="w-12 h-12" />
+          ))}
+        </div>
+      </div>
+
+      {/* Two Column Layout */}
+      <div className="grid lg:grid-cols-12 gap-8 mb-8">
+        
+        {/* LEFT COLUMN - Party Alignment Tests (Narrower) */}
+        <div className="lg:col-span-5">
+          <Card className="bg-white shadow-md h-full">
+            <CardContent className="p-6">
+              <div className="text-center mb-6">
+                <ChartPie className="w-16 h-16 mx-auto mb-4 text-blue-600" />
+                <h3 className="text-2xl font-bold text-neutral-900 mb-2">
+                  {t('language') === 'el' ? 'Τεστ Κομματικής Ευθυγράμμισης' : 'Party Alignment Test'}
+                </h3>
+                <p className="text-base text-neutral-600 mb-4">
+                  {t('language') === 'el' 
+                    ? 'Ανακαλύψτε ποιο κόμμα ταιριάζει περισσότερο στις απόψεις σας'
+                    : 'Discover which party best matches your views'}
+                </p>
+                <p className="text-sm text-blue-600 font-medium mb-4">
+                  {t('surveyLength')}
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+                {questionOptions.map((option) => {
+                  const Icon = option.icon;
+                  
+                  return (
+                    <Card
+                      key={option.count}
+                      className="cursor-pointer transition-all hover:border-primary hover:bg-primary/5 border-neutral-200"
+                      onClick={() => onStartSurvey(option.count)}
+                    >
+                      <CardContent className="p-4">
+                        <div className="text-center">
+                          <Icon className={`${option.color} text-xl mb-2 mx-auto w-6 h-6`} />
+                          <h4 className="font-semibold text-base mb-1">{option.title}</h4>
+                          <p className="text-neutral-500 text-xs mb-2">{option.description}</p>
+                          <span className={`${option.color} font-medium text-sm`}>{option.duration}</span>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  );
+                })}
+              </div>
+
+              <p className="text-neutral-500 text-sm text-center">
+                {t('language') === 'el' 
+                  ? 'Επιλέξτε τον αριθμό ερωτήσεων για να ξεκινήσει αυτόματα το τεστ'
+                  : 'Select the number of questions to automatically start the test'}
+              </p>
+            </CardContent>
+          </Card>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-          {questionOptions.map((option) => {
-            const Icon = option.icon;
-            
-            return (
-              <Card
-                key={option.count}
-                className="cursor-pointer transition-all hover:border-primary hover:bg-primary/5 border-neutral-200"
-                onClick={() => onStartSurvey(option.count)}
-              >
-                <CardContent className="p-6">
-                  <div className="text-center">
-                    <Icon className={`${option.color} text-2xl mb-3 mx-auto w-8 h-8`} />
-                    <h3 className="font-semibold text-lg mb-2">{option.title}</h3>
-                    <p className="text-neutral-500 text-sm mb-3">{option.description}</p>
-                    <span className={`${option.color} font-medium`}>{option.duration}</span>
+        {/* RIGHT COLUMN - Ideology Test (Wider) */}
+        <div className="lg:col-span-7">
+          <Card className="bg-white shadow-md h-full">
+            <CardContent className="p-6">
+              <div className="text-center mb-6">
+                <Compass className="w-16 h-16 mx-auto mb-4 text-purple-600" />
+                <h3 className="text-2xl font-bold text-neutral-900 mb-2">
+                  {t('language') === 'el' ? 'Ιδεολογικό Τεστ' : 'Ideology Test'}
+                </h3>
+                <p className="text-base text-neutral-600 mb-4">
+                  {t('language') === 'el' 
+                    ? 'Μάθετε την πολιτική σας θέση στο φάσμα αριστερά-κέντρο-δεξιά'
+                    : 'Learn your political position on the left-center-right spectrum'}
+                </p>
+                <p className="text-sm text-purple-600 font-medium mb-6">
+                  {t('language') === 'el' ? '30 ερωτήσεις | ~10 λεπτά' : '30 questions | ~10 min'}
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-r from-red-100 via-yellow-100 to-blue-100 p-6 rounded-lg mb-6">
+                <div className="text-center">
+                  <div className="flex justify-between items-center mb-4">
+                    <span className="text-red-600 font-semibold text-sm">
+                      {t('language') === 'el' ? 'ΑΡΙΣΤΕΡΑ' : 'LEFT'}
+                    </span>
+                    <span className="text-gray-600 font-semibold text-sm">
+                      {t('language') === 'el' ? 'ΚΕΝΤΡΟ' : 'CENTER'}
+                    </span>
+                    <span className="text-blue-600 font-semibold text-sm">
+                      {t('language') === 'el' ? 'ΔΕΞΙΑ' : 'RIGHT'}
+                    </span>
                   </div>
-                </CardContent>
-              </Card>
-            );
-          })}
-        </div>
+                  <div className="h-3 bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500 rounded-full mb-4"></div>
+                  <p className="text-sm text-gray-700">
+                    {t('language') === 'el' 
+                      ? 'Το τεστ αξιολογεί τις απόψεις σας και σας τοποθετεί στο πολιτικό φάσμα'
+                      : 'The test evaluates your views and places you on the political spectrum'}
+                  </p>
+                </div>
+              </div>
 
-        <div className="text-center">
-          <p className="text-neutral-500 text-sm mb-6">
-            {t('language') === 'el' 
-              ? 'Επιλέξτε τον αριθμό ερωτήσεων για να ξεκινήσει αυτόματα το τεστ'
-              : 'Select the number of questions to automatically start the test'}
-          </p>
-          
-          {/* Ideology Test Button */}
-          <div className="border-t pt-6">
-            <h4 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-3">
-              {t('language') === 'el' ? 'Ή δοκιμάστε το Ιδεολογικό Τεστ' : 'Or try the Ideology Test'}
-            </h4>
-            <Link href="/ideology">
-              <Button size="lg" variant="outline" className="bg-purple-50 hover:bg-purple-100 border-purple-200 text-purple-700">
-                <Compass className="w-5 h-5 mr-2" />
-                {t('language') === 'el' ? 'Ιδεολογικό Τεστ (30 ερωτήσεις)' : 'Ideology Test (30 questions)'}
-              </Button>
-            </Link>
-            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
+              <div className="text-center">
+                <Link href="/ideology">
+                  <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 text-lg">
+                    <Compass className="w-6 h-6 mr-2" />
+                    {t('language') === 'el' ? 'Ξεκινήστε το Ιδεολογικό Τεστ' : 'Start Ideology Test'}
+                  </Button>
+                </Link>
+              </div>
+
+              <div className="mt-6 text-center">
+                <p className="text-xs text-gray-500">
+                  {t('language') === 'el' 
+                    ? 'Βασισμένο σε 300+ ερωτήσεις με τυχαία επιλογή 30 για κάθε τεστ'
+                    : 'Based on 300+ questions with random selection of 30 per test'}
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+
+      {/* Disclaimer */}
+      <div className="mb-8">
+        <Card className="bg-accent/10 border border-accent/20">
+          <CardContent className="p-4">
+            <p className="text-sm text-neutral-600 text-center">
+              <Info className="inline text-accent mr-2 w-4 h-4" />
               {t('language') === 'el' 
-                ? 'Μάθετε την πολιτική σας θέση στο φάσμα αριστερά-κέντρο-δεξιά'
-                : 'Learn your political position on the left-center-right spectrum'}
+                ? 'Αυτό το εργαλείο έχει εκπαιδευτικό χαρακτήρα και βοηθά στην κατανόηση των πολιτικών θέσεων. Δεν αντικαθιστά την προσωπική έρευνα και κρίση.'
+                : 'This tool is educational and helps understand political positions. It does not replace personal research and judgment.'}
             </p>
-          </div>
-        </div>
-
-        {/* Disclaimer */}
-        <div className="mt-8 p-4 bg-accent/10 border border-accent/20 rounded-lg">
-          <p className="text-sm text-neutral-600 text-center">
-            <Info className="inline text-accent mr-2 w-4 h-4" />
-            {t('language') === 'el' 
-              ? 'Αυτό το εργαλείο έχει εκπαιδευτικό χαρακτήρα και βοηθά στην κατανόηση των πολιτικών θέσεων. Δεν αντικαθιστά την προσωπική έρευνα και κρίση.'
-              : 'This tool is educational and helps understand political positions. It does not replace personal research and judgment.'}
-          </p>
-        </div>
-      </CardContent>
-    </Card>
+          </CardContent>
+        </Card>
+      </div>
     
     {/* Mini Results Graph */}
     <div className="mb-8">
