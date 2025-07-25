@@ -149,6 +149,8 @@ export const translations = {
     submitAnswer: 'Υποβολή Απάντησης',
     nextQuestion: 'Επόμενη Ερώτηση',
     finishQuiz: 'Τέλος Κουίζ',
+    nextQuestionIn: 'Επόμενη ερώτηση σε λίγα δευτερόλεπτα...',
+    completingQuiz: 'Ολοκλήρωση κουίζ...',
     
     // Prime Minister Scenario
     primeMinisterForADay: 'Πρωθυπουργός για μια Μέρα',
@@ -171,7 +173,7 @@ export const translations = {
     takeOnDecisions: 'Αναλάβετε δύσκολες αποφάσεις διακυβέρνησης και δείτε τις συνέπειες των επιλογών σας',
     history: 'Ιστορία',
     constitution: 'Σύνταγμα',
-    parties: 'Κόμματα',
+    partiesCategory: 'Κόμματα',
     economy: 'Οικονομία',
     society: 'Κοινωνία',
     crises: 'Κρίσεις',
@@ -281,6 +283,8 @@ export const translations = {
     submitAnswer: 'Submit Answer',
     nextQuestion: 'Next Question',
     finishQuiz: 'Finish Quiz',
+    nextQuestionIn: 'Next question in a few seconds...',
+    completingQuiz: 'Completing quiz...',
     
     // Prime Minister Scenario
     primeMinisterForADay: 'Prime Minister for a Day',
@@ -304,7 +308,7 @@ export const translations = {
     takeOnDecisions: 'Take on difficult governance decisions and see the consequences of your choices',
     history: 'History',
     constitution: 'Constitution',
-    parties: 'Parties',
+    partiesCategory: 'Parties',
     economy: 'Economy',
     society: 'Society',
     crises: 'Crises',

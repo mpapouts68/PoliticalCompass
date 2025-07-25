@@ -89,17 +89,23 @@ export function KnowledgeChallenge({
   const handleAnswerSelect = (answer: string) => {
     if (isAnswered) return;
     setSelectedAnswer(answer);
+    
+    // Auto-advance after selection with delay (like survey questions)
+    setTimeout(() => {
+      handleSubmitAnswer(answer);
+    }, 800);
   };
 
-  const handleSubmitAnswer = () => {
-    if (!currentQuestion || !selectedAnswer || isAnswered) return;
+  const handleSubmitAnswer = (answer?: string) => {
+    const answerToSubmit = answer || selectedAnswer;
+    if (!currentQuestion || !answerToSubmit || isAnswered) return;
 
     const timeTaken = Math.round((Date.now() - startTime) / 1000);
-    const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
+    const isCorrect = answerToSubmit === currentQuestion.correctAnswer;
     
     setAnswers(prev => ({
       ...prev,
-      [currentQuestion.id]: selectedAnswer
+      [currentQuestion.id]: answerToSubmit
     }));
 
     if (isCorrect) {
@@ -109,7 +115,7 @@ export function KnowledgeChallenge({
     // Save result to database
     saveResultMutation.mutate({
       questionId: currentQuestion.id,
-      userAnswer: selectedAnswer,
+      userAnswer: answerToSubmit,
       isCorrect: isCorrect ? 1 : 0,
       timeTaken,
       sessionId
@@ -117,6 +123,11 @@ export function KnowledgeChallenge({
 
     setIsAnswered(true);
     setShowExplanation(true);
+    
+    // Auto-advance to next question after showing explanation
+    setTimeout(() => {
+      handleNextQuestion();
+    }, 2500); // Show explanation for 2.5 seconds before auto-advancing
   };
 
   const handleNextQuestion = () => {
@@ -275,33 +286,16 @@ export function KnowledgeChallenge({
               </div>
             )}
 
-            {/* Action Buttons */}
-            <div className="flex justify-between">
-              <div>
-                {/* Could add hint button here later */}
+            {/* Auto-advancing message */}
+            {isAnswered && (
+              <div className="text-center">
+                <p className="text-sm text-gray-600">
+                  {currentQuestionIndex < questions.length - 1 
+                    ? t('nextQuestionIn') || 'Επόμενη ερώτηση σε λίγα δευτερόλεπτα...'
+                    : t('completingQuiz') || 'Ολοκλήρωση κουίζ...'}
+                </p>
               </div>
-              <div className="space-x-2">
-                {!isAnswered && (
-                  <Button 
-                    onClick={handleSubmitAnswer}
-                    disabled={!selectedAnswer}
-                    className="bg-blue-600 hover:bg-blue-700"
-                  >
-                    {t('submitAnswer')}
-                  </Button>
-                )}
-                {isAnswered && (
-                  <Button 
-                    onClick={handleNextQuestion}
-                    className="bg-green-600 hover:bg-green-700"
-                  >
-                    {currentQuestionIndex < questions.length - 1 
-                      ? t('nextQuestion') 
-                      : t('finishQuiz')}
-                  </Button>
-                )}
-              </div>
-            </div>
+            )}
           </div>
         )}
       </CardContent>

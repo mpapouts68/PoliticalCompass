@@ -271,7 +271,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
                   {t('constitution')}
                 </span>
                 <span className="bg-blue-200 px-2 py-1 rounded">
-                  {t('parties')}
+                  {t('partiesCategory')}
                 </span>
               </div>
             </CardContent>
