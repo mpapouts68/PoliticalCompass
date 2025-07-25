@@ -41,24 +41,24 @@ export function PrimeMinisterPage() {
   const difficulties = [
     {
       level: 1,
-      name: t('language') === 'el' ? 'Εύκολο' : 'Easy',
-      description: t('language') === 'el' ? 'Βασικά ζητήματα διακυβέρνησης' : 'Basic governance issues',
+      name: t('easy'),
+      description: t('basicGovernance'),
       color: 'bg-green-100 text-green-800 border-green-300',
-      examples: t('language') === 'el' ? 'π.χ. περιβαλλοντικές κρίσεις' : 'e.g. environmental crises'
+      examples: t('exampleEnvironmental')
     },
     {
       level: 2,
-      name: t('language') === 'el' ? 'Μέτριο' : 'Medium',
-      description: t('language') === 'el' ? 'Σύνθετα πολιτικά διλήμματα' : 'Complex political dilemmas',
+      name: t('medium'),
+      description: t('complexDilemmas'),
       color: 'bg-yellow-100 text-yellow-800 border-yellow-300',
-      examples: t('language') === 'el' ? 'π.χ. οικονομικές και κοινωνικές κρίσεις' : 'e.g. economic and social crises'
+      examples: t('exampleEconomicSocial')
     },
     {
       level: 3,
-      name: t('language') === 'el' ? 'Δύσκολο' : 'Hard',
-      description: t('language') === 'el' ? 'Επείγουσες εθνικές κρίσεις' : 'Urgent national crises',
+      name: t('hard'),
+      description: t('urgentCrises'),
       color: 'bg-red-100 text-red-800 border-red-300',
-      examples: t('language') === 'el' ? 'π.χ. εξωτερική πολιτική με χρονικό όριο' : 'e.g. foreign policy with time limits'
+      examples: t('exampleForeignPolicy')
     }
   ];
 
@@ -82,22 +82,22 @@ export function PrimeMinisterPage() {
     
     if (political <= 3 && avgImpact >= 2) {
       return { 
-        rating: t('language') === 'el' ? 'Εξαιρετική Απόφαση' : 'Excellent Decision', 
+        rating: t('excellentDecision'), 
         color: 'text-green-700' 
       };
     } else if (political <= 5 && avgImpact >= 1) {
       return { 
-        rating: t('language') === 'el' ? 'Καλή Απόφαση' : 'Good Decision', 
+        rating: t('goodDecision'), 
         color: 'text-blue-700' 
       };
     } else if (political <= 7) {
       return { 
-        rating: t('language') === 'el' ? 'Μέτρια Απόφαση' : 'Fair Decision', 
+        rating: t('fairDecision'), 
         color: 'text-yellow-700' 
       };
     } else {
       return { 
-        rating: t('language') === 'el' ? 'Δύσκολη Απόφαση' : 'Difficult Decision', 
+        rating: t('difficultDecision'), 
         color: 'text-red-700' 
       };
     }
@@ -135,7 +135,7 @@ export function PrimeMinisterPage() {
                 <Crown className="w-16 h-16 text-purple-600" />
               </div>
               <CardTitle className="text-2xl text-center">
-                {t('language') === 'el' ? 'Αποτελέσματα Απόφασης' : 'Decision Results'}
+                {t('decisionResults')}
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -146,14 +146,14 @@ export function PrimeMinisterPage() {
                 </h3>
                 <Badge className="mb-2">{result.scenario.category}</Badge>
                 <p className="text-sm text-purple-700">
-                  {t('language') === 'el' ? 'Χρόνος απόφασης:' : 'Decision time:'} {result.decisionTime} {t('language') === 'el' ? 'δευτερόλεπτα' : 'seconds'}
+                  {t('decisionTime')} {result.decisionTime} {t('secondsUnit')}
                 </p>
               </div>
 
               {/* Chosen Option */}
               <div className="bg-blue-50 p-4 rounded-lg">
                 <h4 className="font-medium text-blue-900 mb-2">
-                  {t('language') === 'el' ? 'Η Απόφασή σας:' : 'Your Decision:'}
+                  {t('yourDecision')}
                 </h4>
                 <p className="text-blue-800">
                   {t('language') === 'el' ? result.chosenOption.optionText : (result.chosenOption.optionTextEn || result.chosenOption.optionText)}
@@ -203,7 +203,7 @@ export function PrimeMinisterPage() {
               {/* Consequences */}
               <div className="bg-gray-50 p-4 rounded-lg">
                 <h4 className="font-medium text-gray-900 mb-2">
-                  {t('language') === 'el' ? 'Συνέπειες:' : 'Consequences:'}
+                  {t('consequencesLabel')}
                 </h4>
                 <p className="text-gray-700">{result.consequences}</p>
               </div>
@@ -212,7 +212,7 @@ export function PrimeMinisterPage() {
               <div className="flex space-x-4 justify-center">
                 <Button onClick={handleTryAgain} variant="outline" className="flex items-center space-x-2">
                   <Crown className="w-4 h-4" />
-                  <span>{t('language') === 'el' ? 'Νέο Σενάριο' : 'New Scenario'}</span>
+                  <span>{t('newScenario')}</span>
                 </Button>
                 <Link href="/">
                   <Button className="flex items-center space-x-2 bg-purple-600 hover:bg-purple-700">
@@ -254,9 +254,7 @@ export function PrimeMinisterPage() {
             {t('primeMinisterForADay')}
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            {t('language') === 'el' 
-              ? 'Αναλάβετε δύσκολες αποφάσεις διακυβέρνησης και δείτε τις συνέπειες των επιλογών σας'
-              : 'Take on difficult governance decisions and see the consequences of your choices'}
+            {t('takeOnDecisions')}
           </p>
         </div>
 
@@ -266,7 +264,7 @@ export function PrimeMinisterPage() {
             <CardTitle className="flex items-center space-x-2">
               <AlertTriangle className="w-5 h-5" />
               <span>
-                {t('language') === 'el' ? 'Επιλέξτε Επίπεδο Δυσκολίας' : 'Select Difficulty Level'}
+                {t('selectDifficultyLevel')}
               </span>
             </CardTitle>
           </CardHeader>
@@ -302,34 +300,28 @@ export function PrimeMinisterPage() {
               <div className="text-center">
                 <Crown className="w-12 h-12 text-purple-600 mx-auto mb-3" />
                 <h3 className="font-semibold mb-2">
-                  {t('language') === 'el' ? 'Πολιτικό Κόστος' : 'Political Cost'}
+                  {t('political')}
                 </h3>
                 <p className="text-sm text-gray-600">
-                  {t('language') === 'el' 
-                    ? 'Πόσο δύσκολη είναι πολιτικά η απόφαση' 
-                    : 'How politically difficult the decision is'}
+                  {t('politicalCostDescription')}
                 </p>
               </div>
               <div className="text-center">
                 <DollarSign className="w-12 h-12 text-green-600 mx-auto mb-3" />
                 <h3 className="font-semibold mb-2">
-                  {t('language') === 'el' ? 'Οικονομικός Αντίκτυπος' : 'Economic Impact'}
+                  {t('economic')}
                 </h3>
                 <p className="text-sm text-gray-600">
-                  {t('language') === 'el' 
-                    ? 'Θετικός ή αρνητικός αντίκτυπος στην οικονομία' 
-                    : 'Positive or negative impact on the economy'}
+                  {t('economicImpactDescription')}
                 </p>
               </div>
               <div className="text-center">
                 <Users className="w-12 h-12 text-blue-600 mx-auto mb-3" />
                 <h3 className="font-semibold mb-2">
-                  {t('language') === 'el' ? 'Κοινωνικός Αντίκτυπος' : 'Social Impact'}
+                  {t('social')}
                 </h3>
                 <p className="text-sm text-gray-600">
-                  {t('language') === 'el' 
-                    ? 'Επίδραση στην κοινωνία και τους πολίτες' 
-                    : 'Effect on society and citizens'}
+                  {t('socialImpactDescription')}
                 </p>
               </div>
             </div>
@@ -344,7 +336,7 @@ export function PrimeMinisterPage() {
             size="lg"
             className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3"
           >
-            {t('language') === 'el' ? 'Ξεκινήστε το Σενάριο' : 'Start Scenario'}
+            {t('startScenario')}
           </Button>
           
           <div>

@@ -26,20 +26,20 @@ export function KnowledgeChallengePage() {
   const difficulties = [
     {
       level: 1,
-      name: t('language') === 'el' ? 'Εύκολο' : 'Easy',
-      description: t('language') === 'el' ? 'Βασικές γνώσεις πολιτικής ιστορίας' : 'Basic political history knowledge',
+      name: t('easy'),
+      description: t('basicPoliticalHistory'),
       color: 'bg-green-100 text-green-800 border-green-300'
     },
     {
       level: 2,
-      name: t('language') === 'el' ? 'Μέτριο' : 'Medium',
-      description: t('language') === 'el' ? 'Ενδιάμεσες γνώσεις και λεπτομέρειες' : 'Intermediate knowledge and details',
+      name: t('medium'),
+      description: t('intermediateKnowledge'),
       color: 'bg-yellow-100 text-yellow-800 border-yellow-300'
     },
     {
       level: 3,
-      name: t('language') === 'el' ? 'Δύσκολο' : 'Hard',
-      description: t('language') === 'el' ? 'Εξειδικευμένες γνώσεις και ιστορικά γεγονότα' : 'Specialized knowledge and historical events',
+      name: t('hard'),
+      description: t('specializedKnowledge'),
       color: 'bg-red-100 text-red-800 border-red-300'
     }
   ];
@@ -49,38 +49,28 @@ export function KnowledgeChallengePage() {
   const calculateGrade = (accuracy: number): { grade: string; feedback: string } => {
     if (accuracy >= 90) {
       return {
-        grade: t('language') === 'el' ? 'Άριστα' : 'Excellent',
-        feedback: t('language') === 'el' 
-          ? 'Εξαιρετική γνώση της ελληνικής πολιτικής!' 
-          : 'Outstanding knowledge of Greek politics!'
+        grade: t('excellent'),
+        feedback: t('outstandingKnowledge')
       };
     } else if (accuracy >= 75) {
       return {
-        grade: t('language') === 'el' ? 'Πολύ Καλά' : 'Very Good',
-        feedback: t('language') === 'el' 
-          ? 'Πολύ καλή γνώση, μπράβο!' 
-          : 'Very good knowledge, well done!'
+        grade: t('veryGood'),
+        feedback: t('veryGoodKnowledge')
       };
     } else if (accuracy >= 60) {
       return {
-        grade: t('language') === 'el' ? 'Καλά' : 'Good',
-        feedback: t('language') === 'el' 
-          ? 'Καλή βάση, συνέχισε να μελετάς!' 
-          : 'Good foundation, keep studying!'
+        grade: t('good'),
+        feedback: t('goodFoundation')
       };
     } else if (accuracy >= 40) {
       return {
-        grade: t('language') === 'el' ? 'Μέτρια' : 'Fair',
-        feedback: t('language') === 'el' 
-          ? 'Χρειάζεται περισσότερη μελέτη.' 
-          : 'Needs more study.'
+        grade: t('fair'),
+        feedback: t('needsMoreStudy')
       };
     } else {
       return {
-        grade: t('language') === 'el' ? 'Αδύναμα' : 'Poor',
-        feedback: t('language') === 'el' 
-          ? 'Χρειάζεται σημαντική βελτίωση.' 
-          : 'Significant improvement needed.'
+        grade: t('poor'),
+        feedback: t('significantImprovement')
       };
     }
   };
@@ -121,7 +111,7 @@ export function KnowledgeChallengePage() {
                 <Trophy className="w-16 h-16 text-yellow-500" />
               </div>
               <CardTitle className="text-2xl flex items-center justify-center space-x-2">
-                <span>{t('language') === 'el' ? 'Αποτελέσματα Κουίζ' : 'Quiz Results'}</span>
+                <span>{t('quizResults')}</span>
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -129,19 +119,19 @@ export function KnowledgeChallengePage() {
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-600">{result.score}</div>
                   <div className="text-sm text-gray-600">
-                    {t('language') === 'el' ? 'Σωστές' : 'Correct'}
+                    {t('correctAnswers')}
                   </div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-purple-600">{result.totalQuestions}</div>
                   <div className="text-sm text-gray-600">
-                    {t('language') === 'el' ? 'Συνολικές' : 'Total'}
+                    {t('totalQuestions')}
                   </div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-green-600">{Math.round(result.accuracy)}%</div>
                   <div className="text-sm text-gray-600">
-                    {t('language') === 'el' ? 'Επιτυχία' : 'Accuracy'}
+                    {t('accuracyPercent')}
                   </div>
                 </div>
               </div>
@@ -154,7 +144,7 @@ export function KnowledgeChallengePage() {
               <div className="flex space-x-4 justify-center">
                 <Button onClick={handleTryAgain} variant="outline" className="flex items-center space-x-2">
                   <Brain className="w-4 h-4" />
-                  <span>{t('language') === 'el' ? 'Δοκίμασε Ξανά' : 'Try Again'}</span>
+                  <span>{t('tryAgain')}</span>
                 </Button>
                 <Link href="/">
                   <Button className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700">
@@ -197,9 +187,7 @@ export function KnowledgeChallengePage() {
             {t('knowledgeChallenge')}
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            {t('language') === 'el' 
-              ? 'Δοκιμάστε τις γνώσεις σας στην ελληνική πολιτική ιστορία και το Σύνταγμα'
-              : 'Test your knowledge of Greek political history and Constitution'}
+            {t('testYourKnowledge')}
           </p>
         </div>
 
@@ -209,7 +197,7 @@ export function KnowledgeChallengePage() {
             <CardTitle className="flex items-center space-x-2">
               <Star className="w-5 h-5" />
               <span>
-                {t('language') === 'el' ? 'Επιλέξτε Επίπεδο Δυσκολίας' : 'Select Difficulty Level'}
+                {t('selectDifficultyLevel')}
               </span>
             </CardTitle>
           </CardHeader>
@@ -243,7 +231,7 @@ export function KnowledgeChallengePage() {
             <CardTitle className="flex items-center space-x-2">
               <Clock className="w-5 h-5" />
               <span>
-                {t('language') === 'el' ? 'Επιλέξτε Αριθμό Ερωτήσεων' : 'Select Number of Questions'}
+                {t('selectNumberOfQuestions')}
               </span>
             </CardTitle>
           </CardHeader>
@@ -262,10 +250,10 @@ export function KnowledgeChallengePage() {
                   <CardContent className="p-4 text-center">
                     <div className="text-2xl font-bold text-blue-600 mb-1">{count}</div>
                     <div className="text-sm text-gray-600">
-                      {t('language') === 'el' ? 'ερωτήσεις' : 'questions'}
+                      {t('questions')}
                     </div>
                     <div className="text-xs text-gray-500">
-                      ~{Math.ceil(count / 3)} {t('language') === 'el' ? 'λεπτά' : 'min'}
+                      ~{Math.ceil(count / 3)} {t('minAbbrev')}
                     </div>
                   </CardContent>
                 </Card>
@@ -282,7 +270,7 @@ export function KnowledgeChallengePage() {
             size="lg"
             className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3"
           >
-            {t('language') === 'el' ? 'Ξεκινήστε το Κουίζ' : 'Start Quiz'}
+            {t('startQuiz')}
           </Button>
           
           <div>

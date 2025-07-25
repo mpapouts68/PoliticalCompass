@@ -249,7 +249,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
     {/* New Gamification Features Section */}
     <div className="mb-8 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-6">
       <h2 className="text-2xl font-bold text-center mb-6 text-gray-800">
-        {t('language') === 'el' ? '🎮 Νέα Χαρακτηριστικά' : '🎮 New Features'}
+        🎮 {t('newFeatures')}
       </h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -264,19 +264,17 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
                 {t('knowledgeChallenge')}
               </h3>
               <p className="text-blue-700 text-sm mb-4">
-                {t('language') === 'el' 
-                  ? 'Δοκιμάστε τις γνώσεις σας στην ελληνική πολιτική ιστορία, το Σύνταγμα και τα κόμματα'
-                  : 'Test your knowledge of Greek political history, Constitution and parties'}
+                {t('testYourKnowledge')}
               </p>
               <div className="flex justify-center space-x-2 text-xs text-blue-600">
                 <span className="bg-blue-200 px-2 py-1 rounded">
-                  {t('language') === 'el' ? 'Ιστορία' : 'History'}
+                  {t('history')}
                 </span>
                 <span className="bg-blue-200 px-2 py-1 rounded">
-                  {t('language') === 'el' ? 'Σύνταγμα' : 'Constitution'}
+                  {t('constitution')}
                 </span>
                 <span className="bg-blue-200 px-2 py-1 rounded">
-                  {t('language') === 'el' ? 'Κόμματα' : 'Parties'}
+                  {t('parties')}
                 </span>
               </div>
             </CardContent>
@@ -294,19 +292,17 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
                 {t('primeMinisterForADay')}
               </h3>
               <p className="text-purple-700 text-sm mb-4">
-                {t('language') === 'el' 
-                  ? 'Αναλάβετε δύσκολες αποφάσεις διακυβέρνησης και δείτε τις συνέπειες των επιλογών σας'
-                  : 'Take on difficult governance decisions and see the consequences of your choices'}
+                {t('takeOnDecisions')}
               </p>
               <div className="flex justify-center space-x-2 text-xs text-purple-600">
                 <span className="bg-purple-200 px-2 py-1 rounded">
-                  {t('language') === 'el' ? 'Οικονομία' : 'Economy'}
+                  {t('economy')}
                 </span>
                 <span className="bg-purple-200 px-2 py-1 rounded">
-                  {t('language') === 'el' ? 'Κοινωνία' : 'Society'}
+                  {t('society')}
                 </span>
                 <span className="bg-purple-200 px-2 py-1 rounded">
-                  {t('language') === 'el' ? 'Κρίσεις' : 'Crises'}
+                  {t('crises')}
                 </span>
               </div>
             </CardContent>

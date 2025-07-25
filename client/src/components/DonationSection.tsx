@@ -28,19 +28,19 @@ export function DonationSection() {
       amount: "3.50",
       icon: <Coffee className="w-5 h-5" />,
       title: t('buyMeCoffee'),
-      description: language === 'el' ? "Για τον δημιουργό" : "For the creator"
+      description: t('forTheCreator')
     },
     {
       amount: "7.00", 
       icon: <Heart className="w-5 h-5" />,
       title: t('supportDevelopment'),
-      description: language === 'el' ? "Υποστήριξη του έργου" : "Support the project"
+      description: t('supportTheProject')
     },
     {
       amount: "15.00",
       icon: <Laptop className="w-5 h-5" />,
       title: t('boostDevelopment'),
-      description: language === 'el' ? "Βοήθεια στην ανάπτυξη" : "Help development"
+      description: t('helpDevelopment')
     }
   ];
 
@@ -56,7 +56,7 @@ export function DonationSection() {
           </div>
           <div className="bg-green-50 border border-green-200 rounded-lg p-3 mb-4 inline-block">
             <p className="text-green-700 font-medium text-sm">
-              🆓 {t('freeForAll')} - {language === 'el' ? 'Χωρίς κρυφές χρεώσεις' : 'No hidden charges'}
+              🆓 {t('freeForAll')} - {t('noHiddenCharges')}
             </p>
           </div>
           <p className="text-gray-600 max-w-2xl mx-auto text-sm leading-relaxed">

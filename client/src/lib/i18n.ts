@@ -164,6 +164,79 @@ export const translations = {
     partySupport: 'Κομματική Στήριξη',
     makeDecision: 'Λήψη Απόφασης',
     submittingDecision: 'Υποβολή Απόφασης...',
+    
+    // Gamification - Additional translations
+    newFeatures: 'Νέα Χαρακτηριστικά',
+    testYourKnowledge: 'Δοκιμάστε τις γνώσεις σας στην ελληνική πολιτική ιστορία, το Σύνταγμα και τα κόμματα',
+    takeOnDecisions: 'Αναλάβετε δύσκολες αποφάσεις διακυβέρνησης και δείτε τις συνέπειες των επιλογών σας',
+    history: 'Ιστορία',
+    constitution: 'Σύνταγμα',
+    parties: 'Κόμματα',
+    economy: 'Οικονομία',
+    society: 'Κοινωνία',
+    crises: 'Κρίσεις',
+    
+    // Difficulty levels
+    easy: 'Εύκολο',
+    medium: 'Μέτριο', 
+    hard: 'Δύσκολο',
+    basicPoliticalHistory: 'Βασικές γνώσεις πολιτικής ιστορίας',
+    intermediateKnowledge: 'Ενδιάμεσες γνώσεις και λεπτομέρειες',
+    specializedKnowledge: 'Εξειδικευμένες γνώσεις και ιστορικά γεγονότα',
+    basicGovernance: 'Βασικά ζητήματα διακυβέρνησης',
+    complexDilemmas: 'Σύνθετα πολιτικά διλήμματα',
+    urgentCrises: 'Επείγουσες εθνικές κρίσεις',
+    exampleEnvironmental: 'π.χ. περιβαλλοντικές κρίσεις',
+    exampleEconomicSocial: 'π.χ. οικονομικές και κοινωνικές κρίσεις',
+    exampleForeignPolicy: 'π.χ. εξωτερική πολιτική με χρονικό όριο',
+    
+    // Grades and feedback
+    excellent: 'Άριστα',
+    veryGood: 'Πολύ Καλά',
+    good: 'Καλά',
+    fair: 'Μέτρια',
+    poor: 'Αδύναμα',
+    outstandingKnowledge: 'Εξαιρετική γνώση της ελληνικής πολιτικής!',
+    veryGoodKnowledge: 'Πολύ καλή γνώση, μπράβο!',
+    goodFoundation: 'Καλή βάση, συνέχισε να μελετάς!',
+    needsMoreStudy: 'Χρειάζεται περισσότερη μελέτη.',
+    significantImprovement: 'Χρειάζεται σημαντική βελτίωση.',
+    
+    // Decision ratings
+    excellentDecision: 'Εξαιρετική Απόφαση',
+    goodDecision: 'Καλή Απόφαση',
+    fairDecision: 'Μέτρια Απόφαση',
+    difficultDecision: 'Δύσκολη Απόφαση',
+    
+    // Quiz and PM interface
+    quizResults: 'Αποτελέσματα Κουίζ',
+    decisionResults: 'Αποτελέσματα Απόφασης',
+    correctAnswers: 'Σωστές',
+    totalQuestions: 'Συνολικές', 
+    accuracyPercent: 'Επιτυχία',
+    tryAgain: 'Δοκίμασε Ξανά',
+    newScenario: 'Νέο Σενάριο',
+    startQuiz: 'Ξεκινήστε το Κουίζ',
+    startScenario: 'Ξεκινήστε το Σενάριο',
+    selectDifficultyLevel: 'Επιλέξτε Επίπεδο Δυσκολίας',
+    selectNumberOfQuestions: 'Επιλέξτε Αριθμό Ερωτήσεων',
+    minutesShort: 'λεπτά',
+    minAbbrev: 'λεπτά',
+    decisionTime: 'Χρόνος απόφασης:',
+    secondsUnit: 'δευτερόλεπτα',
+    yourDecision: 'Η Απόφασή σας:',
+    consequencesLabel: 'Συνέπειες:',
+    
+    // PM Information sections
+    politicalCostDescription: 'Πόσο δύσκολη είναι πολιτικά η απόφαση',
+    economicImpactDescription: 'Θετικός ή αρνητικός αντίκτυπος στην οικονομία',
+    socialImpactDescription: 'Επίδραση στην κοινωνία και τους πολίτες',
+    
+    // Donation section
+    forTheCreator: 'Για τον δημιουργό',
+    supportTheProject: 'Υποστήριξη του έργου',
+    helpDevelopment: 'Βοήθεια στην ανάπτυξη',
+    noHiddenCharges: 'Χωρίς κρυφές χρεώσεις',
 
     // Parties (keep Greek names but add descriptions)
     parties: {
@@ -224,6 +297,79 @@ export const translations = {
     makeDecision: 'Make Decision',
     submittingDecision: 'Submitting Decision...',
     questions: 'questions',
+    
+    // Gamification - Additional translations
+    newFeatures: 'New Features',
+    testYourKnowledge: 'Test your knowledge of Greek political history, Constitution and parties',
+    takeOnDecisions: 'Take on difficult governance decisions and see the consequences of your choices',
+    history: 'History',
+    constitution: 'Constitution',
+    parties: 'Parties',
+    economy: 'Economy',
+    society: 'Society',
+    crises: 'Crises',
+    
+    // Difficulty levels
+    easy: 'Easy',
+    medium: 'Medium',
+    hard: 'Hard',
+    basicPoliticalHistory: 'Basic political history knowledge',
+    intermediateKnowledge: 'Intermediate knowledge and details',
+    specializedKnowledge: 'Specialized knowledge and historical events',
+    basicGovernance: 'Basic governance issues',
+    complexDilemmas: 'Complex political dilemmas',
+    urgentCrises: 'Urgent national crises',
+    exampleEnvironmental: 'e.g. environmental crises',
+    exampleEconomicSocial: 'e.g. economic and social crises',
+    exampleForeignPolicy: 'e.g. foreign policy with time limits',
+    
+    // Grades and feedback
+    excellent: 'Excellent',
+    veryGood: 'Very Good',
+    good: 'Good',
+    fair: 'Fair',
+    poor: 'Poor',
+    outstandingKnowledge: 'Outstanding knowledge of Greek politics!',
+    veryGoodKnowledge: 'Very good knowledge, well done!',
+    goodFoundation: 'Good foundation, keep studying!',
+    needsMoreStudy: 'Needs more study.',
+    significantImprovement: 'Significant improvement needed.',
+    
+    // Decision ratings
+    excellentDecision: 'Excellent Decision',
+    goodDecision: 'Good Decision',
+    fairDecision: 'Fair Decision',
+    difficultDecision: 'Difficult Decision',
+    
+    // Quiz and PM interface
+    quizResults: 'Quiz Results',
+    decisionResults: 'Decision Results',
+    correctAnswers: 'Correct',
+    totalQuestions: 'Total',
+    accuracyPercent: 'Accuracy',
+    tryAgain: 'Try Again',
+    newScenario: 'New Scenario',
+    startQuiz: 'Start Quiz',
+    startScenario: 'Start Scenario',
+    selectDifficultyLevel: 'Select Difficulty Level',
+    selectNumberOfQuestions: 'Select Number of Questions',
+    minutesShort: 'minutes',
+    minAbbrev: 'min',
+    decisionTime: 'Decision time:',
+    secondsUnit: 'seconds',
+    yourDecision: 'Your Decision:',
+    consequencesLabel: 'Consequences:',
+    
+    // PM Information sections
+    politicalCostDescription: 'How politically difficult the decision is',
+    economicImpactDescription: 'Positive or negative impact on the economy',
+    socialImpactDescription: 'Effect on society and citizens',
+    
+    // Donation section
+    forTheCreator: 'For the creator',
+    supportTheProject: 'Support the project',
+    helpDevelopment: 'Help development',
+    noHiddenCharges: 'No hidden charges',
     
     // Answer options
     stronglyDisagree: 'Strongly Disagree',
