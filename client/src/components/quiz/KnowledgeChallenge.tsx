@@ -7,7 +7,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { Brain, CheckCircle, XCircle, Clock, Trophy } from "lucide-react";
 import { apiRequest } from "@/lib/queryClient";
-import { useTranslation } from "@/lib/i18n";
+import { useTranslation, useLanguage } from "@/lib/i18n";
 
 interface QuizQuestion {
   id: number;
@@ -51,6 +51,7 @@ export function KnowledgeChallenge({
   const [startTime, setStartTime] = useState<number>(Date.now());
   const [score, setScore] = useState(0);
   const { t } = useTranslation();
+  const { language } = useLanguage();
 
   const { data: questions, isLoading } = useQuery<QuizQuestion[]>({
     queryKey: ['/api/quiz/questions', questionCount, difficulty],
@@ -180,7 +181,7 @@ export function KnowledgeChallenge({
             {/* Question */}
             <div className="bg-blue-50 p-4 rounded-lg">
               <p className="text-lg font-medium text-blue-900">
-                {t('language') === 'el' ? currentQuestion.question : (currentQuestion.questionEn || currentQuestion.question)}
+                {language === 'el' ? currentQuestion.question : (currentQuestion.questionEn || currentQuestion.question)}
               </p>
               <div className="flex items-center space-x-4 mt-2 text-sm text-blue-700">
                 <span className="bg-blue-200 px-2 py-1 rounded">
@@ -265,7 +266,7 @@ export function KnowledgeChallenge({
                         ? 'text-green-700' 
                         : 'text-red-700'
                     }`}>
-                      {t('language') === 'el' 
+                      {language === 'el' 
                         ? currentQuestion.explanation 
                         : (currentQuestion.explanationEn || currentQuestion.explanation)}
                     </p>
