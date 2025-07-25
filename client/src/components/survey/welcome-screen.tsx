@@ -127,6 +127,24 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
                 <p className="text-sm text-blue-600 font-medium mb-4">
                   {t('surveyLength')}
                 </p>
+                
+                {/* Political Spectrum Banner */}
+                <div className="bg-gradient-to-r from-red-100 via-yellow-100 to-blue-100 p-3 rounded-lg mb-4">
+                  <div className="text-center">
+                    <div className="flex justify-between items-center mb-2">
+                      <span className="text-red-600 font-semibold text-xs">
+                        {t('left').toUpperCase()}
+                      </span>
+                      <span className="text-gray-600 font-semibold text-xs">
+                        {t('center').toUpperCase()}
+                      </span>
+                      <span className="text-blue-600 font-semibold text-xs">
+                        {t('right').toUpperCase()}
+                      </span>
+                    </div>
+                    <div className="h-2 bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500 rounded-full"></div>
+                  </div>
+                </div>
               </div>
 
               <div className="grid grid-cols-2 gap-3 mb-6">
@@ -174,6 +192,24 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
                 <p className="text-sm text-purple-600 font-medium mb-4">
                   {t('chooseQuestionCount')}
                 </p>
+                
+                {/* Political Spectrum Banner */}
+                <div className="bg-gradient-to-r from-red-100 via-yellow-100 to-blue-100 p-3 rounded-lg mb-4">
+                  <div className="text-center">
+                    <div className="flex justify-between items-center mb-2">
+                      <span className="text-red-600 font-semibold text-xs">
+                        {t('left').toUpperCase()}
+                      </span>
+                      <span className="text-gray-600 font-semibold text-xs">
+                        {t('center').toUpperCase()}
+                      </span>
+                      <span className="text-blue-600 font-semibold text-xs">
+                        {t('right').toUpperCase()}
+                      </span>
+                    </div>
+                    <div className="h-2 bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500 rounded-full"></div>
+                  </div>
+                </div>
               </div>
 
               <div className="grid grid-cols-2 gap-3 mb-6">
@@ -197,22 +233,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
                 })}
               </div>
 
-              <div className="bg-gradient-to-r from-red-100 via-yellow-100 to-blue-100 p-4 rounded-lg mb-4">
-                <div className="text-center">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="text-red-600 font-semibold text-xs">
-                      {t('left').toUpperCase()}
-                    </span>
-                    <span className="text-gray-600 font-semibold text-xs">
-                      {t('center').toUpperCase()}
-                    </span>
-                    <span className="text-blue-600 font-semibold text-xs">
-                      {t('right').toUpperCase()}
-                    </span>
-                  </div>
-                  <div className="h-2 bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500 rounded-full"></div>
-                </div>
-              </div>
+
 
               <p className="text-neutral-500 text-sm text-center">
                 {t('selectQuestionCount')}
