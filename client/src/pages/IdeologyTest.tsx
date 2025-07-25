@@ -239,14 +239,17 @@ export default function IdeologyTest() {
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                      {result.label ? getIdeologyCharacteristics(result.label, t('language')).map((char, index) => (
-                        <li key={index} className="flex items-start">
-                          <span className="text-blue-500 mr-2">•</span>
-                          {char}
-                        </li>
-                      )) : (
-                        <li>No characteristics available</li>
-                      )}
+                      {(() => {
+                        const characteristics = result.label ? getIdeologyCharacteristics(result.label, t('language')) : [];
+                        return characteristics.length > 0 ? characteristics.map((char, index) => (
+                          <li key={index} className="flex items-start">
+                            <span className="text-blue-500 mr-2">•</span>
+                            {char}
+                          </li>
+                        )) : (
+                          <li>No characteristics available</li>
+                        );
+                      })()}
                     </ul>
                   </CardContent>
                 </Card>
@@ -456,5 +459,5 @@ function getIdeologyCharacteristics(label: string, language: string): string[] {
   };
   
   const chars = characteristics[label];
-  return chars ? chars[language as 'el' | 'en'] : [];
+  return chars ? (chars[language as 'el' | 'en'] || []) : [];
 }
