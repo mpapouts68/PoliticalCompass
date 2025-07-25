@@ -44,12 +44,6 @@ export function ContactSection() {
       label: 'Twitter',
       href: 'https://twitter.com/ideologos_gr',
       color: 'text-blue-500 hover:text-blue-600'
-    },
-    {
-      icon: Github,
-      label: 'GitHub',
-      href: 'https://github.com/ideologos-project',
-      color: 'text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white'
     }
   ];
 
@@ -94,7 +88,7 @@ export function ContactSection() {
         <CardHeader>
           <CardTitle className="flex items-center gap-2 text-gray-900 dark:text-white">
             <Globe className="w-5 h-5" />
-            {t('language') === 'el' ? 'Κοινωνικά Δίκτυα' : 'Social Media & Updates'}
+            {t('socialMedia')}
           </CardTitle>
         </CardHeader>
         <CardContent>
@@ -118,9 +112,7 @@ export function ContactSection() {
             })}
           </div>
           <p className="text-sm text-gray-600 dark:text-gray-400">
-            {t('language') === 'el'
-              ? 'Ακολουθήστε μας για ενημερώσεις, νέα χαρακτηριστικά και πολιτικές αναλύσεις.'
-              : 'Follow us for updates, new features, and political analysis.'}
+            {t('followForUpdates')}
           </p>
         </CardContent>
       </Card>
@@ -130,36 +122,20 @@ export function ContactSection() {
         <CardHeader>
           <CardTitle className="flex items-center gap-2 text-gray-900 dark:text-white">
             <Shield className="w-5 h-5" />
-            {t('language') === 'el' ? 'Προστασία Δεδομένων' : 'Privacy & Data Protection'}
+            {t('privacyDataProtection')}
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-3">
           <div className="text-sm text-gray-600 dark:text-gray-400 space-y-2">
-            <p>
-              {t('language') === 'el'
-                ? '• Δεν αποθηκεύουμε προσωπικά δεδομένα των χρηστών'
-                : '• We do not store users\' personal data'}
-            </p>
-            <p>
-              {t('language') === 'el'
-                ? '• Οι απαντήσεις στο τεστ είναι ανώνυμες'
-                : '• Survey responses are completely anonymous'}
-            </p>
-            <p>
-              {t('language') === 'el'
-                ? '• Χρησιμοποιούμε τα δεδομένα μόνο για στατιστικούς σκοπούς'
-                : '• Data is used only for statistical purposes'}
-            </p>
-            <p>
-              {t('language') === 'el'
-                ? '• Πλήρης συμμόρφωση με τον GDPR'
-                : '• Full GDPR compliance'}
-            </p>
+            <p>• {t('noPersonalData')}</p>
+            <p>• {t('anonymousResponses')}</p>
+            <p>• {t('statisticalUseOnly')}</p>
+            <p>• {t('gdprCompliance')}</p>
           </div>
           <div className="pt-2">
             <Button variant="outline" size="sm" asChild>
               <a href="mailto:privacy@ideologos.online">
-                {t('language') === 'el' ? 'Ερωτήσεις Απορρήτου' : 'Privacy Questions'}
+                {t('privacyQuestions')}
               </a>
             </Button>
           </div>
@@ -170,7 +146,7 @@ export function ContactSection() {
       <Card className="bg-blue-50 dark:bg-blue-900/20 border-blue-200 dark:border-blue-800">
         <CardContent className="p-6">
           <h3 className="font-semibold text-blue-900 dark:text-blue-200 mb-2">
-            {t('language') === 'el' ? 'Σχετικά με το Έργο' : 'About the Project'}
+            {t('aboutProject')}
           </h3>
           <p className="text-sm text-blue-800 dark:text-blue-300">
             {t('language') === 'el'

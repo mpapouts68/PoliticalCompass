@@ -111,12 +111,10 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
               <div className="text-center mb-6">
                 <ChartPie className="w-16 h-16 mx-auto mb-4 text-blue-600" />
                 <h3 className="text-2xl font-bold text-neutral-900 mb-2">
-                  {t('language') === 'el' ? 'Τεστ Κομματικής Ευθυγράμμισης' : 'Party Alignment Test'}
+                  {t('partyAlignmentTest')}
                 </h3>
                 <p className="text-base text-neutral-600 mb-4">
-                  {t('language') === 'el' 
-                    ? 'Ανακαλύψτε ποιο κόμμα ταιριάζει περισσότερο στις απόψεις σας'
-                    : 'Discover which party best matches your views'}
+                  {t('partyAlignmentDescription')}
                 </p>
                 
                 {/* Party Logos Row */}

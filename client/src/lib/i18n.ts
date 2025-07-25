@@ -126,6 +126,18 @@ export const translations = {
     chooseQuestionCount: 'Επιλέξτε αριθμό ερωτήσεων',
     selectQuestionCount: 'Επιλέξτε τον αριθμό ερωτήσεων για να ξεκινήσει αυτόματα το τεστ',
     educationalDisclaimer: 'Αυτό το εργαλείο έχει εκπαιδευτικό χαρακτήρα και βοηθά στην κατανόηση των πολιτικών θέσεων. Δεν αντικαθιστά την προσωπική έρευνα και κρίση.',
+    partyAlignmentDescription: 'Ανακαλύψτε ποιο κόμμα ταιριάζει περισσότερο στις απόψεις σας',
+    
+    // Contact Section
+    socialMedia: 'Κοινωνικά Δίκτυα',
+    privacyDataProtection: 'Προστασία Δεδομένων',
+    aboutProject: 'Σχετικά με το Έργο',
+    followForUpdates: 'Ακολουθήστε μας για ενημερώσεις, νέα χαρακτηριστικά και πολιτικές αναλύσεις.',
+    noPersonalData: 'Δεν αποθηκεύουμε προσωπικά δεδομένα των χρηστών',
+    anonymousResponses: 'Οι απαντήσεις στο τεστ είναι ανώνυμες',
+    statisticalUseOnly: 'Χρησιμοποιούμε τα δεδομένα μόνο για στατιστικούς σκοπούς',
+    gdprCompliance: 'Πλήρης συμμόρφωση με τον GDPR',
+    privacyQuestions: 'Ερωτήσεις Απορρήτου',
 
     // Parties (keep Greek names but add descriptions)
     parties: {
@@ -245,6 +257,18 @@ export const translations = {
     chooseQuestionCount: 'Choose question count',
     selectQuestionCount: 'Select the number of questions to automatically start the test',
     educationalDisclaimer: 'This tool is educational and helps understand political positions. It does not replace personal research and judgment.',
+    partyAlignmentDescription: 'Discover which party best matches your views',
+    
+    // Contact Section
+    socialMedia: 'Social Media & Updates',
+    privacyDataProtection: 'Privacy & Data Protection',
+    aboutProject: 'About the Project',
+    followForUpdates: 'Follow us for updates, new features, and political analysis.',
+    noPersonalData: 'We do not store users\' personal data',
+    anonymousResponses: 'Survey responses are completely anonymous',
+    statisticalUseOnly: 'Data is used only for statistical purposes',
+    gdprCompliance: 'Full GDPR compliance',
+    privacyQuestions: 'Privacy Questions',
     
     // Parties (English descriptions)
     parties: {
