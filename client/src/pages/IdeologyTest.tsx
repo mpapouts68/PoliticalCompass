@@ -54,7 +54,7 @@ export default function IdeologyTest() {
     enabled: !isComplete
   });
 
-  const { data: resultData } = useQuery<{ result: IdeologyResult }>({
+  const { data: resultData, error: resultError } = useQuery<{ result: IdeologyResult }>({
     queryKey: ['/api/ideology/results', sessionId],
     enabled: showResults
   });
@@ -116,8 +116,52 @@ export default function IdeologyTest() {
     );
   }
 
-  if (showResults && resultData?.result) {
+  if (showResults) {
+    if (resultError) {
+      return (
+        <div className="min-h-screen flex items-center justify-center">
+          <div className="text-center">
+            <p className="text-lg text-red-600">
+              {t('errorLoadingQuestions')}
+            </p>
+            <Link href="/">
+              <Button className="mt-4">{t('home')}</Button>
+            </Link>
+          </div>
+        </div>
+      );
+    }
+    
+    if (!resultData?.result) {
+      return (
+        <div className="min-h-screen flex items-center justify-center">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+            <p className="text-lg">
+              {t('calculatingResults')}
+            </p>
+          </div>
+        </div>
+      );
+    }
+    
     const result = resultData.result as IdeologyResult;
+    
+    // Add error handling for missing result data
+    if (!result || !result.label) {
+      return (
+        <div className="min-h-screen flex items-center justify-center">
+          <div className="text-center">
+            <p className="text-lg text-red-600">
+              {t('errorLoadingQuestions')}
+            </p>
+            <Link href="/">
+              <Button className="mt-4">{t('home')}</Button>
+            </Link>
+          </div>
+        </div>
+      );
+    }
     
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 p-4">
@@ -182,7 +226,7 @@ export default function IdeologyTest() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-gray-700 dark:text-gray-300">
-                      {getIdeologyDescription(result.label, t('language'))}
+                      {result.label ? getIdeologyDescription(result.label, t('language')) : 'No description available'}
                     </p>
                   </CardContent>
                 </Card>
@@ -195,12 +239,14 @@ export default function IdeologyTest() {
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                      {getIdeologyCharacteristics(result.label, t('language')).map((char, index) => (
+                      {result.label ? getIdeologyCharacteristics(result.label, t('language')).map((char, index) => (
                         <li key={index} className="flex items-start">
                           <span className="text-blue-500 mr-2">•</span>
                           {char}
                         </li>
-                      ))}
+                      )) : (
+                        <li>No characteristics available</li>
+                      )}
                     </ul>
                   </CardContent>
                 </Card>
@@ -338,6 +384,8 @@ function getLocalizedLabel(label: string, language: string): string {
 }
 
 function getIdeologyDescription(label: string, language: string): string {
+  if (!label) return '';
+  
   const descriptions: Record<string, {el: string, en: string}> = {
     "Far Left": {
       el: "Υποστηρίζετε ριζικές αλλαγές στο οικονομικό και κοινωνικό σύστημα, με έμφαση στην ισότητα και την κρατική παρέμβαση.",
@@ -374,6 +422,8 @@ function getIdeologyDescription(label: string, language: string): string {
 }
 
 function getIdeologyCharacteristics(label: string, language: string): string[] {
+  if (!label) return [];
+  
   const characteristics: Record<string, {el: string[], en: string[]}> = {
     "Far Left": {
       el: ["Ισχυρή κρατική παρέμβαση", "Κοινωνική ισότητα", "Εργατικά δικαιώματα", "Αντικαπιταλισμός"],
