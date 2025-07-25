@@ -1,0 +1,28 @@
+-- Add 25 more PM scenarios to reach 35 total
+
+INSERT INTO pm_scenarios (title, title_en, description, description_en, context, context_en, category, difficulty, time_pressure) VALUES 
+('Εκλογική Απάτη', 'Election Fraud', 'Κατηγορίες για νοθεία στις εκλογές.', 'Allegations of election fraud.', 'Αντιπολίτευση κατηγορεί για νοθεία σε κρίσιμες εκλογικές περιφέρειες.', 'Opposition alleges fraud in crucial electoral districts.', 'politics', 3, 1),
+('Τροφική Κρίση', 'Food Crisis', 'Έλλειψη βασικών αγαθών στα σούπερ μάρκετ.', 'Shortage of basic goods in supermarkets.', 'Προβλήματα εφοδιασμού και αύξηση τιμών τροφίμων.', 'Supply problems and food price increases.', 'economy', 2, 0),
+('Στρατιωτική Κρίση', 'Military Crisis', 'Ένοπλη σύγκρουση στα σύνορα.', 'Armed conflict at the borders.', 'Στρατιωτική ένταση με γειτονική χώρα.', 'Military tension with neighboring country.', 'defense', 3, 1),
+('Κυβερνοεπίθεση', 'Cyber Attack', 'Χάκερς στοχεύουν κυβερνητικά συστήματα.', 'Hackers target government systems.', 'Εκτεταμένη κυβερνοεπίθεση σε κρίσιμες υποδομές.', 'Extensive cyber attack on critical infrastructure.', 'technology', 2, 1),
+('Μεταναστευτική Κρίση', 'Immigration Crisis', 'Χιλιάδες μετανάστες στα νησιά.', 'Thousands of migrants on the islands.', 'Μαζική άφιξη προσφύγων στα ελληνικά νησιά.', 'Mass arrival of refugees on Greek islands.', 'society', 2, 0),
+('Ενεργειακή Κρίση', 'Energy Crisis', 'Διακοπή ενέργειας σε όλη τη χώρα.', 'Power outage across the country.', 'Συστημική βλάβη στο ηλεκτρικό δίκτυο.', 'Systemic failure in electrical grid.', 'energy', 2, 1),
+('Νοσοκομειακή Κρίση', 'Hospital Crisis', 'Κατάρρευση του ΕΣΥ.', 'NHS collapse.', 'Έλλειψη κλινών και προσωπικού στα νοσοκομεία.', 'Shortage of beds and staff in hospitals.', 'health', 3, 1),
+('Εκπαιδευτική Κρίση', 'Education Crisis', 'Κλείσιμο σχολείων λόγω απεργιών.', 'School closures due to strikes.', 'Πανελλαδική απεργία εκπαιδευτικών.', 'Nationwide teachers strike.', 'education', 1, 0),
+('Οικονομικό Σκάνδαλο', 'Financial Scandal', 'Διαφθορά σε κυβερνητικό έργο.', 'Corruption in government project.', 'Αποκαλύψεις για μίζες σε δημόσια έργα.', 'Revelations about bribes in public works.', 'politics', 3, 0),
+('Περιβαλλοντική Κρίση', 'Environmental Crisis', 'Μόλυνση σε ποτάμι.', 'River pollution.', 'Τοξικά απόβλητα μολύνουν υδάτινους πόρους.', 'Toxic waste pollutes water resources.', 'environment', 2, 0),
+('Τουριστική Κρίση', 'Tourism Crisis', 'Πτώση τουρισμού κατά 80%', 'Tourism drop by 80%', 'Μαζικές ακυρώσεις διακοπών λόγω κρίσης.', 'Mass holiday cancellations due to crisis.', 'economy', 2, 0),
+('Δικαστική Κρίση', 'Judicial Crisis', 'Παραίτηση του Προέδρου του ΣτΕ.', 'Resignation of Council of State President.', 'Κρίση στη δικαιοσύνη με παραιτήσεις.', 'Justice crisis with resignations.', 'politics', 3, 0),
+('Αθλητικό Σκάνδαλο', 'Sports Scandal', 'Στημένα παιχνίδια στο πρωτάθλημα.', 'Match fixing in the championship.', 'Αποκαλύψεις για χειραγώγηση αγώνων.', 'Revelations about match manipulation.', 'society', 1, 0),
+('Κρίση στα ΜΜΕ', 'Media Crisis', 'Κλείσιμο μεγάλου τηλεοπτικού σταθμού.', 'Closure of major TV station.', 'Οικονομικά προβλήματα στα ΜΜΕ.', 'Financial problems in media.', 'society', 2, 0),
+('Διπλωματική Κρίση', 'Diplomatic Crisis', 'Ρήξη σχέσεων με σύμμαχο.', 'Breaking relations with ally.', 'Σοβαρή διπλωματική ένταση.', 'Serious diplomatic tension.', 'foreign_policy', 3, 1),
+('Αγροτική Κρίση', 'Agricultural Crisis', 'Κινητοποιήσεις αγροτών.', 'Farmers protests.', 'Αγρότες κλείνουν τους δρόμους.', 'Farmers block the roads.', 'economy', 2, 0),
+('Ναυτική Κρίση', 'Maritime Crisis', 'Ατύχημα με τάνκερ.', 'Tanker accident.', 'Πετρελαιοκηλίδα απειλεί τις ακτές.', 'Oil spill threatens coasts.', 'environment', 3, 1),
+('Συνταξιοδοτική Κρίση', 'Pension Crisis', 'Έλλειψη χρημάτων στα ταμεία.', 'Lack of money in pension funds.', 'Κίνδυνος διακοπής συντάξεων.', 'Risk of pension cuts.', 'economy', 3, 0),
+('Εργασιακή Κρίση', 'Labor Crisis', 'Μαζικές απολύσεις.', 'Mass layoffs.', 'Κλείσιμο μεγάλων εργοστασίων.', 'Closure of major factories.', 'economy', 2, 0),
+('Κρίση στην Υγεία', 'Health Crisis', 'Έλλειψη φαρμάκων.', 'Medicine shortage.', 'Προβλήματα στην προμήθεια φαρμάκων.', 'Problems in medicine supply.', 'health', 2, 1),
+('Τεχνολογική Κρίση', 'Technology Crisis', 'Κατάρρευση των τηλεπικοινωνιών.', 'Telecommunications collapse.', 'Πρόβλημα στο 5G δίκτυο.', 'Problem in 5G network.', 'technology', 2, 1),
+('Κρίση στον Τουρισμό', 'Tourism Crisis 2', 'Ατύχημα σε κρουαζιερόπλοιο.', 'Cruise ship accident.', 'Τουριστικό ατύχημα βλάπτει τη φήμη.', 'Tourist accident damages reputation.', 'economy', 2, 1),
+('Εμπορική Κρίση', 'Trade Crisis', 'Εμπάργκο από την ΕΕ.', 'EU embargo.', 'Εμπορικές κυρώσεις κατά της Ελλάδας.', 'Trade sanctions against Greece.', 'economy', 3, 0),
+('Κρίση στη Δικαιοσύνη', 'Justice Crisis 2', 'Απεργία δικαστών.', 'Judges strike.', 'Παράλυση του δικαστικού συστήματος.', 'Paralysis of judicial system.', 'politics', 2, 0),
+('Κρίση στην Άμυνα', 'Defense Crisis', 'Πρόβλημα στα όπλα.', 'Weapons problem.', 'Ελαττωματικός εξοπλισμός στρατού.', 'Defective military equipment.', 'defense', 3, 1);

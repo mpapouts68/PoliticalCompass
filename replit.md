@@ -85,13 +85,13 @@ User requested: Auto-advance to next question upon selection (implemented with 8
 - Moved party logos inside the party alignment section for better organization and visual clarity
 - Fixed layout to ensure both main tests display side by side on desktop while remaining mobile-friendly
 - **MAJOR UPDATE (Jan 2025): Implemented comprehensive gamification features**
-  - Knowledge Challenge: Interactive quiz system with 30+ Greek political history questions across 3 difficulty levels
-  - Prime Minister for a Day: Realistic governing scenario simulations with economic, social, and political impact calculations
+  - Knowledge Challenge: Interactive quiz system with 300+ Greek political history questions across 3 difficulty levels
+  - Prime Minister for a Day: Realistic governing scenario simulations with 35+ economic, social, and political impact scenarios
   - Full bilingual support for both new features with comprehensive translations using database content
   - Advanced scoring systems: quiz accuracy ratings and PM decision impact analysis
   - Database integration with new tables: quiz_questions, quiz_results, pm_scenarios, pm_policy_options, pm_decisions
   - New dedicated pages at /quiz, /κουιζ, /prime-minister, /πρωθυπουργος with full navigation
-  - Enhanced question pool: 30+ questions covering modern history, parties, constitution across different eras
+  - Enhanced question pool: 300+ questions covering modern history, parties, constitution across different eras
   - Auto-advance functionality: Questions proceed automatically after selection (800ms delay) matching survey behavior
   - Real-time countdown timers for urgent scenarios and detailed consequence feedback system
   - Improved UI stability: Fixed answer shuffling to prevent layout shifts during interaction
