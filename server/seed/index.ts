@@ -15,31 +15,57 @@ import quizQuestionData from "./data/quizQuestions.json";
 import extraQuizQuestionData from "./data/extraQuizQuestions.json";
 import { dedupeQuizQuestions, normalizeQuizQuestion } from "./normalizeQuiz";
 import { refreshPmData } from "./refreshPm";
+import type { SurveyQuestionSeed } from "./surveyProfiles";
+
+async function loadSurveyRowsForIdeology(): Promise<SurveyQuestionSeed[]> {
+  const merged = mergeSurveyQuestionBank();
+  if (merged.length > 0) return merged;
+
+  const rows = await db.select().from(questions);
+  return rows.map((row) => ({
+    text: row.text,
+    textEn: row.textEn,
+    category: row.category,
+    partyPositions: row.partyPositions as SurveyQuestionSeed["partyPositions"],
+  }));
+}
 
 async function seedCoreData(): Promise<void> {
-  const existingParties = await db.select({ count: count() }).from(parties);
-  if (existingParties[0]?.count > 0) {
-    console.log("Core data already seeded, skipping parties/questions/ideology.");
-    return;
+  const [partyCountRow] = await db.select({ count: count() }).from(parties);
+  const [questionCountRow] = await db.select({ count: count() }).from(questions);
+  const [ideologyCountRow] = await db.select({ count: count() }).from(ideologyQuestions);
+
+  if (partyCountRow.count === 0) {
+    console.log("Seeding parties...");
+    await db.insert(parties).values(partyData);
   }
 
-  console.log("Seeding parties...");
-  await db.insert(parties).values(partyData);
-
-  console.log("Seeding survey questions...");
   const surveyRows = mergeSurveyQuestionBank();
-  await db.insert(questions).values(
-    surveyRows.map((question) => ({
-      text: question.text,
-      textEn: question.textEn ?? null,
-      category: question.category,
-      partyPositions: question.partyPositions,
-    })),
-  );
 
-  console.log("Seeding ideology questions from party programs...");
-  const ideologyRows = surveyToIdeologyQuestions(surveyRows);
-  await db.insert(ideologyQuestions).values(ideologyRows);
+  if (questionCountRow.count === 0) {
+    if (surveyRows.length === 0) {
+      throw new Error("Survey question bank is empty — seed JSON data missing from build");
+    }
+    console.log("Seeding survey questions...");
+    await db.insert(questions).values(
+      surveyRows.map((question) => ({
+        text: question.text,
+        textEn: question.textEn ?? null,
+        category: question.category,
+        partyPositions: question.partyPositions,
+      })),
+    );
+  }
+
+  if (ideologyCountRow.count === 0) {
+    console.log("Seeding ideology questions from party programs...");
+    const rowsForIdeology = surveyRows.length > 0 ? surveyRows : await loadSurveyRowsForIdeology();
+    if (rowsForIdeology.length === 0) {
+      throw new Error("Cannot seed ideology questions without survey questions");
+    }
+    const ideologyRows = surveyToIdeologyQuestions(rowsForIdeology);
+    await db.insert(ideologyQuestions).values(ideologyRows);
+  }
 }
 
 async function seedQuizData(): Promise<void> {
@@ -55,6 +81,10 @@ async function seedQuizData(): Promise<void> {
     ...(quizQuestionData as Array<Record<string, unknown>>).map((row) => normalizeQuizQuestion(row)!),
     ...(extraQuizQuestionData as Array<Record<string, unknown>>).map((row) => normalizeQuizQuestion(row)!),
   ].filter(Boolean));
+
+  if (rows.length === 0) {
+    throw new Error("Quiz question bank is empty — seed JSON data missing from build");
+  }
 
   for (let i = 0; i < rows.length; i += batchSize) {
     const batch = rows.slice(i, i + batchSize);
@@ -120,7 +150,9 @@ export async function seedDatabase(force = false): Promise<void> {
 
 export async function isDatabaseEmpty(): Promise<boolean> {
   const [partyCount] = await db.select({ count: count() }).from(parties);
-  return partyCount.count === 0;
+  const [questionCount] = await db.select({ count: count() }).from(questions);
+  const [quizCount] = await db.select({ count: count() }).from(quizQuestions);
+  return partyCount.count === 0 || questionCount.count === 0 || quizCount.count === 0;
 }
 
 if (process.argv[1]?.includes("seed")) {

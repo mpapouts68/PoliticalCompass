@@ -4,6 +4,9 @@ import { fileURLToPath } from "url";
 import { db } from "../db";
 import { pmDecisions, pmPolicyOptions, pmScenarios } from "@shared/schema";
 import type { PmScenarioBundle } from "./pmHelpers";
+import flatScenariosData from "./data/pmScenarios.json";
+import flatOptionsData from "./data/pmOptions.json";
+import extraBundlesData from "./data/extraPmScenarios.json";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dataDir = path.join(__dirname, "data");
@@ -33,7 +36,7 @@ type FlatOption = {
   consequencesEn: string | null;
 };
 
-function loadJson<T>(file: string): T {
+function loadJsonFromDisk<T>(file: string): T {
   return JSON.parse(fs.readFileSync(path.join(dataDir, file), "utf8"));
 }
 
@@ -50,9 +53,21 @@ function dedupeOptions(options: FlatOption[]): FlatOption[] {
 }
 
 export async function refreshPmData(): Promise<void> {
-  const flatScenarios = loadJson<FlatScenario[]>("pmScenarios.json");
-  const flatOptions = loadJson<FlatOption[]>("pmOptions.json");
-  const extraBundles = loadJson<PmScenarioBundle[]>("extraPmScenarios.json");
+  const flatScenarios = (
+    (flatScenariosData as FlatScenario[]).length
+      ? flatScenariosData
+      : loadJsonFromDisk<FlatScenario[]>("pmScenarios.json")
+  ) as FlatScenario[];
+  const flatOptions = (
+    (flatOptionsData as FlatOption[]).length
+      ? flatOptionsData
+      : loadJsonFromDisk<FlatOption[]>("pmOptions.json")
+  ) as FlatOption[];
+  const extraBundles = (
+    (extraBundlesData as PmScenarioBundle[]).length
+      ? extraBundlesData
+      : loadJsonFromDisk<PmScenarioBundle[]>("extraPmScenarios.json")
+  ) as PmScenarioBundle[];
 
   const scenarioByTitle = new Map<string, FlatScenario & { options: FlatOption[] }>();
 
