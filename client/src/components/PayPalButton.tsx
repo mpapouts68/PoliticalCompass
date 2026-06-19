@@ -24,45 +24,48 @@ const BUTTON_STYLE = {
   tagline: false,
 };
 
-type PayPalActions = {
-  order: {
-    create: (payload: unknown) => Promise<string>;
-    capture: () => Promise<unknown>;
-  };
-};
+async function createServerOrder(currency: string, value: string, itemName: string): Promise<string> {
+  const res = await fetch("/paypal/order", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      intent: "CAPTURE",
+      amount: value,
+      currency,
+      description: `Ιδεολόγος — ${itemName}`,
+    }),
+  });
 
-function buildOrderPayload(currency: string, value: string, itemName: string) {
-  return {
-    purchase_units: [
-      {
-        description: `Ιδεολόγος — ${itemName}`,
-        amount: {
-          currency_code: currency,
-          value,
-        },
-      },
-    ],
-    application_context: {
-      shipping_preference: "NO_SHIPPING",
-      brand_name: "Ιδεολόγος",
-      user_action: "PAY_NOW",
-    },
-  };
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) {
+    const message =
+      typeof data?.error === "string"
+        ? data.error
+        : data?.message || "PayPal order creation failed";
+    throw new Error(message);
+  }
+  if (!data?.id) {
+    throw new Error("PayPal returned no order ID");
+  }
+  return data.id as string;
 }
 
-function buildButtonConfig(
-  currency: string,
-  value: string,
-  itemName: string,
-  fundingSource?: string,
-) {
+async function captureServerOrder(orderID: string): Promise<void> {
+  const res = await fetch(`/paypal/order/${orderID}/capture`, { method: "POST" });
+  if (!res.ok) {
+    const data = await res.json().catch(() => ({}));
+    throw new Error(data?.error || "PayPal capture failed");
+  }
+}
+
+function buildButtonConfig(currency: string, value: string, itemName: string, fundingSource?: string) {
   return {
     ...(fundingSource ? { fundingSource } : {}),
     style: BUTTON_STYLE,
-    createOrder: (_data: unknown, actions: PayPalActions) =>
-      actions.order.create(buildOrderPayload(currency, value, itemName)),
-    onApprove: async (_data: unknown, actions: PayPalActions) => {
-      await actions.order.capture();
+    createOrder: () => createServerOrder(currency, value, itemName),
+    onApprove: async (data: { orderID?: string }) => {
+      if (!data.orderID) throw new Error("Missing PayPal order ID");
+      await captureServerOrder(data.orderID);
       alert("Η δωρεά ολοκληρώθηκε επιτυχώς! Ευχαριστούμε για την υποστήριξή σας!");
     },
     onCancel: () => {

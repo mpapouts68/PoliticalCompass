@@ -34,7 +34,7 @@ const client = PAYPAL_CLIENT_ID && PAYPAL_CLIENT_SECRET ? new Client({
     oAuthClientSecret: PAYPAL_CLIENT_SECRET,
   },
   timeout: 0,
-  environment: Environment.Sandbox, // Always use sandbox for development
+  environment: process.env.NODE_ENV === "production" ? Environment.Production : Environment.Sandbox,
   logging: {
     logLevel: LogLevel.Info,
     logRequest: {
@@ -87,8 +87,8 @@ export async function createPaypalOrder(req: Request, res: Response) {
       return res.status(503).json({ error: "PayPal not configured" });
     }
 
-    const { amount, currency, intent } = req.body;
-    console.log("PayPal order params:", { amount, currency, intent });
+    const { amount, currency, intent, description } = req.body;
+    console.log("PayPal order params:", { amount, currency, intent, description });
 
     if (!amount || isNaN(parseFloat(amount)) || parseFloat(amount) <= 0) {
       console.error("Invalid amount:", amount);
@@ -118,6 +118,7 @@ export async function createPaypalOrder(req: Request, res: Response) {
         intent: intent,
         purchaseUnits: [
           {
+            description: description || "Ιδεολόγος — Δωρεά",
             amount: {
               currencyCode: currency,
               value: amount,
