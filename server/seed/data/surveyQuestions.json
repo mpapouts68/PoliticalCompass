@@ -1,0 +1,7543 @@
+[
+  {
+    "text": "Θεωρείτε ότι το κράτος πρέπει να παίζει μεγαλύτερο ρόλο στην οικονομία μέσω κρατικοποιήσεων και κρατικών επιχειρήσεων;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you believe the state should play a greater role in the economy through nationalizations and state-owned enterprises?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε τη νομιμοποίηση των συμφώνων συμβίωσης ομόφυλων ζευγαριών;",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": -2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": -2
+    },
+    "textEn": "Do you support the legalization of same-sex civil unions?",
+    "categoryEn": "Social Issues"
+  },
+  {
+    "text": "Πρέπει να σταματήσει άμεσα η εξόρυξη λιγνίτη στην Ελλάδα;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": 0,
+      "ΕΛ": -2,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": -1
+    },
+    "textEn": "Should lignite mining in Greece be stopped immediately?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Η Ελλάδα πρέπει να ενισχύσει τη συνεργασία της με το ΝΑΤΟ;",
+    "category": "Εξωτερική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    },
+    "textEn": "Should Greece strengthen its cooperation with NATO?",
+    "categoryEn": "Foreign Policy"
+  },
+  {
+    "text": "Υποστηρίζετε την αύξηση του κατώτατου μισθού;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you support increasing the minimum wage?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Πρέπει να μειωθούν οι φόροι για τις επιχειρήσεις;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": -2,
+      "ΦΛ": 2
+    },
+    "textEn": "Should taxes on businesses be reduced?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε την ενίσχυση του δημόσιου συστήματος υγείας;",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support strengthening the public healthcare system?",
+    "categoryEn": "Healthcare"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να περιοριστεί η μετανάστευση στην Ελλάδα;",
+    "category": "Μετανάστευση",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you believe that immigration to Greece should be restricted?",
+    "categoryEn": "Immigration"
+  },
+  {
+    "text": "Υποστηρίζετε την αποκρατικοποίηση δημόσιων επιχειρήσεων;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": -1,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support the privatization of public enterprises?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Πρέπει να αυξηθούν οι δαπάνες για την άμυνα;",
+    "category": "Άμυνα",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -2,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 2
+    },
+    "textEn": "Should defense spending be increased?",
+    "categoryEn": "Defense"
+  },
+  {
+    "text": "Υποστηρίζετε την ψηφιοποίηση της δημόσιας διοίκησης;",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 0,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support the digitalization of public administration?",
+    "categoryEn": "Governance"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να μειωθεί η γραφειοκρατία στο δημόσιο τομέα;",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 0,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you believe that bureaucracy in the public sector should be reduced?",
+    "categoryEn": "Governance"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των ανανεώσιμων πηγών ενέργειας;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support expanding renewable energy sources?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η ιδιωτική εκπαίδευση στην Ελλάδα;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": -1,
+      "ΦΛ": 1
+    },
+    "textEn": "Should private education be strengthened in Greece?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Υποστηρίζετε την αύξηση των συντάξεων;",
+    "category": "Κοινωνική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you support increasing pensions?",
+    "categoryEn": "Social Policy"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να αυξηθεί η φορολογία για τους υψηλόμισθους;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you believe that taxation on high earners should be increased?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των δικαιωμάτων των εργαζομένων;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you support expanding workers' rights?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί ο ρόλος της Εκκλησίας στην εκπαίδευση;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": -1,
+      "ΦΛ": 1
+    },
+    "textEn": "Should the role of the Church in education be strengthened?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Υποστηρίζετε την αποποινικοποίηση της χρήσης κάνναβης;",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -1,
+      "ΕΛ": -2,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": -2
+    },
+    "textEn": "Do you support decriminalizing cannabis use?",
+    "categoryEn": "Social Issues"
+  },
+  {
+    "text": "Θεωρείτε ότι η Ελλάδα πρέπει να αποχωρήσει από την Ευρωζώνη;",
+    "category": "Εξωτερική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": -2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": -2,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you believe that Greece should leave the Eurozone?",
+    "categoryEn": "Foreign Policy"
+  },
+  {
+    "text": "Υποστηρίζετε την κατασκευή νέων πυρηνικών εργοστασίων;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": -1,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you support building new nuclear power plants?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Πρέπει να περιοριστούν οι απεργίες στους βασικούς τομείς;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": -1,
+      "ΦΛ": 1
+    },
+    "textEn": "Should strikes in essential sectors be restricted?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Υποστηρίζετε την υποχρεωτική στρατιωτική θητεία;",
+    "category": "Άμυνα",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support mandatory military service?",
+    "categoryEn": "Defense"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να ενισχυθεί η ασφάλεια στα σύνορα;",
+    "category": "Μετανάστευση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 0,
+      "ΕΛ": 2,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you believe that border security should be strengthened?",
+    "categoryEn": "Immigration"
+  },
+  {
+    "text": "Υποστηρίζετε την ελεύθερη διάθεση αντισυλληπτικών χαπιών;",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you support over-the-counter availability of contraceptive pills?",
+    "categoryEn": "Social Issues"
+  },
+  {
+    "text": "Πρέπει να αυξηθούν οι ποινές για τα οικονομικά εγκλήματα;",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Should penalties for financial crimes be increased?",
+    "categoryEn": "Justice"
+  },
+  {
+    "text": "Υποστηρίζετε την ιδιωτικοποίηση των αεροδρομίων;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": -2,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support the privatization of airports?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να ενισχυθεί η γαλλική γλώσσα στα σχολεία;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 0,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you believe that the French language should be strengthened in schools?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση του τέλους κυκλοφορίας για τα αυτοκίνητα;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": 1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support abolishing the vehicle circulation fee?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Πρέπει να περιοριστεί η πρόσβαση στα μέσα κοινωνικής δικτύωσης για τους ανήλικους;",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 0,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 2
+    },
+    "textEn": "Should access to social media for minors be restricted?",
+    "categoryEn": "Social Issues"
+  },
+  {
+    "text": "Υποστηρίζετε την επιβολή περιβαλλοντικού τέλους σε βιομηχανίες;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 1,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you support imposing an environmental levy on industries?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να αυξηθούν τα όρια ταχύτητας στους αυτοκινητόδρομους;",
+    "category": "Μεταφορές",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": -1,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you believe that speed limits on highways should be increased?",
+    "categoryEn": "Μεταφορές"
+  },
+  {
+    "text": "Υποστηρίζετε την ενίσχυση των τοπικών αυτοδιοικήσεων;",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support strengthening local governments?",
+    "categoryEn": "Governance"
+  },
+  {
+    "text": "Πρέπει να καταργηθεί η θανατική ποινή οριστικά;",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should the death penalty be abolished permanently?",
+    "categoryEn": "Justice"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των δημόσιων συγκοινωνιών;",
+    "category": "Μεταφορές",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support expanding public transportation?",
+    "categoryEn": "Μεταφορές"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να αυξηθεί η χρηματοδότηση για την έρευνα;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe that funding for research should be increased?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση της βενζίνης αμόλυβδης;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support phasing out unleaded gasoline?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Πρέπει να περιοριστεί η διαφήμιση των τσιγάρων;",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you believe cigarette advertising should be restricted?",
+    "categoryEn": "Healthcare"
+  },
+  {
+    "text": "Υποστηρίζετε την αύξηση του φόρου στα πολυτελή αγαθά;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you support increasing taxes on luxury goods?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να ενισχυθεί η αστυνόμευση στις πόλεις;",
+    "category": "Ασφάλεια",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you believe policing in cities should be enhanced?",
+    "categoryEn": "Security"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των διοδίων;",
+    "category": "Μεταφορές",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you support the abolition of toll roads?",
+    "categoryEn": "Μεταφορές"
+  },
+  {
+    "text": "Πρέπει να αυξηθεί η χρηματοδότηση για τις τέχνες;",
+    "category": "Πολιτισμός",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should funding for the arts be increased?",
+    "categoryEn": "Culture"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση του μετρό σε όλες τις μεγάλες πόλεις;",
+    "category": "Μεταφορές",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support extending the metro to all major cities?",
+    "categoryEn": "Μεταφορές"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να περιοριστεί η χρήση πλαστικών σακουλών;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe the use of plastic bags should be restricted?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση της υποχρεωτικής φοίτησης στο Λύκειο;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -2,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": -2,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you support abolishing mandatory high school attendance?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Πρέπει να αυξηθούν οι ελέγχοι για την φοροδιαφυγή;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    },
+    "textEn": "Should checks for tax evasion be increased?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των κλειστών επαγγελμάτων;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support abolishing closed professions?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να ενισχυθεί η προστασία των προσωπικών δεδομένων;",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe personal data protection should be strengthened?",
+    "categoryEn": "Technology"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση του ωραρίου των καταστημάτων;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support extending store opening hours?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Πρέπει να περιοριστούν οι επενδύσεις σε ορυκτά καύσιμα;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 1,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should investments in fossil fuels be restricted?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των τελών κινητής τηλεφωνίας στην ΕΕ;",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support abolishing mobile phone roaming fees within the EU?",
+    "categoryEn": "Technology"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να αυξηθεί η στήριξη για τις νεοφυείς επιχειρήσεις;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 0,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you believe support for startups should be increased?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των ποδηλατοδρόμων στις πόλεις;",
+    "category": "Μεταφορές",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support expanding bike lanes in cities?",
+    "categoryEn": "Μεταφορές"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η προστασία των εργαζομένων στη διανομή;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should protection for delivery workers be strengthened?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση της υποχρεωτικής χρήσης μάσκας;",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 0,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support abolishing mandatory mask wearing?",
+    "categoryEn": "Healthcare"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να αυξηθεί η χρηματοδότηση για τη ψυχική υγεία;",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you believe funding for mental health should be increased?",
+    "categoryEn": "Healthcare"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των τελών στις τράπεζες;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you support abolishing bank fees?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Πρέπει να περιοριστεί η χρήση των αυτοκινήτων στα κέντρα των πόλεων;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 1,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    },
+    "textEn": "Should car use in city centers be restricted?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των κάμερων ασφαλείας στους δρόμους;",
+    "category": "Ασφάλεια",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -2,
+      "ΕΛ": 2,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support expanding security cameras on streets?",
+    "categoryEn": "Security"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να ενισχυθεί η στήριξη για τις μονογονεϊκές οικογένειες;",
+    "category": "Κοινωνική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe support for single-parent families should be strengthened?",
+    "categoryEn": "Social Policy"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση της λογοκρισίας στο διαδίκτυο;",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 0,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you support abolishing internet censorship?",
+    "categoryEn": "Technology"
+  },
+  {
+    "text": "Πρέπει να αυξηθεί η στήριξη για τους αγρότες;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    },
+    "textEn": "Should support for farmers be increased?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των εξετάσεων εισόδου στα πανεπιστήμια;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": 0,
+      "ΕΛ": -1,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": -1,
+      "ΦΛ": -2
+    },
+    "textEn": "Do you support abolishing university entrance exams?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να ενισχυθεί η προστασία των καταναλωτών;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe consumer protection should be strengthened?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των εργαστηρίων στα σχολεία;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support expanding school laboratories?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Πρέπει να περιοριστούν οι εισαγωγές από χώρες εκτός ΕΕ;",
+    "category": "Εξωτερική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": 1,
+      "ΕΛ": 2,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": -1,
+      "ΦΛ": 2
+    },
+    "textEn": "Should imports from countries outside the EU be restricted?",
+    "categoryEn": "Foreign Policy"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση της αξιολόγησης των εκπαιδευτικών;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you support abolishing teacher evaluation?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να ενισχυθεί η διαφάνεια στη δημόσια διοίκηση;",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you believe transparency in public administration should be strengthened?",
+    "categoryEn": "Governance"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των φόρων κληρονομιάς;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": -1,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support abolishing inheritance taxes?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Πρέπει να αυξηθεί η στήριξη για τα άτομα με αναπηρίες;",
+    "category": "Κοινωνική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 2
+    },
+    "textEn": "Should support for people with disabilities be increased?",
+    "categoryEn": "Social Policy"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των δωρεάν γευμάτων στα σχολεία;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you support expanding free school meals?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να περιοριστεί η διαφήμιση των στοιχημάτων;",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe gambling advertising should be restricted?",
+    "categoryEn": "Social Issues"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση του χρονικού ορίου στις άδειες μητρότητας;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you support abolishing time limits on maternity leave?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η κυβερνοασφάλεια στο κράτος;",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 2,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 2,
+      "ΦΛ": 2
+    },
+    "textEn": "Should state cybersecurity be strengthened?",
+    "categoryEn": "Technology"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των κοινόχρηστων χώρων στις πόλεις;",
+    "category": "Πολεοδομία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support expanding public spaces in cities?",
+    "categoryEn": "Πολεοδομία"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να περιοριστούν τα διαφημιστικά μηνύματα για παιδιά;",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe advertising messages for children should be restricted?",
+    "categoryEn": "Social Issues"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των τελών διοδίων σε νησιά;",
+    "category": "Μεταφορές",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support abolishing ferry tolls to islands?",
+    "categoryEn": "Μεταφορές"
+  },
+  {
+    "text": "Πρέπει να αυξηθεί η στήριξη για τους νέους επιχειρηματίες;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 0,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 2
+    },
+    "textEn": "Should support for young entrepreneurs be increased?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των υπηρεσιών τηλεϊατρικής;",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support expanding telemedicine services?",
+    "categoryEn": "Healthcare"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να περιοριστεί η χρήση μη επανδρωμένων αεροσκαφών από ιδιώτες;",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 0,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe that private use of drones should be restricted?",
+    "categoryEn": "Technology"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των τελών στα φάρμακα;",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support abolishing fees on pharmaceuticals?",
+    "categoryEn": "Healthcare"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η προστασία των παραλιών από την οικοδόμηση;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Should protection of beaches from development be strengthened?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των προγραμμάτων δια βίου μάθησης;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support expanding lifelong learning programs?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να περιοριστούν οι τιμές των ενοικίων;",
+    "category": "Στέγαση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you believe that rental prices should be capped?",
+    "categoryEn": "Housing"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των τελών κίνησης κεφαλαίων;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": -1,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support abolishing capital transaction fees?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Πρέπει να αυξηθεί η χρηματοδότηση για τα κέντρα ημερήσιας φροντίδας;",
+    "category": "Κοινωνική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Should funding for day care centers be increased?",
+    "categoryEn": "Social Policy"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των προγραμμάτων ανακύκλωσης;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support expanding recycling programs?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να περιοριστεί η εξαγωγή φυσικών πόρων;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you believe that extraction of natural resources should be restricted?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των περιορισμών στην εργασία την Κυριακή;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": -1,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support abolishing restrictions on Sunday work?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η στήριξη για τους άστεγους;",
+    "category": "Κοινωνική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Should support for homeless people be strengthened?",
+    "categoryEn": "Social Policy"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των δικτύων πέμπτης γενιάς (5G) σε όλη τη χώρα;",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 0,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support expanding 5G networks nationwide?",
+    "categoryEn": "Technology"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να περιοριστούν οι επενδύσεις σε κρυπτονομίσματα;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you believe that investments in cryptocurrencies should be restricted?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των φόρων στις μικρές επιχειρήσεις;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 0,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support abolishing taxes on small businesses?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Πρέπει να αυξηθεί η στήριξη για τις επιχειρήσεις που εφαρμόζουν πράσινες πρακτικές;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Should support for businesses implementing green practices be increased?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των προγραμμάτων μαθητείας;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 2,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support expanding apprenticeship programs?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να περιοριστούν οι διαφημίσεις αλκοόλ στα ΜΜΕ;",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe that alcohol advertising in the media should be restricted?",
+    "categoryEn": "Healthcare"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση της μείωσης του ΦΠΑ σε βασικά αγαθά;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -2,
+      "ΚΚΕ": -2,
+      "ΕΛ": -1,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": -1,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you support abolishing the reduced VAT rate on essential goods?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η προστασία των εργαζομένων στην οικονομία του διαμοιρασμού;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should protection of workers in the sharing economy be strengthened?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των κοινωνικών δομών στην επαρχία;",
+    "category": "Κοινωνική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support expanding social infrastructure in rural areas?",
+    "categoryEn": "Social Policy"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να περιοριστούν τα μπόνους των τραπεζικών στελεχών;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you believe that bank executives' bonuses should be restricted?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των τελών στις τραπεζικές συναλλαγές;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you support abolishing fees on bank transactions?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Πρέπει να αυξηθεί η χρηματοδότηση για τα μουσεία και τις βιβλιοθήκες;",
+    "category": "Πολιτισμός",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Should funding for museums and libraries be increased?",
+    "categoryEn": "Culture"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των προγραμμάτων εθελοντισμού;",
+    "category": "Κοινωνική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support expanding volunteer programs?",
+    "categoryEn": "Social Policy"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να περιοριστούν οι εκπομπές διοξειδίου του άνθρακα από τα αυτοκίνητα;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe that CO2 emissions from cars should be restricted?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των περιορισμών στις ώρες λειτουργίας των φαρμακείων;",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support abolishing restrictions on pharmacy opening hours?",
+    "categoryEn": "Healthcare"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η στήριξη για τις μικρές αγροτικές εκμεταλλεύσεις;",
+    "category": "Αγροτική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Should support for small farms be strengthened?",
+    "categoryEn": "Agricultural Policy"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των δωρεάν σημείων ασύρματης πρόσβασης στις πόλεις;",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support expanding free WiFi hotspots in cities?",
+    "categoryEn": "Technology"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να περιοριστεί η διαφήμιση του γρήγορου φαγητού προς παιδιά;",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe that fast food advertising aimed at children should be restricted?",
+    "categoryEn": "Healthcare"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των τελών εισόδου στα μουσεία για φοιτητές;",
+    "category": "Πολιτισμός",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support abolishing museum admission fees for students?",
+    "categoryEn": "Culture"
+  },
+  {
+    "text": "Πρέπει να αυξηθεί η στήριξη για τις εργαζόμενες μητέρες;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Should support for working mothers be increased?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των προγραμμάτων κατάρτισης για άνεργους;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support expanding training programs for the unemployed?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να περιοριστούν οι εισαγωγές ξένων αυτοκινήτων;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": 1,
+      "ΕΛ": 2,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 0,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you believe that imports of foreign automobiles should be restricted?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των τελών στις κάρτες πληρωμών;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you support abolishing fees on payment cards?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η προστασία των εργαζομένων στη νυχτερινή εργασία;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should protection of night-shift workers be strengthened?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Πρέπει να θεσπιστεί ανεξάρτητη εισαγγελέας διαφθοράς με ασύλο από κυβερνητικές παρεμβάσεις;",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Should an independent anti-corruption prosecutor with immunity from government interference be established?",
+    "categoryEn": "Justice"
+  },
+  {
+    "text": "Υποστηρίζετε πλήρη διερεύνηση της τραγωδίας στα Τέμπη με δημόσια ανάληψη ευθύνης από τους πολιτικούς υπευθύνους;",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support a full investigation of the Tempi tragedy with public accountability from political officials?",
+    "categoryEn": "Justice"
+  },
+  {
+    "text": "Πρέπει να μειωθεί ο αριθμός των βουλευτών και των υπουργείων για μείωση δαπανών του κράτους;",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 2
+    },
+    "textEn": "Should the number of members of parliament and ministries be reduced to cut state spending?",
+    "categoryEn": "Governance"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να μειωθεί η φορολογία επιχειρήσεων και εισφορών εργαζομένων κατά 30% σε τετραετία;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": -1,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you believe that business taxes and employee contributions should be reduced by 30% over four years?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Πρέπει να καταργηθεί ο φόρος εισοδήματος για χαμηλά εισοδήματα (έως 12.000€ ετησίως);",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 2,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 2
+    },
+    "textEn": "Should income tax be abolished for low earners (up to €12,000 annually)?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση του τέλους συναλλαγών στις τραπεζικές κάρτες;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support abolishing transaction fees on bank cards?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Πρέπει να εφαρμοστεί πλαφόν στις τιμές βασικών τροφίμων και ενέργειας;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": -1
+    },
+    "textEn": "Should price caps be applied to essential food and energy prices?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε την επιβολή ειδικού φόρου στα υπερκέρδη ενεργειακών εταιρειών;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you support imposing a special tax on energy companies' windfall profits?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η εγχώρια μεταποίηση και η αγροτική παραγωγή αντί της υπηρεσιών και του τουρισμού;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    },
+    "textEn": "Should domestic manufacturing and agricultural production be strengthened at the expense of services and tourism?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να μειωθεί η κρατική χρηματοδότηση των πολιτικών κομμάτων κατά 50%;",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 2,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you believe that state funding of political parties should be reduced by 50%?",
+    "categoryEn": "Governance"
+  },
+  {
+    "text": "Πρέπει να απαγορευτούν οι πολιτικές διαφημίσεις στα μέσα κοινωνικής δικτύωσης κατά την προεκλογική περίοδο;",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should political advertising on social media be banned during election campaigns?",
+    "categoryEn": "Governance"
+  },
+  {
+    "text": "Υποστηρίζετε την άμεση εκλογή Προέδρου Δημοκρατίας από τον λαό και όχι από τη Βουλή;",
+    "category": "Σύνταγμα",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support the direct election of the President of the Republic by the people rather than by Parliament?",
+    "categoryEn": "Constitution"
+  },
+  {
+    "text": "Πρέπει να εφαρμοστεί αναλογική εκπροσώπηση στις εκλογές χωρίς όριο εισόδου στη Βουλή;",
+    "category": "Σύνταγμα",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": -1
+    },
+    "textEn": "Should proportional representation in elections be implemented without a parliamentary threshold?",
+    "categoryEn": "Constitution"
+  },
+  {
+    "text": "Υποστηρίζετε την αποποινικοποίηση της κάνναβης για ψυχαγωγική χρήση;",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 0,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 0,
+      "ΦΛ": -2
+    },
+    "textEn": "Do you support decriminalizing cannabis for recreational use?",
+    "categoryEn": "Social Issues"
+  },
+  {
+    "text": "Πρέπει να απαγορευτούν οι πορείες υπερηφάνειας ΛΟΑΤΚΙ+ σε κεντρικούς δημόσιους χώρους;",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": -1,
+      "ΦΛ": 2
+    },
+    "textEn": "Should Pride parades be banned in central public spaces?",
+    "categoryEn": "Social Issues"
+  },
+  {
+    "text": "Θεωρείτε ότι τα σχολεία δεν πρέπει να διδάσκουν θέματα φύλου και σεξουαλικότητας σε μικρές ηλικίες;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you believe that schools should not teach gender and sexuality topics at young ages?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Υποστηρίζετε το δικαίωμα γάμου για ομόφυλα ζευγάρια;",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": -1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": -2
+    },
+    "textEn": "Do you support marriage rights for same-sex couples?",
+    "categoryEn": "Social Issues"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η προστασία της εργασίας μέσω απαγόρευσης απολύσεων σε επιχειρήσεις κερδοφόρες;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": -1
+    },
+    "textEn": "Should job protection be strengthened by banning layoffs at profitable companies?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση του 6ήμερου εργασίας και την επιστροφή στο 5ήμερο;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you support abolishing the six-day workweek and returning to the five-day workweek?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Πρέπει να θεσπιστεί δικαίωμα ψηφιακής αποσύνδεσης εκτός ωραρίου για τους εργαζομένους;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should a right to digital disconnection outside working hours be established for employees?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να αυξηθεί ο κατώτατος μισθός στο 1.000€ μεικτά;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you believe that the minimum wage should be raised to €1,000 gross?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Πρέπει να εφαρμοστεί καθολική δωρεάν δημόσια υγεία χωρίς συμμετοχή ασθενών;",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should universal free public healthcare without patient co-payments be implemented?",
+    "categoryEn": "Healthcare"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση του ιδιωτικού τομέα υγείας με κρατικά κουπόνια;",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": -1,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support expanding the private healthcare sector with state subsidies (vouchers)?",
+    "categoryEn": "Healthcare"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η ψυχική υγεία με δωρεάν πρόσβαση σε ψυχολόγους μέσω ΕΣΥ;",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should mental health services be strengthened with free access to psychologists through the National Health Service?",
+    "categoryEn": "Healthcare"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση της συνταγογράφησης για εξετάσεις και νοσηλεία στο δημόσιο σύστημα;",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you support abolishing referral requirements for exams and hospitalization in the public system?",
+    "categoryEn": "Healthcare"
+  },
+  {
+    "text": "Πρέπει να θεσπιστεί πλαφόν ενοικίου σε περιοχές με υψηλή ζήτηση;",
+    "category": "Στέγαση",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": -1
+    },
+    "textEn": "Should rent caps be established in high-demand areas?",
+    "categoryEn": "Housing"
+  },
+  {
+    "text": "Υποστηρίζετε δωρεάν στέγαση για νέους άνεργους έως 30 ετών για δύο χρόνια;",
+    "category": "Στέγαση",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": -2
+    },
+    "textEn": "Do you support free housing for young unemployed people up to age 30 for two years?",
+    "categoryEn": "Housing"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί το πρόγραμμα «Σπίτι μου» με κρατικά δάνεια ευνοϊκών όρων;",
+    "category": "Στέγαση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    },
+    "textEn": "Should the \"Spiti Mou\" (My Home) program be strengthened with state loans on favorable terms?",
+    "categoryEn": "Housing"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να αυξηθούν οι δαπάνες για την άμυνα στο 3,5% του ΑΕΠ;",
+    "category": "Άμυνα",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -2,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe that defense spending should be increased to 3.5% of GDP?",
+    "categoryEn": "Defense"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση των χωρικών υδάτων στα 12 ν.μ. και ασκήσεις κυριαρχίας στην ΑΟΖ;",
+    "category": "Εξωτερική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 0,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 2,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support extending territorial waters to 12 nautical miles and exercising sovereignty in the EEZ?",
+    "categoryEn": "Foreign Policy"
+  },
+  {
+    "text": "Πρέπει η Ελλάδα να αποχωρήσει από το Σύμφωνο Στρατηγικής Εταιρικής Σχέσης (ΣΕΣ) με τις ΗΠΑ;",
+    "category": "Εξωτερική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": -1,
+      "ΦΛ": 0
+    },
+    "textEn": "Should Greece withdraw from the Strategic Partnership Agreement (SPA) with the United States?",
+    "categoryEn": "Foreign Policy"
+  },
+  {
+    "text": "Υποστηρίζετε την αναγνώριση της Παλαιστίνης ως κράτους από την Ελλάδα;",
+    "category": "Εξωτερική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you support Greece recognizing Palestine as a state?",
+    "categoryEn": "Foreign Policy"
+  },
+  {
+    "text": "Πρέπει να επιταχυνθεί η απέλαση μεταναστών χωρίς νόμιμα έγγραφα πριν από την εξέταση αιτημάτων ασύλου;",
+    "category": "Μετανάστευση",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 2
+    },
+    "textEn": "Should the deportation of undocumented migrants be accelerated before asylum applications are examined?",
+    "categoryEn": "Immigration"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να κλείσουν όλα τα κέντρα υποδοχής στα νησιά και να μεταφερθούν οι πρόσφυγες στην ενδοχώρα;",
+    "category": "Μετανάστευση",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": -2
+    },
+    "textEn": "Do you believe that all island reception centers should be closed and refugees relocated to the mainland?",
+    "categoryEn": "Immigration"
+  },
+  {
+    "text": "Υποστηρίζετε την παροχή ιθαγένειας σε παιδιά που γεννήθηκαν και σχολιάζουν στην Ελλάδα;",
+    "category": "Μετανάστευση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": -2
+    },
+    "textEn": "Do you support granting citizenship to children born and schooled in Greece?",
+    "categoryEn": "Immigration"
+  },
+  {
+    "text": "Πρέπει να καταργηθεί το νέο Σύμφωνο Μετανάστευσης της ΕΕ που υπογράφηκε από την Ελλάδα;",
+    "category": "Μετανάστευση",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": 2,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 2
+    },
+    "textEn": "Should the new EU Migration Pact signed by Greece be abolished?",
+    "categoryEn": "Immigration"
+  },
+  {
+    "text": "Υποστηρίζετε την επιτάχυνση της απαγόρευσης πώλησης νέων αυτοκινήτων με καύσιμα έως το 2030;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you support accelerating the ban on sales of new fuel-powered cars by 2030?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Πρέπει να επενδυθούν μαζικά σε αιολικά και φωτοβολταϊκά πάρκα ακόμη και σε προστατευόμενες περιοχές;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 0
+    },
+    "textEn": "Should massive investment in wind and solar parks be made even in protected areas?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να επιβληθεί πράσινος φόρος στα αεροπορικά και ακτοπλοϊκά εισιτήρια;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you believe that a green tax should be imposed on air and ferry tickets?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των επιδοτήσεων ορυκτών καυσίμων και μεταφορά τους σε ανανεώσιμες πηγές;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you support abolishing fossil fuel subsidies and redirecting them to renewable energy?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Πρέπει να εφαρμοστεί δωρεάν δημόσια παιδεία από τον νηπιαγωγείο έως το πανεπιστήμιο;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should free public education from nursery school through university be implemented?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Υποστηρίζετε την ίδρυση ιδιωτικών πανεπιστημίων στην Ελλάδα;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": -1,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support establishing private universities in Greece?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Πρέπει να αυξηθεί η χρηματοδότηση για έρευνα και καινοτομία στα ελληνικά πανεπιστήμια;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should funding for research and innovation at Greek universities be increased?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να ενισχυθεί η αστυνομία στα πανεπιστήμια με μόνιμη παρουσία ΕΛ.ΑΣ.;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you believe that policing on university campuses should be strengthened with a permanent Hellenic Police (ELAS) presence?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Υποστηρίζετε την ηλεκτρονική ψηφοφορία σε τοπικές και ευρωεκλογές;",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you support digital voting (e-voting) in local and European elections?",
+    "categoryEn": "Technology"
+  },
+  {
+    "text": "Πρέπει να ρυθμιστεί η χρήση τεχνητής νοημοσύνης από το κράτος με δημόσιο έλεγχο και διαφάνεια;",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should government use of artificial intelligence be regulated with public oversight and transparency?",
+    "categoryEn": "Technology"
+  },
+  {
+    "text": "Θεωρείτε ότι οι ψηφιακές πλατφόρμες πρέπει να φορολογούνται ειδικά για τα έσοδά τους στην Ελλάδα;",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe that digital platforms should be specially taxed on their revenue in Greece?",
+    "categoryEn": "Technology"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση του μνημονίου δημοσιονομικής πειθαρχίας της ΕΕ (Συμφώνου Σταθερότητας);",
+    "category": "Ευρωπαϊκή Πολιτική",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support abolishing the EU fiscal discipline framework (Stability Pact)?",
+    "categoryEn": "European Policy"
+  },
+  {
+    "text": "Πρέπει η Ελλάδα να ασκήσει βέτο σε ευρωπαϊκές αποφάσεις που αφορούν εθνική κυριαρχία;",
+    "category": "Ευρωπαϊκή Πολιτική",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": 2,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    },
+    "textEn": "Should Greece exercise veto power over European decisions affecting national sovereignty?",
+    "categoryEn": "European Policy"
+  },
+  {
+    "text": "Υποστηρίζετε την έκδοση ευρωομολόγων για χρηματοδότηση κοινωνικών δαπανών σε επίπεδο ΕΕ;",
+    "category": "Ευρωπαϊκή Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": -1,
+      "ΕΛ": -1,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you support issuing Eurobonds to finance social spending at the EU level?",
+    "categoryEn": "European Policy"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η κοινωνική πρόνοια για άτομα με αναπηρία με ελάχιστο εγγυημένο εισόδημα;",
+    "category": "Κοινωνική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should social welfare for people with disabilities be strengthened with a guaranteed minimum income?",
+    "categoryEn": "Social Policy"
+  },
+  {
+    "text": "Υποστηρίζετε την καθιέρωση ελάχιστου εγγυημένου εισοδήματος για όλους τους πολίτες;",
+    "category": "Κοινωνική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": -2
+    },
+    "textEn": "Do you support establishing a guaranteed minimum income for all citizens?",
+    "categoryEn": "Social Policy"
+  },
+  {
+    "text": "Πρέπει να αυξηθούν οι συντάξεις πάνω από το ποσοστό αύξησης του κατώτατου μισθού;",
+    "category": "Κοινωνική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should pensions be increased by more than the minimum wage increase percentage?",
+    "categoryEn": "Social Policy"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να προστατευτεί η Κυριακή ως ημέρα ανάπαυσης με κλειστά καταστήματα;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe that Sunday should be protected as a day of rest with shops closed?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Υποστηρίζετε την αποσύνδεση της Εκκλησίας από το κράτος;",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": 2,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 0,
+      "ΦΛ": -2
+    },
+    "textEn": "Do you support separating the Church from the state?",
+    "categoryEn": "Social Issues"
+  },
+  {
+    "text": "Πρέπει να επιβληθεί φόρος εισοδήματος στην Εκκλησία της Ελλάδος;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": -1
+    },
+    "textEn": "Should income tax be imposed on the Church of Greece?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε την πλήρη ιδιωτικοποίηση του ΟΣΕ και της ΤΡΑΙΝΟΣΕ;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": -1,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support the full privatization of OSE and TRAINOSE (Greek railways)?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Πρέπει να εθνικοποιηθούν ξανά στρατηγικοί τομείς όπως η ενέργεια και τα λιμάνια;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 0
+    },
+    "textEn": "Should strategic sectors such as energy and ports be renationalized?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να μειωθεί ο ΦΠΑ στα τρόφιμα πρώτης ανάγκης στο 6%;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you believe that VAT on staple foods should be reduced to 6%?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση του αντικειμενικού συστήματος αξιολόγησης ακινήτων;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support abolishing the objective property valuation system?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Πρέπει να εφαρμοστεί ειδικός φόρος στις τραπεζικές θυγατρικές που δεν χορηγούν δάνεια σε ΜμΕ;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Should a special tax be applied to bank subsidiaries that do not grant loans to SMEs?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να δημιουργηθεί δημόσιος φορέας ελέγχου των Μέσων Μαζικής Ενημέρωσης;",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you believe that a public body to oversee the mass media should be created?",
+    "categoryEn": "Governance"
+  },
+  {
+    "text": "Υποστηρίζετε την απαγόρευση επιχειρηματικών συμφερόντων στην ιδιοκτησία τηλεοπτικών αδειών;",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support banning business interests from owning television licenses?",
+    "categoryEn": "Governance"
+  },
+  {
+    "text": "Πρέπει να επιβληθεί πλαφόν στις αποδοχές διοικητικών στελεχών δημόσιων επιχειρήσεων;",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Should caps be placed on executive compensation at public enterprises?",
+    "categoryEn": "Governance"
+  },
+  {
+    "text": "Υποστηρίζετε την πλήρη δημοσιοποίηση συμβολαίων δημοσίων έργων στο διαδίκτυο;",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support full online publication of public works contracts?",
+    "categoryEn": "Governance"
+  },
+  {
+    "text": "Πρέπει να καταργηθεί η ασυλία βουλευτών για ποινικά αδικήματα;",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 2
+    },
+    "textEn": "Should parliamentary immunity for criminal offenses be abolished?",
+    "categoryEn": "Justice"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να επιταχυνθεί η δικαστική διαδικασία για οικονομικά εγκλήματα πολιτικών;",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe that judicial proceedings for politicians' financial crimes should be accelerated?",
+    "categoryEn": "Justice"
+  },
+  {
+    "text": "Υποστηρίζετε την αποποινικοποίηση της παράβασης νομικού ορίου ταχύτητας σε αυτοκινητόδρομους;",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -1,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support decriminalizing speeding violations on highways?",
+    "categoryEn": "Justice"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η αστυνόμευση στα ΜΜΜ και στους δημόσιους χώρους με πρόσθετες κάμερες;",
+    "category": "Ασφάλεια",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -2,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 2
+    },
+    "textEn": "Should policing on public transport and in public spaces be strengthened with additional cameras?",
+    "categoryEn": "Security"
+  },
+  {
+    "text": "Υποστηρίζετε την αποποινικοποίηση της κάπνας κάνναβης για προσωπική χρήση;",
+    "category": "Ασφάλεια",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 0,
+      "ΦΛ": -2
+    },
+    "textEn": "Do you support decriminalizing cannabis smoking for personal use?",
+    "categoryEn": "Security"
+  },
+  {
+    "text": "Πρέπει να επιβληθεί υποχρεωτική στρατιωτική θητεία 12 μηνών για όλους τους άνδρες;",
+    "category": "Άμυνα",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    },
+    "textEn": "Should mandatory 12-month military service be imposed for all men?",
+    "categoryEn": "Defense"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να ενισχυθεί η ελληνική αμυντική βιομηχανία με κρατικές παραγγελίες;",
+    "category": "Άμυνα",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 0,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe that Greece's defense industry should be strengthened with state orders?",
+    "categoryEn": "Defense"
+  },
+  {
+    "text": "Υποστηρίζετε την πλήρη ψηφιοποίηση των δημοσίων υπηρεσιών μέσω της πλατφόρμας myGov χωρίς εξαίρεση;",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 0,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you support full digitalization of public services (myGov) without exception?",
+    "categoryEn": "Governance"
+  },
+  {
+    "text": "Πρέπει να διατηρηθεί η αναστολή πλειστηριασμών πρώτης κατοικίας για οφειλέτες με χαμηλά εισοδήματα;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should the suspension of primary residence auctions for low-income debtors be maintained?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση του τέλους επί των τραπεζικών συναλλαγών POS για μικρές επιχειρήσεις;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support abolishing the bank transaction fee (POS fee) for small businesses?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η κοινωνική οικονομία και οι συνεταιρισμοί με φορολογικά κίνητρα;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": -1
+    },
+    "textEn": "Should the social economy and cooperatives be strengthened with tax incentives?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να μειωθεί ο ΦΠΑ στον τουρισμό για αύξηση της ανταγωνιστικότητας;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe that VAT on tourism should be reduced to increase competitiveness?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Υποστηρίζετε την εισαγωγή μπόνους μητρότητας και φορολογικών κινήτρων για τρίτο παιδί;",
+    "category": "Κοινωνική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 0,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support introducing maternity bonuses and tax incentives for a third child?",
+    "categoryEn": "Social Policy"
+  },
+  {
+    "text": "Πρέπει να αναγνωριστεί επίσημα η γενοκτονία των Ποντίων από το ελληνικό κράτος;",
+    "category": "Εξωτερική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 2,
+      "ΦΛ": 2
+    },
+    "textEn": "Should the Pontic Genocide be officially recognized by the Greek state?",
+    "categoryEn": "Foreign Policy"
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση της αιγιαλίτιδας ζώνης και την απαγόρευση ιδιωτικοποίησης ακτών;",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you support extending the coastal zone and banning privatization of beaches?",
+    "categoryEn": "Environment"
+  },
+  {
+    "text": "Πρέπει να εφαρμοστεί αυστηρότερος έλεγχος στις βραχυχρόνιες τουριστικές μισθώσεις σε κέντρα πόλεων;",
+    "category": "Στέγαση",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Should stricter controls on short-term rentals (Airbnb) in city centers be implemented?",
+    "categoryEn": "Housing"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να ενισχυθεί η δημόσια παιδεία με μόνιμους διορισμούς εκπαιδευτικών;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you believe that public education should be strengthened with permanent teacher appointments?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των πανελλαδικών εξετάσεων και εισαγωγή συνδυασμένου συστήματος αξιολόγησης;",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": 1,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 0,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you support abolishing nationwide university entrance exams and introducing a combined assessment system?",
+    "categoryEn": "Education"
+  },
+  {
+    "text": "Πρέπει να θεσπιστεί νόμος για την προστασία των μαρτύρων δημοσίου συμφέροντος που αποκαλύπτουν διαφθορά στο δημόσιο;",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Should a law be enacted to protect whistleblowers who expose corruption in the public sector?",
+    "categoryEn": "Justice"
+  },
+  {
+    "text": "Υποστηρίζετε την άμεση χρηματοδότηση των νησιών του Αιγαίου για υποδομές ασύλου και υγείας;",
+    "category": "Μετανάστευση",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 0,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 1,
+      "ΕΛΠ": 1,
+      "ΦΛ": -1
+    },
+    "textEn": "Do you support direct funding of Aegean islands for asylum and health infrastructure?",
+    "categoryEn": "Immigration"
+  },
+  {
+    "text": "Πρέπει να εφαρμοστεί ειδικός φόρος στις πολυτελείς κατοικίες και σκάφη άνω των 2 εκατ. ευρώ;",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Should a special tax be applied to luxury homes and boats worth over €2 million?",
+    "categoryEn": "Economy"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να ενισχυθεί η αγροτική παραγωγή με προστασία ελληνικών προϊόντων από εισαγωγές τρίτων χωρών;",
+    "category": "Αγροτική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you believe that agricultural production should be strengthened by protecting Greek products from third-country imports?",
+    "categoryEn": "Agricultural Policy"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση του ΕΦΚΑ και ενοποίηση όλων των ασφαλιστικών ταμείων σε έναν φορέα;",
+    "category": "Κοινωνική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -1,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you support abolishing EFKA and merging all social insurance funds into a single body?",
+    "categoryEn": "Social Policy"
+  },
+  {
+    "text": "Πρέπει να επιτραπεί η εργασία 4 ημερών με πλήρη μισθό σε εθελοντική βάση;",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -2,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": -1,
+      "ΦΛ": 1
+    },
+    "textEn": "Should a voluntary four-day workweek with full pay be permitted?",
+    "categoryEn": "Labor"
+  },
+  {
+    "text": "Υποστηρίζετε την καθιέρωση δημοψηφίσματος για μεγάλες αποκρατικοποιήσεις;",
+    "category": "Σύνταγμα",
+    "partyPositions": {
+      "ΝΔ": -2,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    },
+    "textEn": "Do you support requiring referendums for major privatizations?",
+    "categoryEn": "Constitution"
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η ελληνική πολιτιστική κληρονομιά με αυξημένη χρηματοδότηση μουσείων και αρχαιολογικών χώρων;",
+    "category": "Πολιτισμός",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    },
+    "textEn": "Should Greece's cultural heritage be strengthened with increased funding for museums and archaeological sites?",
+    "categoryEn": "Culture"
+  },
+  {
+    "text": "Θεωρείτε ότι πρέπει να μειωθεί η εξάρτηση από εισαγωγές ενέργειας με επένδυση σε ελληνικό φυσικό αέριο και ΑΠΕ;",
+    "category": "Ενέργεια",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 1,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 0,
+      "ΕΛ": 1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    },
+    "textEn": "Do you believe that dependence on energy imports should be reduced through investment in Greek natural gas and renewables?",
+    "categoryEn": "Energy"
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των δωρεάν πτήσεων μεγαλοστελεχών της κυβέρνησης και βουλευτών;",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 1,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 2
+    },
+    "textEn": "Do you support abolishing free flights for senior government officials and members of parliament?",
+    "categoryEn": "Governance"
+  },
+  {
+    "text": "Υποστηρίζετε την εισαγωγή ενιαίας flat tax 15% για εισοδήματα και εταιρικά κέρδη;",
+    "textEn": "Do you support a flat 15% tax on personal income and corporate profits?",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να επιβληθεί έκτακτος φόρος στα υπερκέρδη τραπεζών και ενεργειακών εταιρειών;",
+    "textEn": "Should an extraordinary tax be imposed on bank and energy company windfall profits?",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να απλοποιηθούν οι συντελεστές ΦΠΑ σε δύο βασικές κατηγορίες (13% και 24%);",
+    "textEn": "Should VAT rates be simplified to two main brackets (13% and 24%)?",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε περαιτέρω μείωση του φόρου εισοδήματος νομικών προσώπων κάτω από 22%;",
+    "textEn": "Do you support further reducing the corporate income tax rate below 22%?",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να καταβληθεί ετήσιο «μέρισμα πολίτη» από υπεραποδόσεις προϋπολογισμού σε όλους τους ενήλικες;",
+    "textEn": "Should an annual citizen dividend from budget surpluses be paid to all adults?",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να ιδιωτικοποιηθούν περαιτέρω δημόσιες υποδομές (λιμάνια, αεροδρόμια περιφέρειας);",
+    "textEn": "Should more public infrastructure (ports, regional airports) be privatized?",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να επαναφερθεί η κρατική επιχορήγηση για δημόσια ΜΜΕ χωρίς διαφημιστικά κριτήρια;",
+    "textEn": "Should public media funding be restored without advertising-based criteria?",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε υποχρεωτική ηλεκτρονική τιμολόγηση για όλες τις επιχειρήσεις από 2027;",
+    "textEn": "Do you support mandatory e-invoicing for all businesses from 2027?",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να καταργηθεί ο εισφορά αλληλεγγύης για υψηλότερα εισοδήματα;",
+    "textEn": "Should the solidarity levy on higher incomes be abolished?",
+    "category": "Οικονομία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε τη νομική αναγνώριση ταυτότητας φύλου χωρίς ιατρική παρέμβαση;",
+    "textEn": "Do you support legal gender recognition without medical intervention?",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να διατηρηθεί η απαγόρευση υιοθεσίας από ομόφυλα ζευγάρια;",
+    "textEn": "Should the ban on adoption by same-sex couples be maintained?",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιτρέπεται η ευθανασία σε ασθενείς με ανεπίστρεπτες παθήσεις μετά από ιατρική γνωμάτευση;",
+    "textEn": "Should euthanasia be allowed for patients with irreversible conditions after medical review?",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να αυξηθεί η κρατική χρηματοδότηση για δομές φροντίδας ηλικιωμένων;",
+    "textEn": "Should state funding for elder care facilities be increased?",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση της υποχρεωτικής στράτευσης μόνο για άνδρες;",
+    "textEn": "Do you support ending male-only mandatory military service?",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η νομική προστασία της οικογένειας ως παραδοσιακού θεσμού στο Σύνταγμα;",
+    "textEn": "Should constitutional protection of the traditional family institution be strengthened?",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιτρέπεται η πώληση αλκοόλ σε σούπερ μάρκετ μετά τις 20:00;",
+    "textEn": "Should alcohol sales in supermarkets be allowed after 8 p.m.?",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε δημόσια χρηματοδότηση για κέντρα ψυχικής υγείας σε κάθε δήμο;",
+    "textEn": "Do you support public funding for mental health centers in every municipality?",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να απαγορευτεί η διαφήμιση τυχερών παιχνιδιών σε τηλεόραση και διαδίκτυο;",
+    "textEn": "Should gambling advertising be banned on television and the internet?",
+    "category": "Κοινωνικά",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να απαγορευτούν νέες άδειες εξόρυξης σε Natura 2000 περιοχές;",
+    "textEn": "Should new mining permits in Natura 2000 areas be banned?",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την επιβολή τέλους πλαστικής σακούλας 0,15€ σε όλα τα καταστήματα;",
+    "textEn": "Do you support a €0.15 plastic bag fee in all stores?",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιταχυνθεί η απόσυρση θερμοηλεκτρικών μονάδων λιγνίτη πριν το 2028;",
+    "textEn": "Should lignite power plant retirement be accelerated before 2028?",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να επιτρέπονται υδρογοναμικές εγκαταστάσεις σε προστατευόμενες ακτές με αυστηρές προϋποθέσεις;",
+    "textEn": "Should offshore wind farms be allowed on protected coastlines under strict conditions?",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε υποχρεωτική ανακύκλωση οργανικών αποβλήτων σε όλους τους δήμους έως το 2027;",
+    "textEn": "Do you support mandatory organic waste recycling in all municipalities by 2027?",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να μειωθούν οι επιδοτήσεις καυσίμων για αγροτικά μηχανήματα;",
+    "textEn": "Should fuel subsidies for agricultural machinery be reduced?",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιβληθεί φόρος κυκλοφορίας ανά εκπομπές CO2 αντί για κυβισμό;",
+    "textEn": "Should road tax be based on CO2 emissions instead of engine displacement?",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την απαγόρευση μίας χρήσης πλαστικού σε εστιατόρια και delivery από 2026;",
+    "textEn": "Do you support banning single-use plastic in restaurants and delivery from 2026?",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να χρηματοδοτηθεί η αποκατάσταση δασών που κάηκαν το 2023-2025 με εθνικό σχέδιο;",
+    "textEn": "Should burned forests from 2023–2025 be restored through a national plan?",
+    "category": "Περιβάλλον",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να αυξηθεί ο προϋπολογισμός Άμυνας πάνω από 2% του ΑΕΠ μόνιμα;",
+    "textEn": "Should the defense budget be permanently raised above 2% of GDP?",
+    "category": "Άμυνα",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την αγορά επιπλέον F-35 μαχητικών αεροσκαφών;",
+    "textEn": "Do you support purchasing additional F-35 fighter jets?",
+    "category": "Άμυνα",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να ενισχυθεί η εγχώρια παραγωγή στρατιωτικού εξοπλισμού (διαύλους, drones);",
+    "textEn": "Should domestic military equipment production (naval, drones) be expanded?",
+    "category": "Άμυνα",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να μειωθεί η θητεία στους 9 μήνες για όλους τους στρατεύσιμους;",
+    "textEn": "Should military service be reduced to 9 months for all conscripts?",
+    "category": "Άμυνα",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε τη δημιουργία ενός ενιαίου ευρωπαϊκού στρατού με ελληνική συμμετοχή;",
+    "textEn": "Do you support a unified European army with Greek participation?",
+    "category": "Άμυνα",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": -2,
+      "ΕΛ": -1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να αποσυρθούν παλαιότερα Leopard 1 από ενεργή υπηρεσία χωρίς άμεση αντικατάσταση;",
+    "textEn": "Should older Leopard 1 tanks be retired without immediate replacement?",
+    "category": "Άμυνα",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιτρέπεται η πρόσληψη μόνιμου προσωπικού ΕΔ από γυναίκες σε όλα τα σώματα;",
+    "textEn": "Should permanent armed forces recruitment be open to women in all branches?",
+    "category": "Άμυνα",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε στρατιωτικές ασκήσεις κοντά στα νησιά του Αιγαίου με αυξημένη συχνότητα;",
+    "textEn": "Do you support more frequent military exercises near Aegean islands?",
+    "category": "Άμυνα",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να δημιουργηθεί πολιτικός έλεγχος εξαγορών εξοπλισμού από τη Βουλή;",
+    "textEn": "Should Parliament oversee major arms procurement decisions?",
+    "category": "Άμυνα",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει η Ελλάδα να αναγνωρίσει επίσημα την Παλαιστίνη ως κράτος;",
+    "textEn": "Should Greece officially recognize Palestine as a state?",
+    "category": "Εξωτερική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την παράταση της Συμφωνίας των Πρεσπών αν η Β. Μακεδονία δεν τηρεί τις υποχρεώσεις;",
+    "textEn": "Do you support extending the Prespa Agreement only if North Macedonia meets its obligations?",
+    "category": "Εξωτερική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να αυξηθεί η ελληνική βοήθεια στην Ουκρανία με αμυντικό εξοπλισμό;",
+    "textEn": "Should Greek military aid to Ukraine be increased?",
+    "category": "Εξωτερική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": -2,
+      "ΕΛ": -1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να διεκδικηθεί επίσημα η επέκταση των χωρικών υδάτων στα 12 ν.μ. στο Αιγαίο;",
+    "textEn": "Should Greece officially pursue extending territorial waters to 12 nautical miles in the Aegean?",
+    "category": "Εξωτερική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την ένταξη της Κύπρου στην ΕΕ ως ενιαίου κράτους χωρίς τουρκικό βέτο;",
+    "textEn": "Do you support Cyprus joining the EU as a unified state without a Turkish veto?",
+    "category": "Εξωτερική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": -2,
+      "ΕΛ": -1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να μειωθεί η ελληνική στρατιωτική παρουσία στην Αφρική (Σαχέλ);",
+    "textEn": "Should Greece reduce its military presence in Africa (Sahel)?",
+    "category": "Εξωτερική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να ανοίξουν νέα προξενεία σε χώρες της Ασίας για οικονομική διπλωματία;",
+    "textEn": "Should new consulates open in Asian countries for economic diplomacy?",
+    "category": "Εξωτερική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε εμπάργκο όπλων σε κράτη που παραβιάζουν ανθρώπινα δικαιώματα;",
+    "textEn": "Do you support arms embargoes on states violating human rights?",
+    "category": "Εξωτερική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να επαναδιαπραγματευτεί η ελληνική οριοθέτηση ΑΟΖ με την Τουρκία μόνο μέσω Διεθνούς Δικαστηρίου;",
+    "textEn": "Should Greek–Turkish EEZ delimitation be renegotiated only via the International Court?",
+    "category": "Εξωτερική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση του υποκατώτατου μισθού (703€) και εφαρμογή μόνο του κατώτατου;",
+    "textEn": "Do you support abolishing the sub-minimum wage (€703) and applying only the minimum wage?",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να επιτρέπεται η 4ήμερη εργασία 32 ωρών με πλήρη μισθό σε μεγάλες επιχειρήσεις;",
+    "textEn": "Should a 32-hour four-day workweek with full pay be allowed in large firms?",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να ενισχυθεί ο έλεγχος της ERGANI II για αδήλωτη εργασία με πρόστιμα;",
+    "textEn": "Should ERGANI II undeclared work checks be strengthened with fines?",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση της δυνατότητας απολύσεων χωρίς αιτιολόγηση σε επιχειρήσεις άνω των 50 ατόμων;",
+    "textEn": "Do you support ending no-cause dismissals in firms with over 50 employees?",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να μειωθεί η ασφάλιση ελεύθερων επαγγελματιών κατά 20%;",
+    "textEn": "Should self-employed social security contributions be cut by 20%?",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να θεσμοθετηθεί δικαίωμα αποσύνδεσης (right to disconnect) εκτός ωραρίου;",
+    "textEn": "Should a legal right to disconnect outside working hours be established?",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε κρατική επιδότηση πρόσληψης νέων κάτω των 30 ετών;",
+    "textEn": "Do you support state hiring subsidies for under-30 workers?",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να επιτρέπεται η εργασία από απόσταση ως μόνιμη ρύθμιση στο δημόσιο τομέα;",
+    "textEn": "Should remote work be a permanent option in the public sector?",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να αυξηθούν οι ποινές για εργατικά ατυχήματα σε οικοδομές;",
+    "textEn": "Should penalties for construction workplace accidents be increased?",
+    "category": "Εργασία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να επιλεγούν δικαστές και εισαγγελείς από ανεξάρτητη αρχή αντί για υπουργικό συμβούλιο;",
+    "textEn": "Should judges and prosecutors be appointed by an independent authority instead of the cabinet?",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την αποποινικοποίηση της κατοχής μικρών ποσοτήτων κάνναβης για προσωπική χρήση;",
+    "textEn": "Do you support decriminalizing possession of small amounts of cannabis for personal use?",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιβληθούν αυστηρότερες ποινές για διαφθορά δημοσίων λειτουργών;",
+    "textEn": "Should stricter penalties for public official corruption be imposed?",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να καταργηθεί ο νόμος περί καθυστέρησης δικαστικών υποθέσεων (ν. 4623/2019) ως προς παραγραφές;",
+    "textEn": "Should statute-of-limitation rules delaying trials (Law 4623/2019) be repealed?",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε δημόσια τηλεδίκη για υποθέσεις διαφθοράς πολιτικών προσώπων;",
+    "textEn": "Do you support public live-streaming of corruption trials involving politicians?",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η προστασία μαρτύρων δημοσίου συμφέροντος (whistleblowers);",
+    "textEn": "Should whistleblower protection be strengthened?",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να μειωθούν οι φυλακές για μη βίαια αδικήματα με εναλλακτικές ποινές;",
+    "textEn": "Should prison terms for non-violent offenses be reduced with alternative sentences?",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε υποχρεωτική καταγραφή όλων των αστυνομικών συνεντεύξεων;",
+    "textEn": "Do you support mandatory recording of all police interrogations?",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να δημιουργηθεί ειδικό δικαστήριο για οικονομικά εγκλήματα με ταχείες διαδικασίες;",
+    "textEn": "Should a fast-track court for financial crimes be created?",
+    "category": "Δικαιοσύνη",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να μειωθούν οι δήμοι από 332 σε λιγότερους από 200 με συγχωνεύσεις;",
+    "textEn": "Should municipalities be reduced from 332 to fewer than 200 through mergers?",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση της επιλεκτικής επιδότησης φόρου (ΕΕΦ) για υψηλότερα εισοδήματα;",
+    "textEn": "Do you support abolishing the tax rebate (EEF) for higher incomes?",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να εφαρμοστεί ψηφιακή ταυτότητα πολίτη (gov.gr wallet) ως υποχρεωτική για κρατικές υπηρεσίες;",
+    "textEn": "Should the gov.gr digital ID wallet be mandatory for public services?",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να εκλεγόνται άμεσα οι περιφερειάρχες και δήμαρχοι με δεύτερο γύρο;",
+    "textEn": "Should regional governors and mayors be elected directly with a runoff?",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε μείωση του αριθμού των βουλευτών από 300 σε 250;",
+    "textEn": "Do you support reducing MPs from 300 to 250?",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να ενισχυθεί η αποκέντρωση πόρων στους δήμους με block grant;",
+    "textEn": "Should municipal block grants be increased for decentralization?",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε υποχρεωτική δημοσίευση περιουσιακών δηλώσεων πολιτικών σε αναζητήσιμη βάση;",
+    "textEn": "Do you support mandatory searchable publication of politicians' asset declarations?",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να μειωθεί η γραφειοκρατία στις άδειες οικοδομής με ενιαίο ψηφιακό πόρισμα;",
+    "textEn": "Should building permit bureaucracy be cut with a unified digital approval?",
+    "category": "Διοίκηση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να καταργηθούν οι βαθμοί στο δημοτικό και να αντικατασταθούν με περιγραφική αξιολόγηση;",
+    "textEn": "Should primary school grades be replaced with descriptive assessment?",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την ίδρυση μη κρατικών πανεπιστημίων στην Ελλάδα;",
+    "textEn": "Do you support establishing non-state universities in Greece?",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιβληθεί δίγλωσσο μάθημα σε όλα τα δημοτικά σχολεία από την Α' δημοτικού;",
+    "textEn": "Should bilingual instruction be required in all primary schools from grade 1?",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να αυξηθεί η χρηματοδότηση δημόσιων νηπιαγωγείων για πλήρη δωρεάν φροντίδα;",
+    "textEn": "Should public nursery funding be increased for fully free childcare?",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση της βαθμολογίας εισαγωγής (Βαθμολογία) και εισαγωγή μόνο με πανελλαδικές;",
+    "textEn": "Do you support abolishing school-leaving grades and using only national exams for admission?",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να επιτρέπεται η προσευχή στα δημόσια σχολεία κατόπιν αιτήματος μαθητών;",
+    "textEn": "Should prayer be allowed in public schools upon student request?",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να ενισχυθεί η τεχνική και επαγγελματική εκπαίδευση (ΕΠΑΛ) με σύνδεση εργοδοτών;",
+    "textEn": "Should vocational education (EPAL) be strengthened with employer partnerships?",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε δωρεάν σίτιση σε όλα τα δημόσια νηπιαγωγεία και δημοτικά;",
+    "textEn": "Do you support free meals in all public nurseries and primary schools?",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να μειωθεί ο αριθμός μαθητών ανά τάξη σε 20 στο δημοτικό;",
+    "textEn": "Should class sizes be capped at 20 pupils in primary school?",
+    "category": "Εκπαίδευση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να εφαρμοστεί καθολικό σύστημα υγείας χωρίς συμμετοχή ασθενών (zero copay);",
+    "textEn": "Should a universal health system with zero patient copayments be implemented?",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την επέκταση του ιδιωτικού ρόλου σε δημόσια νοσοκομεία μέσω PPP;",
+    "textEn": "Do you support expanding private roles in public hospitals via PPPs?",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιτρέπεται η πώληση φαρμάκων χωρίς συνταγή για βασικά αντιβιοτικά;",
+    "textEn": "Should basic antibiotics be sold without prescription?",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η πρωτοβάθμια φροντίδα με οικογενειακούς γιατρούς ανά 1.500 κατοίκους;",
+    "textEn": "Should primary care be strengthened with one family doctor per 1,500 residents?",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την υποχρεωτική εμβολιασμό για υγειονομικό προσωπικό σε δημόσιες δομές;",
+    "textEn": "Do you support mandatory vaccination for healthcare staff in public facilities?",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να δημιουργηθεί εθνικό μητρώο ασθενών με ενιαίο ιατρικό ιστορικό;",
+    "textEn": "Should a national patient registry with unified medical history be created?",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να καλύπτονται από ΕΟΠΥΥ όλες οι θεραπείες υπογονιμότητας χωρίς όριο προσπαθειών;",
+    "textEn": "Should EOPYY cover all fertility treatments without attempt limits?",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την αποποινικοποίηση της κάνναβης για ιατρική χρήση σε ιδιωτικά φαρμακεία;",
+    "textEn": "Do you support medical cannabis dispensed through private pharmacies?",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να μειωθεί η φαρμακευτική δαπάνη με generic-only συνταγογράφηση όπου υπάρχει;",
+    "textEn": "Should drug spending be cut with generic-only prescribing where available?",
+    "category": "Υγεία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να επαναφερθούν συνοριακοί έλεγχοι στα εσωτερικά σύνορα Schengen για μετανάστες;",
+    "textEn": "Should internal Schengen border checks for migrants be restored?",
+    "category": "Μετανάστευση",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την έκδοση ανθρωπιστικών βίζας σε αιτούντες άσυλο από ελληνικά προξενεία;",
+    "textEn": "Do you support humanitarian visas for asylum seekers at Greek consulates?",
+    "category": "Μετανάστευση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να μειωθούν οι δομές φιλοξενίας και να ενισχυθεί η επιστροφή σε χώρες προέλευσης;",
+    "textEn": "Should reception centers be reduced and returns to countries of origin increased?",
+    "category": "Μετανάστευση",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να παραχωρηθεί δικαίωμα ψήφου σε νόμιμους μακροχρόνιους μετανάστες σε δημοτικές εκλογές;",
+    "textEn": "Should long-term legal migrants be granted voting rights in local elections?",
+    "category": "Μετανάστευση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση της Golden Visa για αγορά ακινήτων άνω των 250.000€;",
+    "textEn": "Do you support abolishing the Golden Visa for property purchases above €250,000?",
+    "category": "Μετανάστευση",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η FRONTEX με ελληνικό προσωπικό στα νησιά;",
+    "textEn": "Should FRONTEX be strengthened with Greek personnel on the islands?",
+    "category": "Μετανάστευση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να παρέχεται αυτόματη άδεια εργασίας σε αιτούντες άσυλο μετά από 6 μήνες αναμονής;",
+    "textEn": "Should asylum seekers receive automatic work permits after 6 months waiting?",
+    "category": "Μετανάστευση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε τη δημιουργία hotspots μόνο σε ηπειρωτική Ελλάδα, όχι σε νησιά;",
+    "textEn": "Do you support locating reception hotspots only on mainland Greece, not islands?",
+    "category": "Μετανάστευση",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να αυξηθούν οι επιστροφές (pushbacks) σε παράνομους διασώστες στη θάλασσα;",
+    "textEn": "Should pushbacks of illegal sea rescues be increased?",
+    "category": "Μετανάστευση",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να επιβληθεί φόρος 3% στις ψηφιακές υπηρεσίες (streaming, διαφήμιση) όπως στην ΕΕ;",
+    "textEn": "Should a 3% digital services tax (streaming, ads) be imposed as in the EU?",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την απαγόρευση της χρήσης TikTok σε κρατικούς υπαλλήλους σε κυβερνητικά κινητά;",
+    "textEn": "Do you support banning TikTok on government phones for civil servants?",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να ενισχυθεί η ελληνική cloud υποδομή (G-Cloud) αντί για ξένους παρόχους;",
+    "textEn": "Should Greek cloud infrastructure (G-Cloud) be expanded instead of foreign providers?",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να θεσμοθετηθεί δικαίωμα επισκευής (right to repair) για ηλεκτρονικές συσκευές;",
+    "textEn": "Should a right to repair for electronic devices be legally established?",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την εισαγωγή ψηφιακού νομίσματος από την ΕΚΤ (digital euro) στην Ελλάδα;",
+    "textEn": "Do you support adopting the ECB digital euro in Greece?",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": -2,
+      "ΕΛ": -1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να απαγορευτεί η αναγνώριση προσώπου (facial recognition) από την αστυνομία;",
+    "textEn": "Should police use of facial recognition be banned?",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιδοτηθούν ελληνικές startups AI με εθνικό ταμείο 500 εκατ. €;",
+    "textEn": "Should Greek AI startups be funded with a €500M national fund?",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε υποχρεωτική δήλωση αλγορίθμων από πλατφόρμες που λειτουργούν στην Ελλάδα;",
+    "textEn": "Do you support mandatory algorithm disclosure by platforms operating in Greece?",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να επιταχυνθεί η 5G κάλυψη σε απομακρυσμένες περιοχές με κρατική επένδυση;",
+    "textEn": "Should 5G coverage in remote areas be accelerated with state investment?",
+    "category": "Τεχνολογία",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να σταματήσει η εξόρυξη υδρογονανθράκων (Ιόνιο, Κρήτη) οριστικά;",
+    "textEn": "Should hydrocarbon drilling (Ionian, Crete) be permanently halted?",
+    "category": "Ενέργεια",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την επανεθνικοποίηση της ΔΕΗ;",
+    "textEn": "Do you support re-nationalizing PPC (DEI)?",
+    "category": "Ενέργεια",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιδοτηθούν φωτοβολταϊκά σε κάθε νοικοκυριό με κρατικό δάνειο 0% τόκο;",
+    "textEn": "Should rooftop solar be subsidized for every household with 0% state loans?",
+    "category": "Ενέργεια",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να αυξηθεί ο ειδικός φόρος κατανάλωσης στον ηλεκτρισμό για χρηματοδότηση ανανεώσιμων;",
+    "textEn": "Should electricity excise tax be raised to fund renewables?",
+    "category": "Ενέργεια",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την κατασκευή πυρηνικού ερευνητικού αντιδραστήρα για ιατρικούς σκοπούς;",
+    "textEn": "Do you support building a nuclear research reactor for medical use?",
+    "category": "Ενέργεια",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να μειωθούν οι επιδοτήσεις λιγνίτη και να μεταφερθούν σε πράσινη αποθήκευση ενέργειας;",
+    "textEn": "Should lignite subsidies be cut and redirected to green energy storage?",
+    "category": "Ενέργεια",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιτραπεί η ιδιωτική εισαγωγή φθηνού ρωσικού LNG μέσω τρίτων;",
+    "textEn": "Should private import of cheap Russian LNG via third parties be allowed?",
+    "category": "Ενέργεια",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε δυναμικό τιμολόγηση ρεύματος (time-of-use) ως υποχρεωτική για νοικοκυριά;",
+    "textEn": "Do you support mandatory time-of-use electricity pricing for households?",
+    "category": "Ενέργεια",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να χρηματοδοτηθεί αγωγός φυσικού αερίου Ανατολικής Μεσογείου (EastMed) με ελληνικό μερίδιο;",
+    "textEn": "Should the EastMed gas pipeline be funded with a Greek stake?",
+    "category": "Ενέργεια",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να επιβληθεί πλαφόν ενοικίου σε αστικές ζώνες για 3 χρόνια;",
+    "textEn": "Should rent caps be imposed in urban zones for 3 years?",
+    "category": "Στέγαση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε φόρο 20% σε βραχυχρόνιες μισθώσεις (Airbnb) σε κέντρα πόλεων;",
+    "textEn": "Do you support a 20% tax on short-term rentals (Airbnb) in city centers?",
+    "category": "Στέγαση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιδοτηθεί η αγορά πρώτης κατοικίας για ζευγάρια κάτω των 35 με 0% ΦΠΑ;",
+    "textEn": "Should first-home purchases for under-35 couples be subsidized with 0% VAT?",
+    "category": "Στέγαση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να αυξηθεί ο ΕΝΦΙΑ για δεύτερες και τρίτες κατοικίες;",
+    "textEn": "Should ENFIA be increased on second and third homes?",
+    "category": "Στέγαση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την κατεδάφιση αυθαίρετων κτισμάτων χωρίς περαιτέρω νομιμοποίηση;",
+    "textEn": "Do you support demolishing illegal buildings without further legalization?",
+    "category": "Στέγαση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να δημιουργηθεί δημόσιο ταμείο κοινωνικής στέγασης με 1 δισ. € ετησίως;",
+    "textEn": "Should a €1B annual public social housing fund be created?",
+    "category": "Στέγαση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιτρέπεται η μετατροπή εμπορικών χώρων σε κατοικίες χωρίς τέλος αλλαγής χρήσης;",
+    "textEn": "Should commercial-to-residential conversions be allowed without use-change fees?",
+    "category": "Στέγαση",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση του golden visa για ακίνητα σε Αθήνα και Θεσσαλονίκη;",
+    "textEn": "Do you support abolishing the golden visa for property in Athens and Thessaloniki?",
+    "category": "Στέγαση",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": 0,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί το στεγαστικό δάνειο «Σπίτι μου II» με εγγύηση κράτους;",
+    "textEn": "Should the My Home II mortgage scheme be expanded with state guarantees?",
+    "category": "Στέγαση",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να εγκατασταθούν κάμερες ασφαλείας με AI αναγνώριση σε κεντρικά σημεία Αθήνας;",
+    "textEn": "Should AI security cameras be installed at central Athens locations?",
+    "category": "Ασφάλεια",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την οπλοφορία πολιτών με άδεια για αυτοάμυνα σε αστικές περιοχές;",
+    "textEn": "Do you support licensed civilian firearm carry for self-defense in urban areas?",
+    "category": "Ασφάλεια",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να αυξηθούν οι περιπολίες της ΟΠΚΕ σε μετρό και σταθμούς;",
+    "textEn": "Should OPKE police patrols in metro and stations be increased?",
+    "category": "Ασφάλεια",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να μειωθεί η ποινή για κατοχή μικρής ποσότητας ναρκωτικών;",
+    "textEn": "Should penalties for possessing small amounts of drugs be reduced?",
+    "category": "Ασφάλεια",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την ενίσχυση της αντιτρομοκρατικής νομοθεσίας με επιτήρηση κινητών;",
+    "textEn": "Do you support strengthening anti-terror laws with mobile surveillance?",
+    "category": "Ασφάλεια",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να δημιουργηθούν κοινότητες γειτονιάς με κρατική χρηματοδότηση για πρόληψη εγκληματικότητας;",
+    "textEn": "Should neighborhood watch programs receive state funding for crime prevention?",
+    "category": "Ασφάλεια",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιβληθεί κ dusk-to-dawn curfew για ανηλίκους κάτω των 16 σε εμπορικές ζώνες;",
+    "textEn": "Should a dusk-to-dawn curfew for under-16s apply in commercial zones?",
+    "category": "Ασφάλεια",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την αποποινικοποίηση της χρήσης ναρκωτικών και θεραπεία αντί για φυλακή;",
+    "textEn": "Do you support decriminalizing drug use with treatment instead of prison?",
+    "category": "Ασφάλεια",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η Cybercrime Unit με πρόσληψη 500 ειδικών;",
+    "textEn": "Should the Cybercrime Unit be expanded with 500 new specialists?",
+    "category": "Ασφάλεια",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να επεκταθεί το μετρό Θεσσαλονίκης πριν τους Ολυμπιακούς Αγώνες 2030;",
+    "textEn": "Should Thessaloniki metro be extended before the 2030 Olympics?",
+    "category": "Μεταφορές",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε δωρεάν δημόσια συγκοινωνία για μαθητές, φοιτητές και ανέργους;",
+    "textEn": "Do you support free public transport for students, pupils, and unemployed?",
+    "category": "Μεταφορές",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιβληθεί τέλος κυκλοφορίας στα κέντρα Αθήνας και Θεσσαλονίκης (congestion charge);",
+    "textEn": "Should congestion charges apply in Athens and Thessaloniki centers?",
+    "category": "Μεταφορές",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να ιδιωτικοποιηθεί περαιτέρω ο ΟΣΕ (τρένα περιφέρειας);",
+    "textEn": "Should regional rail (OSE) be further privatized?",
+    "category": "Μεταφορές",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την κατασκευή υποθαλάσσιου σταθμού στον Πειραιά για κρουαζιέρες;",
+    "textEn": "Do you support building an underground cruise terminal in Piraeus?",
+    "category": "Μεταφορές",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να απαγορευτούν πετρελαιοκίνητα αυτοκίνητα στο κέντρο της Αθήνας από 2030;",
+    "textEn": "Should diesel cars be banned in central Athens from 2030?",
+    "category": "Μεταφορές",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιδοτηθούν ηλεκτρικά ποδήλατα και scooters για μετακινήσεις «τελευταίου μιλίου»;",
+    "textEn": "Should e-bikes and scooters be subsidized for last-mile travel?",
+    "category": "Μεταφορές",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση των τελών διοδίων σε εθνικές οδούς για κατοίκους νομών;",
+    "textEn": "Do you support abolishing highway tolls for residents of border prefectures?",
+    "category": "Μεταφορές",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η ακτοπλοϊκή σύνδεση νησιών με κρατικές επιδοτήσεις γραμμών;",
+    "textEn": "Should island ferry routes be strengthened with state line subsidies?",
+    "category": "Μεταφορές",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να επιστραφούν τα γλυπτά του Παρθενώνα από το Βρετανικό Μουσείο με νομική πίεση;",
+    "textEn": "Should Parthenon sculptures be returned from the British Museum through legal pressure?",
+    "category": "Πολιτισμός",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την αποδέσμευση πόρων υπουργείου Πολιτισμού για ιδιωτικές χορηγίες μουσείων;",
+    "textEn": "Do you support redirecting Culture Ministry funds to private museum sponsorships?",
+    "category": "Πολιτισμός",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να μειωθεί ο ΦΠΑ σε θεατρικά εισιτήρια και συναυλίες στο 6%;",
+    "textEn": "Should VAT on theater tickets and concerts be cut to 6%?",
+    "category": "Πολιτισμός",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να προστατευθεί η ελληνική γλώσσα με υποχρεωτική χρήση σε δημόσιες υπηρεσίες χωρίς εξαίρεση;",
+    "textEn": "Should Greek be mandatory in public services without exception?",
+    "category": "Πολιτισμός",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την ψηφιοποίηση αρχείων Εθνικής Βιβλιοθήκης με ανοιχτή πρόσβαση;",
+    "textEn": "Do you support digitizing National Library archives with open access?",
+    "category": "Πολιτισμός",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να χρηματοδοτηθούν περιφερειακά φεστιβάλ με εθνικό πρόγραμμα 50 εκατ. €;",
+    "textEn": "Should regional festivals be funded with a €50M national program?",
+    "category": "Πολιτισμός",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιτρέπεται η εμπορική εκμετάλλευση αρχαιολογικών χώρων για events;",
+    "textEn": "Should archaeological sites be used for commercial events?",
+    "category": "Πολιτισμός",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την ενίσχυση της ελληνικής σειράς στην ΕΡΤ έναντι ξένων παραγωγών;",
+    "textEn": "Do you support boosting Greek ERT programming over foreign productions?",
+    "category": "Πολιτισμός",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να διδάσκεται υποχρεωτικά αρχαία ελληνικά στο λύκειο;",
+    "textEn": "Should Ancient Greek be mandatory in high school?",
+    "category": "Πολιτισμός",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να αναθεωρηθεί το άρθρο 16 για ίδρυση μη κρατικών πανεπιστημίων;",
+    "textEn": "Should Article 16 be revised to allow non-state universities?",
+    "category": "Σύνταγμα",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την εκλογή Προέδρου Δημοκρατίας απευθείας από τον λαό;",
+    "textEn": "Do you support direct popular election of the President of the Republic?",
+    "category": "Σύνταγμα",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να κατοχυρωθεί δημοψήφισμα για διεθνείς συμφωνίες που αφορούν κυριαρχικά δικαιώματα;",
+    "textEn": "Should referendums be required for international agreements affecting sovereignty?",
+    "category": "Σύνταγμα",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να προστεθεί ρητή αναφορά στο δικαίωμα στο περιβάλλον στο Σύνταγμα;",
+    "textEn": "Should an explicit constitutional right to the environment be added?",
+    "category": "Σύνταγμα",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση της βουλευτικής ασυλίας μέσω συνταγματικής αναθέωρησης;",
+    "textEn": "Do you support abolishing parliamentary immunity via constitutional revision?",
+    "category": "Σύνταγμα",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να οριστεί όριο δύο θητειών για πρωθυπουργό στο Σύνταγμα;",
+    "textEn": "Should the constitution limit a prime minister to two terms?",
+    "category": "Σύνταγμα",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 0,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 1,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να αναγνωριστεί συνταγματικά η θρησκευτική ουδετερότητα του κράτους;",
+    "textEn": "Should state religious neutrality be constitutionally recognized?",
+    "category": "Σύνταγμα",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την απλή αναλογική εκπροσώπηση χωρίς bonus 50 εδρών;",
+    "textEn": "Do you support pure proportional representation without the 50-seat bonus?",
+    "category": "Σύνταγμα",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 1,
+      "ΕΛ": -2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": -2,
+      "ΣΠΑΡ": -2,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να προστατευτεί συνταγματικά το δικαίωμα στέγασης ως κοινωνικό αγαθό;",
+    "textEn": "Should housing be constitutionally protected as a social good?",
+    "category": "Σύνταγμα",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει η Ελλάδα να αποχωρήσει από το ευρώ αν δεν μειωθεί το ελληνικό χρέος ουσιαστικά;",
+    "textEn": "Should Greece leave the euro if its debt is not substantially reduced?",
+    "category": "Ευρωπαϊκή Πολιτική",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την ένταξη της Ελλάδας στο σχέδιο REPowerEU με πλήρη εφαρμογή στόχων 2030;",
+    "textEn": "Do you support Greece fully meeting REPowerEU 2030 targets?",
+    "category": "Ευρωπαϊκή Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": -2,
+      "ΕΛ": -1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να μπλοκαριστούν ευρωπαϊκές πληρωμές αν δεν τηρούνται κανόνες κράτους δικαίου;",
+    "textEn": "Should EU payments be blocked when rule-of-law standards are not met?",
+    "category": "Ευρωπαϊκή Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": -2,
+      "ΕΛ": -1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να απορριφθεί η τροποποίηση Συνθήκης για κοινό ευρωπαϊκό χρέος (corona bonds μονιμοποίηση);",
+    "textEn": "Should treaty changes for common European debt be rejected?",
+    "category": "Ευρωπαϊκή Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την ενίσχυση Frontex και κοινής πολιτικής ασύλου στην ΕΕ;",
+    "textEn": "Do you support strengthening Frontex and a common EU asylum policy?",
+    "category": "Ευρωπαϊκή Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": -2,
+      "ΕΛ": -1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να ασκηθεί βέτο στην ένταξη Τουρκίας στην ΕΕ μέχρι νέας αξιολόγησης;",
+    "textEn": "Should Turkey's EU accession be vetoed pending reassessment?",
+    "category": "Ευρωπαϊκή Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να υιοθετηθεί ελάχιστος ευρωπαϊκός μισθός ως ποσοστό του εθνικού;",
+    "textEn": "Should a minimum EU wage as a percentage of the national wage be adopted?",
+    "category": "Ευρωπαϊκή Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": -2,
+      "ΕΛ": -1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την εξαίρεση της Ελλάδας από τους στόχους δημοσιονομικής πειθαρχίας λόγω καταστροφών;",
+    "textEn": "Do you support exempting Greece from fiscal discipline targets due to disasters?",
+    "category": "Ευρωπαϊκή Πολιτική",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να προωθηθεί η ένταξη Δυτικών Βαλκανίων στην ΕΕ με ελληνική στήριξη;",
+    "textEn": "Should Western Balkans EU accession be advanced with Greek support?",
+    "category": "Ευρωπαϊκή Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": -2,
+      "ΕΛ": -1,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 2,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να αυξηθούν οι επιδοτήσεις CAP για μικρούς αγρότες κάτω των 10 εκταρίων;",
+    "textEn": "Should CAP subsidies be increased for small farmers under 10 hectares?",
+    "category": "Αγροτική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την απελευθέρωση τιμών γάλακτος και κρέατος από κρατικούς ελέγχους;",
+    "textEn": "Do you support freeing milk and meat prices from state controls?",
+    "category": "Αγροτική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Θα πρέπει να απαγορευτούν γεωργικά φάρμακα που απαγορεύονται στην ΕΕ αλλά εισάγονται ακόμα;",
+    "textEn": "Should EU-banned agricultural pesticides still imported be prohibited?",
+    "category": "Αγροτική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Πρέπει να επιδοτηθεί η βιολογική καλλιέργεια με 500€ ανά στρέμμα ετησίως;",
+    "textEn": "Should organic farming receive €500 per stremma annually?",
+    "category": "Αγροτική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 0,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": -1,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": -1,
+      "ΣΠΑΡ": -1,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την κατάργηση του μνημονίου συνεργασίας με Τουρκία για αγροτικά προϊόντα;",
+    "textEn": "Do you support ending the agricultural cooperation memorandum with Turkey?",
+    "category": "Αγροτική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": 0,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 1,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": 0,
+      "ΕΛΑΣ": 0,
+      "ΕΛΠ": 1,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να ενισχυθεί η ασφάλιση εισοδήματος αγροτών έναντι κλιματικών καταστροφών;",
+    "textEn": "Should farmers' income insurance against climate disasters be expanded?",
+    "category": "Αγροτική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 2,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -1,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 2,
+      "ΦΛ": 0
+    }
+  },
+  {
+    "text": "Θα πρέπει να επιτρέπεται η καλλιέργεια γενετικά τροποποιημένων σπόρων σε πιλοτική κλίμακα;",
+    "textEn": "Should genetically modified seed cultivation be allowed on a pilot scale?",
+    "category": "Αγροτική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 2,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -2,
+      "ΕΛ": 1,
+      "ΠΕ": 2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -2,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Υποστηρίζετε την προστασία ονομασίας προέλευσης (ΠΟΠ) με αυστηρότερες ποινές για παρανομία;",
+    "textEn": "Do you support stricter penalties for violating Protected Designation of Origin (PDO)?",
+    "category": "Αγροτική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": 1,
+      "ΣΥΡΙΖΑ": -2,
+      "ΠΑΣΟΚ": -1,
+      "ΚΚΕ": -1,
+      "ΕΛ": 2,
+      "ΠΕ": 0,
+      "ΝΙΚΗ": 2,
+      "ΣΠΑΡ": 2,
+      "ΝΑ": -1,
+      "ΕΛΑΣ": -1,
+      "ΕΛΠ": 0,
+      "ΦΛ": 1
+    }
+  },
+  {
+    "text": "Πρέπει να δημιουργηθεί δημόσιο ταμείο εγγύησης τιμών για ελαιόλαδο και σταφύλι;",
+    "textEn": "Should a public price guarantee fund be created for olive oil and grapes?",
+    "category": "Αγροτική Πολιτική",
+    "partyPositions": {
+      "ΝΔ": -1,
+      "ΣΥΡΙΖΑ": 2,
+      "ΠΑΣΟΚ": 1,
+      "ΚΚΕ": 2,
+      "ΕΛ": 0,
+      "ΠΕ": -2,
+      "ΝΙΚΗ": 0,
+      "ΣΠΑΡ": 0,
+      "ΝΑ": 2,
+      "ΕΛΑΣ": 2,
+      "ΕΛΠ": 1,
+      "ΦΛ": 0
+    }
+  }
+]

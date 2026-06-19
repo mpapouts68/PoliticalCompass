@@ -1,0 +1,352 @@
+[
+  {
+    "text": "Το κράτος πρέπει να εξασφαλίζει πλήρη απασχόληση, ακόμη κι αν αυτό απαιτεί άμεσες κρατικές παρεμβάσεις.",
+    "textEn": "The state should guarantee full employment, even if that requires direct government intervention.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η ιδιωτική πρωτοβουλία είναι ο κύριος μοχλός οικονομικής ευημερίας.",
+    "textEn": "Private initiative is the main driver of economic prosperity.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Βασικές υπηρεσίες όπως νερό, ενέργεια και τράπεζες πρέπει να ανήκουν στο δημόσιο.",
+    "textEn": "Essential services such as water, energy, and banks should be publicly owned.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η φορολογία για τους πλούσιους πρέπει να είναι σημαντικά υψηλότερη για τη χρηματοδότηση του κοινωνικού κράτους.",
+    "textEn": "Taxation on the wealthy should be significantly higher to fund the welfare state.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η ιδιωτικοποίηση δημόσιων επιχειρήσεων ενισχύει την αποτελεσματικότητα.",
+    "textEn": "Privatizing public enterprises increases efficiency.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η αγορά αυτορρυθμίζεται καλύτερα χωρίς σημαντική κρατική παρέμβαση.",
+    "textEn": "The market self-regulates best without significant state intervention.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Οι συνδικαλιστικές οργανώσεις πρέπει να έχουν ισχυρό νομικό και οικονομικό ρόλο.",
+    "textEn": "Trade unions should have a strong legal and economic role.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η προστασία των εγχωρίων επιχειρήσεων από ξένο ανταγωνισμό είναι αναγκαία.",
+    "textEn": "Protecting domestic businesses from foreign competition is necessary.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 2,
+    "rightScore": -2
+  },
+  {
+    "text": "Ο μακροπρόθεσμος κρατικός προγραμματισμός είναι προτιμότερος από την πλήρη απελευθέρωση της αγοράς.",
+    "textEn": "Long-term state planning is preferable to full market liberalization.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Το κράτος πρέπει να θέτει ανώτατα όρια απολαβών διοίκησης έναντι των μισθών εργαζομένων.",
+    "textEn": "The state should cap executive pay relative to workers' wages.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η κοινωνική ισότητα είναι πιο σημαντική από την αμιγή οικονομική ανάπτυξη.",
+    "textEn": "Social equality is more important than pure economic growth.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η κληρονομιά πρέπει να φορολογείται αυστηρά για να μειωθούν οι κληρονομικές ανισότητες.",
+    "textEn": "Inheritance should be heavily taxed to reduce hereditary inequality.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Κάθε πολίτης πρέπει να έχει δικαίωμα σε ελάχιστη αξιοπρεπή διαβίωση ανεξάρτητα από την εργασία.",
+    "textEn": "Every citizen should have a right to a minimum dignified living regardless of employment.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η κοινωνία προοδεύει όταν οι άνθρωποι φροντίζουν πρώτα οι ίδιοι για τον εαυτό τους και την οικογένειά τους.",
+    "textEn": "Society progresses when people first take care of themselves and their families.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": -2,
+    "rightScore": 2
+  },
+  {
+    "text": "Το κοινωνικό κράτος είναι θεμέλιο κάθε δίκαιης δημοκρατίας.",
+    "textEn": "The welfare state is the foundation of any fair democracy.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η φτώχεια είναι κυρίως αποτέλεσμα δομικών ανισοτήτων, όχι προσωπικών αποτυχιών.",
+    "textEn": "Poverty is mainly the result of structural inequality, not personal failure.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η ατομική ευθύνη είναι πιο αποτελεσματική από τα κεντρικά κοινωνικά προγράμματα.",
+    "textEn": "Individual responsibility is more effective than centralized social programs.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η εξουσία του κράτους πρέπει να περιορίζεται στις απολύτως απαραίτητες λειτουργίες.",
+    "textEn": "State power should be limited to absolutely essential functions.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": -2,
+    "rightScore": 2
+  },
+  {
+    "text": "Ισχυρή κεντρική εξουσία είναι αναγκαία για κοινωνική τάξη.",
+    "textEn": "Strong central authority is necessary for social order.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": 2,
+    "rightScore": -2
+  },
+  {
+    "text": "Οι πολίτες πρέπει να υπερέχουν των θεσμών όταν αυτοί περιορίζουν τα δικαιώματα.",
+    "textEn": "Citizens should prevail over institutions when those institutions restrict rights.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": -2,
+    "rightScore": 2
+  },
+  {
+    "text": "Σε περιόδους κρίσης, η κυβέρνηση δικαιούται εξαιρέσεις από τα δικαιώματα για την ασφάλεια.",
+    "textEn": "In times of crisis, the government is justified in suspending rights for security.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": 2,
+    "rightScore": -2
+  },
+  {
+    "text": "Η πολιτική φύλαξη πρέπει να βασίζεται στη συναίνεση, όχι στη βία.",
+    "textEn": "Political change should be based on consent, not violence.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": -2,
+    "rightScore": 2
+  },
+  {
+    "text": "Τα δικαιώματα της μειοψηφίας πρέπει να προστατεύονται ακόμη και όταν είναι αντιδημοφιλή.",
+    "textEn": "Minority rights should be protected even when unpopular.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": -2,
+    "rightScore": 2
+  },
+  {
+    "text": "Η πηγή της νομιμοποίησης της εξουσίας είναι ο λαός, όχι η παράδοση.",
+    "textEn": "The source of legitimate authority is the people, not tradition.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": -2,
+    "rightScore": 2
+  },
+  {
+    "text": "Οι παραδοσιακές οικογενειακές αξίες πρέπει να προωθούνται από το κράτος.",
+    "textEn": "Traditional family values should be promoted by the state.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": -2,
+    "rightScore": 2
+  },
+  {
+    "text": "Οι κοινωνικοί θεσμοί πρέπει να εξελίσσονται γρήγορα ακόμη κι αν αμφισβητούν παραδόσεις.",
+    "textEn": "Social institutions should evolve quickly even when they challenge traditions.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η θρησκεία πρέπει να διατηρεί σημαντικό ρόλο στη δημόσια ζωή.",
+    "textEn": "Religion should retain a significant role in public life.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": -2,
+    "rightScore": 2
+  },
+  {
+    "text": "Η εκκοσμίκευση της δημόσιας ζωής είναι όρος πραγματικής δημοκρατίας.",
+    "textEn": "Secularization of public life is a condition of genuine democracy.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": 2,
+    "rightScore": -2
+  },
+  {
+    "text": "Η κοινωνία προχωρά μέσα από συνεχή μεταρρύθμιση, όχι μέσα από τη διατήρηση του status quo.",
+    "textEn": "Society advances through continuous reform, not by preserving the status quo.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Ο πολιτισμικός πλούτος της χώρας πρέπει να διατηρείται ακόμη κι αν εμποδίζει σύγχρονες αλλαγές.",
+    "textEn": "The country's cultural heritage should be preserved even if it slows modern change.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": -2,
+    "rightScore": 2
+  },
+  {
+    "text": "Τα εθνικά συμφέροντα πρέπει να υπερισχύουν των διεθνών συμφωνιών όταν κινδυνεύουν.",
+    "textEn": "National interests should prevail over international agreements when at risk.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": -2,
+    "rightScore": 2
+  },
+  {
+    "text": "Η διεθνής συνεργασία και οι υπερεθνικοί θεσμοί ενισχύουν την ειρήνη.",
+    "textEn": "International cooperation and supranational institutions strengthen peace.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": 2,
+    "rightScore": -2
+  },
+  {
+    "text": "Η πολυπολιτισμικότητα εμπλουτίζει την κοινωνία.",
+    "textEn": "Multiculturalism enriches society.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": 2,
+    "rightScore": -2
+  },
+  {
+    "text": "Η εθνική ταυτότητα πρέπει να προστατεύεται από μαζική μετανάστευση.",
+    "textEn": "National identity should be protected from mass immigration.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": -2,
+    "rightScore": 2
+  },
+  {
+    "text": "Τα σύνορα πρέπει να είναι ανοιχτά για όσους ζητούν άσυλο.",
+    "textEn": "Borders should be open to those seeking asylum.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η παγκοσμιοποίηση ωφελεί κυρίως τις ελίτ, όχι τους εργαζόμενους.",
+    "textEn": "Globalization mainly benefits elites, not workers.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η ιδιοκτησία είναι φυσικό δικαίωμα που προηγείται του κράτους.",
+    "textEn": "Property is a natural right that precedes the state.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η ισότητα των πολιτών είναι πιο θεμελιώδης από την οικονομική ελευθερία.",
+    "textEn": "Equality of citizens is more fundamental than economic freedom.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Οι μεγάλες ιστορικές αλλαγές συνήθως προκύπτουν από κοινωνικούς αγώνες, όχι μόνο από μεταρρυθμίσεις από πάνω.",
+    "textEn": "Major historical change usually comes from social struggle, not only top-down reform.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η σταθερότητα και η συνέχεια των θεσμών είναι πιο σημαντικές από τις ριζικές ανατροπές.",
+    "textEn": "Stability and institutional continuity matter more than radical upheaval.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": -2,
+    "rightScore": 2
+  },
+  {
+    "text": "Η δημοκρατία απαιτεί ισχυρή πολιτική ισότητα, όχι μόνο τυπική ψηφοφορία.",
+    "textEn": "Democracy requires strong political equality, not merely formal voting.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Οι ελίτες τείνουν να εξυπηρετούν τα δικά τους συμφέροντα περισσότερο από το κοινό καλό.",
+    "textEn": "Elites tend to serve their own interests more than the common good.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 2,
+    "rightScore": -2
+  },
+  {
+    "text": "Η ελευθερία του ατόμου πρέπει να περιορίζεται όταν βλάπτει την κοινωνία.",
+    "textEn": "Individual freedom should be limited when it harms society.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 2,
+    "rightScore": -2
+  },
+  {
+    "text": "Οι πολιτικές ιδέες πρέπει να κρίνονται από τα αποτελέσματά τους, όχι από τις προθέσεις τους.",
+    "textEn": "Political ideas should be judged by their outcomes, not their intentions.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": -1,
+    "rightScore": 1
+  },
+  {
+    "text": "Η ιδιωτική ιδιοκτησία των μέσων παραγωγής δημιουργεί εκμετάλλευση.",
+    "textEn": "Private ownership of the means of production creates exploitation.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η ελευθερία της έκφρασης είναι απόλυτη, ακόμη κι όταν προσβάλλει θρησκευτικά ή εθνικά συμβόλαια.",
+    "textEn": "Freedom of expression is absolute, even when it offends religious or national symbols.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": -2,
+    "rightScore": 2
+  },
+  {
+    "text": "Η ισότητα ευκαιριών είναι πιο ρεαλιστικός στόχος από την απόλυτη ισότητα αποτελεσμάτων.",
+    "textEn": "Equality of opportunity is a more realistic goal than absolute equality of outcomes.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": -2,
+    "rightScore": 2
+  },
+  {
+    "text": "Οι μεγάλες επιχειρήσεις συγκεντρώνουν υπερβολική εξουσία και πρέπει να περιορίζονται.",
+    "textEn": "Large corporations concentrate excessive power and should be restricted.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 2,
+    "rightScore": -2
+  },
+  {
+    "text": "Η πατριωτική αφοσίωση είναι αρετή που ενισχύει την κοινωνική συνοχή.",
+    "textEn": "Patriotic loyalty is a virtue that strengthens social cohesion.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": -2,
+    "rightScore": 2
+  },
+  {
+    "text": "Η ιστορία διδάσκει ότι οι ανισότητες οδηγούν συχνά σε κοινωνικές εντάσεις.",
+    "textEn": "History teaches that inequality often leads to social tension.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 2,
+    "rightScore": -2
+  }
+]

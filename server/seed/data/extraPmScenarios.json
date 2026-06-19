@@ -1,0 +1,1322 @@
+[
+  {
+    "sourceId": 1001,
+    "title": "Τραγωδία στα Τέμπη: Δημόσια Ομολογία",
+    "titleEn": "Tempi Tragedy: Public Accountability",
+    "description": "Μετά τη σιδηροδρομική τραγωδία, η αντιπολίτευση και οι οικογένειες θυμάτων ζητούν πλήρη διερεύνηση και πολιτικές ευθύνες. Τι κάνετε;",
+    "descriptionEn": "After the rail tragedy, opposition and victims' families demand a full inquiry and political accountability. What do you do?",
+    "context": "Τα μέσα κοινωνικής δικτύωσης είναι σε έκρηξη. Διαδηλώσεις σε όλες τις μεγάλες πόλεις. Οι εισαγγελείς έχουν ήδη αρχίσει έρευνα αλλά η πίεση για ταχύτερη δικαιοσύνη είναι ασφυκτική.",
+    "contextEn": "Social media is exploding. Protests in all major cities. Prosecutors have begun investigations but pressure for swift justice is intense.",
+    "timePressure": 1,
+    "category": "justice",
+    "difficulty": 3,
+    "options": [
+      {
+        "optionText": "Σύσταση ανεξάρτητης επιτροπής με διεθνή παρατηρητές και δημόσια κατάθεση υπουργών",
+        "optionTextEn": "Independent committee with international observers and public minister testimony",
+        "politicalCost": 6,
+        "economicImpact": -1,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":4,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":4,\"ΦΛ\":2}",
+        "consequences": "Η διαφάνεια αποκαθιστά μέρος της εμπιστοσύνης αλλά εκθέτει το κόμμα σε σκληρή κριτική.",
+        "consequencesEn": "Transparency restores some trust but exposes the party to harsh criticism."
+      },
+      {
+        "optionText": "Στήριξη της δικαστικής διαδικασίας χωρίς πολιτικές παρεμβάσεις",
+        "optionTextEn": "Support judicial process without political interference",
+        "politicalCost": 4,
+        "economicImpact": 0,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":3,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Η δικαιοσύνη φαίνεται αργή. Μέρος της κοινωνίας παραμένει θυμωμένο.",
+        "consequencesEn": "Justice appears slow. Part of society remains angry."
+      },
+      {
+        "optionText": "Αναβολή δημόσιων συζητήσεων μέχρι την ολοκλήρωση της έρευνας",
+        "optionTextEn": "Postpone public hearings until investigation completes",
+        "politicalCost": 8,
+        "economicImpact": 0,
+        "socialImpact": -3,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":3,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":3}",
+        "consequences": "Η αντιπολίτευση κατηγορεί για συγκάλυψη. Οι διαδηλώσεις κλιμακώνονται.",
+        "consequencesEn": "Opposition accuses cover-up. Protests escalate."
+      }
+    ]
+  },
+  {
+    "sourceId": 1002,
+    "title": "Κρίση Στεγαστικής: Ενοίκια σε Ιστορικά Ύψη",
+    "titleEn": "Housing Crisis: Record Rents",
+    "description": "Τα ενοίκια στην Αθήνα και τη Θεσσαλονίκη έχουν αυξηθεί 40% σε τρία χρόνια. Νέα ζευγάρια δεν μπορούν να στεγαστούν.",
+    "descriptionEn": "Rents in Athens and Thessaloniki rose 40% in three years. Young couples cannot afford housing.",
+    "context": "Το Airbnb έχει μειώσει δραστικά τη διαθέσιμη στέγαση. Φοιτητές και εργαζόμενοι διαδηλώνουν έξω από τη Βουλή.",
+    "contextEn": "Airbnb has drastically reduced available housing. Students and workers protest outside Parliament.",
+    "timePressure": 0,
+    "category": "social",
+    "difficulty": 2,
+    "options": [
+      {
+        "optionText": "Πλαφόν ενοικίων σε περιοχές υψηλής πίεσης και φόρος σε βραχυχρόνιες μισθώσεις",
+        "optionTextEn": "Rent caps in high-pressure areas and tax on short-term rentals",
+        "politicalCost": 5,
+        "economicImpact": -1,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":1,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":4,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":3,\"ΦΛ\":1}",
+        "consequences": "Οι ιδιοκτήτες διαμαρτύρονται αλλά τα ενοίκια σταθεροποιούνται.",
+        "consequencesEn": "Landlords protest but rents stabilize."
+      },
+      {
+        "optionText": "Κίνητρα για κατασκευή κοινωνικής στέγασης με κρατικο-ιδιωτική συνεργασία",
+        "optionTextEn": "Incentives for social housing via public-private partnership",
+        "politicalCost": 4,
+        "economicImpact": -2,
+        "socialImpact": 3,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":3,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Αποτελέσματα σε 3-4 χρόνια. Κριτική για καθυστέρηση.",
+        "consequencesEn": "Results in 3-4 years. Criticism for delay."
+      },
+      {
+        "optionText": "Απελευθέρωση οικοπέδων και μείωση φόρων ακινήτων για νέα κατασκευή",
+        "optionTextEn": "Release land and cut property taxes for new construction",
+        "politicalCost": 6,
+        "economicImpact": 2,
+        "socialImpact": -1,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":3,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":4}",
+        "consequences": "Οι κατασκευαστές χαίρονται αλλά οι τιμές παραμένουν υψηλές βραχυπρόθεσμα.",
+        "consequencesEn": "Developers rejoice but prices stay high short-term."
+      }
+    ]
+  },
+  {
+    "sourceId": 1003,
+    "title": "Φορολογική Μεταρρύθμιση: 30% Μείωση",
+    "titleEn": "Tax Reform: 30% Cut",
+    "description": "Η Φωνή Λογικής και η αγορά πιέζουν για οριζόντια μείωση φόρων. Το υπουργείο Οικονομικών προειδοποιεί για έλλειμμα.",
+    "descriptionEn": "Voice of Logic and business lobby push for across-the-board tax cuts. Finance ministry warns of deficit risk.",
+    "context": "Η ΕΕ παρακολουθεί τους δημοσιονομικούς δείκτες. Οι μισθωτοί ζητούν αύξηση καθαρών αποδοχών.",
+    "contextEn": "The EU monitors fiscal indicators. Salaried workers demand higher net pay.",
+    "timePressure": 0,
+    "category": "economic",
+    "difficulty": 2,
+    "options": [
+      {
+        "optionText": "Οριζόντια μείωση φόρων 15% σε τετραετία με δημοσιονομικούς κανόνες",
+        "optionTextEn": "15% tax cut over four years with fiscal rules",
+        "politicalCost": 5,
+        "economicImpact": 1,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":3,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":4}",
+        "consequences": "Η ανάπτυξη επιταχύνεται αλλά τα έσοδα πιέζονται.",
+        "consequencesEn": "Growth accelerates but revenue is squeezed."
+      },
+      {
+        "optionText": "Στοχευμένες ελαφρύνσεις για χαμηλά εισοδήματα και ΜμΕ",
+        "optionTextEn": "Targeted relief for low incomes and SMEs",
+        "politicalCost": 3,
+        "economicImpact": 0,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":3,\"ΦΛ\":2}",
+        "consequences": "Κοινωνική αποδοχή υψηλή. Οι επιχειρήσεις μένουν δυσαρεστημένες.",
+        "consequencesEn": "High social acceptance. Businesses remain dissatisfied."
+      },
+      {
+        "optionText": "Καμία μείωση — διατήρηση δημοσιονομικής πειθαρχίας",
+        "optionTextEn": "No cuts — maintain fiscal discipline",
+        "politicalCost": 7,
+        "economicImpact": 2,
+        "socialImpact": -2,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":1,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":1,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Οι αγορές χαιρετίζουν. Πολιτικό κόστος σε εκλογές.",
+        "consequencesEn": "Markets applaud. Political cost at elections."
+      }
+    ]
+  },
+  {
+    "sourceId": 1004,
+    "title": "Μεταναστευτική Πίεση στα Νησιά",
+    "titleEn": "Migration Pressure on Islands",
+    "description": "Χιλιάδες πρόσφυγες έχουν συγκεντρωθεί στη Λέσβο και τη Χίο. Οι νησιώτες κλείνουν το λιμάνι.",
+    "descriptionEn": "Thousands of refugees have gathered on Lesbos and Chios. Islanders block the port.",
+    "context": "Η Frontex ζητά συντονισμό. Η Τουρκία ανοίγει και κλείνει τα σύνορα. Η ΕΕ καθυστερεί στη χρηματοδότηση.",
+    "contextEn": "Frontex requests coordination. Turkey opens and closes borders. EU delays funding.",
+    "timePressure": 1,
+    "category": "foreign_policy",
+    "difficulty": 3,
+    "options": [
+      {
+        "optionText": "Επιτάχυνση ασύλου και μεταφορά στην ενδοχώρα με ευρωπαϊκή χρηματοδότηση",
+        "optionTextEn": "Faster asylum and relocation inland with EU funding",
+        "politicalCost": 5,
+        "economicImpact": -2,
+        "socialImpact": 3,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":3,\"ΦΛ\":2}",
+        "consequences": "Τα νησιά ανακουφίζονται. Αντιδράσεις σε κοινότητες υποδοχής.",
+        "consequencesEn": "Islands relieved. Pushback in host communities."
+      },
+      {
+        "optionText": "Αυστηρότερος έλεγχος συνόρων και επέκταση φραγμού",
+        "optionTextEn": "Stricter border control and barrier extension",
+        "politicalCost": 7,
+        "economicImpact": -1,
+        "socialImpact": -1,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":2,\"ΝΙΚΗ\":4,\"ΣΠΑΡ\":4,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":4}",
+        "consequences": "Μειώνονται οι αφίξεις. Κριτική από ανθρωπιστικές οργανώσεις.",
+        "consequencesEn": "Arrivals drop. Criticism from humanitarian groups."
+      },
+      {
+        "optionText": "Διαπραγμάτευση νέας συμφωνίας με Τουρκία και ΕΕ",
+        "optionTextEn": "Negotiate new deal with Turkey and EU",
+        "politicalCost": 6,
+        "economicImpact": -1,
+        "socialImpact": 1,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":3,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Μακρές διαπραγματεύσεις. Προσωρινή ανακούφιση.",
+        "consequencesEn": "Long negotiations. Temporary relief."
+      }
+    ]
+  },
+  {
+    "sourceId": 1005,
+    "title": "Ενεργειακή Ακρίβεια: Ρεύμα +60%",
+    "titleEn": "Energy Prices: Electricity +60%",
+    "description": "Οι λογαριασμοί ρεύματος έχουν εκτοξευθεί. Νοικοκυριά και επιχειρήσεις απειλούν με διακοπή πληρωμών.",
+    "descriptionEn": "Electricity bills have skyrocketed. Households and businesses threaten payment strikes.",
+    "context": "Η αποσύνδεση από τον ρωσικό αέριο και οι διεθνείς τιμές πιέζουν την οικονομία.",
+    "contextEn": "Decoupling from Russian gas and international prices pressure the economy.",
+    "timePressure": 1,
+    "category": "energy",
+    "difficulty": 2,
+    "options": [
+      {
+        "optionText": "Επίδομα ενέργειας για ευάλωτα νοικοκυριά και μικρές επιχειρήσεις",
+        "optionTextEn": "Energy subsidy for vulnerable households and SMEs",
+        "politicalCost": 4,
+        "economicImpact": -3,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":4,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":3,\"ΦΛ\":2}",
+        "consequences": "Άμεση ανακούφιση. Το δημοσιονομικό κόστος είναι υψηλό.",
+        "consequencesEn": "Immediate relief. High fiscal cost."
+      },
+      {
+        "optionText": "Επιτάχυνση αιολικών και φωτοβολταϊκών πάρκων",
+        "optionTextEn": "Accelerate wind and solar parks",
+        "politicalCost": 5,
+        "economicImpact": -2,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":3,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Μακροπρόθεσμη λύση. Κριτική για καθυστέρηση.",
+        "consequencesEn": "Long-term solution. Criticism for delay."
+      },
+      {
+        "optionText": "Προσωρινή αναστολή ΦΠΑ στο ρεύμα",
+        "optionTextEn": "Temporary VAT suspension on electricity",
+        "politicalCost": 6,
+        "economicImpact": -2,
+        "socialImpact": 3,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":4}",
+        "consequences": "Μειώνονται οι λογαριασμοί. Η ΕΕ ζητά εξηγήσεις.",
+        "consequencesEn": "Bills drop. EU demands explanations."
+      }
+    ]
+  },
+  {
+    "sourceId": 1006,
+    "title": "Απεργία Γενικής Λαϊκής Εξέγερσης",
+    "titleEn": "General Strike",
+    "description": "ΓΣΕΕ και ΑΔΕΔΥ κηρύσσουν 48ωρη απεργία. Μεταφορές, νοσοκομεία και σχολεία παραλύουν.",
+    "descriptionEn": "GSEE and ADEDY declare 48-hour strike. Transport, hospitals and schools paralyzed.",
+    "context": "Αιτήματα: αύξηση μισθών, κατάργηση ιδιωτικοποιήσεων, ενίσχυση ΕΣΥ.",
+    "contextEn": "Demands: wage hikes, halt privatizations, strengthen NHS.",
+    "timePressure": 1,
+    "category": "economic",
+    "difficulty": 2,
+    "options": [
+      {
+        "optionText": "Διαπραγμάτευση για αύξηση κατώτατου μισθού 10% και πάγωμα απολύσεων",
+        "optionTextEn": "Negotiate 10% minimum wage hike and hiring freeze on layoffs",
+        "politicalCost": 4,
+        "economicImpact": -2,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":4,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Η απεργία αναστέλλεται. Οι επιχειρηματίες αντιδρούν.",
+        "consequencesEn": "Strike suspended. Business pushback."
+      },
+      {
+        "optionText": "Συνάντηση με συνδικάτα χωρίς δεσμευτικές υποσχέσεις",
+        "optionTextEn": "Meet unions without binding commitments",
+        "politicalCost": 6,
+        "economicImpact": 0,
+        "socialImpact": -1,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Η απεργία συνεχίζεται. Κλιμάκωση έντασης.",
+        "consequencesEn": "Strike continues. Tension escalates."
+      },
+      {
+        "optionText": "Ενεργοποίηση πολιτικής επιτάξεων για κρίσιμες υπηρεσίες",
+        "optionTextEn": "Activate civil mobilization for critical services",
+        "politicalCost": 9,
+        "economicImpact": 0,
+        "socialImpact": -4,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":3}",
+        "consequences": "Λειτουργικότητα αποκαθίσταται. Διεθνής κριτική για συνδικαλιστικά δικαιώματα.",
+        "consequencesEn": "Functionality restored. International criticism on labor rights."
+      }
+    ]
+  },
+  {
+    "sourceId": 1007,
+    "title": "Σκάνδαλο Διαφθοράς σε Δημόσιο Έργο",
+    "titleEn": "Corruption Scandal in Public Project",
+    "description": "Η ΕΛΠ και τα ΜΜΕ αποκαλύπτουν μίζες 50 εκατ. ευρώ σε έργο υποδομών. Υπουργός σας εμπλέκεται.",
+    "descriptionEn": "ELP and media reveal 50M euro bribes in infrastructure project. Your minister is implicated.",
+    "context": "Η αντιπολίτευση ζητά παραίτηση κυβέρνησης. Οι εισαγγελείς έχουν ήδη στοιχεία.",
+    "contextEn": "Opposition demands government resignation. Prosecutors already have evidence.",
+    "timePressure": 1,
+    "category": "justice",
+    "difficulty": 3,
+    "options": [
+      {
+        "optionText": "Άμεση παραίτηση υπουργού και πλήρης συνεργασία με τη δικαιοσύνη",
+        "optionTextEn": "Immediate minister resignation and full cooperation with justice",
+        "politicalCost": 3,
+        "economicImpact": -1,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":4,\"ΦΛ\":2}",
+        "consequences": "Αποκαθίσταται μέρος της εμπιστοσύνης. Το κόμμα πληγώνεται.",
+        "consequencesEn": "Some trust restored. Party is wounded."
+      },
+      {
+        "optionText": "Ανάληψη πολιτικής ευθύνης χωρίς παραίτηση υπουργού μέχρι την απόφαση",
+        "optionTextEn": "Political responsibility without minister resignation pending verdict",
+        "politicalCost": 7,
+        "economicImpact": 0,
+        "socialImpact": -2,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Κατηγορίες για συγκάλυψη. Διαδηλώσεις συνεχίζονται.",
+        "consequencesEn": "Cover-up accusations. Protests continue."
+      },
+      {
+        "optionText": "Εσωτερική έρευνα και αναβολή δημόσιων αποφάσεων",
+        "optionTextEn": "Internal inquiry and delay public decisions",
+        "politicalCost": 9,
+        "economicImpact": 0,
+        "socialImpact": -4,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":1}",
+        "consequences": "Κατάρρευση εμπιστοσύνης. Κίνδυνος πρόωρων εκλογών.",
+        "consequencesEn": "Trust collapse. Risk of early elections."
+      }
+    ]
+  },
+  {
+    "sourceId": 1008,
+    "title": "Ψηφιακή Δημοκρατία: Διαρροή Δεδομένων",
+    "titleEn": "Digital Democracy: Data Breach",
+    "description": "Χάκερς διέρρευσαν προσωπικά δεδομένα 2 εκατομμυρίων πολιτών από κυβερνητική πλατφόρμα.",
+    "descriptionEn": "Hackers leaked personal data of 2 million citizens from a government platform.",
+    "context": "Η ΕΛΑΣ είχε προτείνει ανοιχτό κώδικα και διαφάνεια. Οι πολίτες φοβούνται για την gov.gr.",
+    "contextEn": "ELAS had proposed open source and transparency. Citizens fear for gov.gr.",
+    "timePressure": 1,
+    "category": "technology",
+    "difficulty": 2,
+    "options": [
+      {
+        "optionText": "Άμεση αποκάλυψη, αποζημίωση πολιτών και ανεξάρτητος ελεγκτής",
+        "optionTextEn": "Immediate disclosure, citizen compensation and independent auditor",
+        "politicalCost": 4,
+        "economicImpact": -2,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":4,\"ΦΛ\":2}",
+        "consequences": "Η εμπιστοσύνη αποκαθίσταται σταδιακά. Υψηλό κόστος.",
+        "consequencesEn": "Trust gradually restored. High cost."
+      },
+      {
+        "optionText": "Σιωπηρή επιδιόρθωση χωρίς δημόσια ανακοίνωση",
+        "optionTextEn": "Silent fix without public announcement",
+        "politicalCost": 9,
+        "economicImpact": 0,
+        "socialImpact": -5,
+        "partyAlignment": "{\"ΝΔ\":1,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Νέα διαρροή εκθέτει την κυβέρνηση. Σκάνδαλο.",
+        "consequencesEn": "New leak exposes government. Scandal."
+      },
+      {
+        "optionText": "Επένδυση 500 εκατ. σε κυβερνοασφάλεια και εκπαίδευση",
+        "optionTextEn": "500M investment in cybersecurity and training",
+        "politicalCost": 5,
+        "economicImpact": -3,
+        "socialImpact": 3,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":3,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Μακροπρόθεσμη προστασία. Κριτική για το παρελθόν.",
+        "consequencesEn": "Long-term protection. Criticism for the past."
+      }
+    ]
+  },
+  {
+    "sourceId": 1009,
+    "title": "Αγροτική Κινητοποίηση: Κλειστοί Δρόμοι",
+    "titleEn": "Farmers Protest: Roads Blocked",
+    "description": "Αγρότες κλείνουν την Εθνική Οδό με τρακτέρ. Ζητούν ελάφρυνση ενεργειακού κόστους και στήριξη τιμών.",
+    "descriptionEn": "Farmers block the highway with tractors. They demand energy cost relief and price support.",
+    "context": "Τα προϊόντα μένουν στα χωράφια. Ο τουρισμός πιέζεται για αποκλεισμούς.",
+    "contextEn": "Produce rots in fields. Tourism sector pressures over blockades.",
+    "timePressure": 0,
+    "category": "economic",
+    "difficulty": 2,
+    "options": [
+      {
+        "optionText": "Επιδότηση καυσίμων αγροτών και εγγύηση ελάχιστης τιμής",
+        "optionTextEn": "Fuel subsidy for farmers and minimum price guarantee",
+        "politicalCost": 5,
+        "economicImpact": -2,
+        "socialImpact": 3,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":3,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Οι δρόμοι ανοίγουν. Το κόστος είναι σημαντικό.",
+        "consequencesEn": "Roads open. Cost is significant."
+      },
+      {
+        "optionText": "Διαπραγμάτευση με μεσολάβηση περιφερειαρχών",
+        "optionTextEn": "Negotiate with regional governors as mediators",
+        "politicalCost": 4,
+        "economicImpact": -1,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":3,\"ΦΛ\":2}",
+        "consequences": "Μερική ικανοποίηση. Ορισμένοι αγρότες παραμένουν.",
+        "consequencesEn": "Partial satisfaction. Some farmers remain."
+      },
+      {
+        "optionText": "Αστυνομική επιχείρηση απομάκρυνσης",
+        "optionTextEn": "Police operation to remove blockades",
+        "politicalCost": 8,
+        "economicImpact": -1,
+        "socialImpact": -3,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":3}",
+        "consequences": "Σύγκρουση στους δρόμους. Εικόνα διχασμού.",
+        "consequencesEn": "Clashes on roads. Image of division."
+      }
+    ]
+  },
+  {
+    "sourceId": 1010,
+    "title": "Σεισμός 6.8 Ρίχτερ στην Αθήνα",
+    "titleEn": "6.8 Earthquake in Athens",
+    "description": "Ισχυρός σεισμός προκαλεί κατάρρευση κτιρίων. Εκατοντάδες εγκλωβισμένοι. Χρειάζονται άμεσες αποφάσεις.",
+    "descriptionEn": "Strong earthquake causes building collapses. Hundreds trapped. Immediate decisions needed.",
+    "context": "Τα νοσοκομεία υπερφορτώνονται. Ο στρατός είναι σε ετοιμότητα.",
+    "contextEn": "Hospitals overloaded. Army on standby.",
+    "timePressure": 1,
+    "category": "crisis",
+    "difficulty": 1,
+    "options": [
+      {
+        "optionText": "Κήρυξη κατάστασης έκτακτης ανάγκης και κινητοποίηση όλων των δυνάμεων",
+        "optionTextEn": "State of emergency and mobilize all forces",
+        "politicalCost": 2,
+        "economicImpact": -3,
+        "socialImpact": 5,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":4,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":4,\"ΦΛ\":4}",
+        "consequences": "Αποτελεσματική αντιμετώπιση. Εθνική συσπείρωση.",
+        "consequencesEn": "Effective response. National unity."
+      },
+      {
+        "optionText": "Αναμονή αξιολόγησης ζημιών πριν τη μαζική κινητοποίηση",
+        "optionTextEn": "Wait for damage assessment before mass mobilization",
+        "politicalCost": 7,
+        "economicImpact": -2,
+        "socialImpact": -3,
+        "partyAlignment": "{\"ΝΔ\":1,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Καθυστερήσεις στη διάσωση. Σκληρή κριτική.",
+        "consequencesEn": "Rescue delays. Harsh criticism."
+      },
+      {
+        "optionText": "Διεθνής βοήθεια από την πρώτη ώρα",
+        "optionTextEn": "International aid from hour one",
+        "politicalCost": 3,
+        "economicImpact": -2,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":3,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Γρήγορη στήριξη. Μερική κριτική για εξάρτηση.",
+        "consequencesEn": "Fast support. Partial criticism for dependency."
+      }
+    ]
+  },
+  {
+    "sourceId": 1011,
+    "title": "Εκπαιδευτική Μεταρρύθμιση: Ιδιωτικά Πανεπιστήμια",
+    "titleEn": "Education Reform: Private Universities",
+    "description": "Η κυβέρνηση προτείνει νομοθεσία για μη κρατικά πανεπιστήμια. Οι φοιτητές καταλαμβάνουν τη Σύγκλητο.",
+    "descriptionEn": "Government proposes legislation for non-state universities. Students occupy the Senate.",
+    "context": "Το άρθρο 16 συζητείται ξανά. Ακαδημαϊκή κοινότητα διχασμένη.",
+    "contextEn": "Article 16 debated again. Academic community divided.",
+    "timePressure": 0,
+    "category": "social",
+    "difficulty": 3,
+    "options": [
+      {
+        "optionText": "Ψήφιση με συνταγματική αναθεώρηση και κοινωνικό διάλογο",
+        "optionTextEn": "Pass via constitutional amendment and social dialogue",
+        "politicalCost": 7,
+        "economicImpact": 1,
+        "socialImpact": -2,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":3}",
+        "consequences": "Μακρές διαδικασίες. Έντονες αντιδράσεις.",
+        "consequencesEn": "Long procedures. Strong reactions."
+      },
+      {
+        "optionText": "Αναβολή νομοθεσίας και ενίσχυση δημόσιων ΑΕΙ",
+        "optionTextEn": "Postpone legislation and strengthen public universities",
+        "politicalCost": 4,
+        "economicImpact": -2,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":4,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":3,\"ΦΛ\":2}",
+        "consequences": "Οι φοιτητές αποχωρούν. Οι μεταρρυθμιστές απογοητεύονται.",
+        "consequencesEn": "Students leave. Reformers disappointed."
+      },
+      {
+        "optionText": "Συνιδιόκτηση δημόσιων-ιδιωτικών σχολών σε ξένες γλώσσες",
+        "optionTextEn": "Public-private joint schools in foreign languages",
+        "politicalCost": 6,
+        "economicImpact": 2,
+        "socialImpact": 0,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Μερική λύση. Κανείς πλήρως ικανοποιημένος.",
+        "consequencesEn": "Partial solution. Nobody fully satisfied."
+      }
+    ]
+  },
+  {
+    "sourceId": 1012,
+    "title": "Εκλογές 2026: Συμμαχία ή Μονοκομματική;",
+    "titleEn": "2026 Elections: Coalition or Single Party?",
+    "description": "Οι δημοσκοπήσεις δείχνουν κυβέρνηση μειοψηφίας. ΕΛΑΣ, ΕΛΠ και ΦΛ πιέζουν για ρόλους.",
+    "descriptionEn": "Polls show minority government. ELAS, ELP and FL press for roles.",
+    "context": "Η αγορά ανησυχεί για πολιτική αστάθεια. Οι πολίτες θέλουν σταθερότητα.",
+    "contextEn": "Markets worry about instability. Citizens want stability.",
+    "timePressure": 0,
+    "category": "politics",
+    "difficulty": 3,
+    "options": [
+      {
+        "optionText": "Σχηματισμός ευρείας συμμαχίας με ΠΑΣΟΚ και μεταρρυθμιστική ατζέντα",
+        "optionTextEn": "Broad coalition with PASOK and reform agenda",
+        "politicalCost": 5,
+        "economicImpact": 0,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Σταθερότητα αλλά πολιτικές συμβιβασμοί.",
+        "consequencesEn": "Stability but political compromises."
+      },
+      {
+        "optionText": "Μονοκομματική κυβέρνηση μειοψηφίας με ψήφο εμπιστοσύνης",
+        "optionTextEn": "Minority single-party government with confidence vote",
+        "politicalCost": 8,
+        "economicImpact": -1,
+        "socialImpact": -1,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":3,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Αβεβαιότητα. Κίνδυνος πρόωρων εκλογών.",
+        "consequencesEn": "Uncertainty. Risk of snap elections."
+      },
+      {
+        "optionText": "Συμφωνία με ΕΛΠ για κράτος δικαίου και με ΕΛΑΣ για κοινωνικό κράτος",
+        "optionTextEn": "Deal with ELP on rule of law and ELAS on social state",
+        "politicalCost": 6,
+        "economicImpact": -1,
+        "socialImpact": 3,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":4,\"ΦΛ\":2}",
+        "consequences": "Νέα πολιτική χαρτογράφηση. Έκπληξη στα ΜΜΕ.",
+        "consequencesEn": "New political map. Media surprise."
+      }
+    ]
+  },
+  {
+    "sourceId": 1013,
+    "title": "Τουρκία: Νέα NAVTEX στην Κρήτη",
+    "titleEn": "Turkey: New NAVTEX off Crete",
+    "description": "Η Τουρκία δεσμεύει περιοχή έρευνας νότια της Κρήτης. Το ΝΑΤΟ καλεί σε ψυχραιμία.",
+    "descriptionEn": "Turkey declares research area south of Crete. NATO calls for calm.",
+    "context": "Ελληνικά πολεμικά πλοία έχουν αναπτυχθεί. Η κοινή γνώμη είναι σε οξεία κατάσταση.",
+    "contextEn": "Greek warships deployed. Public opinion is acute.",
+    "timePressure": 1,
+    "category": "foreign_policy",
+    "difficulty": 3,
+    "options": [
+      {
+        "optionText": "Διπλωματική κλιμάκωση στον ΟΗΕ και την ΕΕ με ελληνικά δικαιώματα",
+        "optionTextEn": "Diplomatic escalation at UN and EU on Greek rights",
+        "politicalCost": 5,
+        "economicImpact": -1,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":3,\"ΕΛΠ\":3,\"ΦΛ\":2}",
+        "consequences": "Διεθνής στήριξη. Η ένταση παραμένει.",
+        "consequencesEn": "International support. Tension remains."
+      },
+      {
+        "optionText": "Ανάπτυξη πολεμικού στόλου στην περιοχή",
+        "optionTextEn": "Deploy naval fleet to the area",
+        "politicalCost": 8,
+        "economicImpact": -3,
+        "socialImpact": 1,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":4,\"ΠΕ\":2,\"ΝΙΚΗ\":4,\"ΣΠΑΡ\":4,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Κίνδυνος επεισόδιου. Εσωτερική στήριξη εθνικισμού.",
+        "consequencesEn": "Incident risk. Domestic nationalist support."
+      },
+      {
+        "optionText": "Προσφορά κοινοπραξίας ενέργειας με όρους",
+        "optionTextEn": "Offer energy joint venture with conditions",
+        "politicalCost": 7,
+        "economicImpact": 2,
+        "socialImpact": -2,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":3,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Μείωση έντασης. Κριτική για υποχώρηση.",
+        "consequencesEn": "Tension drops. Criticism for concession."
+      }
+    ]
+  },
+  {
+    "sourceId": 1014,
+    "title": "Υγεία: Ουρές 18 Μηνών για Εγχειρήσεις",
+    "titleEn": "Health: 18-Month Surgery Waiting Lists",
+    "description": "Τα νοσοκομεία δεν επαρκούν. Ασθενείς διαδηλώνουν με μασκές οξυγόνου έξω από το Ευαγγελισμό.",
+    "descriptionEn": "Hospitals cannot cope. Patients protest with oxygen masks outside Evangelismos hospital.",
+    "context": "1.500 γιατροί έχουν φύγει στο εξωτερικό τα τελευταία 3 χρόνια.",
+    "contextEn": "1,500 doctors left abroad in the last 3 years.",
+    "timePressure": 0,
+    "category": "social",
+    "difficulty": 2,
+    "options": [
+      {
+        "optionText": "Μαζική πρόσληψη γιατρών και αύξηση μισθών ΕΣΥ 20%",
+        "optionTextEn": "Mass hiring and 20% NHS wage increase",
+        "politicalCost": 5,
+        "economicImpact": -3,
+        "socialImpact": 5,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":4,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":3,\"ΦΛ\":2}",
+        "consequences": "Οι ουρές μειώνονται σε 12 μήνες. Υψηλό δημοσιονομικό κόστος.",
+        "consequencesEn": "Queues drop in 12 months. High fiscal cost."
+      },
+      {
+        "optionText": "Σύμβαση με ιδιωτικές κλινικές για δημόσιες επεμβάσεις",
+        "optionTextEn": "Contract private clinics for public surgeries",
+        "politicalCost": 6,
+        "economicImpact": -2,
+        "socialImpact": 3,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":3,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Ταχύτερη εξυπηρέτηση. Κριτική για ιδιωτικοποίηση.",
+        "consequencesEn": "Faster service. Privatization criticism."
+      },
+      {
+        "optionText": "Ψηφιακή λίστα αναμονής και αναδιάταξη προτεραιοτήτων",
+        "optionTextEn": "Digital waiting list and priority reordering",
+        "politicalCost": 4,
+        "economicImpact": -1,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":3,\"ΕΛΠ\":3,\"ΦΛ\":2}",
+        "consequences": "Βελτίωση διαφάνειας. Οι ουρές παραμένουν μεγάλες.",
+        "consequencesEn": "Transparency improves. Queues remain long."
+      }
+    ]
+  },
+  {
+    "sourceId": 1015,
+    "title": "Τουρισμός: Υπερβάλλουσα Τουριστική Πίεση",
+    "titleEn": "Tourism: Overtourism",
+    "description": "Σαντορίνη και Μύκονος «πνίγονται» από επισκέπτες. Κάτοικοι ζητούν όρια επισκεπτών.",
+    "descriptionEn": "Santorini and Mykonos drowning in visitors. Residents demand visitor caps.",
+    "context": "Τα έσοδα από τον τουρισμό είναι 25% του ΑΕΠ αλλά η ποιότητα ζωής καταρρέει.",
+    "contextEn": "Tourism revenue is 25% of GDP but quality of life collapses.",
+    "timePressure": 0,
+    "category": "economic",
+    "difficulty": 2,
+    "options": [
+      {
+        "optionText": "Όρια επισκεπτών και φόρος διανυκτέρευσης για επένδυση σε υποδομές",
+        "optionTextEn": "Visitor caps and overnight tax for infrastructure",
+        "politicalCost": 5,
+        "economicImpact": 1,
+        "socialImpact": 3,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":3,\"ΠΑΣΟΚ\":3,\"ΚΚΕ\":2,\"ΕΛ\":4,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":3,\"ΦΛ\":2}",
+        "consequences": "Βιωσιμότερος τουρισμός. Μείωση εσόδων βραχυπρόθεσμα.",
+        "consequencesEn": "More sustainable tourism. Short-term revenue drop."
+      },
+      {
+        "optionText": "Επέκταση τουριστικής σεζόν και νέοι προορισμοί",
+        "optionTextEn": "Extend season and new destinations",
+        "politicalCost": 4,
+        "economicImpact": 2,
+        "socialImpact": 1,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":3}",
+        "consequences": "Αποσυμφόρηση αλλά αργά αποτελέσματα.",
+        "consequencesEn": "Decongestion but slow results."
+      },
+      {
+        "optionText": "Καμία περιοριστική πολιτική — ελεύθερη αγορά",
+        "optionTextEn": "No restrictive policy — free market",
+        "politicalCost": 7,
+        "economicImpact": 3,
+        "socialImpact": -3,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":4}",
+        "consequences": "Μέγιστα έσοδα. Κοινωνική αντίδραση στα νησιά.",
+        "consequencesEn": "Maximum revenue. Social backlash on islands."
+      }
+    ]
+  },
+  {
+    "sourceId": 1016,
+    "title": "Κλιματική Καταστροφή: Πλημμύρες στη Θεσσαλία",
+    "titleEn": "Climate Disaster: Thessaly Floods",
+    "description": "Η καταιγίδα Daniel επαναλαμβάνεται με νέες πλημμύρες. Χιλιάδες άστεγοι.",
+    "descriptionEn": "Storm Daniel repeats with new floods. Thousands homeless.",
+    "context": "Οι αποζημιώσεις από την προηγούμενη καταστροφή δεν έχουν ολοκληρωθεί.",
+    "contextEn": "Compensation from previous disaster not yet completed.",
+    "timePressure": 1,
+    "category": "crisis",
+    "difficulty": 2,
+    "options": [
+      {
+        "optionText": "Άμεση έκτακτη χρηματοδότηση 2 δισ. και εκκένωση πλημμυρισμένων περιοχών",
+        "optionTextEn": "Immediate 2B emergency funding and evacuate flooded areas",
+        "politicalCost": 3,
+        "economicImpact": -4,
+        "socialImpact": 5,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":4,\"ΦΛ\":2}",
+        "consequences": "Σώζονται ζωές. Τεράστιο δημοσιονομικό βάρος.",
+        "consequencesEn": "Lives saved. Huge fiscal burden."
+      },
+      {
+        "optionText": "Αναμονή ευρωπαϊκών κονδυλίων πριν τη δράση",
+        "optionTextEn": "Wait for EU funds before acting",
+        "politicalCost": 8,
+        "economicImpact": 0,
+        "socialImpact": -4,
+        "partyAlignment": "{\"ΝΔ\":1,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Καθυστερήσεις. Καταστροφή εμπιστοσύνης.",
+        "consequencesEn": "Delays. Trust destroyed."
+      },
+      {
+        "optionText": "Απαγόρευση οικοδόμησης σε κινδυνευόμενες ζώνες",
+        "optionTextEn": "Ban construction in risk zones",
+        "politicalCost": 6,
+        "economicImpact": -1,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":3,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":3,\"ΕΛΠ\":4,\"ΦΛ\":2}",
+        "consequences": "Μακροπρόθεσμη προστασία. Αντιδράσεις ιδιοκτητών.",
+        "consequencesEn": "Long-term protection. Owner backlash."
+      }
+    ]
+  },
+  {
+    "sourceId": 1017,
+    "title": "ΜΜΕ: Έλεγχος Παραπολιτικής Διαφήμισης",
+    "titleEn": "Media: Control of State Advertising",
+    "description": "Η ΕΛΠ κατηγορεί ότι η κυβέρνηση κατευθύνει δημόσια διαφήμιση μόνο σε φιλικά ΜΜΕ.",
+    "descriptionEn": "ELP accuses government of directing public ads only to friendly media.",
+    "context": "Η ΕΣΗΕΙΑ ζητά διαφανή κανόνες. Η αντιπολίτευση μιλά για «ΜΜΕ-τσέπη».",
+    "contextEn": "Journalists union demands transparent rules. Opposition speaks of pocket media.",
+    "timePressure": 0,
+    "category": "politics",
+    "difficulty": 2,
+    "options": [
+      {
+        "optionText": "Ανεξάρτητη επιτροπή κατανομής δημόσιας διαφήμισης",
+        "optionTextEn": "Independent committee for public ad allocation",
+        "politicalCost": 4,
+        "economicImpact": 0,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":4,\"ΦΛ\":2}",
+        "consequences": "Αποκατάσταση εμπιστοσύνης στον Τύπο. Μείωση ελέγχου.",
+        "consequencesEn": "Press trust restored. Less control."
+      },
+      {
+        "optionText": "Διατήρηση υπουργικής ευχέρειας με δημοσιοποίηση ποσών",
+        "optionTextEn": "Ministerial discretion with amount disclosure",
+        "politicalCost": 6,
+        "economicImpact": 0,
+        "socialImpact": 1,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Μερική διαφάνεια. Συνεχής κριτική.",
+        "consequencesEn": "Partial transparency. Ongoing criticism."
+      },
+      {
+        "optionText": "Κατάργηση κρατικής διαφήμισης σε ιδιωτικά ΜΜΕ",
+        "optionTextEn": "Abolish state ads in private media",
+        "politicalCost": 7,
+        "economicImpact": 0,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":4,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":3,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "ΜΜΕ σε κρίση. Πολιτική ανεξαρτησία αυξάνεται.",
+        "consequencesEn": "Media in crisis. Political independence rises."
+      }
+    ]
+  },
+  {
+    "sourceId": 1018,
+    "title": "Τράπεζες: Τραπεζικό Run σε Μεσαίο Πιστωτικό",
+    "titleEn": "Banks: Run on Mid-Size Lender",
+    "description": "Φήμες για αδυναμία τράπεζας οδηγούν σε αναλήψεις 2 δισ. σε 48 ώρες.",
+    "descriptionEn": "Rumors of bank weakness drive 2B in withdrawals in 48 hours.",
+    "context": "Η ΕΚΤ παρακολουθεί. Οι καταθέτες πανικοβάλλονται.",
+    "contextEn": "ECB monitoring. Depositors panic.",
+    "timePressure": 1,
+    "category": "economic",
+    "difficulty": 3,
+    "options": [
+      {
+        "optionText": "Εγγύηση καταθέσεων και κεφαλαιακή ενίσχυση από το ΤΧΔ",
+        "optionTextEn": "Deposit guarantee and HFSF capital injection",
+        "politicalCost": 5,
+        "economicImpact": -4,
+        "socialImpact": 3,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":3,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Ο πανικός σταματά. Δημόσιο κόστος.",
+        "consequencesEn": "Panic stops. Public cost."
+      },
+      {
+        "optionText": "Συγχώνευση με μεγάλη τράπεζα με κρατική μεσολάβηση",
+        "optionTextEn": "Merger with major bank via state mediation",
+        "politicalCost": 6,
+        "economicImpact": -2,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Σταθεροποίηση. Κριτική για συγκέντρωση.",
+        "consequencesEn": "Stabilization. Concentration criticism."
+      },
+      {
+        "optionText": "Αφήνετε την αγορά να αποφασίσει",
+        "optionTextEn": "Let the market decide",
+        "politicalCost": 9,
+        "economicImpact": -5,
+        "socialImpact": -5,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Κατάρρευση τράπεζας. Συστημικός κίνδυνος.",
+        "consequencesEn": "Bank collapse. Systemic risk."
+      }
+    ]
+  },
+  {
+    "sourceId": 1019,
+    "title": "Άμυνα: Αύξηση Δαπανών ΝΑΤΟ στο 3%",
+    "titleEn": "Defense: NATO Spending to 3%",
+    "description": "Οι ΗΠΑ απαιτούν αύξηση αμυντικών δαπανών στο 3% του ΑΕΠ. Το υπουργείο Οικονομικών αντιδρά.",
+    "descriptionEn": "US demands defense spending rise to 3% of GDP. Finance ministry objects.",
+    "context": "Η Τουρκία αυξάνει τον εξοπλισμό της. Η κοινή γνώμη είναι διχασμένη.",
+    "contextEn": "Turkey increases armaments. Public opinion divided.",
+    "timePressure": 0,
+    "category": "defense",
+    "difficulty": 3,
+    "options": [
+      {
+        "optionText": "Αύξηση στο 2,5% με εγχώρια βιομηχανία όπλων",
+        "optionTextEn": "Increase to 2.5% with domestic arms industry",
+        "politicalCost": 6,
+        "economicImpact": -3,
+        "socialImpact": 1,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":4,\"ΠΕ\":2,\"ΝΙΚΗ\":4,\"ΣΠΑΡ\":4,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Ενίσχυση αποτρεπτικής ισχύος. Κόστος.",
+        "consequencesEn": "Deterrence strengthened. Cost."
+      },
+      {
+        "optionText": "Διατήρηση στο 2% με ευρωπαϊκή συνεργασία",
+        "optionTextEn": "Maintain 2% with European cooperation",
+        "politicalCost": 4,
+        "economicImpact": -1,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":3,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":3,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Ισορροπία. Πίεση από συμμάχους.",
+        "consequencesEn": "Balance. Ally pressure."
+      },
+      {
+        "optionText": "Μείωση δαπανών και επένδυση σε διπλωματία",
+        "optionTextEn": "Cut spending and invest in diplomacy",
+        "politicalCost": 8,
+        "economicImpact": 1,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":4,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":3,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Ειρήνιστη εικόνα. Κριτική για αδυναμία.",
+        "consequencesEn": "Peaceful image. Weakness criticism."
+      }
+    ]
+  },
+  {
+    "sourceId": 1020,
+    "title": "Συνταξιοδοτικό: Ανοιχτό Μέτωπο με Συνταξιούχους",
+    "titleEn": "Pensions: Open Front with Retirees",
+    "description": "Οι συντάξεις δεν επαρκούν για βασικές ανάγκες. Συνταξιούχοι διαδηλώνουν μηνιαία.",
+    "descriptionEn": "Pensions insufficient for basic needs. Retirees protest monthly.",
+    "context": "Το ασφαλιστικό σύστημα πιέζεται από γήρανση πληθυσμού.",
+    "contextEn": "Social security strained by aging population.",
+    "timePressure": 0,
+    "category": "economic",
+    "difficulty": 2,
+    "options": [
+      {
+        "optionText": "13η σύνταξη για χαμηλές συντάξεις και αναπροσαρμογή EKAS",
+        "optionTextEn": "13th pension for low pensions and EKAS adjustment",
+        "politicalCost": 5,
+        "economicImpact": -3,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":4,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Ικανοποίηση συνταξιούχων. Δημοσιονομική πίεση.",
+        "consequencesEn": "Retiree satisfaction. Fiscal pressure."
+      },
+      {
+        "optionText": "Μεταρρύθμιση με κινητικότητα ηλικίας και ιδιωτικά ταμεία",
+        "optionTextEn": "Reform with flexible retirement age and private funds",
+        "politicalCost": 7,
+        "economicImpact": 1,
+        "socialImpact": -2,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":3}",
+        "consequences": "Μακροπρόθεσμη βιωσιμότητα. Άμεση δυσαρέσκεια.",
+        "consequencesEn": "Long-term sustainability. Immediate discontent."
+      },
+      {
+        "optionText": "Εισφορά υπερπόντων πλουτοκρατών για το ταμείο",
+        "optionTextEn": "Wealth tax on ultra-rich for pension fund",
+        "politicalCost": 6,
+        "economicImpact": 0,
+        "socialImpact": 3,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":4,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":3,\"ΦΛ\":2}",
+        "consequences": "Δημοφιλής επιλογή. Φοροδιαφυγή αντιδρά.",
+        "consequencesEn": "Popular choice. Tax evasion pushback."
+      }
+    ]
+  },
+  {
+    "sourceId": 1021,
+    "title": "Ναρκωτικά: Έκρηξη στη νέα γενιά",
+    "titleEn": "Drugs: Youth Epidemic",
+    "description": "Τα νοσοκομεία καταγράφουν αύξηση 80% σε υπερδόσεις. Γονείς διαδηλώνουν.",
+    "descriptionEn": "Hospitals report 80% rise in overdoses. Parents protest.",
+    "context": "Η αστυνομία ζητά περισσότερους πόρους. Οι κοινωνικοί φορείς ζητούν πρόληψη.",
+    "contextEn": "Police want more resources. NGOs demand prevention.",
+    "timePressure": 0,
+    "category": "social",
+    "difficulty": 2,
+    "options": [
+      {
+        "optionText": "Εθνικό πρόγραμμα πρόληψης στα σχολεία και κέντρα αποκατάστασης",
+        "optionTextEn": "National school prevention and rehab centers",
+        "politicalCost": 4,
+        "economicImpact": -2,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":3,\"ΦΛ\":2}",
+        "consequences": "Μακροπρόθεσμα αποτελέσματα. Άμεση κριτική για αργή δράση.",
+        "consequencesEn": "Long-term results. Criticism for slow action."
+      },
+      {
+        "optionText": "Σκληρότερες ποινές και επιχειρήσεις στα κέντρα",
+        "optionTextEn": "Tougher penalties and center raids",
+        "politicalCost": 6,
+        "economicImpact": -1,
+        "socialImpact": 1,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":4}",
+        "consequences": "Μείωση εμπορίου. Κριτική για ποινικοποίηση.",
+        "consequencesEn": "Trade drops. Criminalization criticism."
+      },
+      {
+        "optionText": "Αποποινικοποίηση χρήσης και θεραπεία αντί φυλακής",
+        "optionTextEn": "Decriminalize use and treatment not prison",
+        "politicalCost": 7,
+        "economicImpact": -1,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":3,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":4,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":3,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Προοδευτική εικόνα. Πολιτική αμφισβήτηση.",
+        "consequencesEn": "Progressive image. Political controversy."
+      }
+    ]
+  },
+  {
+    "sourceId": 1022,
+    "title": "Εργασία: 4ήμερη Εβδομάδα",
+    "titleEn": "Labor: 4-Day Work Week",
+    "description": "Εταιρείες τεχνολογίας πιλοτικά εισάγουν 4ήμερη εβδομάδα. Συνδικάτα ζητούν νομοθεσία.",
+    "descriptionEn": "Tech firms pilot 4-day week. Unions want legislation.",
+    "context": "Η παραγωγικότητα αυξάνεται σε πιλοτικά αλλά οι ΜμΕ αντιδρούν.",
+    "contextEn": "Productivity rises in pilots but SMEs object.",
+    "timePressure": 0,
+    "category": "economic",
+    "difficulty": 1,
+    "options": [
+      {
+        "optionText": "Πειραματική νομοθεσία για εθελοντική 4ήμερη με κρατικά κίνητρα",
+        "optionTextEn": "Pilot law for voluntary 4-day with state incentives",
+        "politicalCost": 4,
+        "economicImpact": 0,
+        "socialImpact": 3,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":3,\"ΠΑΣΟΚ\":3,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Καινοτομία. Αβεβαιότητα για ΜμΕ.",
+        "consequencesEn": "Innovation. SME uncertainty."
+      },
+      {
+        "optionText": "Διατήρηση 5ήμερου — αυξησία ωριαίου μισθού",
+        "optionTextEn": "Keep 5-day — raise hourly wage",
+        "politicalCost": 5,
+        "economicImpact": -1,
+        "socialImpact": 3,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":4,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":3,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Προστασία εργαζομένων. Επιχειρηματική αντίδραση.",
+        "consequencesEn": "Worker protection. Business pushback."
+      },
+      {
+        "optionText": "Πλήρης 4ήμερη υποχρεωτική",
+        "optionTextEn": "Full mandatory 4-day week",
+        "politicalCost": 8,
+        "economicImpact": -2,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Ριζική αλλαγή. Σοβαρή αντίσταση επιχειρήσεων.",
+        "consequencesEn": "Radical change. Serious business resistance."
+      }
+    ]
+  },
+  {
+    "sourceId": 1023,
+    "title": "Πολιτισμός: Μαρμάρινα Γλυπτά",
+    "titleEn": "Culture: Parthenon Marbles",
+    "description": "Η Βρετανία προτείνει «δανεισμό» γλυπτών. Το υπουργείο Πολιτισμού διχάζεται.",
+    "descriptionEn": "UK offers sculpture loan. Culture ministry divided.",
+    "context": "Διεθνής ευαισθησία. Ακαδημαϊκή κοινότητα ενωμένη για επιστροφή.",
+    "contextEn": "International sensitivity. Academia united for return.",
+    "timePressure": 0,
+    "category": "foreign_policy",
+    "difficulty": 2,
+    "options": [
+      {
+        "optionText": "Απόρριψη δανεισμού — απαίτηση πλήρους επιστροφής",
+        "optionTextEn": "Reject loan — demand full return",
+        "politicalCost": 5,
+        "economicImpact": 0,
+        "socialImpact": 3,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":3,\"ΦΛ\":2}",
+        "consequences": "Εθνική ικανοποίηση. Διπλωματική αδιέξοδος.",
+        "consequencesEn": "National satisfaction. Diplomatic deadlock."
+      },
+      {
+        "optionText": "Αποδοχή προσωρινής έκθεσης στην Αθήνα",
+        "optionTextEn": "Accept temporary Athens exhibition",
+        "politicalCost": 6,
+        "economicImpact": 1,
+        "socialImpact": 1,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":3,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Πρόοδος αλλά κατηγορίες για συμβιβασμό.",
+        "consequencesEn": "Progress but compromise accusations."
+      },
+      {
+        "optionText": "Διεθνής δικαστική προσφυγή",
+        "optionTextEn": "International legal action",
+        "politicalCost": 7,
+        "economicImpact": -1,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":3,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":4,\"ΦΛ\":2}",
+        "consequences": "Μακρά διαδικασία. Συμβολική νίκη.",
+        "consequencesEn": "Long process. Symbolic win."
+      }
+    ]
+  },
+  {
+    "sourceId": 1024,
+    "title": "Νερό: Λειτουργία ΕΥΔΑΠ",
+    "titleEn": "Water: EYDAP Operation",
+    "description": "Η ιδιωτικοποίηση της ύδρευσης συζητείται ξανά μετά από βλάβες δικτύου.",
+    "descriptionEn": "Water utility privatization debated again after network failures.",
+    "context": "Χιλιάδες νοικοκυριά χωρίς νερό για μέρες στη Δυτική Αττική.",
+    "contextEn": "Thousands without water for days in West Attica.",
+    "timePressure": 1,
+    "category": "social",
+    "difficulty": 2,
+    "options": [
+      {
+        "optionText": "Δημόσια διαχείριση και επένδυση 1 δισ. σε δίκτυα",
+        "optionTextEn": "Public management and 1B network investment",
+        "politicalCost": 5,
+        "economicImpact": -3,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":4,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":3,\"ΦΛ\":2}",
+        "consequences": "Αξιοπιστία αυξάνεται. Υψηλό κόστος.",
+        "consequencesEn": "Reliability rises. High cost."
+      },
+      {
+        "optionText": "Σύμβαση παραχώρησης σε ιδιώτη με κοινωνικές ρήτρες",
+        "optionTextEn": "Concession to private operator with social clauses",
+        "politicalCost": 7,
+        "economicImpact": 1,
+        "socialImpact": -1,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Ταχύτερη επιδιόρθωση. Κριτική για κέρδη.",
+        "consequencesEn": "Faster repair. Profit criticism."
+      },
+      {
+        "optionText": "Έκτακτη χρηματοδότηση χωρίς αλλαγή μοντέλου",
+        "optionTextEn": "Emergency funding without model change",
+        "politicalCost": 4,
+        "economicImpact": -2,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Προσωρινή λύση. Το πρόβλημα παραμένει.",
+        "consequencesEn": "Temporary fix. Problem remains."
+      }
+    ]
+  },
+  {
+    "sourceId": 1025,
+    "title": "Κυβερνοεπίθεση σε ΔΕΔΔΗΕ",
+    "titleEn": "Cyber Attack on Power Grid",
+    "description": "Χάκερς διακόπτουν το δίκτυο ηλεκτρικού σε 3 περιφέρειες.",
+    "descriptionEn": "Hackers disrupt power grid in 3 regions.",
+    "context": "Μαύρο σε νοσοκομεία και αεροδρόμια για 6 ώρες.",
+    "contextEn": "Blackouts at hospitals and airports for 6 hours.",
+    "timePressure": 1,
+    "category": "technology",
+    "difficulty": 3,
+    "options": [
+      {
+        "optionText": "Κήρυξη κυβερνοασφάλειας εθνικής προτεραιότητας",
+        "optionTextEn": "Declare cybersecurity national priority",
+        "politicalCost": 3,
+        "economicImpact": -3,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":4,\"ΦΛ\":2}",
+        "consequences": "Αποκατάσταση σε 24 ώρες. Μακροπρόθεσμη θωράκιση.",
+        "consequencesEn": "Restored in 24h. Long-term hardening."
+      },
+      {
+        "optionText": "Συνεργασία με ΝΑΤΟ Cyber Defence",
+        "optionTextEn": "Cooperate with NATO Cyber Defence",
+        "politicalCost": 5,
+        "economicImpact": -1,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Τεχνική βοήθεια. Κριτική για εξάρτηση.",
+        "consequencesEn": "Technical aid. Dependency criticism."
+      },
+      {
+        "optionText": "Αποσιώπηση μέχρι αποκατάστασης",
+        "optionTextEn": "Silence until restoration",
+        "politicalCost": 9,
+        "economicImpact": -2,
+        "socialImpact": -4,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Διαρροή προκαλεί χάος. Κατάρρευση εμπιστοσύνης.",
+        "consequencesEn": "Leak causes chaos. Trust collapse."
+      }
+    ]
+  },
+  {
+    "sourceId": 1026,
+    "title": "ΦΠΑ στον Τουρισμό: Αύξηση ή Μείωση;",
+    "titleEn": "Tourism VAT: Raise or Cut?",
+    "description": "Οι ξενοδόχοι ζητούν μείωση ΦΠΑ. Το υπουργείο Οικονομικών χρειάζεται έσοδα.",
+    "descriptionEn": "Hoteliers want VAT cut. Finance ministry needs revenue.",
+    "context": "Η ανταγωνιστικότητα με Τουρκία πιέζει.",
+    "contextEn": "Competitiveness vs Turkey pressures.",
+    "timePressure": 0,
+    "category": "economic",
+    "difficulty": 1,
+    "options": [
+      {
+        "optionText": "Μείωση ΦΠΑ διαμονής στο 6%",
+        "optionTextEn": "Cut accommodation VAT to 6%",
+        "politicalCost": 5,
+        "economicImpact": -2,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":4}",
+        "consequences": "Τουρισμός αναζωογονείται. Έλλειμμα αυξάνεται.",
+        "consequencesEn": "Tourism revives. Deficit rises."
+      },
+      {
+        "optionText": "Διατήρηση ισχύοντος — επένδυση σε προβολή",
+        "optionTextEn": "Keep current — invest in promotion",
+        "politicalCost": 4,
+        "economicImpact": 0,
+        "socialImpact": 1,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":3,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Σταθερότητα. Ο κλάδος μένει δυσαρεστημένος.",
+        "consequencesEn": "Stability. Sector remains unhappy."
+      },
+      {
+        "optionText": "Αύξηση ΦΠΑ για χρηματοδότηση πράσινης ενέργειας",
+        "optionTextEn": "Raise VAT to fund green energy",
+        "politicalCost": 7,
+        "economicImpact": 1,
+        "socialImpact": -2,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Περιβαλλοντικό κέρδος. Τουριστική αντίδραση.",
+        "consequencesEn": "Environmental gain. Tourism backlash."
+      }
+    ]
+  },
+  {
+    "sourceId": 1027,
+    "title": "Δικαστήρια: Υπερφόρτωση & Καθυστερήσεις",
+    "titleEn": "Courts: Overload and Delays",
+    "description": "Υποθέσεις καθυστερούν 5+ χρόνια. Επιχειρήσεις και πολίτες απελπίζονται.",
+    "descriptionEn": "Cases delayed 5+ years. Businesses and citizens despair.",
+    "context": "Η ΕΛΠ προτείνει ανεξάρτητη εισαγγελέα.",
+    "contextEn": "ELP proposes independent prosecutor.",
+    "timePressure": 0,
+    "category": "justice",
+    "difficulty": 2,
+    "options": [
+      {
+        "optionText": "Πρόσληψη 1.000 δικαστών και ψηφιοποίηση δικαστηρίων",
+        "optionTextEn": "Hire 1,000 judges and digitize courts",
+        "politicalCost": 5,
+        "economicImpact": -3,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":4,\"ΦΛ\":2}",
+        "consequences": "Οι καθυστερήσεις μειώνονται. Υψηλό κόστος.",
+        "consequencesEn": "Delays shrink. High cost."
+      },
+      {
+        "optionText": "Διαιτησία για εμπορικές διαφορές",
+        "optionTextEn": "Arbitration for commercial disputes",
+        "politicalCost": 4,
+        "economicImpact": 1,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Ταχύτερη επιχειρηματική δικαιοσύνη. Κριτική για διπλό σύστημα.",
+        "consequencesEn": "Faster business justice. Dual system criticism."
+      },
+      {
+        "optionText": "Αναβολή μεταρρυθμίσεων λόγω κόστους",
+        "optionTextEn": "Postpone reforms due to cost",
+        "politicalCost": 8,
+        "economicImpact": 0,
+        "socialImpact": -3,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Συνεχής απογοήτευση. ΕΛΠ κερδίζει πολιτικά.",
+        "consequencesEn": "Ongoing disappointment. ELP gains politically."
+      }
+    ]
+  },
+  {
+    "sourceId": 1028,
+    "title": "Πανεπιστημιακό Άσυλο: Σύγκρουση",
+    "titleEn": "University Asylum: Clash",
+    "description": "Κατάληψη ΑΣΟΕΕ με αιτήματα αστυνομικής παρέμβασης.",
+    "descriptionEn": "ASOEE occupation with calls for police intervention.",
+    "context": "Αντιπολίτευση και φοιτητές σε αντιπαράθεση.",
+    "contextEn": "Opposition and students clash.",
+    "timePressure": 1,
+    "category": "social",
+    "difficulty": 2,
+    "options": [
+      {
+        "optionText": "Διάλογος με φοιτητικές εκπροσώπους και μεταρρύθμιση άσυλου",
+        "optionTextEn": "Dialogue with student reps and asylum reform",
+        "politicalCost": 5,
+        "economicImpact": 0,
+        "socialImpact": 3,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Η κατάληψη λήγει ειρηνικά. Μερική ικανοποίηση.",
+        "consequencesEn": "Occupation ends peacefully. Partial satisfaction."
+      },
+      {
+        "optionText": "Αστυνομική είσοδος στο πανεπιστήμιο",
+        "optionTextEn": "Police entry into university",
+        "politicalCost": 8,
+        "economicImpact": 0,
+        "socialImpact": -4,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":4}",
+        "consequences": "Σύγκρουση και διεθνής κριτική.",
+        "consequencesEn": "Clash and international criticism."
+      },
+      {
+        "optionText": "Αναμονή χωρίς παρέμβαση",
+        "optionTextEn": "Wait without intervention",
+        "politicalCost": 6,
+        "economicImpact": 0,
+        "socialImpact": -1,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Η κατάληψη παρατείνεται. Κριτική από όλες τις πλευρές.",
+        "consequencesEn": "Occupation prolonged. Criticism from all sides."
+      }
+    ]
+  },
+  {
+    "sourceId": 1029,
+    "title": "Εκκλησία-Κράτος: Συζήτηση για Διαχωρισμό",
+    "titleEn": "Church-State: Separation Debate",
+    "description": "Σκάνδαλο σε Μητρόπολη αναζητά συζήτηση για μισθοδοσία κληρικών.",
+    "descriptionEn": "Metropolis scandal revives clergy payroll debate.",
+    "context": "Η Εκκλησία ζητά διάλογο. Η ΦΛ αντιδρά έντονα.",
+    "contextEn": "Church seeks dialogue. FL reacts strongly.",
+    "timePressure": 0,
+    "category": "politics",
+    "difficulty": 3,
+    "options": [
+      {
+        "optionText": "Κατάργηση μισθοδοσίας — εθελοντική συνεισφορά πιστών",
+        "optionTextEn": "End payroll — voluntary contributions",
+        "politicalCost": 8,
+        "economicImpact": 1,
+        "socialImpact": -2,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":3,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":3,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Δημοσιονομικό κέρδος. Έντονη θρησκευτική αντίδραση.",
+        "consequencesEn": "Fiscal gain. Strong religious backlash."
+      },
+      {
+        "optionText": "Διαφάνεια και έλεγχος περιουσίας Εκκλησίας",
+        "optionTextEn": "Transparency and Church asset audit",
+        "politicalCost": 5,
+        "economicImpact": 0,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":3,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":3,\"ΕΛΠ\":4,\"ΦΛ\":2}",
+        "consequences": "Μερική μεταρρύθμιση. Ικανοποίηση μετρίων.",
+        "consequencesEn": "Partial reform. Moderate satisfaction."
+      },
+      {
+        "optionText": "Καμία αλλαγή — πλήρης διατήρηση status quo",
+        "optionTextEn": "No change — full status quo",
+        "politicalCost": 4,
+        "economicImpact": 0,
+        "socialImpact": -1,
+        "partyAlignment": "{\"ΝΔ\":3,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":4,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":4}",
+        "consequences": "Σταθερότητα με συντηρητικούς. Προοδευτική κριτική.",
+        "consequencesEn": "Stability with conservatives. Progressive criticism."
+      }
+    ]
+  },
+  {
+    "sourceId": 1030,
+    "title": "Κλιματική Νομοθεσία: Απαγόρευση Πλαστικού",
+    "titleEn": "Climate Law: Plastic Ban",
+    "description": "Η ΕΕ απαιτεί απαγόρευση μίας χρήσης πλαστικού. Μικρές επιχειρήσεις αντιδρούν.",
+    "descriptionEn": "EU requires single-use plastic ban. Small businesses object.",
+    "context": "Χρειάζονται εναλλακτικές συσκευασίες με υψηλότερο κόστος.",
+    "contextEn": "Alternative packaging needed at higher cost.",
+    "timePressure": 0,
+    "category": "environment",
+    "difficulty": 1,
+    "options": [
+      {
+        "optionText": "Πλήρης εφαρμογή με κρατική επιδότηση μετάβασης",
+        "optionTextEn": "Full implementation with state transition subsidy",
+        "politicalCost": 4,
+        "economicImpact": -2,
+        "socialImpact": 4,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":4,\"ΠΑΣΟΚ\":4,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":4,\"ΕΛΠ\":3,\"ΦΛ\":2}",
+        "consequences": "Συμμόρφωση με ΕΕ. Κόστος για κράτος.",
+        "consequencesEn": "EU compliance. State cost."
+      },
+      {
+        "optionText": "Σταδιακή εφαρμογή σε 5 χρόνια",
+        "optionTextEn": "Phased implementation over 5 years",
+        "politicalCost": 5,
+        "economicImpact": 0,
+        "socialImpact": 2,
+        "partyAlignment": "{\"ΝΔ\":4,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":3,\"ΚΚΕ\":2,\"ΕΛ\":2,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":2}",
+        "consequences": "Λογική μετάβαση. Κριτική από περιβαλλοντικές οργανώσεις.",
+        "consequencesEn": "Smooth transition. Green NGO criticism."
+      },
+      {
+        "optionText": "Αίτημα παράτασης στην ΕΕ",
+        "optionTextEn": "Request EU extension",
+        "politicalCost": 7,
+        "economicImpact": 0,
+        "socialImpact": -1,
+        "partyAlignment": "{\"ΝΔ\":2,\"ΣΥΡΙΖΑ\":2,\"ΠΑΣΟΚ\":2,\"ΚΚΕ\":2,\"ΕΛ\":3,\"ΠΕ\":2,\"ΝΙΚΗ\":2,\"ΣΠΑΡ\":2,\"ΝΑ\":2,\"ΕΛΑΣ\":2,\"ΕΛΠ\":2,\"ΦΛ\":3}",
+        "consequences": "Ανακούφιση επιχειρήσεων. Εικόνα καθυστέρησης.",
+        "consequencesEn": "Business relief. Delay image."
+      }
+    ]
+  }
+]

@@ -1,0 +1,1382 @@
+[
+  {
+    "question": "Ποιος είναι ο αρχηγός του κόμματος ΕΛΑΣ (Ελληνική Αριστερή Συμπαράταξη);",
+    "questionEn": "Who leads ELAS (Greek Left Alliance)?",
+    "correctAnswer": "Αλέξης Τσίπρας",
+    "wrongAnswers": [
+      "Νίκος Ανδρουλάκης",
+      "Φώφη Γεννηματά",
+      "Δημήτρης Κουτσούμπας"
+    ],
+    "explanation": "Ο Αλέξης Τσίπρας ίδρυσε την ΕΛΑΣ ως νέα αριστερή παράταξη μετά την αποχώρησή του από τον ΣΥΡΙΖΑ.",
+    "explanationEn": "Alexis Tsipras founded ELAS as a new left alliance after leaving SYRIZA.",
+    "category": "parties",
+    "difficulty": 1,
+    "era": "2026-election"
+  },
+  {
+    "question": "Ποια είναι η αρχηγός του κόμματος ΕΛΠ (Ελπίδα για τη Δημοκρατία);",
+    "questionEn": "Who is the leader of ELP (Hope for Democracy)?",
+    "correctAnswer": "Μαρία Καρυστιανού",
+    "wrongAnswers": [
+      "Φωτεινή Μπατσιώκα",
+      "Ζωή Κωνσταντοπούλου",
+      "Κατερίνα Νοτοπούλου"
+    ],
+    "explanation": "Η Μαρία Καρυστιανού ηγείται της ΕΛΠ, κόμματος με έμφαση στο κράτος δικαίου και τη διαφάνεια.",
+    "explanationEn": "Maria Karystianou leads ELP, a party focused on the rule of law and transparency.",
+    "category": "parties",
+    "difficulty": 1,
+    "era": "2026-election"
+  },
+  {
+    "question": "Ποιος είναι ο αρχηγός της Φωνής Λογικής (ΦΛ);",
+    "questionEn": "Who leads Voice of Logic (FL)?",
+    "correctAnswer": "Φωτεινή Μπατσιώκα-Λατινοπούλου",
+    "wrongAnswers": [
+      "Κυριάκος Βελόπουλος",
+      "Κυριάκος Μητσοτάκης",
+      "Βασίλης Στοϊλής"
+    ],
+    "explanation": "Η Φωτεινή Μπατσιώκα-Λατινοπούλου είναι αρχηγός της Φωνής Λογικής.",
+    "explanationEn": "Foteini Batsioka-Latinopoulou is the leader of Voice of Logic.",
+    "category": "parties",
+    "difficulty": 1,
+    "era": "2026-election"
+  },
+  {
+    "question": "Ποιος είναι ο σημερινός πρωθυπουργός της Ελλάδας (2024-2026);",
+    "questionEn": "Who is Greece's PM in 2024-2026?",
+    "correctAnswer": "Κυριάκος Μητσοτάκης",
+    "wrongAnswers": [
+      "Αλέξης Τσίπρας",
+      "Νίκος Ανδρουλάκης",
+      "Κυριάκος Βελόπουλος"
+    ],
+    "explanation": "Ο Κυριάκος Μητσοτάκης (ΝΔ) είναι πρωθυπουργός από τις εκλογές του Ιουνίου 2023.",
+    "explanationEn": "Kyriakos Mitsotakis (ND) has been prime minister since the June 2023 elections.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιος είναι αρχηγός του ΠΑΣΟΚ-ΚΙΝΑΛ;",
+    "questionEn": "Who is the leader of PASOK-KINAL?",
+    "correctAnswer": "Νίκος Ανδρουλάκης",
+    "wrongAnswers": [
+      "Γιώργος Ανδρουτσόπουλος",
+      "Κώστας Σκρέκας",
+      "Παύλος Γερουλάνος"
+    ],
+    "explanation": "Ο Νίκος Ανδρουλάκης εξελέγη αρχηγός του ΠΑΣΟΚ-ΚΙΝΑΛ το 2021.",
+    "explanationEn": "Nikos Androulakis was elected leader of PASOK-KINAL in 2021.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιος είναι ο Γενικός Γραμματέας του ΚΚΕ;",
+    "questionEn": "Who is the General Secretary of the KKE?",
+    "correctAnswer": "Δημήτρης Κουτσούμπας",
+    "wrongAnswers": [
+      "Νίκος Ζαχαριάδης",
+      "Χαρίλαος Φλωράκης",
+      "Αλέκος Παπαϊωάννου"
+    ],
+    "explanation": "Ο Δημήτρης Κουτσούμπας είναι ΓΓ του ΚΚΕ από το 2013.",
+    "explanationEn": "Dimitris Koutsoumbas has been General Secretary of the KKE since 2013.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιο κόμμα εκπροσωπεί ο Κυριάκος Βελόπουλος;",
+    "questionEn": "Which party does Kyriakos Velopoulos represent?",
+    "correctAnswer": "Ελληνική Λύση",
+    "wrongAnswers": [
+      "Νίκη",
+      "Φωνή Λογικής",
+      "Σπαρτιάτες"
+    ],
+    "explanation": "Ο Κυριάκος Βελόπουλος είναι ιδρυτής και αρχηγός της Ελληνικής Λύσης.",
+    "explanationEn": "Kyriakos Velopoulos is the founder and leader of Greek Solution.",
+    "category": "parties",
+    "difficulty": 1,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιο κόμμα εκπροσωπεί ο Βασίλης Στοϊλής;",
+    "questionEn": "Which party does Vasilis Stoilis represent?",
+    "correctAnswer": "Νίκη",
+    "wrongAnswers": [
+      "Ελληνική Λύση",
+      "Σπαρτιάτες",
+      "Νέα Αριστερά"
+    ],
+    "explanation": "Ο Βασίλης Στοϊλής είναι αρχηγός του κόμματος Νίκη.",
+    "explanationEn": "Vasilis Stoilis is the leader of the Niki party.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιος είναι αρχηγός των Σπαρτιατών;",
+    "questionEn": "Who is the leader of Spartiates?",
+    "correctAnswer": "Βαθύς Λαμπρός",
+    "wrongAnswers": [
+      "Κυριάκος Βελόπουλος",
+      "Ηλίας Κασιδιάρης",
+      "Ιωάννης Καζάνης"
+    ],
+    "explanation": "Το κόμμα Σπαρτιάτες εισήλθε στη Βουλή το 2023.",
+    "explanationEn": "The Spartiates party entered Parliament in 2023.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιο κόμμα ιδρύθηκε από τον Γιάννη Βαρουφάκη;",
+    "questionEn": "Which party was founded by Yanis Varoufakis?",
+    "correctAnswer": "ΜεΡΑ25",
+    "wrongAnswers": [
+      "ΕΛΑΣ",
+      "Νέα Αριστερά",
+      "ΑΝΤΑΡΣΥΑ"
+    ],
+    "explanation": "Το Μέτωπο Ριζοσπαστικής Αριστεράς (ΜεΡΑ25) ιδρύθηκε το 2018.",
+    "explanationEn": "MeRA25 (Radical Left Front) was founded in 2018.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Σε ποια χρονιά υπογράφηκε το πρώτο μνημόνιο με την τρόικα;",
+    "questionEn": "When was the first bailout memorandum signed?",
+    "correctAnswer": "2010",
+    "wrongAnswers": [
+      "2008",
+      "2012",
+      "2015"
+    ],
+    "explanation": "Το πρώτο μνημόνιο υπογράφηκε τον Μάιο του 2010, με πρωθυπουργό τον Γιώργο Παπανδρέου.",
+    "explanationEn": "The first memorandum was signed in May 2010, with Giorgos Papandreou as prime minister.",
+    "category": "crisis",
+    "difficulty": 1,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιος ήταν πρωθυπουργός κατά το δημοψήφισμα του Ιουλίου 2015;",
+    "questionEn": "Who was prime minister during the July 2015 referendum?",
+    "correctAnswer": "Αλέξης Τσίπρας",
+    "wrongAnswers": [
+      "Αντώνης Σαμαράς",
+      "Λουκάς Παπαδήμος",
+      "Γιώργος Παπανδρέου"
+    ],
+    "explanation": "Ο Αλέξης Τσίπρας κυβέρνησε κατά το δημοψήφισμα του Ιουλίου 2015 για το ελληνικό πρόγραμμα.",
+    "explanationEn": "Alexis Tsipras was in government during the July 2015 referendum on the Greek program.",
+    "category": "crisis",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιος ήταν υπουργός Οικονομικών της Ελλάδας κατά το δημοψήφισμα του 2015;",
+    "questionEn": "Who was Greece's finance minister during the 2015 referendum?",
+    "correctAnswer": "Γιάννης Βαρουφάκης",
+    "wrongAnswers": [
+      "Ευκλείδης Τσακαλώτος",
+      "Γιάννης Στουρνάρας",
+      "Χρήστος Σταϊκούρας"
+    ],
+    "explanation": "Ο Γιάννης Βαρουφάκης ήταν υπουργός Οικονομικών την περίοδο του δημοψηφίσματος του 2015.",
+    "explanationEn": "Yanis Varoufakis was finance minister during the 2015 referendum period.",
+    "category": "crisis",
+    "difficulty": 3,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιος πρωθυπουργός κυβέρνησε με κυβέρνηση εθνικής ενότητας το 2011-2012;",
+    "questionEn": "Which prime minister led a national unity government in 2011-2012?",
+    "correctAnswer": "Λουκάς Παπαδήμος",
+    "wrongAnswers": [
+      "Γιώργος Παπανδρέου",
+      "Αντώνης Σαμαράς",
+      "Αλέξης Τσίπρας"
+    ],
+    "explanation": "Ο Λουκάς Παπαδήμος διορίστηκε πρωθυπουργός κυβέρνησης εθνικής ενότητας το Νοέμβριο του 2011.",
+    "explanationEn": "Loukas Papademos was appointed prime minister of a national unity government in November 2011.",
+    "category": "crisis",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Σε ποια χρονιά η Ελλάδα εισήλθε σε καθεστώς υπερβολικού ελλείμματος (Excessive Deficit Procedure) πριν τα μνημόνια;",
+    "questionEn": "In which year did Greece enter the Excessive Deficit Procedure before the memoranda?",
+    "correctAnswer": "2009",
+    "wrongAnswers": [
+      "2007",
+      "2010",
+      "2012"
+    ],
+    "explanation": "Το ελληνικό δημοσιονομικό πρόβλημα κλιμάκωσε το 2009, οδηγώντας στα μνημόνια.",
+    "explanationEn": "Greece's fiscal problems escalated in 2009, leading to the memoranda.",
+    "category": "crisis",
+    "difficulty": 3,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιος ήταν πρωθυπουργός όταν η Ελλάδα εξήλθε από τα μνημόνια το 2018;",
+    "questionEn": "Who was prime minister when Greece exited the memoranda in 2018?",
+    "correctAnswer": "Αλέξης Τσίπρας",
+    "wrongAnswers": [
+      "Αντώνης Σαμαράς",
+      "Κυριάκος Μητσοτάκης",
+      "Γιώργος Παπανδρέου"
+    ],
+    "explanation": "Η τυ formal έξοδος από το τρίτο μνημόνιο ολοκληρώθηκε τον Αύγουστο του 2018.",
+    "explanationEn": "The formal exit from the third memorandum was completed in August 2018.",
+    "category": "crisis",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιο άρθρο του Συντάγματος καθιερώνει την κοινοβουλευτική δημοκρατία;",
+    "questionEn": "Which article of the Constitution establishes parliamentary democracy?",
+    "correctAnswer": "Άρθρο 26",
+    "wrongAnswers": [
+      "Άρθρο 1",
+      "Άρθρο 16",
+      "Άρθρο 51"
+    ],
+    "explanation": "Το άρθρο 26 ορίζει ότι το πολίτευμα είναι κοινοβουλευτική δημοκρατία.",
+    "explanationEn": "Article 26 states that the form of government is parliamentary democracy.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιο μέρος του Συντάγματος ρυθμίζει τα ατομικά και κοινωνικά δικαιώματα;",
+    "questionEn": "Which part of the Constitution regulates individual and social rights?",
+    "correctAnswer": "Μέρος Β'",
+    "wrongAnswers": [
+      "Μέρος Α'",
+      "Μέρος Γ'",
+      "Μέρος Δ'"
+    ],
+    "explanation": "Το Μέρος Β' του Συντάγματος περιλαμβάνει τα ατομικά και κοινωνικά δικαιώματα.",
+    "explanationEn": "Part II of the Constitution includes individual and social rights.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Πόσες αναθεωρήσεις έχει υποστεί το Σύνταγμα του 1975;",
+    "questionEn": "How many revisions has the 1975 Constitution undergone?",
+    "correctAnswer": "5",
+    "wrongAnswers": [
+      "3",
+      "7",
+      "10"
+    ],
+    "explanation": "Το Σύνταγμα αναθεωρήθηκε το 1986, 2001, 2008, 2019 και 2023.",
+    "explanationEn": "The Constitution was revised in 1986, 2001, 2008, 2019, and 2023.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος εκλέγει τον Πρόεδρο της Δημοκρατίας στην Ελλάδα;",
+    "questionEn": "Who elects the President of the Republic in Greece?",
+    "correctAnswer": "Η Βουλή",
+    "wrongAnswers": [
+      "Ο λαός",
+      "Το Συμβούλιο της Επικρατείας",
+      "Η κυβέρνηση"
+    ],
+    "explanation": "Σύμφωνα με το Σύνταγμα, ο Πρόεδρος της Δημοκρατίας εκλέγεται από τη Βουλή.",
+    "explanationEn": "According to the Constitution, the President of the Republic is elected by Parliament.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποια είναι η ελάχιστη ψήφος αυτοδιοίκησης για εκλογή Προέδρου Δημοκρατίας σε πρώτη ψηφοφορία;",
+    "questionEn": "What is the minimum absolute majority needed to elect the President in the first ballot?",
+    "correctAnswer": "200",
+    "wrongAnswers": [
+      "151",
+      "180",
+      "300"
+    ],
+    "explanation": "Απαιτούνται 200 ψήφοι σε πρώτη ψηφοφορία για εκλογή Προέδρου Δημοκρατίας.",
+    "explanationEn": "200 votes are required in the first ballot to elect the President of the Republic.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιο άρθρο προστατεύει την ελευθερία του Τύπου;",
+    "questionEn": "Which article protects freedom of the press?",
+    "correctAnswer": "Άρθρο 14",
+    "wrongAnswers": [
+      "Άρθρο 5",
+      "Άρθρο 21",
+      "Άρθρο 29"
+    ],
+    "explanation": "Το άρθρο 14 του Συντάγματος κατοχυρώνει την ελευθερία του Τύπου.",
+    "explanationEn": "Article 14 of the Constitution guarantees freedom of the press.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιο άρθρο καθιερώνει την υποχρεωτική δωρεάν εκπαίδευση;",
+    "questionEn": "Which article establishes compulsory free education?",
+    "correctAnswer": "Άρθρο 16",
+    "wrongAnswers": [
+      "Άρθρο 4",
+      "Άρθρο 21",
+      "Άρθρο 24"
+    ],
+    "explanation": "Το άρθρο 16 ορίζει την εκπαίδευση ως δημόσια υποχρέωση και δικαίωμα.",
+    "explanationEn": "Article 16 defines education as a public duty and a right.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Σε ποια χρονιά έπεσε η χούντα των συνταγματαρχών στην Ελλάδα;",
+    "questionEn": "In which year did the military junta fall in Greece?",
+    "correctAnswer": "1974",
+    "wrongAnswers": [
+      "1967",
+      "1973",
+      "1976"
+    ],
+    "explanation": "Η δικτατορία των συνταγματαρχών κατέρρευσε τον Ιούλιο του 1974 μετά την τουρκική εισβολή στην Κύπρο.",
+    "explanationEn": "The dictatorship of the colonels collapsed in July 1974 after the Turkish invasion of Cyprus.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος ήταν ο αρχηγός της χούντας το 1974;",
+    "questionEn": "Who was the leader of the junta in 1974?",
+    "correctAnswer": "Δημήτριος Ιωαννίδης",
+    "wrongAnswers": [
+      "Γεώργιος Παπαδόπουλος",
+      "Νικόλαος Μακαρέζος",
+      "Στυλιανός Παττακός"
+    ],
+    "explanation": "Ο Δημήτριος Ιωαννίδης ήταν ο ισχυρός άνθρωπος της χούντας το 1974.",
+    "explanationEn": "Dimitrios Ioannidis was the strongman of the junta in 1974.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Σε ποια χρονιά εγκρίθηκε το Σύνταγμα της Μεταπολίτευσης;",
+    "questionEn": "In which year was the Metapolitefsi Constitution approved?",
+    "correctAnswer": "1975",
+    "wrongAnswers": [
+      "1974",
+      "1976",
+      "1981"
+    ],
+    "explanation": "Η Συντακτική Επιτροπή ολοκλήρωσε το Σύνταγμα του 1975.",
+    "explanationEn": "The Constitutional Committee completed the 1975 Constitution.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος ήταν πρωθυπουργός κατά την εισβολή των ΗΠΑ στο Ιράκ (1991) όταν η Ελλάδα συμμετείχε;",
+    "questionEn": "Who was prime minister during the 1991 US invasion of Iraq when Greece participated?",
+    "correctAnswer": "Κωνσταντίνος Μητσοτάκης",
+    "wrongAnswers": [
+      "Ανδρέας Παπανδρέου",
+      "Κώστας Σημίτης",
+      "Κωνσταντίνος Καραμανλής"
+    ],
+    "explanation": "Ο Κωνσταντίνος Μητσοτάκης ήταν πρωθυπουργός (ΝΔ) το 1991.",
+    "explanationEn": "Konstantinos Mitsotakis (ND) was prime minister in 1991.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1990-2010"
+  },
+  {
+    "question": "Σε ποια χρονιά η Ελλάδα εντάχθηκε στην Ευρωπαϊκή Ένωση;",
+    "questionEn": "When did Greece join the EU?",
+    "correctAnswer": "1981",
+    "wrongAnswers": [
+      "1974",
+      "1990",
+      "2001"
+    ],
+    "explanation": "Η Ελλάδα έγινε μέλος της ΕΟΚ το 1981, με πρωθυπουργό τον Γεώργιο Ράλλη.",
+    "explanationEn": "Greece became a member of the EEC in 1981, with Giorgos Rallis as prime minister.",
+    "category": "eu",
+    "difficulty": 1,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Σε ποια χρονιά η Ελλάδα εισήλθε στη ζώνη του ευρώ;",
+    "questionEn": "In which year did Greece enter the eurozone?",
+    "correctAnswer": "2001",
+    "wrongAnswers": [
+      "1999",
+      "2002",
+      "2004"
+    ],
+    "explanation": "Η Ελλάδα υιοθέτησε το ευρώ ως νόμισμά της από την 1η Ιανουαρίου 2002, αφού πληρούσε τα κριτήρια το 2001.",
+    "explanationEn": "Greece adopted the euro as its currency from 1 January 2002, having met the criteria in 2001.",
+    "category": "eu",
+    "difficulty": 2,
+    "era": "1990-2010"
+  },
+  {
+    "question": "Ποιος ήταν πρωθυπουργός κατά την ένταξη της Ελλάδας στο ευρώ;",
+    "questionEn": "Who was prime minister when Greece joined the euro?",
+    "correctAnswer": "Κώστας Σημίτης",
+    "wrongAnswers": [
+      "Κώστας Καραμανλής",
+      "Ανδρέας Παπανδρέου",
+      "Γιώργος Παπανδρέου"
+    ],
+    "explanation": "Ο Κώστας Σημίτης (ΠΑΣΟΚ) οδήγησε την Ελλάδα στο ευρώ.",
+    "explanationEn": "Kostas Simitis (PASOK) led Greece into the euro.",
+    "category": "eu",
+    "difficulty": 2,
+    "era": "1990-2010"
+  },
+  {
+    "question": "Ποιο κόμμα κέρδισε τις εκλογές του Ιουνίου 2023;",
+    "questionEn": "Which party won the June 2023 elections?",
+    "correctAnswer": "Νέα Δημοκρατία",
+    "wrongAnswers": [
+      "ΣΥΡΙΖΑ",
+      "ΠΑΣΟΚ-ΚΙΝΑΛ",
+      "ΚΚΕ"
+    ],
+    "explanation": "Η ΝΔ του Κυριάκου Μητσοτάκη κέρδισε τις εκλογές του Ιουνίου 2023 με σημαντική διαφορά.",
+    "explanationEn": "ND under Kyriakos Mitsotakis won the June 2023 elections by a significant margin.",
+    "category": "elections",
+    "difficulty": 1,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιο κόμμα κέρδισε τις εκλογές του Ιανουαρίου 2015;",
+    "questionEn": "Which party won the January 2015 elections?",
+    "correctAnswer": "ΣΥΡΙΖΑ",
+    "wrongAnswers": [
+      "Νέα Δημοκρατία",
+      "ΠΑΣΟΚ",
+      "ΑΝΕΛ"
+    ],
+    "explanation": "Ο ΣΥΡΙΖΑ κέρδισε τις εκλογές του Ιανουαρίου 2015 και σχημάτισε κυβέρνηση με τους ΑΝΕΛ.",
+    "explanationEn": "SYRIZA won the January 2015 elections and formed a government with ANEL.",
+    "category": "elections",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιο κόμμα κέρδισε τις εκλογές του Οκτωβρίου 2009;",
+    "questionEn": "Which party won the October 2009 elections?",
+    "correctAnswer": "ΠΑΣΟΚ",
+    "wrongAnswers": [
+      "Νέα Δημοκρατία",
+      "ΚΚΕ",
+      "ΛΑΟΣ"
+    ],
+    "explanation": "Το ΠΑΣΟΚ του Γιώργου Παπανδρέου κέρδισε τις εκλογές του 2009.",
+    "explanationEn": "PASOK under Giorgos Papandreou won the 2009 elections.",
+    "category": "elections",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιο κόμμα κέρδισε τις εκλογές του Μαρτίου 2004;",
+    "questionEn": "Which party won the March 2004 elections?",
+    "correctAnswer": "Νέα Δημοκρατία",
+    "wrongAnswers": [
+      "ΠΑΣΟΚ",
+      "ΚΚΕ",
+      "ΣΥΡΙΖΑ"
+    ],
+    "explanation": "Η ΝΔ του Κώστα Καραμανλή κέρδισε τις εκλογές του 2004.",
+    "explanationEn": "ND under Kostas Karamanlis won the 2004 elections.",
+    "category": "elections",
+    "difficulty": 2,
+    "era": "1990-2010"
+  },
+  {
+    "question": "Ποια συμφωνία επίλυσης του ονοματολογικού με την Βόρεια Μακεδονία υπέγραψε η Ελλάδα το 2018;",
+    "questionEn": "Which name dispute agreement with North Macedonia did Greece sign in 2018?",
+    "correctAnswer": "Συμφωνία των Πρεσπών",
+    "wrongAnswers": [
+      "Συμφωνία της Ευζώνων",
+      "Συμφωνία του Αχρίου",
+      "Συμφωνία της Αγκύρας"
+    ],
+    "explanation": "Η Συμφωνία των Πρεσπών υπεγράφη το 2018 από τους πρωθυπουργούς Τσίπρα και Ζάεφ.",
+    "explanationEn": "The Prespa Agreement was signed in 2018 by prime ministers Tsipras and Zaev.",
+    "category": "foreign_policy",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιος ήταν πρωθυπουργός κατά την υπογραφή των Πρεσπών;",
+    "questionEn": "Who was prime minister when the Prespa Agreement was signed?",
+    "correctAnswer": "Αλέξης Τσίπρας",
+    "wrongAnswers": [
+      "Κυριάκος Μητσοτάκης",
+      "Αντώνης Σαμαράς",
+      "Γιώργος Παπανδρέου"
+    ],
+    "explanation": "Ο Αλέξης Τσίπρας υπέγραψε τη Συμφωνία των Πρεσπών το 2018.",
+    "explanationEn": "Alexis Tsipras signed the Prespa Agreement in 2018.",
+    "category": "foreign_policy",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Σε ποια χρονιά η Τουρκία εισέβαλε στην Κύπρο;",
+    "questionEn": "In which year did Turkey invade Cyprus?",
+    "correctAnswer": "1974",
+    "wrongAnswers": [
+      "1963",
+      "1967",
+      "1983"
+    ],
+    "explanation": "Η τουρκική εισβολή στην Κύπρο έγινε τον Ιούλιο του 1974.",
+    "explanationEn": "The Turkish invasion of Cyprus took place in July 1974.",
+    "category": "foreign_policy",
+    "difficulty": 1,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος πρόεδρος της Κυπριακής Δημοκρατίας;",
+    "questionEn": "Who was the first president of the Republic of Cyprus?",
+    "correctAnswer": "Αρχιεπίσκοπος Μακάριος Γ'",
+    "wrongAnswers": [
+      "Γλαύκος Κληρίδης",
+      "Τάσσος Παπαδόπουλος",
+      "Νίκος Αναστασιάδης"
+    ],
+    "explanation": "Ο Μακάριος Γ' ήταν ο πρώτος Πρόεδρος της ανεξάρτητης Κύπρου.",
+    "explanationEn": "Makarios III was the first President of independent Cyprus.",
+    "category": "foreign_policy",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Σε ποια περιοχή της Ελλάδας συνέβη η τραγωδία των Τεμπών το 2023;",
+    "questionEn": "In which region of Greece did the Tempi tragedy occur in 2023?",
+    "correctAnswer": "Θεσσαλία",
+    "wrongAnswers": [
+      "Μακεδονία",
+      "Στερεά Ελλάδα",
+      "Ήπειρος"
+    ],
+    "explanation": "Η σιδηροδρομική τραγωδία στα Τέμπη (Λάρισα) συνέβη τον Φεβρουάριο του 2023.",
+    "explanationEn": "The railway tragedy at Tempi (Larissa) occurred in February 2023.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "2010-present"
+  },
+  {
+    "question": "Σε ποια χρονιά συνέβη η τραγωδία στα Τέμπη;",
+    "questionEn": "In which year did the Tempi tragedy occur?",
+    "correctAnswer": "2023",
+    "wrongAnswers": [
+      "2021",
+      "2022",
+      "2024"
+    ],
+    "explanation": "Η σιδηροδρομική σύγκρουση στα Τέμπη συνέβη τον Φεβρουάριο του 2023.",
+    "explanationEn": "The railway collision at Tempi occurred in February 2023.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιος ίδρυσε τη Νέα Δημοκρατία το 1974;",
+    "questionEn": "Who founded New Democracy in 1974?",
+    "correctAnswer": "Κωνσταντίνος Καραμανλής",
+    "wrongAnswers": [
+      "Κωνσταντίνος Μητσοτάκης",
+      "Γεώργιος Ράλλης",
+      "Κώστας Καραμανλής"
+    ],
+    "explanation": "Η Νέα Δημοκρατία ιδρύθηκε το 1974 από τον Κωνσταντίνο Καραμανλή.",
+    "explanationEn": "New Democracy was founded in 1974 by Konstantinos Karamanlis.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος ήταν ο ιδρυτής του ΠΑΣΟΚ;",
+    "questionEn": "Who was the founder of PASOK?",
+    "correctAnswer": "Ανδρέας Παπανδρέου",
+    "wrongAnswers": [
+      "Γεώργιος Παπανδρέου",
+      "Γιώργος Παπανδρέου",
+      "Νίκος Ανδρουλάκης"
+    ],
+    "explanation": "Το ΠΑΣΟΚ ιδρύθηκε το 1974 από τον Ανδρέα Παπανδρέου.",
+    "explanationEn": "PASOK was founded in 1974 by Andreas Papandreou.",
+    "category": "parties",
+    "difficulty": 1,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιο κόμμα προήλθε από τη συνένωση του ΣΥΝ με άλλες αριστερές δυνάμεις το 2004;",
+    "questionEn": "Which party emerged from the merger of SYN with other left forces in 2004?",
+    "correctAnswer": "ΣΥΡΙΖΑ",
+    "wrongAnswers": [
+      "ΚΚΕ",
+      "ΛΑΕ",
+      "ΜεΡΑ25"
+    ],
+    "explanation": "Ο ΣΥΡΙΖΑ σχηματίστηκε το 2004 ως συνασπισμός αριστερών κομμάτων.",
+    "explanationEn": "SYRIZA was formed in 2004 as a coalition of left-wing parties.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "1990-2010"
+  },
+  {
+    "question": "Ποιο κόμμα ιδρύθηκε από τον Πάνο Καμμένο το 2012;",
+    "questionEn": "Which party was founded by Panos Kammenos in 2012?",
+    "correctAnswer": "ΑΝΕΛ",
+    "wrongAnswers": [
+      "Ελληνική Λύση",
+      "ΛΑΟΣ",
+      "Νίκη"
+    ],
+    "explanation": "Οι Ανεξάρτητοι Έλληνες (ΑΝΕΛ) ιδρύθηκαν το 2012.",
+    "explanationEn": "Independent Greeks (ANEL) were founded in 2012.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Πόσες έδρες χρειάζονται για αυτοδύναμη κυβέρνηση στην Ελλάδα;",
+    "questionEn": "How many seats are needed for a single-party majority government in Greece?",
+    "correctAnswer": "151",
+    "wrongAnswers": [
+      "150",
+      "180",
+      "200"
+    ],
+    "explanation": "Απαιτούνται 151 έδρες στη Βουλή των 300 για αυτοδύναμη πλειοψηφία.",
+    "explanationEn": "151 seats in the 300-member Parliament are required for an absolute majority.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποια είναι η θητεία των βουλευτών στην Ελλάδα;",
+    "questionEn": "What is the term of MPs in Greece?",
+    "correctAnswer": "4 χρόνια",
+    "wrongAnswers": [
+      "3 χρόνια",
+      "5 χρόνια",
+      "6 χρόνια"
+    ],
+    "explanation": "Οι βουλευτές εκλέγονται για τετραετή θητεία, σύμφωνα με το Σύνταγμα.",
+    "explanationEn": "MPs are elected for a four-year term, according to the Constitution.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος είναι ο ανώτατος δικαστικός φορέας στην Ελλάδα;",
+    "questionEn": "What is the highest judicial authority in Greece?",
+    "correctAnswer": "Άρειος Πάγος",
+    "wrongAnswers": [
+      "Συμβούλιο της Επικρατείας",
+      "Εισαγγελία Αρείου Πάγου",
+      "ΣτΕ"
+    ],
+    "explanation": "Ο Άρειος Πάγος είναι ο ανώτατος ποινικός και πολιτικός δικαστικός φορέας.",
+    "explanationEn": "The Areios Pagos is the supreme criminal and civil court.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος ελέγχει τη συνταγματικότητα των νόμων στην Ελλάδα;",
+    "questionEn": "Who reviews the constitutionality of laws in Greece?",
+    "correctAnswer": "Συμβούλιο της Επικρατείας",
+    "wrongAnswers": [
+      "Άρειος Πάγος",
+      "Βουλή",
+      "Πρόεδρος Δημοκρατίας"
+    ],
+    "explanation": "Το ΣτΕ ασκεί έλεγχο νομοθετικότητας των διοικητικών πράξεων και νόμων.",
+    "explanationEn": "The Council of State exercises review of the legality of administrative acts and laws.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Σε ποια χρονιά η Ελλάδα εντάχθηκε στο ΝΑΤΟ;",
+    "questionEn": "In which year did Greece join NATO?",
+    "correctAnswer": "1952",
+    "wrongAnswers": [
+      "1949",
+      "1974",
+      "1981"
+    ],
+    "explanation": "Η Ελλάδα έγινε μέλος του ΝΑΤΟ το 1952.",
+    "explanationEn": "Greece became a member of NATO in 1952.",
+    "category": "foreign_policy",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποια πόλη φιλοξενεί την έδρα της Ευρωπαϊκής Επιτροπής που σχετίζεται με την ελληνική συμμετοχή στην ΕΕ;",
+    "questionEn": "Which city hosts the seat of the European Commission relevant to Greece's EU participation?",
+    "correctAnswer": "Βρυξέλλες",
+    "wrongAnswers": [
+      "Λουξεμβούργο",
+      "Στρασβούργο",
+      "Φρανκφούρτη"
+    ],
+    "explanation": "Η Ελλάδα συμμετέχει στα θεσμικά όργανα της ΕΕ με έδρα κυρίως στις Βρυξέλλες.",
+    "explanationEn": "Greece participates in EU institutions headquartered mainly in Brussels.",
+    "category": "eu",
+    "difficulty": 1,
+    "era": "1990-2010"
+  },
+  {
+    "question": "Ποιος ήταν ο πατέρας του Γιώργου Παπανδρέου και πρώην πρωθυπουργός;",
+    "questionEn": "Who was Giorgos Papandreou's father and former prime minister?",
+    "correctAnswer": "Ανδρέας Παπανδρέου",
+    "wrongAnswers": [
+      "Γεώργιος Παπανδρέου",
+      "Κωνσταντίνος Καραμανλής",
+      "Κώστας Σημίτης"
+    ],
+    "explanation": "Ο Γιώργος Παπανδρέου είναι γιος του Ανδρέα Παπανδρέου.",
+    "explanationEn": "Giorgos Papandreou is the son of Andreas Papandreou.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιος ήταν πρωθυπουργός κατά τους Ολυμπιακούς Αγώνες του 2004;",
+    "questionEn": "Who was prime minister during the 2004 Olympic Games?",
+    "correctAnswer": "Κώστας Καραμανλής",
+    "wrongAnswers": [
+      "Κώστας Σημίτης",
+      "Γιώργος Παπανδρέου",
+      "Αντώνης Σαμαράς"
+    ],
+    "explanation": "Ο Κώστας Καραμανλής (ΝΔ) ήταν πρωθυπουργός το 2004.",
+    "explanationEn": "Kostas Karamanlis (ND) was prime minister in 2004.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "1990-2010"
+  },
+  {
+    "question": "Ποιος διαδέχθηκε τον Κωνσταντίνο Καραμανλή στην ηγεσία της ΝΔ το 1998;",
+    "questionEn": "Who succeeded Konstantinos Karamanlis as ND leader in 1998?",
+    "correctAnswer": "Κώστας Καραμανλής",
+    "wrongAnswers": [
+      "Αντώνης Σαμαράς",
+      "Μιλτιάδης Έβερτ",
+      "Δημήτρης Αβραμόπουλος"
+    ],
+    "explanation": "Ο Κώστας Καραμανλής (νεότερος) ανέλαβε την αρχηγία της ΝΔ το 1998.",
+    "explanationEn": "Kostas Karamanlis (the younger) took over leadership of ND in 1998.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1990-2010"
+  },
+  {
+    "question": "Ποιο κόμμα προέκυψε από τη διάσπαση του ΣΥΡΙΖΑ και σχηματίστηκε ως ΕΛΑΣ;",
+    "questionEn": "Which party emerged from the SYRIZA split and was formed as ELAS?",
+    "correctAnswer": "Ελληνική Αριστερή Συμπαράταξη",
+    "wrongAnswers": [
+      "Νέα Αριστερά",
+      "ΛΑΕ",
+      "ΑΝΤΑΡΣΥΑ"
+    ],
+    "explanation": "Η ΕΛΑΣ αποτελεί νέα αριστερή παράταξη με επικεφαλής τον Αλέξη Τσίπρα.",
+    "explanationEn": "ELAS is a new left alliance led by Alexis Tsipras.",
+    "category": "parties",
+    "difficulty": 1,
+    "era": "2026-election"
+  },
+  {
+    "question": "Ποιο κόμμα έχει ως κεντρικό σύνθημα την ελπίδα για τη δημοκρατία και τον έλεγχο της εξουσίας;",
+    "questionEn": "Which party's central slogan is hope for democracy and oversight of power?",
+    "correctAnswer": "ΕΛΠ",
+    "wrongAnswers": [
+      "ΦΛ",
+      "Νίκη",
+      "Σπαρτιάτες"
+    ],
+    "explanation": "Η Ελπίδα για τη Δημοκρατία (ΕΛΠ) επικεντρώνεται στο κράτος δικαίου.",
+    "explanationEn": "Hope for Democracy (ELP) focuses on the rule of law.",
+    "category": "parties",
+    "difficulty": 1,
+    "era": "2026-election"
+  },
+  {
+    "question": "Ποιο κόμμα προωθεί μείωση φόρων και μικρότερο κράτος ως βασική πολιτική;",
+    "questionEn": "Which party promotes tax cuts and a smaller state as core policy?",
+    "correctAnswer": "Φωνή Λογικής",
+    "wrongAnswers": [
+      "ΚΚΕ",
+      "ΠΑΣΟΚ-ΚΙΝΑΛ",
+      "ΜεΡΑ25"
+    ],
+    "explanation": "Η Φωνή Λογικής τονίζει φορολογικές ελαφρύνσεις και περιορισμό της γραφειοκρατίας.",
+    "explanationEn": "Voice of Logic emphasizes tax relief and reducing bureaucracy.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "2026-election"
+  },
+  {
+    "question": "Ποιο κόμμα είναι γνωστό για την εθνική ανασύνταξη και την ορθόδοξη χριστιανική ταυτότητα;",
+    "questionEn": "Which party is known for national renewal and Orthodox Christian identity?",
+    "correctAnswer": "Νίκη",
+    "wrongAnswers": [
+      "ΠΑΣΟΚ",
+      "ΣΥΡΙΖΑ",
+      "ΜεΡΑ25"
+    ],
+    "explanation": "Το κόμμα Νίκη τοποθετείται στον εθνικό-συντηρητικό χώρο.",
+    "explanationEn": "The Niki party positions itself in the national-conservative space.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "2026-election"
+  },
+  {
+    "question": "Ποιο κόμμα εκπροσωπείται από τον Δημήτρη Νατσιώτη;",
+    "questionEn": "Which party is represented by Dimitris Natsiotis?",
+    "correctAnswer": "Νέα Αριστερά",
+    "wrongAnswers": [
+      "ΚΚΕ",
+      "ΜεΡΑ25",
+      "ΕΛΑΣ"
+    ],
+    "explanation": "Η Νέα Αριστερά είναι αριστερό κόμμα εκτός Βουλής με επικεφαλής τον Δημήτρη Νατσιώτη.",
+    "explanationEn": "New Left is a left-wing party outside Parliament led by Dimitris Natsiotis.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "2026-election"
+  },
+  {
+    "question": "Σε ποια χρονιά αναγνωρίστηκε η Ελλάδα ως ανεξάρτητο κράτος από τις μεγάλες δυνάμεις;",
+    "questionEn": "In which year was Greece recognized as an independent state by the great powers?",
+    "correctAnswer": "1830",
+    "wrongAnswers": [
+      "1821",
+      "1864",
+      "1897"
+    ],
+    "explanation": "Η πλήρης αναγνώριση της ανεξαρτησίας της Ελλάδας ήρθε με το πρωτόκολλο του Λονδίνου το 1830.",
+    "explanationEn": "Full recognition of Greece's independence came with the London Protocol of 1830.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "pre-1974"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος βασιλιάς της ανεξάρτητης Ελλάδας από τη δυναστεία των Wittelsbach;",
+    "questionEn": "Who was the first king of independent Greece from the Wittelsbach dynasty?",
+    "correctAnswer": "Όθων",
+    "wrongAnswers": [
+      "Γεώργιος Α'",
+      "Παύλος",
+      "Κωνσταντίνος"
+    ],
+    "explanation": "Ο Όθωνας ήταν ο πρώτος βασιλιάς του σύγχρονου ελληνικού κράτους.",
+    "explanationEn": "Otto was the first king of the modern Greek state.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "pre-1974"
+  },
+  {
+    "question": "Σε ποια χρονιά καταργήθηκε η βασιλεία στην Ελλάδα και κηρύχθηκε η δημοκρατία;",
+    "questionEn": "In which year was the monarchy abolished and the republic proclaimed in Greece?",
+    "correctAnswer": "1974",
+    "wrongAnswers": [
+      "1967",
+      "1973",
+      "1981"
+    ],
+    "explanation": "Μετά την πτώση της χούντας, το δημοψήφισμα του Δεκεμβρίου 1974 κατάργησε τη μοναρχία.",
+    "explanationEn": "After the fall of the junta, the December 1974 referendum abolished the monarchy.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιο δικαίωμα κατοχυρώνει το άρθρο 5 του Συντάγματος;",
+    "questionEn": "Which right does Article 5 of the Constitution guarantee?",
+    "correctAnswer": "Προσωπική ελευθερία και ασφάλεια",
+    "wrongAnswers": [
+      "Δικαίωμα στην εκπαίδευση",
+      "Δικαίωμα στην απεργία",
+      "Δικαίωμα στην ιδιοκτησία"
+    ],
+    "explanation": "Το άρθρο 5 προστατεύει την προσωπική ελευθερία και ασφάλεια του ατόμου.",
+    "explanationEn": "Article 5 protects personal liberty and security of the individual.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιο άρθρο ρυθμίζει το δικαίωμα στην απεργία;",
+    "questionEn": "Which article regulates the right to strike?",
+    "correctAnswer": "Άρθρο 22",
+    "wrongAnswers": [
+      "Άρθρο 14",
+      "Άρθρο 16",
+      "Άρθρο 24"
+    ],
+    "explanation": "Το άρθρο 22 αναγνωρίζει το δικαίωμα στην απεργία στους εργαζόμενους.",
+    "explanationEn": "Article 22 recognizes the right to strike for workers.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος διορίζει τους υπουργούς στην Ελλάδα;",
+    "questionEn": "Who appoints ministers in Greece?",
+    "correctAnswer": "Ο Πρωθυπουργός",
+    "wrongAnswers": [
+      "Ο Πρόεδρος Δημοκρατίας",
+      "Η Βουλή",
+      "Ο Άρειος Πάγος"
+    ],
+    "explanation": "Ο Πρωθυπουργός προτείνει και ο Πρόεδρος διορίζει τους υπουργούς.",
+    "explanationEn": "The Prime Minister proposes and the President appoints ministers.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος υπουργός Οικονομικών διαχειρίστηκε την ελληνική οικονομία κατά την πανδημία COVID-19 (2020);",
+    "questionEn": "Which finance minister managed the Greek economy during the COVID-19 pandemic (2020)?",
+    "correctAnswer": "Χρήστος Σταϊκούρας",
+    "wrongAnswers": [
+      "Ευκλείδης Τσακαλώτος",
+      "Γιάννης Στουρνάρας",
+      "Γιάννης Βαρουφάκης"
+    ],
+    "explanation": "Ο Χρήστος Σταϊκούρας ήταν υπουργός Οικονομικών της κυβέρνησης Μητσοτάκη το 2020.",
+    "explanationEn": "Christos Staikouras was finance minister in the Mitsotakis government in 2020.",
+    "category": "crisis",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιος ήταν πρωθυπουργός κατά την έναρξη της πανδημίας COVID-19 στην Ελλάδα;",
+    "questionEn": "Who was prime minister when the COVID-19 pandemic began in Greece?",
+    "correctAnswer": "Κυριάκος Μητσοτάκης",
+    "wrongAnswers": [
+      "Αλέξης Τσίπρας",
+      "Αντώνης Σαμαράς",
+      "Γιώργος Παπανδρέου"
+    ],
+    "explanation": "Η πανδημία COVID-19 ξεκίνησε στην Ελλάδα το 2020 με κυβέρνηση Μητσοτάκη.",
+    "explanationEn": "The COVID-19 pandemic began in Greece in 2020 under the Mitsotakis government.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "2010-present"
+  },
+  {
+    "question": "Πόσοι ευρωβουλευτές εκλέγει η Ελλάδα (μετά τις ευρωεκλογές 2024);",
+    "questionEn": "How many MEPs does Greece elect (after the 2024 European elections)?",
+    "correctAnswer": "21",
+    "wrongAnswers": [
+      "25",
+      "18",
+      "30"
+    ],
+    "explanation": "Η Ελλάδα εκλέγει 21 ευρωβουλευτές μετά την ανακατανομή των εδρών.",
+    "explanationEn": "Greece elects 21 MEPs after the redistribution of seats.",
+    "category": "eu",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποια πόλη είναι η έδρα του Ελληνικού Κοινοβουλίου;",
+    "questionEn": "Which city is the seat of the Hellenic Parliament?",
+    "correctAnswer": "Αθήνα",
+    "wrongAnswers": [
+      "Θεσσαλονίκη",
+      "Ναύπλιο",
+      "Πάτρα"
+    ],
+    "explanation": "Η Βουλή των Ελλήνων συνέρχεται στο κοινοβουλευτικό μέγαρο στην Αθήνα.",
+    "explanationEn": "The Hellenic Parliament meets at the Parliament building in Athens.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος προεδρεύει της Βουλής των Ελλήνων;",
+    "questionEn": "Who presides over the Hellenic Parliament?",
+    "correctAnswer": "Ο Πρόεδρος της Βουλής",
+    "wrongAnswers": [
+      "Ο Πρωθυπουργός",
+      "Ο Πρόεδρος Δημοκρατίας",
+      "Ο Αντιπρόεδρος"
+    ],
+    "explanation": "Ο Πρόεδρος της Βουλής εκλέγεται από τους βουλευτές.",
+    "explanationEn": "The Speaker of Parliament is elected by MPs.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιο κόμμα κυβέρνησε την Ελλάδα μετά τις εκλογές του Σεπτεμβρίου 2015;",
+    "questionEn": "Which party governed Greece after the September 2015 elections?",
+    "correctAnswer": "ΣΥΡΙΖΑ",
+    "wrongAnswers": [
+      "Νέα Δημοκρατία",
+      "ΠΑΣΟΚ",
+      "ΑΝΕΛ μόνο"
+    ],
+    "explanation": "Ο ΣΥΡΙΖΑ κέρδισε ξανά τις εκλογές του Σεπτεμβρίου 2015.",
+    "explanationEn": "SYRIZA won the September 2015 elections again.",
+    "category": "elections",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιος ήταν ο τελευταίος βασιλιάς της Ελλάδας;",
+    "questionEn": "Who was the last king of Greece?",
+    "correctAnswer": "Κωνσταντίνος Β'",
+    "wrongAnswers": [
+      "Παύλος",
+      "Γεώργιος Β'",
+      "Όθων"
+    ],
+    "explanation": "Ο Κωνσταντίνος Β' ήταν ο τελευταίος βασιλιάς πριν την κατάργηση της μοναρχίας.",
+    "explanationEn": "Konstantinos II was the last king before the abolition of the monarchy.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Σε ποια χρονιά η Ελλάδα αναγνωρίστηκε επίσημα ως δημοκρατία μετά το δημοψήφισμα;",
+    "questionEn": "In which year was Greece officially recognized as a republic after the referendum?",
+    "correctAnswer": "1974",
+    "wrongAnswers": [
+      "1973",
+      "1975",
+      "1981"
+    ],
+    "explanation": "Το δημοψήφισμα του Δεκεμβρίου 1974 επικύρωσε τη δημοκρατία και την κατάργηση της μοναρχίας.",
+    "explanationEn": "The December 1974 referendum confirmed democracy and the abolition of the monarchy.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος πρωθυπουργός του ΠΑΣΟΚ;",
+    "questionEn": "Who was the first PASOK prime minister?",
+    "correctAnswer": "Ανδρέας Παπανδρέου",
+    "wrongAnswers": [
+      "Γιώργος Παπανδρέου",
+      "Κώστας Σημίτης",
+      "Γεώργιος Παπανδρέου"
+    ],
+    "explanation": "Ο Ανδρέας Παπανδρέου κυβέρνησε ως πρώτος πρωθυπουργός του ΠΑΣΟΚ από το 1981.",
+    "explanationEn": "Andreas Papandreou governed as the first PASOK prime minister from 1981.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος ήταν πρωθυπουργός της χούντας (1967-1973) στην αρχή της δικτατορίας;",
+    "questionEn": "Who was the junta prime minister (1967-1973) at the start of the dictatorship?",
+    "correctAnswer": "Γεώργιος Παπαδόπουλος",
+    "wrongAnswers": [
+      "Δημήτριος Ιωαννίδης",
+      "Φαίδων Γκιζίκης",
+      "Στυλιανός Παττακός"
+    ],
+    "explanation": "Ο Γεώργιος Παπαδόπουλος ήταν ο κυρίαρχος της χούντας στην αρχή.",
+    "explanationEn": "Georgios Papadopoulos was the dominant figure of the junta at the beginning.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "pre-1974"
+  },
+  {
+    "question": "Ποιο κόμμα εκπροσωπεί ο Κυριάκος Μητσοτάκης;",
+    "questionEn": "Which party does Kyriakos Mitsotakis represent?",
+    "correctAnswer": "Νέα Δημοκρατία",
+    "wrongAnswers": [
+      "ΠΑΣΟΚ",
+      "Ελληνική Λύση",
+      "Φωνή Λογικής"
+    ],
+    "explanation": "Ο Κυριάκος Μητσοτάκης είναι αρχηγός της Νέας Δημοκρατίας.",
+    "explanationEn": "Kyriakos Mitsotakis is the leader of New Democracy.",
+    "category": "parties",
+    "difficulty": 1,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιο κόμμα εκπροσωπεί ο Αλέξης Τσίπρας μετά το 2024;",
+    "questionEn": "Which party does Alexis Tsipras represent after 2024?",
+    "correctAnswer": "ΕΛΑΣ",
+    "wrongAnswers": [
+      "ΣΥΡΙΖΑ",
+      "ΜεΡΑ25",
+      "ΚΚΕ"
+    ],
+    "explanation": "Ο Αλέξης Τσίπρας ηγείται της ΕΛΑΣ μετά την αποχώρησή του από τον ΣΥΡΙΖΑ.",
+    "explanationEn": "Alexis Tsipras leads ELAS after leaving SYRIZA.",
+    "category": "parties",
+    "difficulty": 1,
+    "era": "2026-election"
+  },
+  {
+    "question": "Ποιος ήταν ο πρωθυπουργός κατά την εισβολή στην Κύπρο το 1974;",
+    "questionEn": "Who was prime minister during the 1974 invasion of Cyprus?",
+    "correctAnswer": "Αθανάσιος Νταβλάς",
+    "wrongAnswers": [
+      "Κωνσταντίνος Καραμανλής",
+      "Γεώργιος Παπαδόπουλος",
+      "Ανδρέας Παπανδρέου"
+    ],
+    "explanation": "Κατά την εισβολή στην Κύπρο (Ιούλιος 1974) πρωθυπουργός της χούντας ήταν ο Αθανάσιος Νταβλάς.",
+    "explanationEn": "During the invasion of Cyprus (July 1974), the junta's prime minister was Athanasios Ntavlas.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος εκλεγμένος Πρόεδρος Δημοκρατίας μετά το 1975;",
+    "questionEn": "Who was the first elected President of the Republic after 1975?",
+    "correctAnswer": "Κωνσταντίνος Τσάτσος",
+    "wrongAnswers": [
+      "Μιχάλης Στασινόπουλος",
+      "Χρήστος Σαρτζετάκης",
+      "Κωνσταντίνος Καραμανλής"
+    ],
+    "explanation": "Ο Κωνσταντίνος Τσάτσος εξελέγη Πρόεδρος Δημοκρατίας το 1975.",
+    "explanationEn": "Konstantinos Tsatsos was elected President of the Republic in 1975.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος Πρόεδρος Δημοκρατίας ήταν γνωστός ως «ο δικαστής»;",
+    "questionEn": "Which President of the Republic was known as \"the judge\"?",
+    "correctAnswer": "Χρήστος Σαρτζετάκης",
+    "wrongAnswers": [
+      "Κωνσταντίνος Τσάτσος",
+      "Κάρολος Παπούλιας",
+      "Προκόπης Παυλόπουλος"
+    ],
+    "explanation": "Ο Χρήστος Σαρτζετάκης ήταν δικαστής πριν γίνει Πρόεδρος Δημοκρατίας (1985-1990).",
+    "explanationEn": "Christos Sartzetakis was a judge before becoming President of the Republic (1985-1990).",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος ήταν Πρόεδρος Δημοκρατίας κατά τους Ολυμπιακούς του 2004;",
+    "questionEn": "Who was President of the Republic during the 2004 Olympics?",
+    "correctAnswer": "Κωνσταντίνος Στεφανόπουλος",
+    "wrongAnswers": [
+      "Κάρολος Παπούλιας",
+      "Κωνσταντίνος Τσάτσος",
+      "Προκόπης Παυλόπουλος"
+    ],
+    "explanation": "Ο Κωνσταντίνος Στεφανόπουλος ήταν Πρόεδρος Δημοκρατίας το 2004.",
+    "explanationEn": "Konstantinos Stephanopoulos was President of the Republic in 2004.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "1990-2010"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος Πρόεδρος Δημοκρατίας που εξελέγη μετά την αναθεώρηση του 1986;",
+    "questionEn": "Who was the first President of the Republic elected after the 1986 revision?",
+    "correctAnswer": "Χρήστος Σαρτζετάκης",
+    "wrongAnswers": [
+      "Κωνσταντίνος Καραμανλής",
+      "Κάρολος Παπούλιας",
+      "Κωνσταντίνος Στεφανόπουλος"
+    ],
+    "explanation": "Μετά την αναθεώρηση του 1986, ο Χρήστος Σαρτζετάκης εξελέγη Πρόεδρος.",
+    "explanationEn": "After the 1986 revision, Christos Sartzetakis was elected President.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιο κόμμα κέρδισε τις εκλογές του 1996;",
+    "questionEn": "Which party won the 1996 elections?",
+    "correctAnswer": "ΠΑΣΟΚ",
+    "wrongAnswers": [
+      "Νέα Δημοκρατία",
+      "ΚΚΕ",
+      "ΣΥΡΙΖΑ"
+    ],
+    "explanation": "Το ΠΑΣΟΚ του Κώστα Σημίτη κέρδισε τις εκλογές του 1996.",
+    "explanationEn": "PASOK under Kostas Simitis won the 1996 elections.",
+    "category": "elections",
+    "difficulty": 2,
+    "era": "1990-2010"
+  },
+  {
+    "question": "Ποιος διαδέχθηκε τον Ανδρέα Παπανδρέου στην αρχηγία του ΠΑΣΟΚ το 1996;",
+    "questionEn": "Who succeeded Andreas Papandreou as PASOK leader in 1996?",
+    "correctAnswer": "Κώστας Σημίτης",
+    "wrongAnswers": [
+      "Γιώργος Παπανδρέου",
+      "Ευάγγελος Βενιζέλος",
+      "Κώστας Σκρέκας"
+    ],
+    "explanation": "Ο Κώστας Σημίτης ανέλαβε την αρχηγία του ΠΑΣΟΚ το 1996.",
+    "explanationEn": "Kostas Simitis took over leadership of PASOK in 1996.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "1990-2010"
+  },
+  {
+    "question": "Ποιο κόμμα κέρδισε τις εκλογές του 2007;",
+    "questionEn": "Which party won the 2007 elections?",
+    "correctAnswer": "Νέα Δημοκρατία",
+    "wrongAnswers": [
+      "ΠΑΣΟΚ",
+      "ΚΚΕ",
+      "ΛΑΟΣ"
+    ],
+    "explanation": "Η ΝΔ του Κώστα Καραμανλή κέρδισε τις εκλογές του 2007.",
+    "explanationEn": "ND under Kostas Karamanlis won the 2007 elections.",
+    "category": "elections",
+    "difficulty": 2,
+    "era": "1990-2010"
+  },
+  {
+    "question": "Ποιος ήταν πρωθυπουργός όταν ξέσπασε η κρίση χρέους το 2009;",
+    "questionEn": "Who was prime minister when the debt crisis erupted in 2009?",
+    "correctAnswer": "Κώστας Καραμανλής",
+    "wrongAnswers": [
+      "Γιώργος Παπανδρέου",
+      "Κώστας Σημίτης",
+      "Αντώνης Σαμαράς"
+    ],
+    "explanation": "Ο Κώστας Καραμανλής ήταν πρωθυπουργός όταν η κρίση χρέους κλιμάκωσε το 2009.",
+    "explanationEn": "Kostas Karamanlis was prime minister when the debt crisis escalated in 2009.",
+    "category": "crisis",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιος ήταν υπουργός Οικονομικών όταν αποκαλύφθηκε ότι το έλλειμμα ήταν μεγαλύτερο από το ανακοινωμένο (2009);",
+    "questionEn": "Who was finance minister when it was revealed the deficit was larger than announced (2009)?",
+    "correctAnswer": "Γιώργος Παπακωνσταντίνου",
+    "wrongAnswers": [
+      "Γιάννης Στουρνάρας",
+      "Ευκλείδης Τσακαλώτος",
+      "Χρήστος Σταϊκούρας"
+    ],
+    "explanation": "Ο Γιώργος Παπακωνσταντίνου ήταν υπουργός Οικονομικών στην κυβέρνηση Παπανδρέου.",
+    "explanationEn": "Giorgos Papakonstantinou was finance minister in the Papandreou government.",
+    "category": "crisis",
+    "difficulty": 3,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιο κόμμα ιδρύθηκε το 2019 ως «Φωνή Λογικής»;",
+    "questionEn": "Which party was founded in 2019 as \"Voice of Logic\"?",
+    "correctAnswer": "Φωνή Λογικής",
+    "wrongAnswers": [
+      "Νίκη",
+      "Ελληνική Λύση",
+      "Σπαρτιάτες"
+    ],
+    "explanation": "Η Φωνή Λογικής ιδρύθηκε το 2019.",
+    "explanationEn": "Voice of Logic was founded in 2019.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "2026-election"
+  },
+  {
+    "question": "Ποιο κόμμα εισήλθε στη Βουλή το 2023 με επικεφαλής τον Βαθύ Λαμπρό;",
+    "questionEn": "Which party entered Parliament in 2023 led by Vathys Lampros?",
+    "correctAnswer": "Σπαρτιάτες",
+    "wrongAnswers": [
+      "Νίκη",
+      "Ελληνική Λύση",
+      "ΜεΡΑ25"
+    ],
+    "explanation": "Οι Σπαρτιάτες εισήλθαν στη Βουλή στις εκλογές του 2023.",
+    "explanationEn": "Spartiates entered Parliament in the 2023 elections.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιο κόμμα εκπροσωπεί ο Στέφανος Κασσελάκης (πρώην αρχηγός);",
+    "questionEn": "Which party does Stefanos Kasselakis (former leader) represent?",
+    "correctAnswer": "ΣΥΡΙΖΑ",
+    "wrongAnswers": [
+      "ΕΛΑΣ",
+      "ΠΑΣΟΚ",
+      "ΜεΡΑ25"
+    ],
+    "explanation": "Ο Στέφανος Κασσελάκης ήταν αρχηγός του ΣΥΡΙΖΑ το 2023-2024.",
+    "explanationEn": "Stefanos Kasselakis was leader of SYRIZA in 2023-2024.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιος ήταν αρχηγός του ΣΥΡΙΖΑ πριν τον Στέφανο Κασσελάκη;",
+    "questionEn": "Who was SYRIZA leader before Stefanos Kasselakis?",
+    "correctAnswer": "Αλέξης Τσίπρας",
+    "wrongAnswers": [
+      "Νίκος Παππάς",
+      "Γιάννης Δραγάσακης",
+      "Παύλος Πολάκης"
+    ],
+    "explanation": "Ο Αλέξης Τσίπρας ηγήθηκε του ΣΥΡΙΖΑ για πολλά χρόνια πριν την ΕΛΑΣ.",
+    "explanationEn": "Alexis Tsipras led SYRIZA for many years before ELAS.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιο κόμμα συγκρότησε κυβέρνηση με τον ΣΥΡΙΖΑ το 2015;",
+    "questionEn": "Which party formed a government with SYRIZA in 2015?",
+    "correctAnswer": "ΑΝΕΛ",
+    "wrongAnswers": [
+      "ΠΑΣΟΚ",
+      "ΝΔ",
+      "ΚΚΕ"
+    ],
+    "explanation": "Ο ΣΥΡΙΖΑ κυβέρνησε με τους Ανεξάρτητους Έλληνες (ΑΝΕΛ) το 2015.",
+    "explanationEn": "SYRIZA governed with Independent Greeks (ANEL) in 2015.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιος ήταν πρόεδρος του ΠΑΣΟΚ πριν τον Νίκο Ανδρουλάκη;",
+    "questionEn": "Who was PASOK president before Nikos Androulakis?",
+    "correctAnswer": "Φώφη Γεννηματά",
+    "wrongAnswers": [
+      "Κώστας Σημίτης",
+      "Γιώργος Παπανδρέου",
+      "Ευάγγελος Βενιζέλος"
+    ],
+    "explanation": "Η Φώφη Γεννηματά ήταν αρχηγός του ΠΑΣΟΚ-ΚΙΝΑΛ πριν τον Νίκο Ανδρουλάκη.",
+    "explanationEn": "Fofi Gennimata was leader of PASOK-KINAL before Nikos Androulakis.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-present"
+  }
+]

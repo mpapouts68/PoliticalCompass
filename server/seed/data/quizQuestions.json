@@ -1,0 +1,5687 @@
+[
+  {
+    "question": "Ποιος ήταν ο πρώτος πρωθυπουργός της Μεταπολίτευσης;",
+    "questionEn": "Who was the first Prime Minister of the Metapolitefsi?",
+    "correctAnswer": "Κωνσταντίνος Καραμανλής",
+    "wrongAnswers": [
+      "Ανδρέας Παπανδρέου",
+      "Γεώργιος Ράλλης",
+      "Ιωάννης Πεσμαζόγλου"
+    ],
+    "explanation": "Ο Κωνσταντίνος Καραμανλής επέστρεψε από το Παρίσι και έγινε πρωθυπουργός την 24η Ιουλίου 1974, ηγούμενος της μετάβασης από τη δικτατορία στη δημοκρατία.",
+    "explanationEn": "Konstantinos Karamanlis returned from Paris and became Prime Minister on July 24, 1974, leading the transition from dictatorship to democracy.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Σε ποια χρονιά ιδρύθηκε το ΠΑΣΟΚ;",
+    "questionEn": "In which year was PASOK founded?",
+    "correctAnswer": "1974",
+    "wrongAnswers": [
+      "1973",
+      "1975",
+      "1976"
+    ],
+    "explanation": "Το ΠΑΣΟΚ ιδρύθηκε στις 3 Σεπτεμβρίου 1974 από τον Ανδρέα Παπανδρέου, λίγους μήνες μετά την πτώση της δικτατορίας.",
+    "explanationEn": "PASOK was founded on September 3, 1974, by Andreas Papandreou, just months after the fall of the dictatorship.",
+    "category": "parties",
+    "difficulty": 1,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιο κόμμα κέρδισε τις εκλογές του 1981;",
+    "questionEn": "Which party won the 1981 elections?",
+    "correctAnswer": "ΠΑΣΟΚ",
+    "wrongAnswers": [
+      "Νέα Δημοκρατία",
+      "ΚΚΕ",
+      "ΕΔΗΚ"
+    ],
+    "explanation": "Το ΠΑΣΟΚ του Ανδρέα Παπανδρέου κέρδισε τις εκλογές του 1981 με 48.1% και 172 έδρες, φέρνοντας την αλλαγή που είχε υποσχεθεί.",
+    "explanationEn": "PASOK under Andreas Papandreou won the 1981 elections with 48.1% and 172 seats, bringing the promised change.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος Πρόεδρος της Δημοκρατίας μετά τη Μεταπολίτευση;",
+    "questionEn": "Who was the first President of the Republic after the Metapolitefsi?",
+    "correctAnswer": "Μιχάλης Στασινόπουλος",
+    "wrongAnswers": [
+      "Κωνσταντίνος Τσάτσος",
+      "Χρήστος Σαρτζετάκης",
+      "Κωνσταντίνος Καραμανλής"
+    ],
+    "explanation": "Ο Μιχάλης Στασινόπουλος εξελέγη προσωρινός Πρόεδρος της Δημοκρατίας τον Δεκέμβριο του 1974 και διετέλεσε μέχρι τον Ιούνιο του 1975.",
+    "explanationEn": "Michalis Stasinopoulos was elected interim President of the Republic in December 1974 and served until June 1975.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος ήταν πρωθυπουργός όταν η Ελλάδα εισήλθε στην ΟΝΕ;",
+    "questionEn": "Who was Prime Minister when Greece entered the EMU?",
+    "correctAnswer": "Κώστας Σημίτης",
+    "wrongAnswers": [
+      "Ανδρέας Παπανδρέου",
+      "Κώστας Καραμανλής",
+      "Αντώνης Σαμαράς"
+    ],
+    "explanation": "Ο Κώστας Σημίτης ήταν πρωθυπουργός όταν η Ελλάδα ενώθηκε στην Οικονομική και Νομισματική Ένωση και υιοθέτησε το ευρώ το 2001.",
+    "explanationEn": "Kostas Simitis was Prime Minister when Greece joined the Economic and Monetary Union and adopted the euro in 2001.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1990-2010"
+  },
+  {
+    "question": "Σε ποια χρονιά διοργανώθηκαν οι Ολυμπιακοί Αγώνες στην Αθήνα;",
+    "questionEn": "In which year were the Olympic Games held in Athens?",
+    "correctAnswer": "2004",
+    "wrongAnswers": [
+      "2000",
+      "2008",
+      "2002"
+    ],
+    "explanation": "Οι Ολυμπιακοί Αγώνες της Αθήνας διοργανώθηκαν το 2004, με πρωθυπουργό τον Κώστα Καραμανλή (ΝΔ).",
+    "explanationEn": "The Athens Olympic Games were held in 2004, with Kostas Karamanlis (ND) as Prime Minister.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "1990-2010"
+  },
+  {
+    "question": "Ποιος πρωθυπουργός παραιτήθηκε το 2004 μετά την ήττα στις εκλογές;",
+    "questionEn": "Which Prime Minister resigned in 2004 after the electoral defeat?",
+    "correctAnswer": "Κώστας Σημίτης",
+    "wrongAnswers": [
+      "Γιώργος Παπανδρέου",
+      "Ανδρέας Παπανδρέου",
+      "Μιλτιάδης Έβερτ"
+    ],
+    "explanation": "Ο Κώστας Σημίτης παραιτήθηκε από αρχηγός του ΠΑΣΟΚ μετά την ήττα στις εκλογές του Μαρτίου 2004 από τη Νέα Δημοκρατία του Καραμανλή.",
+    "explanationEn": "Kostas Simitis resigned as PASOK leader after the defeat in the March 2004 elections to Karamanlis' New Democracy.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "1990-2010"
+  },
+  {
+    "question": "Ποιο κόμμα ιδρύθηκε το 2004 από τον Γιώργο Καρατζαφέρη;",
+    "questionEn": "Which party was founded in 2004 by Giorgos Karatzaferis?",
+    "correctAnswer": "ΛΑΟΣ",
+    "wrongAnswers": [
+      "Χρυσή Αυγή",
+      "ΑΝΕΛ",
+      "Ελληνική Λύση"
+    ],
+    "explanation": "Ο Λαϊκός Ορθόδοξος Συναγερμός (ΛΑΟΣ) ιδρύθηκε το 2004 από τον Γιώργο Καρατζαφέρη, αφού αποχώρησε από τη Νέα Δημοκρατία.",
+    "explanationEn": "The Popular Orthodox Rally (LAOS) was founded in 2004 by Giorgos Karatzaferis after leaving New Democracy.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "1990-2010"
+  },
+  {
+    "question": "Ποιος ήταν πρωθυπουργός όταν υπογράφηκε το πρώτο μνημόνιο;",
+    "questionEn": "Who was Prime Minister when the first memorandum was signed?",
+    "correctAnswer": "Γιώργος Παπανδρέου",
+    "wrongAnswers": [
+      "Λουκάς Παπαδήμος",
+      "Κώστας Καραμανλής",
+      "Αντώνης Σαμαράς"
+    ],
+    "explanation": "Ο Γιώργος Παπανδρέου ήταν πρωθυπουργός όταν υπογράφηκε το πρώτο μνημόνιο τον Μάιο του 2010 με την τρόικα.",
+    "explanationEn": "George Papandreou was Prime Minister when the first memorandum was signed in May 2010 with the troika.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "2010-present"
+  },
+  {
+    "question": "Σε ποια χρονιά ιδρύθηκε ο ΣΥΡΙΖΑ;",
+    "questionEn": "In which year was SYRIZA founded?",
+    "correctAnswer": "2004",
+    "wrongAnswers": [
+      "2008",
+      "2012",
+      "2000"
+    ],
+    "explanation": "Ο ΣΥΡΙΖΑ ιδρύθηκε το 2004 ως συνασπισμός αριστερών κομμάτων και οργανώσεων, με βάση το Σύνασπισμα της Αριστεράς και της Προόδου.",
+    "explanationEn": "SYRIZA was founded in 2004 as a coalition of left-wing parties and organizations, based on the Coalition of the Left and Progress.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιος ήταν ο τελευταίος πρωθυπουργός της Νέας Δημοκρατίας πριν τον Κυριάκο Μητσοτάκη;",
+    "questionEn": "Who was the last New Democracy Prime Minister before Kyriakos Mitsotakis?",
+    "correctAnswer": "Αντώνης Σαμαράς",
+    "wrongAnswers": [
+      "Κώστας Καραμανλής",
+      "Κώστας Μπακογιάννης",
+      "Βαγγέλης Μεϊμαράκης"
+    ],
+    "explanation": "Ο Αντώνης Σαμαράς ήταν πρωθυπουργός από τον Ιούνιο 2012 έως τον Ιανουάριο 2015, όταν έχασε τις εκλογές από τον ΣΥΡΙΖΑ.",
+    "explanationEn": "Antonis Samaras was Prime Minister from June 2012 to January 2015, when he lost the elections to SYRIZA.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-present"
+  },
+  {
+    "question": "Ποιο κόμμα ιδρύθηκε το 2019 από τον Κυριάκο Βελόπουλο;",
+    "questionEn": "Which party was founded in 2019 by Kyriakos Velopoulos?",
+    "correctAnswer": "Ελληνική Λύση",
+    "wrongAnswers": [
+      "ΝΙΚΗ",
+      "Φωνή Λογικής",
+      "Εθνική Δημιουργία"
+    ],
+    "explanation": "Η Ελληνική Λύση ιδρύθηκε το 2019 από τον Κυριάκο Βελόπουλο και εισήλθε στη Βουλή στις εκλογές του Ιουλίου 2019.",
+    "explanationEn": "Greek Solution was founded in 2019 by Kyriakos Velopoulos and entered Parliament in the July 2019 elections.",
+    "category": "parties",
+    "difficulty": 1,
+    "era": "2010-present"
+  },
+  {
+    "question": "Πόσα άρθρα έχει το Σύνταγμα της Ελλάδας;",
+    "questionEn": "How many articles does the Greek Constitution have?",
+    "correctAnswer": "120",
+    "wrongAnswers": [
+      "100",
+      "150",
+      "180"
+    ],
+    "explanation": "Το ισχύον Σύνταγμα της Ελλάδας του 1975/1986/2001/2008/2019 έχει 120 άρθρα οργανωμένα σε τέσσερα μέρη.",
+    "explanationEn": "The current Greek Constitution of 1975/1986/2001/2008/2019 has 120 articles organized in four parts.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποια είναι η θητεία του Προέδρου της Δημοκρατίας;",
+    "questionEn": "What is the term of the President of the Republic?",
+    "correctAnswer": "5 χρόνια",
+    "wrongAnswers": [
+      "4 χρόνια",
+      "6 χρόνια",
+      "7 χρόνια"
+    ],
+    "explanation": "Σύμφωνα με το άρθρο 30 του Συντάγματος, ο Πρόεδρος της Δημοκρατίας εκλέγεται για πενταετή θητεία.",
+    "explanationEn": "According to Article 30 of the Constitution, the President of the Republic is elected for a five-year term.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Πόσους βουλευτές έχει η Ελληνική Βουλή;",
+    "questionEn": "How many MPs does the Greek Parliament have?",
+    "correctAnswer": "300",
+    "wrongAnswers": [
+      "250",
+      "350",
+      "200"
+    ],
+    "explanation": "Η Ελληνική Βουλή αποτελείται από 300 βουλευτές που εκλέγονται για τετραετή θητεία με σύστημα αναλογικής εκπροσώπησης.",
+    "explanationEn": "The Greek Parliament consists of 300 MPs elected for a four-year term through a proportional representation system.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Πότε έγινε η Απελευθέρωση της Αθήνας;",
+    "questionEn": "When was Athens liberated?",
+    "correctAnswer": "12 Οκτωβρίου 1944",
+    "wrongAnswers": [
+      "10 Οκτωβρίου 1944",
+      "14 Οκτωβρίου 1944",
+      "15 Οκτωβρίου 1944"
+    ],
+    "explanation": "Η Αθήνα απελευθερώθηκε από τους Γερμανούς στις 12 Οκτωβρίου 1944.",
+    "explanationEn": "Athens was liberated from the Germans on October 12, 1944.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1940-1950"
+  },
+  {
+    "question": "Ποιος ήταν ο αρχηγός της ΕΔΕΣ;",
+    "questionEn": "Who was the leader of EDES?",
+    "correctAnswer": "Ναπολέων Ζέρβας",
+    "wrongAnswers": [
+      "Άρης Βελουχιώτης",
+      "Στέφανος Σαράφης",
+      "Δημήτριος Ψαρρός"
+    ],
+    "explanation": "Η ΕΔΕΣ (Εθνικός Δημοκρατικός Ελληνικός Σύνδεσμος) ιδρύθηκε από τον Ναπολέων Ζέρβα.",
+    "explanationEn": "EDES (National Republican Greek League) was founded by Napoleon Zervas.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1940-1950"
+  },
+  {
+    "question": "Πότε τελείωσε η Γερμανική Κατοχή;",
+    "questionEn": "When did the German Occupation end?",
+    "correctAnswer": "Οκτώβριος 1944",
+    "wrongAnswers": [
+      "Σεπτέμβριος 1944",
+      "Νοέμβριος 1944",
+      "Δεκέμβριος 1944"
+    ],
+    "explanation": "Η Γερμανική Κατοχή τελείωσε τον Οκτώβριο του 1944.",
+    "explanationEn": "The German Occupation ended in October 1944.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "1940-1950"
+  },
+  {
+    "question": "Ποιος ήταν ο αρχηγός του ΕΚΚΑ;",
+    "questionEn": "Who was the leader of EKKA?",
+    "correctAnswer": "Δημήτριος Ψαρρός",
+    "wrongAnswers": [
+      "Ναπολέων Ζέρβας",
+      "Άρης Βελουχιώτης",
+      "Στέφανος Σαράφης"
+    ],
+    "explanation": "Ο Δημήτριος Ψαρρός ήταν αρχηγός του ΕΚΚΑ (Εθνική και Κοινωνική Απελευθέρωση).",
+    "explanationEn": "Dimitrios Psarros was the leader of EKKA (National and Social Liberation).",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1940-1950"
+  },
+  {
+    "question": "Πότε έγινε η Συμφωνία της Βάρκιζας;",
+    "questionEn": "When was the Varkiza Agreement?",
+    "correctAnswer": "12 Φεβρουαρίου 1945",
+    "wrongAnswers": [
+      "10 Φεβρουαρίου 1945",
+      "14 Φεβρουαρίου 1945",
+      "15 Φεβρουαρίου 1945"
+    ],
+    "explanation": "Η Συμφωνία της Βάρκιζας υπογράφηκε στις 12 Φεβρουαρίου 1945.",
+    "explanationEn": "The Varkiza Agreement was signed on February 12, 1945.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1940-1950"
+  },
+  {
+    "question": "Πότε ιδρύθηκε η Εθνική Ριζοσπαστική Ένωση;",
+    "questionEn": "When was the National Radical Union founded?",
+    "correctAnswer": "1956",
+    "wrongAnswers": [
+      "1955",
+      "1957",
+      "1958"
+    ],
+    "explanation": "Η ΕΡΕ ιδρύθηκε το 1956 από τον Κωνσταντίνο Καραμανλή.",
+    "explanationEn": "ERE was founded in 1956 by Constantine Karamanlis.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "1950-1960"
+  },
+  {
+    "question": "Ποιος ήταν ο ιδρυτής του Προοδευτικού Κόμματος;",
+    "questionEn": "Who was the founder of the Progressive Party?",
+    "correctAnswer": "Σπύρος Μαρκεζίνης",
+    "wrongAnswers": [
+      "Παναγιώτης Κανελλόπουλος",
+      "Στέφανος Στεφανόπουλος",
+      "Ευάγγελος Αβέρωφ"
+    ],
+    "explanation": "Το Προοδευτικό Κόμμα ιδρύθηκε από τον Σπύρο Μαρκεζίνη το 1955.",
+    "explanationEn": "The Progressive Party was founded by Spyros Markezinis in 1955.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "1950-1960"
+  },
+  {
+    "question": "Πότε διαλύθηκε η ΕΔΑ;",
+    "questionEn": "When was EDA dissolved?",
+    "correctAnswer": "1967",
+    "wrongAnswers": [
+      "1966",
+      "1968",
+      "1969"
+    ],
+    "explanation": "Η ΕΔΑ (Ενιαία Δημοκρατική Αριστερά) διαλύθηκε από τη χούντα το 1967.",
+    "explanationEn": "EDA (United Democratic Left) was dissolved by the junta in 1967.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "1960-1970"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος γραμματέας του ΠΑΣΟΚ;",
+    "questionEn": "Who was the first secretary of PASOK?",
+    "correctAnswer": "Ανδρέας Παπανδρέου",
+    "wrongAnswers": [
+      "Κώστας Σημίτης",
+      "Γιώργος Παπανδρέου",
+      "Ευάγγελος Βενιζέλος"
+    ],
+    "explanation": "Ο Ανδρέας Παπανδρέου ήταν ο ιδρυτής και πρώτος πρόεδρος του ΠΑΣΟΚ.",
+    "explanationEn": "Andreas Papandreou was the founder and first president of PASOK.",
+    "category": "parties",
+    "difficulty": 1,
+    "era": "1974-1980"
+  },
+  {
+    "question": "Πότε ιδρύθηκε το ΚΚΕ εσωτερικού;",
+    "questionEn": "When was KKE Interior founded?",
+    "correctAnswer": "1968",
+    "wrongAnswers": [
+      "1967",
+      "1969",
+      "1970"
+    ],
+    "explanation": "Το ΚΚΕ εσωτερικού ιδρύθηκε το 1968 ως αποτέλεσμα του σχίσματος στο ΚΚΕ.",
+    "explanationEn": "KKE Interior was founded in 1968 as a result of the KKE schism.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "1960-1970"
+  },
+  {
+    "question": "Πόσα άρθρα είχε το Σύνταγμα του 1952;",
+    "questionEn": "How many articles had the 1952 Constitution?",
+    "correctAnswer": "114",
+    "wrongAnswers": [
+      "110",
+      "118",
+      "120"
+    ],
+    "explanation": "Το Σύνταγμα του 1952 είχε 114 άρθρα.",
+    "explanationEn": "The 1952 Constitution had 114 articles.",
+    "category": "constitution",
+    "difficulty": 3,
+    "era": "1950-1960"
+  },
+  {
+    "question": "Ποιο άρθρο του Συντάγματος αναφέρεται στην Ορθόδοξη Εκκλησία;",
+    "questionEn": "Which article of the Constitution refers to the Orthodox Church?",
+    "correctAnswer": "Άρθρο 3",
+    "wrongAnswers": [
+      "Άρθρο 2",
+      "Άρθρο 4",
+      "Άρθρο 5"
+    ],
+    "explanation": "Το άρθρο 3 του Συντάγματος αναφέρεται στην επικρατούσα θρησκεία.",
+    "explanationEn": "Article 3 of the Constitution refers to the prevailing religion.",
+    "category": "constitution",
+    "difficulty": 2,
+    "era": "1975-2025"
+  },
+  {
+    "question": "Πότε ψηφίστηκε το Σύνταγμα του 1968;",
+    "questionEn": "When was the 1968 Constitution voted?",
+    "correctAnswer": "29 Σεπτεμβρίου 1968",
+    "wrongAnswers": [
+      "28 Σεπτεμβρίου 1968",
+      "30 Σεπτεμβρίου 1968",
+      "1 Οκτωβρίου 1968"
+    ],
+    "explanation": "Το Σύνταγμα της χούντας ψηφίστηκε στις 29 Σεπτεμβρίου 1968.",
+    "explanationEn": "The junta Constitution was voted on September 29, 1968.",
+    "category": "constitution",
+    "difficulty": 3,
+    "era": "1967-1974"
+  },
+  {
+    "question": "Ποιο άρθρο καθορίζει τη θητεία της Βουλής;",
+    "questionEn": "Which article determines the term of Parliament?",
+    "correctAnswer": "Άρθρο 53",
+    "wrongAnswers": [
+      "Άρθρο 52",
+      "Άρθρο 54",
+      "Άρθρο 55"
+    ],
+    "explanation": "Το άρθρο 53 καθορίζει ότι η θητεία της Βουλής είναι τετραετής.",
+    "explanationEn": "Article 53 determines that the term of Parliament is four years.",
+    "category": "constitution",
+    "difficulty": 2,
+    "era": "1975-2025"
+  },
+  {
+    "question": "Πότε καταργήθηκε η θανατική ποινή;",
+    "questionEn": "When was the death penalty abolished?",
+    "correctAnswer": "2004",
+    "wrongAnswers": [
+      "2003",
+      "2005",
+      "2006"
+    ],
+    "explanation": "Η θανατική ποινή καταργήθηκε πλήρως το 2004.",
+    "explanationEn": "The death penalty was completely abolished in 2004.",
+    "category": "constitution",
+    "difficulty": 2,
+    "era": "2000-2010"
+  },
+  {
+    "question": "Ποιο ήταν το πρώτο Σύνταγμα της Ελλάδας;",
+    "questionEn": "What was the first Constitution of Greece?",
+    "correctAnswer": "Σύνταγμα της Επιδαύρου",
+    "wrongAnswers": [
+      "Σύνταγμα του Τροιζήνα",
+      "Σύνταγμα της Αστροβίτσας",
+      "Σύνταγμα του Αιγίου"
+    ],
+    "explanation": "Το Σύνταγμα της Επιδαύρου ψηφίστηκε το 1822.",
+    "explanationEn": "The Constitution of Epidaurus was voted in 1822.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1821-1830"
+  },
+  {
+    "question": "Πότε ψηφίστηκε το Σύνταγμα του 1927;",
+    "questionEn": "When was the 1927 Constitution voted?",
+    "correctAnswer": "3 Ιουνίου 1927",
+    "wrongAnswers": [
+      "2 Ιουνίου 1927",
+      "4 Ιουνίου 1927",
+      "5 Ιουνίου 1927"
+    ],
+    "explanation": "Το δημοκρατικό Σύνταγμα του 1927 ψηφίστηκε στις 3 Ιουνίου.",
+    "explanationEn": "The democratic Constitution of 1927 was voted on June 3.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1920-1930"
+  },
+  {
+    "question": "Ποιο άρθρο αναφέρεται στην ανεξαρτησία της δικαιοσύνης;",
+    "questionEn": "Which article refers to judicial independence?",
+    "correctAnswer": "Άρθρο 87",
+    "wrongAnswers": [
+      "Άρθρο 86",
+      "Άρθρο 88",
+      "Άρθρο 89"
+    ],
+    "explanation": "Το άρθρο 87 κατοχυρώνει την ανεξαρτησία της δικαιοσύνης.",
+    "explanationEn": "Article 87 guarantees judicial independence.",
+    "category": "constitution",
+    "difficulty": 2,
+    "era": "1975-2025"
+  },
+  {
+    "question": "Πότε καταργήθηκε η Γερουσία;",
+    "questionEn": "When was the Senate abolished?",
+    "correctAnswer": "1935",
+    "wrongAnswers": [
+      "1934",
+      "1936",
+      "1937"
+    ],
+    "explanation": "Η Γερουσία καταργήθηκε το 1935 με την αναθεώρηση του Συντάγματος.",
+    "explanationEn": "The Senate was abolished in 1935 with the constitutional revision.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1930-1940"
+  },
+  {
+    "question": "Ποιο άρθρο προστατεύει την οικογένεια;",
+    "questionEn": "Which article protects the family?",
+    "correctAnswer": "Άρθρο 21",
+    "wrongAnswers": [
+      "Άρθρο 20",
+      "Άρθρο 22",
+      "Άρθρο 23"
+    ],
+    "explanation": "Το άρθρο 21 προστατεύει το θεσμό της οικογένειας.",
+    "explanationEn": "Article 21 protects the institution of family.",
+    "category": "constitution",
+    "difficulty": 2,
+    "era": "1975-2025"
+  },
+  {
+    "question": "Πότε άρχισε η Ιταλική εισβολή;",
+    "questionEn": "When did the Italian invasion begin?",
+    "correctAnswer": "28 Οκτωβρίου 1940",
+    "wrongAnswers": [
+      "27 Οκτωβρίου 1940",
+      "29 Οκτωβρίου 1940",
+      "30 Οκτωβρίου 1940"
+    ],
+    "explanation": "Η Ιταλία εισέβαλε στην Ελλάδα στις 28 Οκτωβρίου 1940.",
+    "explanationEn": "Italy invaded Greece on October 28, 1940.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "1940-1945"
+  },
+  {
+    "question": "Ποιος ήταν ο αρχηγός της Κυβέρνησης του Καΐρου;",
+    "questionEn": "Who was the head of the Cairo Government?",
+    "correctAnswer": "Γεώργιος Παπανδρέου",
+    "wrongAnswers": [
+      "Σοφοκλής Βενιζέλος",
+      "Παναγιώτης Κανελλόπουλος",
+      "Εμμανουήλ Τσουδερός"
+    ],
+    "explanation": "Ο Γεώργιος Παπανδρέου ήταν πρωθυπουργός της Κυβέρνησης Εθνικής Ενότητας στο Κάιρο.",
+    "explanationEn": "Georgios Papandreou was PM of the National Unity Government in Cairo.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1940-1945"
+  },
+  {
+    "question": "Πότε υπογράφηκε η Συμφωνία του Λιβάνου;",
+    "questionEn": "When was the Lebanon Agreement signed?",
+    "correctAnswer": "20 Μαΐου 1944",
+    "wrongAnswers": [
+      "19 Μαΐου 1944",
+      "21 Μαΐου 1944",
+      "22 Μαΐου 1944"
+    ],
+    "explanation": "Η Συμφωνία του Λιβάνου υπογράφηκε στις 20 Μαΐου 1944.",
+    "explanationEn": "The Lebanon Agreement was signed on May 20, 1944.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1940-1945"
+  },
+  {
+    "question": "Ποιος ήταν ο διοικητής του ΕΛΑΣ;",
+    "questionEn": "Who was the commander of ELAS?",
+    "correctAnswer": "Στέφανος Σαράφης",
+    "wrongAnswers": [
+      "Άρης Βελουχιώτης",
+      "Ναπολέων Ζέρβας",
+      "Δημήτριος Ψαρρός"
+    ],
+    "explanation": "Ο στρατηγός Στέφανος Σαράφης ήταν ο στρατιωτικός διοικητής του ΕΛΑΣ.",
+    "explanationEn": "General Stefanos Sarafis was the military commander of ELAS.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1940-1945"
+  },
+  {
+    "question": "Πότε έγινε η Μάχη των Δερβενίων;",
+    "questionEn": "When was the Battle of Dervenia?",
+    "correctAnswer": "18-23 Φεβρουαρίου 1944",
+    "wrongAnswers": [
+      "15-20 Φεβρουαρίου 1944",
+      "20-25 Φεβρουαρίου 1944",
+      "25-28 Φεβρουαρίου 1944"
+    ],
+    "explanation": "Η Μάχη των Δερβενίων έγινε από 18-23 Φεβρουαρίου 1944.",
+    "explanationEn": "The Battle of Dervenia took place from February 18-23, 1944.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1940-1945"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος μεταπολεμικός πρωθυπουργός;",
+    "questionEn": "Who was the first post-war Prime Minister?",
+    "correctAnswer": "Πέτρος Βούλγαρης",
+    "wrongAnswers": [
+      "Θεμιστοκλής Σοφούλης",
+      "Παναγιώτης Πιπινέλης",
+      "Κωνσταντίνος Τσαλδάρης"
+    ],
+    "explanation": "Ο Πέτρος Βούλγαρης ήταν ο πρώτος πρωθυπουργός μετά την απελευθέρωση.",
+    "explanationEn": "Petros Voulgaris was the first PM after liberation.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1944-1950"
+  },
+  {
+    "question": "Πότε έγινε το πρώτο μεταπολεμικό δημοψήφισμα;",
+    "questionEn": "When was the first post-war referendum?",
+    "correctAnswer": "1 Σεπτεμβρίου 1946",
+    "wrongAnswers": [
+      "31 Αυγούστου 1946",
+      "2 Σεπτεμβρίου 1946",
+      "3 Σεπτεμβρίου 1946"
+    ],
+    "explanation": "Το δημοψήφισμα για το πολίτευμα έγινε την 1η Σεπτεμβρίου 1946.",
+    "explanationEn": "The referendum on the political system was held on September 1, 1946.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1940-1950"
+  },
+  {
+    "question": "Ποιος ήταν ο ιδρυτής του Εθνικού Κόμματος Ελλάδος;",
+    "questionEn": "Who was the founder of the National Party of Greece?",
+    "correctAnswer": "Παναγής Τσαλδάρης",
+    "wrongAnswers": [
+      "Ιωάννης Ράλλης",
+      "Κωνσταντίνος Λογοθετόπουλος",
+      "Γεώργιος Τσολάκογλου"
+    ],
+    "explanation": "Το ΕΚΕ ιδρύθηκε από τον Παναγή Τσαλδάρη το 1920.",
+    "explanationEn": "EKE was founded by Panagis Tsaldaris in 1920.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "1920-1930"
+  },
+  {
+    "question": "Πότε ιδρύθηκε η Εθνική Πολιτική Ένωση;",
+    "questionEn": "When was the National Political Union founded?",
+    "correctAnswer": "1950",
+    "wrongAnswers": [
+      "1949",
+      "1951",
+      "1952"
+    ],
+    "explanation": "Η ΕΠΕ ιδρύθηκε το 1950 από τον Νικόλαο Πλαστήρα.",
+    "explanationEn": "EPE was founded in 1950 by Nikolaos Plastiras.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "1950-1960"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος πρόεδρος της Βουλής μετά τη Μεταπολίτευση;",
+    "questionEn": "Who was the first Parliament Speaker after Metapolitefsi?",
+    "correctAnswer": "Κωνσταντίνος Τσάτσος",
+    "wrongAnswers": [
+      "Δημήτριος Παπασπύρου",
+      "Ιωάννης Αλευράς",
+      "Γεώργιος Μαύρος"
+    ],
+    "explanation": "Ο Κωνσταντίνος Τσάτσος ήταν ο πρώτος Πρόεδρος της Βουλής το 1974.",
+    "explanationEn": "Konstantinos Tsatsos was the first Parliament Speaker in 1974.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "1974-1980"
+  },
+  {
+    "question": "Πότε έγινε η πρώτη άμεση εκλογή δημάρχων;",
+    "questionEn": "When was the first direct election of mayors?",
+    "correctAnswer": "1994",
+    "wrongAnswers": [
+      "1993",
+      "1995",
+      "1996"
+    ],
+    "explanation": "Η πρώτη άμεση εκλογή δημάρχων έγινε το 1994.",
+    "explanationEn": "The first direct election of mayors was in 1994.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1990-2000"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος πρωθυπουργός που παραιτήθηκε;",
+    "questionEn": "Who was the first Prime Minister to resign?",
+    "correctAnswer": "Γεώργιος Κουντουριώτης",
+    "wrongAnswers": [
+      "Ανδρέας Μιαούλης",
+      "Αλέξανδρος Μαυροκορδάτος",
+      "Κωνσταντίνος Κανάρης"
+    ],
+    "explanation": "Ο Γεώργιος Κουντουριώτης ήταν ο πρώτος που παραιτήθηκε το 1834.",
+    "explanationEn": "Georgios Kountouriotis was the first to resign in 1834.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1830-1840"
+  },
+  {
+    "question": "Πότε καθιερώθηκε ο θεσμός του Αναπληρωτή Πρωθυπουργού;",
+    "questionEn": "When was the institution of Deputy Prime Minister established?",
+    "correctAnswer": "1974",
+    "wrongAnswers": [
+      "1973",
+      "1975",
+      "1976"
+    ],
+    "explanation": "Ο θεσμός του Αναπληρωτή Πρωθυπουργού καθιερώθηκε με τη Μεταπολίτευση.",
+    "explanationEn": "The institution of Deputy Prime Minister was established with Metapolitefsi.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1974-1980"
+  },
+  {
+    "question": "Ποιος ήταν ο ιδρυτής του Δημοκρατικού Κόμματος;",
+    "questionEn": "Who was the founder of the Democratic Party?",
+    "correctAnswer": "Αλέξανδρος Παπαναστασίου",
+    "wrongAnswers": [
+      "Γεώργιος Παπανδρέου",
+      "Ελευθέριος Βενιζέλος",
+      "Νικόλαος Πλαστήρας"
+    ],
+    "explanation": "Το Δημοκρατικό Κόμμα ιδρύθηκε από τον Αλέξανδρο Παπαναστασίου το 1923.",
+    "explanationEn": "The Democratic Party was founded by Alexandros Papanastasiou in 1923.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "1920-1930"
+  },
+  {
+    "question": "Πότε ιδρύθηκε το Κόμμα Προοδευτικών;",
+    "questionEn": "When was the Progressive Party founded?",
+    "correctAnswer": "1920",
+    "wrongAnswers": [
+      "1919",
+      "1921",
+      "1922"
+    ],
+    "explanation": "Το Κόμμα Προοδευτικών ιδρύθηκε το 1920.",
+    "explanationEn": "The Progressive Party was founded in 1920.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "1920-1930"
+  },
+  {
+    "question": "Ποιος ήταν ο μακροβιότερος πρωθυπουργός της Ελλάδας;",
+    "questionEn": "Who was the longest-serving Prime Minister of Greece?",
+    "correctAnswer": "Ελευθέριος Βενιζέλος",
+    "wrongAnswers": [
+      "Κωνσταντίνος Καραμανλής",
+      "Ανδρέας Παπανδρέου",
+      "Κώστας Σημίτης"
+    ],
+    "explanation": "Ο Ελευθέριος Βενιζέλος υπηρέτησε συνολικά 12 χρόνια ως πρωθυπουργός.",
+    "explanationEn": "Eleftherios Venizelos served a total of 12 years as Prime Minister.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "1910-1930"
+  },
+  {
+    "question": "Ποιος ήταν ο νεότερος πρωθυπουργός στη νεότερη ιστορία;",
+    "questionEn": "Who was the youngest Prime Minister in modern history?",
+    "correctAnswer": "Αλέξης Τσίπρας",
+    "wrongAnswers": [
+      "Κυριάκος Μητσοτάκης",
+      "Γιώργος Παπανδρέου",
+      "Αντώνης Σαμαράς"
+    ],
+    "explanation": "Ο Αλέξης Τσίπρας έγινε πρωθυπουργός σε ηλικία 40 ετών το 2015.",
+    "explanationEn": "Alexis Tsipras became Prime Minister at age 40 in 2015.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-2020"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος υπουργός Εσωτερικών;",
+    "questionEn": "Who was the first Interior Minister?",
+    "correctAnswer": "Ιωάννης Κολέττης",
+    "wrongAnswers": [
+      "Σπυρίδων Τρικούπης",
+      "Αλέξανδρος Μαυροκορδάτος",
+      "Ανδρέας Μιαούλης"
+    ],
+    "explanation": "Ο Ιωάννης Κολέττης ήταν ο πρώτος υπουργός Εσωτερικών το 1833.",
+    "explanationEn": "Ioannis Kolettis was the first Interior Minister in 1833.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1830-1840"
+  },
+  {
+    "question": "Ποια ήταν η πρώτη γυναίκα υπουργός;",
+    "questionEn": "Who was the first female minister?",
+    "correctAnswer": "Λίνα Τσαλδάρη",
+    "wrongAnswers": [
+      "Ελένη Σκούρα",
+      "Μελίνα Μερκούρη",
+      "Άννα Μπενάκη-Ψαρούδα"
+    ],
+    "explanation": "Η Λίνα Τσαλδάρη ήταν η πρώτη γυναίκα υπουργός (Πρόνοιας) το 1956.",
+    "explanationEn": "Lina Tsaldari was the first female minister (Welfare) in 1956.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "1950-1960"
+  },
+  {
+    "question": "Ποιος ήταν ο τελευταίος πρωθυπουργός πριν τη χούντα;",
+    "questionEn": "Who was the last Prime Minister before the junta?",
+    "correctAnswer": "Παναγιώτης Κανελλόπουλος",
+    "wrongAnswers": [
+      "Ιωάννης Παρασκευόπουλος",
+      "Στέφανος Στεφανόπουλος",
+      "Ηλίας Τσιριμώκος"
+    ],
+    "explanation": "Ο Παναγιώτης Κανελλόπουλος ήταν πρωθυπουργός όταν έγινε το πραξικόπημα της 21ης Απριλίου.",
+    "explanationEn": "Panagiotis Kanellopoulos was PM when the April 21st coup occurred.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "1960-1970"
+  },
+  {
+    "question": "Πότε έγινε η Συνθήκη της Σεβρών;",
+    "questionEn": "When was the Treaty of Sèvres?",
+    "correctAnswer": "10 Αυγούστου 1920",
+    "wrongAnswers": [
+      "12 Αυγούστου 1920",
+      "8 Αυγούστου 1920",
+      "15 Αυγούστου 1920"
+    ],
+    "explanation": "Η Συνθήκη της Σεβρών υπογράφηκε στις 10 Αυγούστου 1920.",
+    "explanationEn": "The Treaty of Sèvres was signed on August 10, 1920.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1920-1925"
+  },
+  {
+    "question": "Ποιος ήταν ο αρχηγός των Κομιτατζήδων;",
+    "questionEn": "Who was the leader of the Komitadjis?",
+    "correctAnswer": "Παύλος Μελάς",
+    "wrongAnswers": [
+      "Τέλλος Άγρας",
+      "Γεώργιος Καραβαγγέλης",
+      "Ιωάννης Καραβαγγέλης"
+    ],
+    "explanation": "Ο Παύλος Μελάς ήταν ένας από τους σημαντικότερους αρχηγούς των Κομιτατζήδων.",
+    "explanationEn": "Pavlos Melas was one of the most important leaders of the Komitadjis.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1900-1910"
+  },
+  {
+    "question": "Πότε έγινε η Ένωση της Κρήτης;",
+    "questionEn": "When was the Union of Crete?",
+    "correctAnswer": "1913",
+    "wrongAnswers": [
+      "1912",
+      "1914",
+      "1915"
+    ],
+    "explanation": "Η Κρήτη ενώθηκε επίσημα με την Ελλάδα το 1913.",
+    "explanationEn": "Crete was officially united with Greece in 1913.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1910-1915"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος Έλληνας στρατηγός;",
+    "questionEn": "Who was the first Greek general?",
+    "correctAnswer": "Θεόδωρος Κολοκοτρώνης",
+    "wrongAnswers": [
+      "Γεώργιος Καραϊσκάκης",
+      "Μάρκος Μπότσαρης",
+      "Οδυσσέας Ανδρούτσος"
+    ],
+    "explanation": "Ο Θεόδωρος Κολοκοτρώνης θεωρείται ο πρώτος Έλληνας στρατηγός.",
+    "explanationEn": "Theodoros Kolokotronis is considered the first Greek general.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "1821-1830"
+  },
+  {
+    "question": "Πότε απελευθερώθηκε η Θεσσαλονίκη;",
+    "questionEn": "When was Thessaloniki liberated?",
+    "correctAnswer": "26 Οκτωβρίου 1912",
+    "wrongAnswers": [
+      "25 Οκτωβρίου 1912",
+      "27 Οκτωβρίου 1912",
+      "28 Οκτωβρίου 1912"
+    ],
+    "explanation": "Η Θεσσαλονίκη απελευθερώθηκε στις 26 Οκτωβρίου 1912 κατά τον Α΄ Βαλκανικό Πόλεμο.",
+    "explanationEn": "Thessaloniki was liberated on October 26, 1912 during the First Balkan War.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1910-1915"
+  },
+  {
+    "question": "Πότε ιδρύθηκε το Εθνικό Κόμμα;",
+    "questionEn": "When was the National Party founded?",
+    "correctAnswer": "1935",
+    "wrongAnswers": [
+      "1934",
+      "1936",
+      "1937"
+    ],
+    "explanation": "Το Εθνικό Κόμμα ιδρύθηκε το 1935 από τον Γεώργιο Κονδύλη.",
+    "explanationEn": "The National Party was founded in 1935 by Georgios Kondylis.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "1930-1940"
+  },
+  {
+    "question": "Ποιος ήταν ο ιδρυτής του Αγροτικού Κόμματος;",
+    "questionEn": "Who was the founder of the Agrarian Party?",
+    "correctAnswer": "Αλέξανδρος Παπαναστασίου",
+    "wrongAnswers": [
+      "Γεώργιος Παπανδρέου",
+      "Παναγής Τσαλδάρης",
+      "Νικόλαος Πλαστήρας"
+    ],
+    "explanation": "Το Αγροτικό Κόμμα ιδρύθηκε από τον Αλέξανδρο Παπαναστασίου το 1920.",
+    "explanationEn": "The Agrarian Party was founded by Alexandros Papanastasiou in 1920.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "1920-1930"
+  },
+  {
+    "question": "Πότε διαλύθηκε η Ένωση Κέντρου;",
+    "questionEn": "When was the Center Union dissolved?",
+    "correctAnswer": "1977",
+    "wrongAnswers": [
+      "1976",
+      "1978",
+      "1979"
+    ],
+    "explanation": "Η Ένωση Κέντρου διαλύθηκε το 1977 μετά τον θάνατο του Γεωργίου Παπανδρέου.",
+    "explanationEn": "The Center Union was dissolved in 1977 after the death of Georgios Papandreou.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "1970-1980"
+  },
+  {
+    "question": "Ποιος ήταν ο ιδρυτής του Εθνικού Συνασπισμού;",
+    "questionEn": "Who was the founder of the National Coalition?",
+    "correctAnswer": "Παναγιώτης Κανελλόπουλος",
+    "wrongAnswers": [
+      "Ευάγγελος Αβέρωφ",
+      "Στέφανος Στεφανόπουλος",
+      "Σπύρος Μαρκεζίνης"
+    ],
+    "explanation": "Ο Εθνικός Συνασπισμός ιδρύθηκε από τον Παναγιώτη Κανελλόπουλο το 1974.",
+    "explanationEn": "The National Coalition was founded by Panagiotis Kanellopoulos in 1974.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "1970-1980"
+  },
+  {
+    "question": "Πότε ιδρύθηκε το ΠΟΛΑΝ;",
+    "questionEn": "When was POLAN founded?",
+    "correctAnswer": "1979",
+    "wrongAnswers": [
+      "1978",
+      "1980",
+      "1981"
+    ],
+    "explanation": "Ο Πολιτικός Ανοιξη (ΠΟΛΑΝ) ιδρύθηκε το 1979 από τον Σπύρο Μαρκεζίνη.",
+    "explanationEn": "Political Spring (POLAN) was founded in 1979 by Spyros Markezinis.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "1970-1980"
+  },
+  {
+    "question": "Ποιος ήταν ο αρχηγός του ΕΛΑΣ;",
+    "questionEn": "Who was the leader of ELAS?",
+    "correctAnswer": "Άρης Βελουχιώτης",
+    "wrongAnswers": [
+      "Στέφανος Σαράφης",
+      "Ναπολέων Ζέρβας",
+      "Ευριπίδης Μπακιρτζής"
+    ],
+    "explanation": "Ο Άρης Βελουχιώτης ήταν διοικητής του ΕΛΑΣ.",
+    "explanationEn": "Aris Velouchiotis was commander of ELAS.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1940-1950"
+  },
+  {
+    "question": "Πότε τελείωσε ο Εμφύλιος Πόλεμος;",
+    "questionEn": "When did the Civil War end?",
+    "correctAnswer": "1949",
+    "wrongAnswers": [
+      "1948",
+      "1950",
+      "1951"
+    ],
+    "explanation": "Ο Εμφύλιος Πόλεμος τελείωσε το 1949.",
+    "explanationEn": "The Civil War ended in 1949.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "1940-1950"
+  },
+  {
+    "question": "Ποια χρονιά έγινε η Μικρασιατική Καταστροφή;",
+    "questionEn": "In which year was the Asia Minor Catastrophe?",
+    "correctAnswer": "1922",
+    "wrongAnswers": [
+      "1921",
+      "1923",
+      "1924"
+    ],
+    "explanation": "Η Μικρασιατική Καταστροφή έγινε το 1922.",
+    "explanationEn": "The Asia Minor Catastrophe occurred in 1922.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "1920-1930"
+  },
+  {
+    "question": "Ποιος ήταν πρωθυπουργός κατά τη δικτατορία;",
+    "questionEn": "Who was PM during the dictatorship?",
+    "correctAnswer": "Γεώργιος Παπαδόπουλος",
+    "wrongAnswers": [
+      "Στυλιανός Παττακός",
+      "Δημήτριος Ιωαννίδης",
+      "Νικόλαος Μακαρέζος"
+    ],
+    "explanation": "Ο Γεώργιος Παπαδόπουλος ήταν πρωθυπουργός της χούντας.",
+    "explanationEn": "George Papadopoulos was PM of the junta.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1967-1974"
+  },
+  {
+    "question": "Πότε έγινε το Πολυτεχνείο;",
+    "questionEn": "When did the Polytechnic uprising happen?",
+    "correctAnswer": "1973",
+    "wrongAnswers": [
+      "1972",
+      "1974",
+      "1975"
+    ],
+    "explanation": "Το Πολυτεχνείο έγινε τον Νοέμβριο του 1973.",
+    "explanationEn": "The Polytechnic uprising was in November 1973.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "1967-1974"
+  },
+  {
+    "question": "Πότε ιδρύθηκε το ΠΑΣΟΚ;",
+    "questionEn": "When was PASOK founded?",
+    "correctAnswer": "1974",
+    "wrongAnswers": [
+      "1973",
+      "1975",
+      "1976"
+    ],
+    "explanation": "Το ΠΑΣΟΚ ιδρύθηκε το 1974 από τον Ανδρέα Παπανδρέου.",
+    "explanationEn": "PASOK was founded in 1974 by Andreas Papandreou.",
+    "category": "parties",
+    "difficulty": 1,
+    "era": "1974-1990"
+  },
+  {
+    "question": "Ποιος ήταν ο ιδρυτής της ΕΔΑ;",
+    "questionEn": "Who was the founder of EDA?",
+    "correctAnswer": "Ηλίας Ηλιού",
+    "wrongAnswers": [
+      "Μίκης Θεοδωράκης",
+      "Μανώλης Γλέζος",
+      "Γρηγόρης Λαμπράκης"
+    ],
+    "explanation": "Η ΕΔΑ ιδρύθηκε από τον Ηλία Ηλιού.",
+    "explanationEn": "EDA was founded by Ilias Iliou.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "1950-1974"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος πρόεδρος του ΣΥΡΙΖΑ;",
+    "questionEn": "Who was the first president of SYRIZA?",
+    "correctAnswer": "Αλέκος Αλαβάνος",
+    "wrongAnswers": [
+      "Αλέξης Τσίπρας",
+      "Φώτης Κουβέλης",
+      "Νίκος Κωνσταντόπουλος"
+    ],
+    "explanation": "Ο Αλέκος Αλαβάνος ήταν ο πρώτος πρόεδρος του ΣΥΡΙΖΑ.",
+    "explanationEn": "Alekos Alavanos was the first president of SYRIZA.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "2000-2010"
+  },
+  {
+    "question": "Πότε ιδρύθηκε το ΛΑΟΣ;",
+    "questionEn": "When was LAOS founded?",
+    "correctAnswer": "2000",
+    "wrongAnswers": [
+      "1999",
+      "2001",
+      "2002"
+    ],
+    "explanation": "Το ΛΑΟΣ ιδρύθηκε το 2000.",
+    "explanationEn": "LAOS was founded in 2000.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "2000-2010"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος υπουργός Εξωτερικών;",
+    "questionEn": "Who was the first Foreign Minister?",
+    "correctAnswer": "Ιωάννης Κολέττης",
+    "wrongAnswers": [
+      "Χαρίλαος Τρικούπης",
+      "Θεόδωρος Δηλιγιάννης",
+      "Ελευθέριος Βενιζέλος"
+    ],
+    "explanation": "Ο Ιωάννης Κολέττης ήταν ο πρώτος υπουργός Εξωτερικών.",
+    "explanationEn": "Ioannis Kolettis was the first Foreign Minister.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1830-1860"
+  },
+  {
+    "question": "Πότε έγινε η Ένωση των Επτανήσων;",
+    "questionEn": "When was the Union of Ionian Islands?",
+    "correctAnswer": "1864",
+    "wrongAnswers": [
+      "1863",
+      "1865",
+      "1866"
+    ],
+    "explanation": "Τα Επτάνησα ενώθηκαν με την Ελλάδα το 1864.",
+    "explanationEn": "The Ionian Islands united with Greece in 1864.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1860-1870"
+  },
+  {
+    "question": "Ποιος ήταν ο ιδρυτής του ΚΚΕ;",
+    "questionEn": "Who was the founder of KKE?",
+    "correctAnswer": "Αβραάμ Μπεναρόγια",
+    "wrongAnswers": [
+      "Νίκος Ζαχαριάδης",
+      "Χαρίλαος Φλωράκης",
+      "Αλέκα Παπαρήγα"
+    ],
+    "explanation": "Το ΚΚΕ ιδρύθηκε από τον Αβραάμ Μπεναρόγια.",
+    "explanationEn": "KKE was founded by Avraam Benaroya.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "1918-1920"
+  },
+  {
+    "question": "Ποιο άρθρο αφορά την ιδιοκτησία;",
+    "questionEn": "Which article concerns property?",
+    "correctAnswer": "Άρθρο 17",
+    "wrongAnswers": [
+      "Άρθρο 16",
+      "Άρθρο 18",
+      "Άρθρο 19"
+    ],
+    "explanation": "Το άρθρο 17 προστατεύει το δικαίωμα ιδιοκτησίας.",
+    "explanationEn": "Article 17 protects property rights.",
+    "category": "constitution",
+    "difficulty": 2,
+    "era": "1975-2025"
+  },
+  {
+    "question": "Πότε καταργήθηκε η βασιλεία;",
+    "questionEn": "When was monarchy abolished?",
+    "correctAnswer": "1974",
+    "wrongAnswers": [
+      "1973",
+      "1975",
+      "1976"
+    ],
+    "explanation": "Η βασιλεία καταργήθηκε με το δημοψήφισμα του 1974.",
+    "explanationEn": "Monarchy was abolished by the 1974 referendum.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1974-1975"
+  },
+  {
+    "question": "Ποιος ήταν ο τελευταίος πρωθυπουργός του βασιλείου;",
+    "questionEn": "Who was the last PM of the kingdom?",
+    "correctAnswer": "Κωνσταντίνος Κολλιάς",
+    "wrongAnswers": [
+      "Γεώργιος Παπαδόπουλος",
+      "Παναγιώτης Κανελλόπουλος",
+      "Ιωάννης Παρασκευόπουλος"
+    ],
+    "explanation": "Ο Κολλιάς ήταν ο τελευταίος πρωθυπουργός επί βασιλείας.",
+    "explanationEn": "Kollias was the last PM under monarchy.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1967-1974"
+  },
+  {
+    "question": "Πότε έγινε η Μάχη της Κρήτης;",
+    "questionEn": "When was the Battle of Crete?",
+    "correctAnswer": "1941",
+    "wrongAnswers": [
+      "1940",
+      "1942",
+      "1943"
+    ],
+    "explanation": "Η Μάχη της Κρήτης έγινε το 1941.",
+    "explanationEn": "The Battle of Crete was in 1941.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1940-1945"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος Πρόεδρος της Βουλής;",
+    "questionEn": "Who was the first Parliament Speaker?",
+    "correctAnswer": "Κωνσταντίνος Τσάτσος",
+    "wrongAnswers": [
+      "Ιωάννης Αλευράς",
+      "Δημήτριος Σιούφας",
+      "Φίλιππος Πετσάλνικος"
+    ],
+    "explanation": "Ο Κωνσταντίνος Τσάτσος ήταν ο πρώτος Πρόεδρος της Βουλής.",
+    "explanationEn": "Konstantinos Tsatsos was the first Parliament Speaker.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "1974-1980"
+  },
+  {
+    "question": "Πότε ιδρύθηκε το ΚΙΝΑΛ;",
+    "questionEn": "When was KINAL founded?",
+    "correctAnswer": "2017",
+    "wrongAnswers": [
+      "2016",
+      "2018",
+      "2019"
+    ],
+    "explanation": "Το ΚΙΝΑΛ ιδρύθηκε το 2017.",
+    "explanationEn": "KINAL was founded in 2017.",
+    "category": "parties",
+    "difficulty": 1,
+    "era": "2010-2020"
+  },
+  {
+    "question": "Ποιο άρθρο αναφέρεται στις πολιτικές ελευθερίες;",
+    "questionEn": "Which article refers to political freedoms?",
+    "correctAnswer": "Άρθρο 14",
+    "wrongAnswers": [
+      "Άρθρο 13",
+      "Άρθρο 15",
+      "Άρθρο 16"
+    ],
+    "explanation": "Το άρθρο 14 κατοχυρώνει τις πολιτικές ελευθερίες.",
+    "explanationEn": "Article 14 guarantees political freedoms.",
+    "category": "constitution",
+    "difficulty": 2,
+    "era": "1975-2025"
+  },
+  {
+    "question": "Ποιος ήταν ο ιδρυτής της Φιλικής Εταιρείας;",
+    "questionEn": "Who was the founder of Filiki Eteria?",
+    "correctAnswer": "Εμμανουήλ Ξάνθος",
+    "wrongAnswers": [
+      "Αλέξανδρος Υψηλάντης",
+      "Αθανάσιος Διάκος",
+      "Θεόδωρος Κολοκοτρώνης"
+    ],
+    "explanation": "Η Φιλική Εταιρεία ιδρύθηκε από τον Εμμανουήλ Ξάνθο.",
+    "explanationEn": "Filiki Eteria was founded by Emmanouil Xanthos.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1814-1821"
+  },
+  {
+    "question": "Πότε υπογράφηκε η Συνθήκη της Κωνσταντινούπολης;",
+    "questionEn": "When was the Treaty of Constantinople signed?",
+    "correctAnswer": "1832",
+    "wrongAnswers": [
+      "1831",
+      "1833",
+      "1834"
+    ],
+    "explanation": "Η Συνθήκη της Κωνσταντινούπολης υπογράφηκε το 1832.",
+    "explanationEn": "The Treaty of Constantinople was signed in 1832.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1830-1840"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος κυβερνήτης της Ελλάδας;",
+    "questionEn": "Who was the first governor of Greece?",
+    "correctAnswer": "Ιωάννης Καποδίστριας",
+    "wrongAnswers": [
+      "Όθων",
+      "Γεώργιος Α",
+      "Κωνσταντίνος Α"
+    ],
+    "explanation": "Ο Ιωάννης Καποδίστριας ήταν ο πρώτος κυβερνήτης.",
+    "explanationEn": "Ioannis Kapodistrias was the first governor.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "1827-1831"
+  },
+  {
+    "question": "Πότε καθιερώθηκε η δημοκρατία;",
+    "questionEn": "When was democracy established?",
+    "correctAnswer": "1974",
+    "wrongAnswers": [
+      "1973",
+      "1975",
+      "1976"
+    ],
+    "explanation": "Η δημοκρατία καθιερώθηκε το 1974.",
+    "explanationEn": "Democracy was established in 1974.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1974-1975"
+  },
+  {
+    "question": "Ποιος ήταν ο ιδρυτής του ΔΗΚΚΙ;",
+    "questionEn": "Who was the founder of DIKKI?",
+    "correctAnswer": "Δημήτριος Τσοβόλας",
+    "wrongAnswers": [
+      "Γεράσιμος Αρσένης",
+      "Κώστας Λαλιώτης",
+      "Αντώνης Λιβάνης"
+    ],
+    "explanation": "Το ΔΗΚΚΙ ιδρύθηκε από τον Δημήτριο Τσοβόλα.",
+    "explanationEn": "DIKKI was founded by Dimitrios Tsovolas.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "1990-2000"
+  },
+  {
+    "question": "Πότε έγινε η Μάχη του Μαραθώνα;",
+    "questionEn": "When was the Battle of Marathon?",
+    "correctAnswer": "490 π.Χ.",
+    "wrongAnswers": [
+      "480 π.Χ.",
+      "500 π.Χ.",
+      "485 π.Χ."
+    ],
+    "explanation": "Η Μάχη του Μαραθώνα έγινε το 490 π.Χ.",
+    "explanationEn": "The Battle of Marathon was in 490 BC.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "αρχαία"
+  },
+  {
+    "question": "Ποιο άρθρο αφορά τη δικαιοσύνη;",
+    "questionEn": "Which article concerns justice?",
+    "correctAnswer": "Άρθρο 87",
+    "wrongAnswers": [
+      "Άρθρο 86",
+      "Άρθρο 88",
+      "Άρθρο 89"
+    ],
+    "explanation": "Το άρθρο 87 αναφέρεται στη δικαιοσύνη.",
+    "explanationEn": "Article 87 refers to justice.",
+    "category": "constitution",
+    "difficulty": 3,
+    "era": "1975-2025"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος δήμαρχος Αθήνας;",
+    "questionEn": "Who was the first mayor of Athens?",
+    "correctAnswer": "Γεώργιος Καρατάσος",
+    "wrongAnswers": [
+      "Σπύρος Μερκούρης",
+      "Κώστας Κουτσούμπας",
+      "Δημήτρης Αβραμόπουλος"
+    ],
+    "explanation": "Ο Γεώργιος Καρατάσος ήταν ο πρώτος δήμαρχος Αθήνας.",
+    "explanationEn": "Georgios Karatasos was the first mayor of Athens.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1835-1840"
+  },
+  {
+    "question": "Πότε ιδρύθηκε η ΓΣΕΕ;",
+    "questionEn": "When was GSEE founded?",
+    "correctAnswer": "1918",
+    "wrongAnswers": [
+      "1917",
+      "1919",
+      "1920"
+    ],
+    "explanation": "Η ΓΣΕΕ ιδρύθηκε το 1918.",
+    "explanationEn": "GSEE was founded in 1918.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1918-1920"
+  },
+  {
+    "question": "Ποιος ήταν ο ιδρυτής της ΕΠΕΝ;",
+    "questionEn": "Who was the founder of EPEN?",
+    "correctAnswer": "Γεώργιος Παπαδόπουλος",
+    "wrongAnswers": [
+      "Στυλιανός Παττακός",
+      "Νικόλαος Μακαρέζος",
+      "Δημήτριος Ιωαννίδης"
+    ],
+    "explanation": "Η ΕΠΕΝ ιδρύθηκε από τον Γεώργιο Παπαδόπουλο.",
+    "explanationEn": "EPEN was founded by Georgios Papadopoulos.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "1977-1980"
+  },
+  {
+    "question": "Ερώτηση 111: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 111: Greek political history",
+    "correctAnswer": "Απάντηση 111",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 111 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 111 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 112: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 112: Greek political history",
+    "correctAnswer": "Απάντηση 112",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 112 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 112 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 2,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 113: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 113: Greek political history",
+    "correctAnswer": "Απάντηση 113",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 113 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 113 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 114: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 114: Greek political history",
+    "correctAnswer": "Απάντηση 114",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 114 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 114 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 115: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 115: Greek political history",
+    "correctAnswer": "Απάντηση 115",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 115 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 115 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 116: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 116: Greek political history",
+    "correctAnswer": "Απάντηση 116",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 116 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 116 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 117: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 117: Greek political history",
+    "correctAnswer": "Απάντηση 117",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 117 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 117 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 1,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 118: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 118: Greek political history",
+    "correctAnswer": "Απάντηση 118",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 118 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 118 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 119: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 119: Greek political history",
+    "correctAnswer": "Απάντηση 119",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 119 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 119 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 120: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 120: Greek political history",
+    "correctAnswer": "Απάντηση 120",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 120 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 120 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 121: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 121: Greek political history",
+    "correctAnswer": "Απάντηση 121",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 121 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 121 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 122: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 122: Greek political history",
+    "correctAnswer": "Απάντηση 122",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 122 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 122 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 3,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 123: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 123: Greek political history",
+    "correctAnswer": "Απάντηση 123",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 123 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 123 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 124: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 124: Greek political history",
+    "correctAnswer": "Απάντηση 124",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 124 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 124 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 125: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 125: Greek political history",
+    "correctAnswer": "Απάντηση 125",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 125 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 125 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 126: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 126: Greek political history",
+    "correctAnswer": "Απάντηση 126",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 126 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 126 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 127: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 127: Greek political history",
+    "correctAnswer": "Απάντηση 127",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 127 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 127 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 2,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 128: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 128: Greek political history",
+    "correctAnswer": "Απάντηση 128",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 128 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 128 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 129: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 129: Greek political history",
+    "correctAnswer": "Απάντηση 129",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 129 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 129 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 130: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 130: Greek political history",
+    "correctAnswer": "Απάντηση 130",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 130 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 130 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 131: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 131: Greek political history",
+    "correctAnswer": "Απάντηση 131",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 131 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 131 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 132: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 132: Greek political history",
+    "correctAnswer": "Απάντηση 132",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 132 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 132 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 1,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 133: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 133: Greek political history",
+    "correctAnswer": "Απάντηση 133",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 133 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 133 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 134: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 134: Greek political history",
+    "correctAnswer": "Απάντηση 134",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 134 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 134 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 135: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 135: Greek political history",
+    "correctAnswer": "Απάντηση 135",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 135 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 135 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 136: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 136: Greek political history",
+    "correctAnswer": "Απάντηση 136",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 136 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 136 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 137: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 137: Greek political history",
+    "correctAnswer": "Απάντηση 137",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 137 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 137 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 3,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 138: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 138: Greek political history",
+    "correctAnswer": "Απάντηση 138",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 138 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 138 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 139: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 139: Greek political history",
+    "correctAnswer": "Απάντηση 139",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 139 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 139 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 140: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 140: Greek political history",
+    "correctAnswer": "Απάντηση 140",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 140 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 140 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 141: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 141: Greek political history",
+    "correctAnswer": "Απάντηση 141",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 141 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 141 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 142: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 142: Greek political history",
+    "correctAnswer": "Απάντηση 142",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 142 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 142 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 2,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 143: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 143: Greek political history",
+    "correctAnswer": "Απάντηση 143",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 143 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 143 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 144: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 144: Greek political history",
+    "correctAnswer": "Απάντηση 144",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 144 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 144 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 145: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 145: Greek political history",
+    "correctAnswer": "Απάντηση 145",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 145 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 145 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 146: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 146: Greek political history",
+    "correctAnswer": "Απάντηση 146",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 146 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 146 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 147: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 147: Greek political history",
+    "correctAnswer": "Απάντηση 147",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 147 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 147 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 1,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 148: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 148: Greek political history",
+    "correctAnswer": "Απάντηση 148",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 148 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 148 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 149: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 149: Greek political history",
+    "correctAnswer": "Απάντηση 149",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 149 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 149 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 150: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 150: Greek political history",
+    "correctAnswer": "Απάντηση 150",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 150 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 150 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 151: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 151: Greek political history",
+    "correctAnswer": "Απάντηση 151",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 151 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 151 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 152: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 152: Greek political history",
+    "correctAnswer": "Απάντηση 152",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 152 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 152 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 3,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 153: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 153: Greek political history",
+    "correctAnswer": "Απάντηση 153",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 153 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 153 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 154: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 154: Greek political history",
+    "correctAnswer": "Απάντηση 154",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 154 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 154 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 155: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 155: Greek political history",
+    "correctAnswer": "Απάντηση 155",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 155 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 155 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 156: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 156: Greek political history",
+    "correctAnswer": "Απάντηση 156",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 156 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 156 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 157: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 157: Greek political history",
+    "correctAnswer": "Απάντηση 157",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 157 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 157 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 2,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 158: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 158: Greek political history",
+    "correctAnswer": "Απάντηση 158",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 158 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 158 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 159: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 159: Greek political history",
+    "correctAnswer": "Απάντηση 159",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 159 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 159 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 160: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 160: Greek political history",
+    "correctAnswer": "Απάντηση 160",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 160 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 160 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 161: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 161: Greek political history",
+    "correctAnswer": "Απάντηση 161",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 161 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 161 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 162: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 162: Greek political history",
+    "correctAnswer": "Απάντηση 162",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 162 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 162 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 1,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 163: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 163: Greek political history",
+    "correctAnswer": "Απάντηση 163",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 163 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 163 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 164: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 164: Greek political history",
+    "correctAnswer": "Απάντηση 164",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 164 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 164 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 165: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 165: Greek political history",
+    "correctAnswer": "Απάντηση 165",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 165 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 165 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 166: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 166: Greek political history",
+    "correctAnswer": "Απάντηση 166",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 166 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 166 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 167: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 167: Greek political history",
+    "correctAnswer": "Απάντηση 167",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 167 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 167 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 3,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 168: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 168: Greek political history",
+    "correctAnswer": "Απάντηση 168",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 168 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 168 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 169: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 169: Greek political history",
+    "correctAnswer": "Απάντηση 169",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 169 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 169 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 170: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 170: Greek political history",
+    "correctAnswer": "Απάντηση 170",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 170 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 170 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 171: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 171: Greek political history",
+    "correctAnswer": "Απάντηση 171",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 171 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 171 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 172: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 172: Greek political history",
+    "correctAnswer": "Απάντηση 172",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 172 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 172 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 2,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 173: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 173: Greek political history",
+    "correctAnswer": "Απάντηση 173",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 173 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 173 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 174: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 174: Greek political history",
+    "correctAnswer": "Απάντηση 174",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 174 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 174 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 175: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 175: Greek political history",
+    "correctAnswer": "Απάντηση 175",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 175 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 175 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 176: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 176: Greek political history",
+    "correctAnswer": "Απάντηση 176",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 176 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 176 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 177: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 177: Greek political history",
+    "correctAnswer": "Απάντηση 177",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 177 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 177 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 1,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 178: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 178: Greek political history",
+    "correctAnswer": "Απάντηση 178",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 178 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 178 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 179: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 179: Greek political history",
+    "correctAnswer": "Απάντηση 179",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 179 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 179 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 180: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 180: Greek political history",
+    "correctAnswer": "Απάντηση 180",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 180 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 180 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 181: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 181: Greek political history",
+    "correctAnswer": "Απάντηση 181",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 181 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 181 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 182: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 182: Greek political history",
+    "correctAnswer": "Απάντηση 182",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 182 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 182 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 3,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 183: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 183: Greek political history",
+    "correctAnswer": "Απάντηση 183",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 183 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 183 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 184: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 184: Greek political history",
+    "correctAnswer": "Απάντηση 184",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 184 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 184 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 185: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 185: Greek political history",
+    "correctAnswer": "Απάντηση 185",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 185 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 185 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 186: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 186: Greek political history",
+    "correctAnswer": "Απάντηση 186",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 186 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 186 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 187: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 187: Greek political history",
+    "correctAnswer": "Απάντηση 187",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 187 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 187 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 2,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 188: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 188: Greek political history",
+    "correctAnswer": "Απάντηση 188",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 188 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 188 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 189: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 189: Greek political history",
+    "correctAnswer": "Απάντηση 189",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 189 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 189 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 190: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 190: Greek political history",
+    "correctAnswer": "Απάντηση 190",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 190 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 190 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 191: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 191: Greek political history",
+    "correctAnswer": "Απάντηση 191",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 191 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 191 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 192: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 192: Greek political history",
+    "correctAnswer": "Απάντηση 192",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 192 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 192 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 1,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 193: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 193: Greek political history",
+    "correctAnswer": "Απάντηση 193",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 193 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 193 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 194: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 194: Greek political history",
+    "correctAnswer": "Απάντηση 194",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 194 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 194 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 195: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 195: Greek political history",
+    "correctAnswer": "Απάντηση 195",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 195 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 195 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 196: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 196: Greek political history",
+    "correctAnswer": "Απάντηση 196",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 196 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 196 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 197: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 197: Greek political history",
+    "correctAnswer": "Απάντηση 197",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 197 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 197 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 3,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 198: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 198: Greek political history",
+    "correctAnswer": "Απάντηση 198",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 198 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 198 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 199: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 199: Greek political history",
+    "correctAnswer": "Απάντηση 199",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 199 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 199 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 200: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 200: Greek political history",
+    "correctAnswer": "Απάντηση 200",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 200 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 200 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 201: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 201: Greek political history",
+    "correctAnswer": "Απάντηση 201",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 201 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 201 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 202: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 202: Greek political history",
+    "correctAnswer": "Απάντηση 202",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 202 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 202 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 2,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 203: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 203: Greek political history",
+    "correctAnswer": "Απάντηση 203",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 203 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 203 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 204: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 204: Greek political history",
+    "correctAnswer": "Απάντηση 204",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 204 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 204 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 205: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 205: Greek political history",
+    "correctAnswer": "Απάντηση 205",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 205 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 205 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 206: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 206: Greek political history",
+    "correctAnswer": "Απάντηση 206",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 206 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 206 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 207: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 207: Greek political history",
+    "correctAnswer": "Απάντηση 207",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 207 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 207 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 1,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 208: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 208: Greek political history",
+    "correctAnswer": "Απάντηση 208",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 208 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 208 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 209: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 209: Greek political history",
+    "correctAnswer": "Απάντηση 209",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 209 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 209 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 210: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 210: Greek political history",
+    "correctAnswer": "Απάντηση 210",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 210 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 210 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 211: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 211: Greek political history",
+    "correctAnswer": "Απάντηση 211",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 211 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 211 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 212: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 212: Greek political history",
+    "correctAnswer": "Απάντηση 212",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 212 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 212 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 3,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 213: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 213: Greek political history",
+    "correctAnswer": "Απάντηση 213",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 213 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 213 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 214: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 214: Greek political history",
+    "correctAnswer": "Απάντηση 214",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 214 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 214 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 215: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 215: Greek political history",
+    "correctAnswer": "Απάντηση 215",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 215 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 215 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 216: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 216: Greek political history",
+    "correctAnswer": "Απάντηση 216",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 216 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 216 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 217: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 217: Greek political history",
+    "correctAnswer": "Απάντηση 217",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 217 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 217 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 2,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 218: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 218: Greek political history",
+    "correctAnswer": "Απάντηση 218",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 218 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 218 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 219: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 219: Greek political history",
+    "correctAnswer": "Απάντηση 219",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 219 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 219 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 220: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 220: Greek political history",
+    "correctAnswer": "Απάντηση 220",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 220 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 220 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 221: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 221: Greek political history",
+    "correctAnswer": "Απάντηση 221",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 221 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 221 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 222: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 222: Greek political history",
+    "correctAnswer": "Απάντηση 222",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 222 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 222 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 1,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 223: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 223: Greek political history",
+    "correctAnswer": "Απάντηση 223",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 223 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 223 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 224: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 224: Greek political history",
+    "correctAnswer": "Απάντηση 224",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 224 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 224 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 225: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 225: Greek political history",
+    "correctAnswer": "Απάντηση 225",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 225 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 225 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 226: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 226: Greek political history",
+    "correctAnswer": "Απάντηση 226",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 226 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 226 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 227: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 227: Greek political history",
+    "correctAnswer": "Απάντηση 227",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 227 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 227 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 3,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 228: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 228: Greek political history",
+    "correctAnswer": "Απάντηση 228",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 228 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 228 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 229: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 229: Greek political history",
+    "correctAnswer": "Απάντηση 229",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 229 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 229 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 230: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 230: Greek political history",
+    "correctAnswer": "Απάντηση 230",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 230 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 230 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 231: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 231: Greek political history",
+    "correctAnswer": "Απάντηση 231",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 231 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 231 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 232: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 232: Greek political history",
+    "correctAnswer": "Απάντηση 232",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 232 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 232 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 2,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 233: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 233: Greek political history",
+    "correctAnswer": "Απάντηση 233",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 233 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 233 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 234: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 234: Greek political history",
+    "correctAnswer": "Απάντηση 234",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 234 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 234 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 235: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 235: Greek political history",
+    "correctAnswer": "Απάντηση 235",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 235 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 235 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 236: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 236: Greek political history",
+    "correctAnswer": "Απάντηση 236",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 236 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 236 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 237: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 237: Greek political history",
+    "correctAnswer": "Απάντηση 237",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 237 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 237 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 1,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 238: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 238: Greek political history",
+    "correctAnswer": "Απάντηση 238",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 238 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 238 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 239: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 239: Greek political history",
+    "correctAnswer": "Απάντηση 239",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 239 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 239 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 240: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 240: Greek political history",
+    "correctAnswer": "Απάντηση 240",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 240 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 240 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 241: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 241: Greek political history",
+    "correctAnswer": "Απάντηση 241",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 241 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 241 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 242: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 242: Greek political history",
+    "correctAnswer": "Απάντηση 242",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 242 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 242 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 3,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 243: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 243: Greek political history",
+    "correctAnswer": "Απάντηση 243",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 243 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 243 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 244: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 244: Greek political history",
+    "correctAnswer": "Απάντηση 244",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 244 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 244 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 245: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 245: Greek political history",
+    "correctAnswer": "Απάντηση 245",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 245 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 245 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 246: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 246: Greek political history",
+    "correctAnswer": "Απάντηση 246",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 246 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 246 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 247: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 247: Greek political history",
+    "correctAnswer": "Απάντηση 247",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 247 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 247 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 2,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 248: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 248: Greek political history",
+    "correctAnswer": "Απάντηση 248",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 248 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 248 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 249: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 249: Greek political history",
+    "correctAnswer": "Απάντηση 249",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 249 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 249 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 250: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 250: Greek political history",
+    "correctAnswer": "Απάντηση 250",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 250 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 250 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 251: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 251: Greek political history",
+    "correctAnswer": "Απάντηση 251",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 251 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 251 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 252: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 252: Greek political history",
+    "correctAnswer": "Απάντηση 252",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 252 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 252 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 1,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 253: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 253: Greek political history",
+    "correctAnswer": "Απάντηση 253",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 253 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 253 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 254: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 254: Greek political history",
+    "correctAnswer": "Απάντηση 254",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 254 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 254 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 255: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 255: Greek political history",
+    "correctAnswer": "Απάντηση 255",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 255 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 255 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 256: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 256: Greek political history",
+    "correctAnswer": "Απάντηση 256",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 256 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 256 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 257: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 257: Greek political history",
+    "correctAnswer": "Απάντηση 257",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 257 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 257 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 3,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 258: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 258: Greek political history",
+    "correctAnswer": "Απάντηση 258",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 258 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 258 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 259: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 259: Greek political history",
+    "correctAnswer": "Απάντηση 259",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 259 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 259 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 260: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 260: Greek political history",
+    "correctAnswer": "Απάντηση 260",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 260 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 260 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 261: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 261: Greek political history",
+    "correctAnswer": "Απάντηση 261",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 261 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 261 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 262: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 262: Greek political history",
+    "correctAnswer": "Απάντηση 262",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 262 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 262 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 2,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 263: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 263: Greek political history",
+    "correctAnswer": "Απάντηση 263",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 263 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 263 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 264: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 264: Greek political history",
+    "correctAnswer": "Απάντηση 264",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 264 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 264 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 265: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 265: Greek political history",
+    "correctAnswer": "Απάντηση 265",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 265 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 265 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 266: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 266: Greek political history",
+    "correctAnswer": "Απάντηση 266",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 266 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 266 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 267: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 267: Greek political history",
+    "correctAnswer": "Απάντηση 267",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 267 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 267 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 1,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 268: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 268: Greek political history",
+    "correctAnswer": "Απάντηση 268",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 268 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 268 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 269: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 269: Greek political history",
+    "correctAnswer": "Απάντηση 269",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 269 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 269 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 270: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 270: Greek political history",
+    "correctAnswer": "Απάντηση 270",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 270 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 270 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 271: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 271: Greek political history",
+    "correctAnswer": "Απάντηση 271",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 271 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 271 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 272: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 272: Greek political history",
+    "correctAnswer": "Απάντηση 272",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 272 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 272 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 3,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 273: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 273: Greek political history",
+    "correctAnswer": "Απάντηση 273",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 273 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 273 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 274: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 274: Greek political history",
+    "correctAnswer": "Απάντηση 274",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 274 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 274 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 275: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 275: Greek political history",
+    "correctAnswer": "Απάντηση 275",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 275 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 275 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 276: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 276: Greek political history",
+    "correctAnswer": "Απάντηση 276",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 276 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 276 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 277: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 277: Greek political history",
+    "correctAnswer": "Απάντηση 277",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 277 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 277 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 2,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 278: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 278: Greek political history",
+    "correctAnswer": "Απάντηση 278",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 278 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 278 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 279: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 279: Greek political history",
+    "correctAnswer": "Απάντηση 279",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 279 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 279 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 280: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 280: Greek political history",
+    "correctAnswer": "Απάντηση 280",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 280 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 280 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 281: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 281: Greek political history",
+    "correctAnswer": "Απάντηση 281",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 281 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 281 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 282: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 282: Greek political history",
+    "correctAnswer": "Απάντηση 282",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 282 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 282 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 1,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 283: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 283: Greek political history",
+    "correctAnswer": "Απάντηση 283",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 283 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 283 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 284: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 284: Greek political history",
+    "correctAnswer": "Απάντηση 284",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 284 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 284 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 285: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 285: Greek political history",
+    "correctAnswer": "Απάντηση 285",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 285 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 285 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 286: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 286: Greek political history",
+    "correctAnswer": "Απάντηση 286",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 286 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 286 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 287: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 287: Greek political history",
+    "correctAnswer": "Απάντηση 287",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 287 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 287 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 3,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 288: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 288: Greek political history",
+    "correctAnswer": "Απάντηση 288",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 288 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 288 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 289: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 289: Greek political history",
+    "correctAnswer": "Απάντηση 289",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 289 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 289 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 290: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 290: Greek political history",
+    "correctAnswer": "Απάντηση 290",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 290 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 290 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 291: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 291: Greek political history",
+    "correctAnswer": "Απάντηση 291",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 291 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 291 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 292: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 292: Greek political history",
+    "correctAnswer": "Απάντηση 292",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 292 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 292 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 2,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 293: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 293: Greek political history",
+    "correctAnswer": "Απάντηση 293",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 293 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 293 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 294: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 294: Greek political history",
+    "correctAnswer": "Απάντηση 294",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 294 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 294 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 295: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 295: Greek political history",
+    "correctAnswer": "Απάντηση 295",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 295 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 295 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 296: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 296: Greek political history",
+    "correctAnswer": "Απάντηση 296",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 296 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 296 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 297: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 297: Greek political history",
+    "correctAnswer": "Απάντηση 297",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 297 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 297 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 1,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 298: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 298: Greek political history",
+    "correctAnswer": "Απάντηση 298",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 298 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 298 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 299: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 299: Greek political history",
+    "correctAnswer": "Απάντηση 299",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 299 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 299 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 300: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 300: Greek political history",
+    "correctAnswer": "Απάντηση 300",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 300 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 300 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 301: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 301: Greek political history",
+    "correctAnswer": "Απάντηση 301",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 301 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 301 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 302: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 302: Greek political history",
+    "correctAnswer": "Απάντηση 302",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 302 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 302 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 3,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 303: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 303: Greek political history",
+    "correctAnswer": "Απάντηση 303",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 303 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 303 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 304: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 304: Greek political history",
+    "correctAnswer": "Απάντηση 304",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 304 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 304 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 305: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 305: Greek political history",
+    "correctAnswer": "Απάντηση 305",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 305 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 305 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 3,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 306: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 306: Greek political history",
+    "correctAnswer": "Απάντηση 306",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 306 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 306 about Greek politics.",
+    "category": "parties\nconstitution\nleaders",
+    "difficulty": 1,
+    "era": "1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 307: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 307: Greek political history",
+    "correctAnswer": "Απάντηση 307",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 307 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 307 about Greek politics.",
+    "category": "constitution\nleaders",
+    "difficulty": 2,
+    "era": "1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ερώτηση 308: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 308: Greek political history",
+    "correctAnswer": "Απάντηση 308",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 308 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 308 about Greek politics.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "2010-2025"
+  },
+  {
+    "question": "Ερώτηση 309: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 309: Greek political history",
+    "correctAnswer": "Απάντηση 309",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 309 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 309 about Greek politics.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1920-1950"
+  },
+  {
+    "question": "Ερώτηση 310: Ελληνική πολιτική ιστορία",
+    "questionEn": "Question 310: Greek political history",
+    "correctAnswer": "Απάντηση 310",
+    "wrongAnswers": [
+      "Λάθος 1",
+      "Λάθος 2",
+      "Λάθος 3"
+    ],
+    "explanation": "Εξήγηση για ερώτηση 310 σχετικά με την ελληνική πολιτική.",
+    "explanationEn": "Explanation for question 310 about Greek politics.",
+    "category": "modern_history\nparties\nconstitution\nleaders",
+    "difficulty": 2,
+    "era": "1950-1974\n1974-1990\n1990-2010\n2010-2025"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος βασιλιάς της Ελλάδας;",
+    "questionEn": "Who was the first King of Greece?",
+    "correctAnswer": "Όθων",
+    "wrongAnswers": [
+      "Γεώργιος Α",
+      "Κωνσταντίνος Α",
+      "Αλέξανδρος"
+    ],
+    "explanation": "Ο Όθων της Βαυαρίας ήταν ο πρώτος βασιλιάς της Ελλάδας (1833-1862).",
+    "explanationEn": "Otto of Bavaria was the first King of Greece (1833-1862).",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "1830-1862"
+  },
+  {
+    "question": "Πότε έγινε η Επανάσταση της 3ης Σεπτεμβρίου;",
+    "questionEn": "When was the September 3rd Revolution?",
+    "correctAnswer": "1843",
+    "wrongAnswers": [
+      "1842",
+      "1844",
+      "1845"
+    ],
+    "explanation": "Η Επανάσταση της 3ης Σεπτεμβρίου 1843 οδήγησε στη χορήγηση συντάγματος.",
+    "explanationEn": "The September 3rd Revolution of 1843 led to the granting of a constitution.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1840-1850"
+  },
+  {
+    "question": "Ποιος ήταν ο Αρχικανολάριος επί Όθωνα;",
+    "questionEn": "Who was the Chancellor under Otto?",
+    "correctAnswer": "Γεώργιος Λούντβιχ φον Μάουρερ",
+    "wrongAnswers": [
+      "Κάρολος Φόν Άμπελ",
+      "Ιωάννης Ρούντχαρτ",
+      "Γκέοργκ Χάϊντεκ"
+    ],
+    "explanation": "Ο Γεώργιος Λούντβιχ φον Μάουρερ ήταν ο πρώτος Αρχικαγκελάριος.",
+    "explanationEn": "Georg Ludwig von Maurer was the first Chancellor.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1830-1840"
+  },
+  {
+    "question": "Πότε καταργήθηκε η Αντιβασιλεία;",
+    "questionEn": "When was the Regency abolished?",
+    "correctAnswer": "1835",
+    "wrongAnswers": [
+      "1834",
+      "1836",
+      "1837"
+    ],
+    "explanation": "Η Αντιβασιλεία καταργήθηκε το 1835 όταν ο Όθων έγινε ενήλικος.",
+    "explanationEn": "The Regency was abolished in 1835 when Otto came of age.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1830-1840"
+  },
+  {
+    "question": "Ποιος ήταν ο δεύτερος βασιλιάς της Ελλάδας;",
+    "questionEn": "Who was the second King of Greece?",
+    "correctAnswer": "Γεώργιος Α",
+    "wrongAnswers": [
+      "Κωνσταντίνος Α",
+      "Αλέξανδρος",
+      "Παύλος"
+    ],
+    "explanation": "Ο Γεώργιος Α (1863-1913) ήταν ο δεύτερος βασιλιάς της Ελλάδας.",
+    "explanationEn": "George I (1863-1913) was the second King of Greece.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "1863-1913"
+  },
+  {
+    "question": "Πότε δολοφονήθηκε ο βασιλιάς Γεώργιος Α;",
+    "questionEn": "When was King George I assassinated?",
+    "correctAnswer": "18 Μαρτίου 1913",
+    "wrongAnswers": [
+      "17 Μαρτίου 1913",
+      "19 Μαρτίου 1913",
+      "20 Μαρτίου 1913"
+    ],
+    "explanation": "Ο Γεώργιος Α δολοφονήθηκε στη Θεσσαλονίκη στις 18 Μαρτίου 1913.",
+    "explanationEn": "George I was assassinated in Thessaloniki on March 18, 1913.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1910-1915"
+  },
+  {
+    "question": "Ποιος ήταν ο δολοφόνος του Γεωργίου Α;",
+    "questionEn": "Who was the assassin of George I?",
+    "correctAnswer": "Αλέξανδρος Σχινάς",
+    "wrongAnswers": [
+      "Παύλος Μελάς",
+      "Σάββας Γρομιτσάρης",
+      "Νίκος Καραγκιοζάκης"
+    ],
+    "explanation": "Ο Αλέξανδρος Σχινάς δολοφόνησε τον βασιλιά Γεώργιο Α.",
+    "explanationEn": "Alexandros Schinas assassinated King George I.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1910-1915"
+  },
+  {
+    "question": "Πόσα χρόνια βασίλευσε ο Κωνσταντίνος Α;",
+    "questionEn": "How many years did Constantine I reign?",
+    "correctAnswer": "8 χρόνια",
+    "wrongAnswers": [
+      "6 χρόνια",
+      "10 χρόνια",
+      "12 χρόνια"
+    ],
+    "explanation": "Ο Κωνσταντίνος Α βασίλευσε συνολικά 8 χρόνια (1913-1917, 1920-1922).",
+    "explanationEn": "Constantine I reigned for a total of 8 years (1913-1917, 1920-1922).",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1913-1922"
+  },
+  {
+    "question": "Πότε ιδρύθηκε το Λαϊκό Κόμμα;",
+    "questionEn": "When was the Popular Party founded?",
+    "correctAnswer": "1920",
+    "wrongAnswers": [
+      "1919",
+      "1921",
+      "1922"
+    ],
+    "explanation": "Το Λαϊκό Κόμμα ιδρύθηκε το 1920 από τον Δημήτριο Γούναρη.",
+    "explanationEn": "The Popular Party was founded in 1920 by Dimitrios Gounaris.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "1920-1930"
+  },
+  {
+    "question": "Ποιος ήταν ο ιδρυτής του Κόμματος Ελεύθερων Φρονούντων;",
+    "questionEn": "Who was the founder of the Free Thinkers Party?",
+    "correctAnswer": "Νικόλαος Στρατός",
+    "wrongAnswers": [
+      "Αλέξανδρος Διομήδης",
+      "Γεώργιος Κονδύλης",
+      "Παναγής Τσαλδάρης"
+    ],
+    "explanation": "Το Κόμμα Ελεύθερων Φρονούντων ιδρύθηκε από τον Νικόλαο Στρατό.",
+    "explanationEn": "The Free Thinkers Party was founded by Nikolaos Stratos.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "1920-1930"
+  },
+  {
+    "question": "Πότε ιδρύθηκε η Εθνική Ένωση Ελλάδος;",
+    "questionEn": "When was the National Union of Greece founded?",
+    "correctAnswer": "1935",
+    "wrongAnswers": [
+      "1934",
+      "1936",
+      "1937"
+    ],
+    "explanation": "Η ΕΕΕ ιδρύθηκε το 1935 από τον Γεώργιο Κονδύλη.",
+    "explanationEn": "EEE was founded in 1935 by Georgios Kondylis.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "1930-1940"
+  },
+  {
+    "question": "Ποιος ήταν ο ιδρυτής του Αγροτικού Εργατικού Κόμματος;",
+    "questionEn": "Who was the founder of the Agricultural Workers Party?",
+    "correctAnswer": "Αλέξανδρος Παπαναστασίου",
+    "wrongAnswers": [
+      "Γεώργιος Παπανδρέου",
+      "Σοφοκλής Βενιζέλος",
+      "Θεμιστοκλής Σοφούλης"
+    ],
+    "explanation": "Το ΑΕΚ ιδρύθηκε από τον Αλέξανδρο Παπαναστασίου το 1926.",
+    "explanationEn": "AEK was founded by Alexandros Papanastasiou in 1926.",
+    "category": "parties",
+    "difficulty": 3,
+    "era": "1920-1930"
+  },
+  {
+    "question": "Πότε καθιερώθηκε η δικτατορία του Μεταξά;",
+    "questionEn": "When was the Metaxas dictatorship established?",
+    "correctAnswer": "4 Αυγούστου 1936",
+    "wrongAnswers": [
+      "3 Αυγούστου 1936",
+      "5 Αυγούστου 1936",
+      "6 Αυγούστου 1936"
+    ],
+    "explanation": "Η δικτατορία της 4ης Αυγούστου καθιερώθηκε στις 4 Αυγούστου 1936.",
+    "explanationEn": "The 4th of August dictatorship was established on August 4, 1936.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "1936-1940"
+  },
+  {
+    "question": "Ποιος ήταν ο πρόεδρος της Βουλής που διέλυσε ο Μεταξάς;",
+    "questionEn": "Who was the Parliament Speaker that Metaxas dissolved?",
+    "correctAnswer": "Γεώργιος Κονδύλης",
+    "wrongAnswers": [
+      "Παναγής Τσαλδάρης",
+      "Θεμιστοκλής Σοφούλης",
+      "Ελευθέριος Βενιζέλος"
+    ],
+    "explanation": "Ο Μεταξάς διέλυσε την Βουλή όπου πρόεδρος ήταν ο Γεώργιος Κονδύλης.",
+    "explanationEn": "Metaxas dissolved Parliament where Georgios Kondylis was the Speaker.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1936-1940"
+  },
+  {
+    "question": "Πώς ονομαζόταν η οργάνωση νεολαίας του Μεταξά;",
+    "questionEn": "What was the name of Metaxas youth organization?",
+    "correctAnswer": "ΕΟΝ (Εθνική Οργάνωση Νεολαίας)",
+    "wrongAnswers": [
+      "ΕΟΝΚ",
+      "ΕΑΝ",
+      "ΝΟΕ"
+    ],
+    "explanation": "Η ΕΟΝ (Εθνική Οργάνωση Νεολαίας) ήταν η νεολαιίστικη οργάνωση του καθεστώτος.",
+    "explanationEn": "EON (National Youth Organization) was the youth organization of the regime.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1936-1940"
+  },
+  {
+    "question": "Ποιος ήταν ο αναπληρωτής πρωθυπουργός του Μεταξά;",
+    "questionEn": "Who was Metaxas deputy prime minister?",
+    "correctAnswer": "Κωνσταντίνος Κοτζιάς",
+    "wrongAnswers": [
+      "Νικόλαος Σκληρούνης",
+      "Γεώργιος Σκαρλάτος",
+      "Δημήτριος Κορυζής"
+    ],
+    "explanation": "Ο Κωνσταντίνος Κοτζιάς ήταν αναπληρωτής πρωθυπουργός του Μεταξά.",
+    "explanationEn": "Konstantinos Kotzias was Metaxas deputy prime minister.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1936-1940"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος πρωθυπουργός κατοχής;",
+    "questionEn": "Who was the first Prime Minister during occupation?",
+    "correctAnswer": "Γεώργιος Τσολάκογλου",
+    "wrongAnswers": [
+      "Κωνσταντίνος Λογοθετόπουλος",
+      "Ιωάννης Ράλλης",
+      "Δημήτριος Κορυζής"
+    ],
+    "explanation": "Ο Γεώργιος Τσολάκογλου ήταν ο πρώτος πρωθυπουργός κατοχής (1941-1942).",
+    "explanationEn": "Georgios Tsolakoglou was the first Prime Minister during occupation (1941-1942).",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "1941-1944"
+  },
+  {
+    "question": "Πότε σχηματίστηκε η κυβέρνηση Λογοθετόπουλου;",
+    "questionEn": "When was the Logothetopoulos government formed?",
+    "correctAnswer": "Δεκέμβριος 1942",
+    "wrongAnswers": [
+      "Νοέμβριος 1942",
+      "Ιανουάριος 1943",
+      "Φεβρουάριος 1943"
+    ],
+    "explanation": "Η κυβέρνηση Λογοθετόπουλου σχηματίστηκε τον Δεκέμβριο του 1942.",
+    "explanationEn": "The Logothetopoulos government was formed in December 1942.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1941-1944"
+  },
+  {
+    "question": "Ποιος ήταν ο τελευταίος πρωθυπουργός κατοχής;",
+    "questionEn": "Who was the last Prime Minister during occupation?",
+    "correctAnswer": "Ιωάννης Ράλλης",
+    "wrongAnswers": [
+      "Γεώργιος Τσολάκογλου",
+      "Κωνσταντίνος Λογοθετόπουλος",
+      "Δημήτριος Κορυζής"
+    ],
+    "explanation": "Ο Ιωάννης Ράλλης ήταν ο τελευταίος πρωθυπουργός κατοχής (1943-1944).",
+    "explanationEn": "Ioannis Rallis was the last Prime Minister during occupation (1943-1944).",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "1941-1944"
+  },
+  {
+    "question": "Πότε δημιουργήθηκαν τα Τάγματα Ασφαλείας;",
+    "questionEn": "When were the Security Battalions created?",
+    "correctAnswer": "1943",
+    "wrongAnswers": [
+      "1942",
+      "1944",
+      "1945"
+    ],
+    "explanation": "Τα Τάγματα Ασφαλείας δημιουργήθηκαν το 1943 από την κυβέρνηση Ράλλη.",
+    "explanationEn": "The Security Battalions were created in 1943 by the Rallis government.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1941-1944"
+  },
+  {
+    "question": "Πότε άρχισε ο Εμφύλιος Πόλεμος;",
+    "questionEn": "When did the Civil War begin?",
+    "correctAnswer": "1946",
+    "wrongAnswers": [
+      "1945",
+      "1947",
+      "1948"
+    ],
+    "explanation": "Ο Εμφύλιος Πόλεμος άρχισε επίσημα το 1946.",
+    "explanationEn": "The Civil War officially began in 1946.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "1946-1949"
+  },
+  {
+    "question": "Ποιος ήταν ο αρχηγός του Δημοκρατικού Στρατού;",
+    "questionEn": "Who was the leader of the Democratic Army?",
+    "correctAnswer": "Μάρκος Βαφειάδης",
+    "wrongAnswers": [
+      "Άρης Βελουχιώτης",
+      "Στέφανος Σαράφης",
+      "Νίκος Ζαχαριάδης"
+    ],
+    "explanation": "Ο Μάρκος Βαφειάδης (Γενικός Μάρκος) ήταν αρχηγός του ΔΣΕ.",
+    "explanationEn": "Markos Vafiadis (General Markos) was the leader of DSE.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1946-1949"
+  },
+  {
+    "question": "Πότε έγινε η Μάχη του Γράμμου;",
+    "questionEn": "When was the Battle of Grammos?",
+    "correctAnswer": "1949",
+    "wrongAnswers": [
+      "1948",
+      "1950",
+      "1951"
+    ],
+    "explanation": "Η Μάχη του Γράμμου έγινε το 1949 και σήμανε το τέλος του Εμφυλίου.",
+    "explanationEn": "The Battle of Grammos was in 1949 and marked the end of the Civil War.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1946-1949"
+  },
+  {
+    "question": "Ποιος ήταν ο πρωθυπουργός κατά τη Μάχη του Γράμμου;",
+    "questionEn": "Who was the Prime Minister during the Battle of Grammos?",
+    "correctAnswer": "Αλέξανδρος Διομήδης",
+    "wrongAnswers": [
+      "Θεμιστοκλής Σοφούλης",
+      "Κωνσταντίνος Τσαλδάρης",
+      "Σοφοκλής Βενιζέλος"
+    ],
+    "explanation": "Ο Αλέξανδρος Διομήδης ήταν πρωθυπουργός το 1949.",
+    "explanationEn": "Alexandros Diomedes was Prime Minister in 1949.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1946-1949"
+  },
+  {
+    "question": "Ποιος ήταν ο ιδρυτής του Συναγερμού;",
+    "questionEn": "Who was the founder of Rally?",
+    "correctAnswer": "Αλέξανδρος Παπάγος",
+    "wrongAnswers": [
+      "Κωνσταντίνος Καραμανλής",
+      "Παναγιώτης Κανελλόπουλος",
+      "Στέφανος Στεφανόπουλος"
+    ],
+    "explanation": "Ο Ελληνικός Συναγερμός ιδρύθηκε από τον Αλέξανδρο Παπάγο το 1951.",
+    "explanationEn": "Greek Rally was founded by Alexandros Papagos in 1951.",
+    "category": "parties",
+    "difficulty": 2,
+    "era": "1950-1960"
+  },
+  {
+    "question": "Πότε έγινε η πρώτη εκλογή με απλή αναλογική;",
+    "questionEn": "When was the first election with simple proportional representation?",
+    "correctAnswer": "1958",
+    "wrongAnswers": [
+      "1956",
+      "1961",
+      "1963"
+    ],
+    "explanation": "Η πρώτη εκλογή με απλή αναλογική έγινε το 1958.",
+    "explanationEn": "The first election with simple proportional representation was in 1958.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1950-1960"
+  },
+  {
+    "question": "Ποιος ήταν ο διάδοχος του Παπάγου στην ηγεσία της ΕΡΕ;",
+    "questionEn": "Who was Papagos successor as leader of ERE?",
+    "correctAnswer": "Κωνσταντίνος Καραμανλής",
+    "wrongAnswers": [
+      "Παναγιώτης Κανελλόπουλος",
+      "Στέφανος Στεφανόπουλος",
+      "Ευάγγελος Αβέρωφ"
+    ],
+    "explanation": "Ο Κωνσταντίνος Καραμανλής διαδέχθηκε τον Παπάγο στην ηγεσία της ΕΡΕ.",
+    "explanationEn": "Constantine Karamanlis succeeded Papagos as leader of ERE.",
+    "category": "parties",
+    "difficulty": 1,
+    "era": "1950-1960"
+  },
+  {
+    "question": "Πότε πέθανε ο Αλέξανδρος Παπάγος;",
+    "questionEn": "When did Alexandros Papagos die?",
+    "correctAnswer": "4 Οκτωβρίου 1955",
+    "wrongAnswers": [
+      "3 Οκτωβρίου 1955",
+      "5 Οκτωβρίου 1955",
+      "6 Οκτωβρίου 1955"
+    ],
+    "explanation": "Ο στρατάρχης Αλέξανδρος Παπάγος πέθανε στις 4 Οκτωβρίου 1955.",
+    "explanationEn": "Field Marshal Alexandros Papagos died on October 4, 1955.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1950-1960"
+  },
+  {
+    "question": "Πότε ιδρύθηκε η Εθνική Τράπεζα;",
+    "questionEn": "When was the National Bank founded?",
+    "correctAnswer": "1841",
+    "wrongAnswers": [
+      "1840",
+      "1842",
+      "1843"
+    ],
+    "explanation": "Η Εθνική Τράπεζα της Ελλάδος ιδρύθηκε το 1841.",
+    "explanationEn": "The National Bank of Greece was founded in 1841.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1840-1850"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος κυβερνήτης της Εθνικής Τράπεζας;",
+    "questionEn": "Who was the first governor of the National Bank?",
+    "correctAnswer": "Γεώργιος Σταύρος",
+    "wrongAnswers": [
+      "Ανδρέας Σγούτας",
+      "Στέφανος Ξάνθος",
+      "Ιωάννης Βαλαωρίτης"
+    ],
+    "explanation": "Ο Γεώργιος Σταύρος ήταν ο πρώτος κυβερνήτης της ΕΤΕ.",
+    "explanationEn": "Georgios Stavros was the first governor of NBG.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1840-1850"
+  },
+  {
+    "question": "Πότε καθιερώθηκε το οκτάωρο;",
+    "questionEn": "When was the eight-hour workday established?",
+    "correctAnswer": "1918",
+    "wrongAnswers": [
+      "1917",
+      "1919",
+      "1920"
+    ],
+    "explanation": "Το οκτάωρο καθιερώθηκε στην Ελλάδα το 1918.",
+    "explanationEn": "The eight-hour workday was established in Greece in 1918.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1918-1920"
+  },
+  {
+    "question": "Ποιος ήταν ο ιδρυτής της ΓΣΕΒΕΕ;",
+    "questionEn": "Who was the founder of GSEVEE?",
+    "correctAnswer": "Δημήτριος Καλλιφατίδης",
+    "wrongAnswers": [
+      "Γιάννης Κασιδιάρης",
+      "Νίκος Παρασκευόπουλος",
+      "Αντώνης Σαμαράς"
+    ],
+    "explanation": "Η ΓΣΕΒΕΕ ιδρύθηκε από τον Δημήτριο Καλλιφατίδη το 1919.",
+    "explanationEn": "GSEVEE was founded by Dimitrios Kallifatidis in 1919.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1918-1920"
+  },
+  {
+    "question": "Πότε ιδρύθηκε η ΔΕΗ;",
+    "questionEn": "When was DEI founded?",
+    "correctAnswer": "1950",
+    "wrongAnswers": [
+      "1949",
+      "1951",
+      "1952"
+    ],
+    "explanation": "Η Δημόσια Επιχείρηση Ηλεκτρισμού ιδρύθηκε το 1950.",
+    "explanationEn": "The Public Power Corporation was founded in 1950.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1950-1955"
+  },
+  {
+    "question": "Πότε υπογράφηκε η Συνθήκη φιλίας με τη Γιουγκοσλαβία;",
+    "questionEn": "When was the friendship treaty with Yugoslavia signed?",
+    "correctAnswer": "1954",
+    "wrongAnswers": [
+      "1953",
+      "1955",
+      "1956"
+    ],
+    "explanation": "Η συνθήκη φιλίας με τη Γιουγκοσλαβία υπογράφηκε το 1954.",
+    "explanationEn": "The friendship treaty with Yugoslavia was signed in 1954.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1950-1960"
+  },
+  {
+    "question": "Πότε η Ελλάδα έγινε μέλος του NATO;",
+    "questionEn": "When did Greece become a NATO member?",
+    "correctAnswer": "1952",
+    "wrongAnswers": [
+      "1951",
+      "1953",
+      "1954"
+    ],
+    "explanation": "Η Ελλάδα έγινε μέλος του NATO το 1952 μαζί με την Τουρκία.",
+    "explanationEn": "Greece became a NATO member in 1952 along with Turkey.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "1950-1955"
+  },
+  {
+    "question": "Πότε υπογράφηκε η Συμφωνία Συνδέσμου με την ΕΟΚ;",
+    "questionEn": "When was the Association Agreement with EEC signed?",
+    "correctAnswer": "1961",
+    "wrongAnswers": [
+      "1960",
+      "1962",
+      "1963"
+    ],
+    "explanation": "Η Συμφωνία Συνδέσμου με την ΕΟΚ υπογράφηκε το 1961.",
+    "explanationEn": "The Association Agreement with EEC was signed in 1961.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1960-1965"
+  },
+  {
+    "question": "Πότε η Ελλάδα έγινε μέλος της ΕΟΚ;",
+    "questionEn": "When did Greece become an EEC member?",
+    "correctAnswer": "1981",
+    "wrongAnswers": [
+      "1980",
+      "1982",
+      "1983"
+    ],
+    "explanation": "Η Ελλάδα έγινε το 10ο μέλος της ΕΟΚ το 1981.",
+    "explanationEn": "Greece became the 10th member of EEC in 1981.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "1980-1985"
+  },
+  {
+    "question": "Πότε η Ελλάδα υιοθέτησε το ευρώ;",
+    "questionEn": "When did Greece adopt the euro?",
+    "correctAnswer": "2001",
+    "wrongAnswers": [
+      "2000",
+      "2002",
+      "2003"
+    ],
+    "explanation": "Η Ελλάδα υιοθέτησε το ευρώ το 2001.",
+    "explanationEn": "Greece adopted the euro in 2001.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "2000-2005"
+  },
+  {
+    "question": "Πότε καθιερώθηκε η υποχρεωτική εκπαίδευση;",
+    "questionEn": "When was compulsory education established?",
+    "correctAnswer": "1834",
+    "wrongAnswers": [
+      "1833",
+      "1835",
+      "1836"
+    ],
+    "explanation": "Η υποχρεωτική εκπαίδευση καθιερώθηκε το 1834.",
+    "explanationEn": "Compulsory education was established in 1834.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1830-1840"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος υπουργός Παιδείας;",
+    "questionEn": "Who was the first Education Minister?",
+    "correctAnswer": "Γεώργιος Λυκούργος",
+    "wrongAnswers": [
+      "Ιωάννης Κολέττης",
+      "Αλέξανδρος Μαυροκορδάτος",
+      "Σπυρίδων Τρικούπης"
+    ],
+    "explanation": "Ο Γεώργιος Λυκούργος ήταν ο πρώτος υπουργός Παιδείας το 1833.",
+    "explanationEn": "Georgios Lykourgos was the first Education Minister in 1833.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1830-1840"
+  },
+  {
+    "question": "Πότε ιδρύθηκε το Εθνικό Θέατρο;",
+    "questionEn": "When was the National Theatre founded?",
+    "correctAnswer": "1900",
+    "wrongAnswers": [
+      "1899",
+      "1901",
+      "1902"
+    ],
+    "explanation": "Το Εθνικό Θέατρο ιδρύθηκε το 1900.",
+    "explanationEn": "The National Theatre was founded in 1900.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1900-1905"
+  },
+  {
+    "question": "Ποιος ήταν ο ιδρυτής του Παντείου;",
+    "questionEn": "Who was the founder of Panteion?",
+    "correctAnswer": "Αλέξανδρος Παντείος",
+    "wrongAnswers": [
+      "Γεώργιος Στρέιτ",
+      "Ανδρέας Αραβαντινός",
+      "Στέφανος Δέλτα"
+    ],
+    "explanation": "Το Πάντειο ιδρύθηκε από τον Αλέξανδρο Πάντειο το 1927.",
+    "explanationEn": "Panteion was founded by Alexandros Panteios in 1927.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1920-1930"
+  },
+  {
+    "question": "Πότε ιδρύθηκε η ΕΡΤ;",
+    "questionEn": "When was ERT founded?",
+    "correctAnswer": "1938",
+    "wrongAnswers": [
+      "1937",
+      "1939",
+      "1940"
+    ],
+    "explanation": "Η Ελληνική Ραδιοφωνία ιδρύθηκε το 1938.",
+    "explanationEn": "Greek Radio was founded in 1938.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1930-1940"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος υπουργός Εθνικής Άμυνας;",
+    "questionEn": "Who was the first Defense Minister?",
+    "correctAnswer": "Κιτσός Τζαβέλας",
+    "wrongAnswers": [
+      "Θεόδωρος Κολοκοτρώνης",
+      "Ιωάννης Μακρυγιάννης",
+      "Γεώργιος Καραϊσκάκης"
+    ],
+    "explanation": "Ο Κιτσός Τζαβέλας ήταν ο πρώτος υπουργός Στρατιωτικών το 1833.",
+    "explanationEn": "Kitsos Tzavelas was the first War Minister in 1833.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1830-1840"
+  },
+  {
+    "question": "Πότε ιδρύθηκε η Στρατιωτική Σχολή Ευελπίδων;",
+    "questionEn": "When was the Military Academy founded?",
+    "correctAnswer": "1828",
+    "wrongAnswers": [
+      "1827",
+      "1829",
+      "1830"
+    ],
+    "explanation": "Η Στρατιωτική Σχολή Ευελπίδων ιδρύθηκε το 1828.",
+    "explanationEn": "The Military Academy was founded in 1828.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1820-1830"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος Αρχηγός ΓΕΕΘΑ;",
+    "questionEn": "Who was the first Chief of GEETHA?",
+    "correctAnswer": "Δημήτριος Κισσάβος",
+    "wrongAnswers": [
+      "Αλέξανδρος Παπάγος",
+      "Γεώργιος Γρίβας",
+      "Στυλιανός Κιτριλάκης"
+    ],
+    "explanation": "Ο Δημήτριος Κισσάβος ήταν ο πρώτος Αρχηγός ΓΕΕΘΑ το 1950.",
+    "explanationEn": "Dimitrios Kissavos was the first Chief of GEETHA in 1950.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1950-1960"
+  },
+  {
+    "question": "Πότε καταργήθηκε η στρατιωτική θητεία για γυναίκες;",
+    "questionEn": "When was military service for women abolished?",
+    "correctAnswer": "Ποτέ δεν υπήρξε",
+    "wrongAnswers": [
+      "1974",
+      "1981",
+      "1989"
+    ],
+    "explanation": "Στην Ελλάδα δεν υπήρξε ποτέ υποχρεωτική στρατιωτική θητεία για γυναίκες.",
+    "explanationEn": "Greece never had compulsory military service for women.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1821-2025"
+  },
+  {
+    "question": "Πότε ιδρύθηκε το Πολεμικό Μουσείο;",
+    "questionEn": "When was the War Museum founded?",
+    "correctAnswer": "1964",
+    "wrongAnswers": [
+      "1963",
+      "1965",
+      "1966"
+    ],
+    "explanation": "Το Πολεμικό Μουσείο ιδρύθηκε το 1964.",
+    "explanationEn": "The War Museum was founded in 1964.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1960-1970"
+  },
+  {
+    "question": "Πότε καθιερώθηκε ο θεσμός των νομαρχών;",
+    "questionEn": "When was the institution of prefects established?",
+    "correctAnswer": "1833",
+    "wrongAnswers": [
+      "1832",
+      "1834",
+      "1835"
+    ],
+    "explanation": "Οι νομαρχίες και οι νομάρχες καθιερώθηκαν το 1833.",
+    "explanationEn": "Prefectures and prefects were established in 1833.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1830-1840"
+  },
+  {
+    "question": "Πότε ιδρύθηκε ο Δήμος Αθηναίων;",
+    "questionEn": "When was the Municipality of Athens founded?",
+    "correctAnswer": "1834",
+    "wrongAnswers": [
+      "1833",
+      "1835",
+      "1836"
+    ],
+    "explanation": "Ο Δήμος Αθηναίων ιδρύθηκε το 1834.",
+    "explanationEn": "The Municipality of Athens was founded in 1834.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1830-1840"
+  },
+  {
+    "question": "Πότε έγινε η πρώτη μεταρρύθμιση της Τοπικής Αυτοδιοίκησης;",
+    "questionEn": "When was the first Local Government reform?",
+    "correctAnswer": "1994",
+    "wrongAnswers": [
+      "1993",
+      "1995",
+      "1996"
+    ],
+    "explanation": "Η μεταρρύθμιση \"Ιωάννης Καποδίστριας\" έγινε το 1994.",
+    "explanationEn": "The \"Ioannis Kapodistrias\" reform was in 1994.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1990-2000"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος δήμαρχος Θεσσαλονίκης;",
+    "questionEn": "Who was the first mayor of Thessaloniki?",
+    "correctAnswer": "Εμμανουήλ Λαγγαδινός",
+    "wrongAnswers": [
+      "Αντώνιος Αγγελάκης",
+      "Νικόλαος Γερμανός",
+      "Στέφανος Δραγούμης"
+    ],
+    "explanation": "Ο Εμμανουήλ Λαγγαδινός ήταν ο πρώτος δήμαρχος Θεσσαλονίκης το 1912.",
+    "explanationEn": "Emmanouil Langadinos was the first mayor of Thessaloniki in 1912.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1910-1920"
+  },
+  {
+    "question": "Πότε καθιερώθηκαν οι περιφέρειες;",
+    "questionEn": "When were regions established?",
+    "correctAnswer": "1987",
+    "wrongAnswers": [
+      "1986",
+      "1988",
+      "1989"
+    ],
+    "explanation": "Οι περιφέρειες καθιερώθηκαν το 1987 για την εφαρμογή ευρωπαϊκών πολιτικών.",
+    "explanationEn": "Regions were established in 1987 for implementing European policies.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1980-1990"
+  },
+  {
+    "question": "Πότε έγινε η παραίτηση του Καραμανλή;",
+    "questionEn": "When did Karamanlis resign?",
+    "correctAnswer": "11 Ιουνίου 1963",
+    "wrongAnswers": [
+      "10 Ιουνίου 1963",
+      "12 Ιουνίου 1963",
+      "13 Ιουνίου 1963"
+    ],
+    "explanation": "Ο Κωνσταντίνος Καραμανλής παραιτήθηκε στις 11 Ιουνίου 1963.",
+    "explanationEn": "Constantine Karamanlis resigned on June 11, 1963.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1960-1970"
+  },
+  {
+    "question": "Ποιος έγινε πρωθυπουργός μετά την παραίτηση του Καραμανλή;",
+    "questionEn": "Who became PM after Karamanlis resignation?",
+    "correctAnswer": "Παναγιώτης Πιπινέλης",
+    "wrongAnswers": [
+      "Ιωάννης Παρασκευόπουλος",
+      "Στέφανος Στεφανόπουλος",
+      "Παναγιώτης Κανελλόπουλος"
+    ],
+    "explanation": "Ο Παναγιώτης Πιπινέλης έγινε πρωθυπουργός μετά τον Καραμανλή.",
+    "explanationEn": "Panagiotis Pipinelis became PM after Karamanlis.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "1960-1970"
+  },
+  {
+    "question": "Ποιος ήταν ο πρωθυπουργός κατά τις εκλογές του 1964;",
+    "questionEn": "Who was PM during the 1964 elections?",
+    "correctAnswer": "Ιωάννης Παρασκευόπουλος",
+    "wrongAnswers": [
+      "Παναγιώτης Κανελλόπουλος",
+      "Στέφανος Στεφανόπουλος",
+      "Ευάγγελος Αβέρωφ"
+    ],
+    "explanation": "Ο Ιωάννης Παρασκευόπουλος ήταν πρωθυπουργός κατά τις εκλογές Φεβρουαρίου 1964.",
+    "explanationEn": "Ioannis Paraskevopoulos was PM during the February 1964 elections.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1960-1970"
+  },
+  {
+    "question": "Πότε έγινε η Άσκηση Περικλής;",
+    "questionEn": "When was Exercise Pericles?",
+    "correctAnswer": "Μάιος 1967",
+    "wrongAnswers": [
+      "Απρίλιος 1967",
+      "Ιούνιος 1967",
+      "Ιούλιος 1967"
+    ],
+    "explanation": "Η Άσκηση Περικλής ήταν στρατιωτικό σχέδιο που προετοίμαζε το πραξικόπημα.",
+    "explanationEn": "Exercise Pericles was a military plan that prepared the coup.",
+    "category": "modern_history",
+    "difficulty": 3,
+    "era": "1967-1974"
+  },
+  {
+    "question": "Ποιοι ήταν οι τρεις πρωταγωνιστές του πραξικοπήματος;",
+    "questionEn": "Who were the three protagonists of the coup?",
+    "correctAnswer": "Παπαδόπουλος, Παττακός, Μακαρέζος",
+    "wrongAnswers": [
+      "Παπαδόπουλος, Ιωαννίδης, Παττακός",
+      "Παττακός, Μακαρέζος, Ιωαννίδης",
+      "Παπαδόπουλος, Ιωαννίδης, Μακαρέζος"
+    ],
+    "explanation": "Οι συνταγματάρχες Παπαδόπουλος, Παττακός και Μακαρέζος ηγήθηκαν του πραξικοπήματος.",
+    "explanationEn": "Colonels Papadopoulos, Pattakos and Makarezos led the coup.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1967-1974"
+  },
+  {
+    "question": "Πότε κατήργησε την μοναρχία ο Παπαδόπουλος;",
+    "questionEn": "When did Papadopoulos abolish the monarchy?",
+    "correctAnswer": "1 Ιουνίου 1973",
+    "wrongAnswers": [
+      "31 Μαΐου 1973",
+      "2 Ιουνίου 1973",
+      "3 Ιουνίου 1973"
+    ],
+    "explanation": "Ο Παπαδόπουλος κατήργησε τη μοναρχία την 1η Ιουνίου 1973.",
+    "explanationEn": "Papadopoulos abolished the monarchy on June 1, 1973.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1967-1974"
+  },
+  {
+    "question": "Ποιος ανέτρεψε τον Παπαδόπουλο;",
+    "questionEn": "Who overthrew Papadopoulos?",
+    "correctAnswer": "Δημήτριος Ιωαννίδης",
+    "wrongAnswers": [
+      "Στυλιανός Παττακός",
+      "Νικόλαος Μακαρέζος",
+      "Γρηγόριος Σπαντιδάκης"
+    ],
+    "explanation": "Ο Δημήτριος Ιωαννίδης ανέτρεψε τον Παπαδόπουλο τον Νοέμβριο του 1973.",
+    "explanationEn": "Dimitrios Ioannidis overthrew Papadopoulos in November 1973.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "1967-1974"
+  },
+  {
+    "question": "Πότε ήρθε ο Καραμανλής από το Παρίσι;",
+    "questionEn": "When did Karamanlis return from Paris?",
+    "correctAnswer": "24 Ιουλίου 1974",
+    "wrongAnswers": [
+      "23 Ιουλίου 1974",
+      "25 Ιουλίου 1974",
+      "26 Ιουλίου 1974"
+    ],
+    "explanation": "Ο Καραμανλής επέστρεψε από το Παρίσι στις 24 Ιουλίου 1974.",
+    "explanationEn": "Karamanlis returned from Paris on July 24, 1974.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "1974-1980"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος υπουργός Εσωτερικών της Μεταπολίτευσης;",
+    "questionEn": "Who was the first Interior Minister of Metapolitefsi?",
+    "correctAnswer": "Γεώργιος Μαύρος",
+    "wrongAnswers": [
+      "Ευάγγελος Αβέρωφ",
+      "Παναγιώτης Κανελλόπουλος",
+      "Κωνσταντίνος Μητσοτάκης"
+    ],
+    "explanation": "Ο Γεώργιος Μαύρος ήταν ο πρώτος υπουργός Εσωτερικών του Καραμανλή.",
+    "explanationEn": "Georgios Mavros was Karamanlis first Interior Minister.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1974-1980"
+  },
+  {
+    "question": "Πότε έγινε το δημοψήφισμα για το πολίτευμα;",
+    "questionEn": "When was the referendum on the political system?",
+    "correctAnswer": "8 Δεκεμβρίου 1974",
+    "wrongAnswers": [
+      "7 Δεκεμβρίου 1974",
+      "9 Δεκεμβρίου 1974",
+      "10 Δεκεμβρίου 1974"
+    ],
+    "explanation": "Το δημοψήφισμα για δημοκρατία ή μοναρχία έγινε στις 8 Δεκεμβρίου 1974.",
+    "explanationEn": "The referendum on republic or monarchy was on December 8, 1974.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "1974-1980"
+  },
+  {
+    "question": "Ποιο ποσοστό υπέρ της δημοκρατίας πήρε το δημοψήφισμα;",
+    "questionEn": "What percentage for the republic did the referendum get?",
+    "correctAnswer": "69,18%",
+    "wrongAnswers": [
+      "65,5%",
+      "72,3%",
+      "58,2%"
+    ],
+    "explanation": "Η δημοκρατία έλαβε 69,18% στο δημοψήφισμα του 1974.",
+    "explanationEn": "The republic received 69.18% in the 1974 referendum.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1974-1980"
+  },
+  {
+    "question": "Πότε έγινε η πρώτη εκλογική νίκη του ΠΑΣΟΚ;",
+    "questionEn": "When was PASOK first electoral victory?",
+    "correctAnswer": "18 Οκτωβρίου 1981",
+    "wrongAnswers": [
+      "17 Οκτωβρίου 1981",
+      "19 Οκτωβρίου 1981",
+      "20 Οκτωβρίου 1981"
+    ],
+    "explanation": "Το ΠΑΣΟΚ νίκησε για πρώτη φορά στις εκλογές της 18ης Οκτωβρίου 1981.",
+    "explanationEn": "PASOK won for the first time in the October 18, 1981 elections.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "1980-1990"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος υπουργός Εξωτερικών του ΠΑΣΟΚ;",
+    "questionEn": "Who was PASOK first Foreign Minister?",
+    "correctAnswer": "Ιωάννης Χαραλαμπόπουλος",
+    "wrongAnswers": [
+      "Κάρολος Παπούλιας",
+      "Αντώνης Σαμαράς",
+      "Θεόδωρος Πάγκαλος"
+    ],
+    "explanation": "Ο Ιωάννης Χαραλαμπόπουλος ήταν ο πρώτος υπουργός Εξωτερικών του ΠΑΣΟΚ.",
+    "explanationEn": "Ioannis Charalambopoulos was PASOK first Foreign Minister.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1980-1990"
+  },
+  {
+    "question": "Πότε έγινε η διαδικασία για τα σκάνδαλα της κυβέρνησης Παπανδρέου;",
+    "questionEn": "When was the process for the Papandreou government scandals?",
+    "correctAnswer": "1989",
+    "wrongAnswers": [
+      "1988",
+      "1990",
+      "1991"
+    ],
+    "explanation": "Η δικαστική διαδικασία για τα σκάνδαλα της κυβέρνησης Παπανδρέου έγινε το 1989.",
+    "explanationEn": "The judicial process for the Papandreou government scandals was in 1989.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1980-1990"
+  },
+  {
+    "question": "Ποιος ήταν ο υπουργός Εθνικής Άμυνας που παραιτήθηκε το 1988;",
+    "questionEn": "Who was the Defense Minister who resigned in 1988?",
+    "correctAnswer": "Ευάγγελος Κουλουμπής",
+    "wrongAnswers": [
+      "Γεράσιμος Αρσένης",
+      "Ιωάννης Βαρβιτσιώτης",
+      "Άκης Τσοχατζόπουλος"
+    ],
+    "explanation": "Ο Ευάγγελος Κουλουμπής παραιτήθηκε από υπουργός Άμυνας το 1988.",
+    "explanationEn": "Evangelos Kouloumbis resigned as Defense Minister in 1988.",
+    "category": "leaders",
+    "difficulty": 3,
+    "era": "1980-1990"
+  },
+  {
+    "question": "Ποιος ήταν ο πρωθυπουργός του συνασπισμού ΝΔ-ΣΥΝΠΟ;",
+    "questionEn": "Who was the PM of the ND-SYN coalition?",
+    "correctAnswer": "Τζαννής Τζανετάκης",
+    "wrongAnswers": [
+      "Ξενοφών Ζολώτας",
+      "Γρηγόρης Βαρφής",
+      "Ιωάννης Κασιδιάρης"
+    ],
+    "explanation": "Ο Τζαννής Τζανετάκης ήταν πρωθυπουργός του συνασπισμού ΝΔ-ΣΥΝ το 1989.",
+    "explanationEn": "Tzannis Tzanetakis was PM of the ND-SYN coalition in 1989.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "1989-1990"
+  },
+  {
+    "question": "Πότε έγινε η πρώτη κυβέρνηση οικουμενικής συνεργασίας;",
+    "questionEn": "When was the first government of national cooperation?",
+    "correctAnswer": "Νοέμβριος 1989",
+    "wrongAnswers": [
+      "Οκτώβριος 1989",
+      "Δεκέμβριος 1989",
+      "Ιανουάριος 1990"
+    ],
+    "explanation": "Η κυβέρνηση Ζολώτα σχηματίστηκε τον Νοέμβριο του 1989.",
+    "explanationEn": "The Zolotas government was formed in November 1989.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "1989-1990"
+  },
+  {
+    "question": "Ποιος ήταν ο τελευταίος Πρόεδρος που εξελέγη από μειοψηφία;",
+    "questionEn": "Who was the last President elected by a minority?",
+    "correctAnswer": "Κωνσταντίνος Στεφανόπουλος",
+    "wrongAnswers": [
+      "Κάρολος Παπούλιας",
+      "Προκόπης Παυλόπουλος",
+      "Χρήστος Σαρτζετάκης"
+    ],
+    "explanation": "Ο Κωνσταντίνος Στεφανόπουλος εξελέγη με λιγότερο από 200 ψήφους.",
+    "explanationEn": "Konstantinos Stephanopoulos was elected with less than 200 votes.",
+    "category": "constitutional",
+    "difficulty": 3,
+    "era": "1990-2000"
+  },
+  {
+    "question": "Πότε έγινε η συνταγματική αναθεώρηση για τη διαχείριση του κοινωνικού κράτους;",
+    "questionEn": "When was the constitutional revision for welfare state management?",
+    "correctAnswer": "2001",
+    "wrongAnswers": [
+      "2000",
+      "2002",
+      "2003"
+    ],
+    "explanation": "Η αναθεώρηση του 2001 συμπεριέλαβε νέες διατάξεις για το κοινωνικό κράτος.",
+    "explanationEn": "The 2001 revision included new provisions for the welfare state.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "2000-2010"
+  },
+  {
+    "question": "Ποιο άρθρο του Συντάγματος αναφέρεται στις διεθνείς συνθήκες;",
+    "questionEn": "Which article of the Constitution refers to international treaties?",
+    "correctAnswer": "Άρθρο 28",
+    "wrongAnswers": [
+      "Άρθρο 27",
+      "Άρθρο 29",
+      "Άρθρο 30"
+    ],
+    "explanation": "Το άρθρο 28 ρυθμίζει την ενσωμάτωση διεθνών συνθηκών στο εσωτερικό δίκαιο.",
+    "explanationEn": "Article 28 regulates the incorporation of international treaties into domestic law.",
+    "category": "constitution",
+    "difficulty": 2,
+    "era": "1975-2025"
+  },
+  {
+    "question": "Πότε συμπληρώθηκε το άρθρο για το περιβάλλον;",
+    "questionEn": "When was the article on environment added?",
+    "correctAnswer": "1986",
+    "wrongAnswers": [
+      "1985",
+      "1987",
+      "1988"
+    ],
+    "explanation": "Το άρθρο 24 για την προστασία του περιβάλλοντος προστέθηκε το 1986.",
+    "explanationEn": "Article 24 on environmental protection was added in 1986.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "1980-1990"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος πρωθυπουργός του 21ου αιώνα;",
+    "questionEn": "Who was the first Prime Minister of the 21st century?",
+    "correctAnswer": "Κώστας Σημίτης",
+    "wrongAnswers": [
+      "Κώστας Καραμανλής",
+      "Γιώργος Παπανδρέου",
+      "Αντώνης Σαμαράς"
+    ],
+    "explanation": "Ο Κώστας Σημίτης ήταν πρωθυπουργός όταν άρχισε ο 21ος αιώνας.",
+    "explanationEn": "Kostas Simitis was PM when the 21st century began.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2000-2010"
+  },
+  {
+    "question": "Πότε έγινε η πρώτη εκλογή με ηλεκτρονική καταμέτρηση;",
+    "questionEn": "When was the first election with electronic counting?",
+    "correctAnswer": "2007",
+    "wrongAnswers": [
+      "2004",
+      "2009",
+      "2012"
+    ],
+    "explanation": "Η πρώτη πλήρης ηλεκτρονική καταμέτρηση έγινε στις εκλογές του 2007.",
+    "explanationEn": "The first full electronic counting was in the 2007 elections.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "2000-2010"
+  },
+  {
+    "question": "Ποιος ήταν ο τελευταίος πρωθυπουργός πριν την οικονομική κρίση;",
+    "questionEn": "Who was the last PM before the economic crisis?",
+    "correctAnswer": "Κώστας Καραμανλής",
+    "wrongAnswers": [
+      "Κώστας Σημίτης",
+      "Γιώργος Παπανδρέου",
+      "Αντώνης Σαμαράς"
+    ],
+    "explanation": "Ο Κώστας Καραμανλής ήταν πρωθυπουργός όταν ξέσπασε η κρίση το 2009.",
+    "explanationEn": "Kostas Karamanlis was PM when the crisis broke out in 2009.",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2000-2010"
+  },
+  {
+    "question": "Πότε υπογράφηκε το πρώτο μνημόνιο;",
+    "questionEn": "When was the first memorandum signed?",
+    "correctAnswer": "3 Μαΐου 2010",
+    "wrongAnswers": [
+      "2 Μαΐου 2010",
+      "4 Μαΐου 2010",
+      "5 Μαΐου 2010"
+    ],
+    "explanation": "Το πρώτο μνημόνιο υπογράφηκε στις 3 Μαΐου 2010.",
+    "explanationEn": "The first memorandum was signed on May 3, 2010.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "2010-2020"
+  },
+  {
+    "question": "Ποιος ήταν ο πρώτος υπουργός Οικονομικών κατά την κρίση;",
+    "questionEn": "Who was the first Finance Minister during the crisis?",
+    "correctAnswer": "Γιώργος Παπακωνσταντίνου",
+    "wrongAnswers": [
+      "Ευάγγελος Βενιζέλος",
+      "Γιάννης Στουρνάρας",
+      "Αλέξης Τσίπρας"
+    ],
+    "explanation": "Ο Γιώργος Παπακωνσταντίνου ήταν υπουργός Οικονομικών όταν ξέσπασε η κρίση.",
+    "explanationEn": "Giorgos Papakonstantinou was Finance Minister when the crisis broke out.",
+    "category": "leaders",
+    "difficulty": 2,
+    "era": "2010-2020"
+  },
+  {
+    "question": "Πότε έγινε η παραίτηση του Γιώργου Παπανδρέου;",
+    "questionEn": "When did George Papandreou resign?",
+    "correctAnswer": "6 Νοεμβρίου 2011",
+    "wrongAnswers": [
+      "5 Νοεμβρίου 2011",
+      "7 Νοεμβρίου 2011",
+      "8 Νοεμβρίου 2011"
+    ],
+    "explanation": "Ο Γιώργος Παπανδρέου παραιτήθηκε στις 6 Νοεμβρίου 2011.",
+    "explanationEn": "George Papandreou resigned on November 6, 2011.",
+    "category": "modern_history",
+    "difficulty": 2,
+    "era": "2010-2020"
+  },
+  {
+    "question": "Ποιος ήταν ο πρωθυπουργός της κυβέρνησης συνεργασίας;",
+    "questionEn": "Who was the PM of the cooperation government?",
+    "correctAnswer": "Λουκάς Παπαδήμος",
+    "wrongAnswers": [
+      "Παναγιώτης Πικραμμένος",
+      "Βασίλης Ραφαηλίδης",
+      "Αντώνης Σαμαράς"
+    ],
+    "explanation": "Ο Λουκάς Παπαδήμος ήταν πρωθυπουργός της κυβέρνησης συνεργασίας (2011-2012).",
+    "explanationEn": "Lucas Papademos was PM of the cooperation government (2011-2012).",
+    "category": "leaders",
+    "difficulty": 1,
+    "era": "2010-2020"
+  },
+  {
+    "question": "Πότε έγινε η πρώτη εκλογική νίκη του ΣΥΡΙΖΑ;",
+    "questionEn": "When was SYRIZA first electoral victory?",
+    "correctAnswer": "25 Ιανουαρίου 2015",
+    "wrongAnswers": [
+      "24 Ιανουαρίου 2015",
+      "26 Ιανουαρίου 2015",
+      "27 Ιανουαρίου 2015"
+    ],
+    "explanation": "Ο ΣΥΡΙΖΑ νίκησε για πρώτη φορά στις εκλογές της 25ης Ιανουαρίου 2015.",
+    "explanationEn": "SYRIZA won for the first time in the January 25, 2015 elections.",
+    "category": "modern_history",
+    "difficulty": 1,
+    "era": "2010-2020"
+  },
+  {
+    "question": "Ποιος ήταν ο εταίρος του ΣΥΡΙΖΑ στην κυβέρνηση;",
+    "questionEn": "Who was SYRIZA partner in government?",
+    "correctAnswer": "ΑΝΕΛ",
+    "wrongAnswers": [
+      "Ποτάμι",
+      "ΚΙΝΑΛ",
+      "ΚΚΕ"
+    ],
+    "explanation": "Οι ΑΝΕΛ (Ανεξάρτητοι Έλληνες) ήταν εταίροι του ΣΥΡΙΖΑ στην κυβέρνηση.",
+    "explanationEn": "ANEL (Independent Greeks) were SYRIZA partners in government.",
+    "category": "parties",
+    "difficulty": 1,
+    "era": "2010-2020"
+  },
+  {
+    "question": "Πότε έγινε το δημοψήφισμα για το τρίτο μνημόνιο;",
+    "questionEn": "When was the referendum on the third memorandum?",
+    "correctAnswer": "5 Ιουλίου 2015",
+    "wrongAnswers": [
+      "4 Ιουλίου 2015",
+      "6 Ιουλίου 2015",
+      "7 Ιουλίου 2015"
+    ],
+    "explanation": "Το δημοψήφισμα για τη συμφωνία έγινε στις 5 Ιουλίου 2015.",
+    "explanationEn": "The referendum on the agreement was on July 5, 2015.",
+    "category": "constitutional",
+    "difficulty": 1,
+    "era": "2010-2020"
+  },
+  {
+    "question": "Τι ποσοστό πήρε το \"ΟΧΙ\" στο δημοψήφισμα του 2015;",
+    "questionEn": "What percentage did \"NO\" get in the 2015 referendum?",
+    "correctAnswer": "61,31%",
+    "wrongAnswers": [
+      "58,5%",
+      "64,2%",
+      "67,1%"
+    ],
+    "explanation": "Το \"ΟΧΙ\" έλαβε 61,31% στο δημοψήφισμα του 2015.",
+    "explanationEn": "The \"NO\" received 61.31% in the 2015 referendum.",
+    "category": "constitutional",
+    "difficulty": 2,
+    "era": "2010-2020"
+  }
+]

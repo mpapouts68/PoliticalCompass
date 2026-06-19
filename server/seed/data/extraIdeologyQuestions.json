@@ -1,0 +1,947 @@
+[
+  {
+    "text": "Οι μέσοι παραγωγής πρέπει να κοινωνικοποιούνται για να τερματιστεί η εκμετάλλευση της εργασίας.",
+    "textEn": "The means of production should be socialized to end the exploitation of labor.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Ο ελεύθερος ανταγωνισμός είναι ο αξιόπιστος μηχανισμός κατανομής πόρων σε σύγχρονες κοινωνίες.",
+    "textEn": "Free competition is the reliable mechanism for allocating resources in modern societies.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η κρατική ιδιοκτησία στους βασικούς τομείς είναι προϋπόθεση για κοινωνική ισότητα.",
+    "textEn": "State ownership in key sectors is a precondition for social equality.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η απορρύθμιση των αγορών απελευθερώνει την καινοτομία περισσότερο από οποιοσδήποτε κεντρικό σχεδιασμό.",
+    "textEn": "Deregulating markets unleashes innovation more than any central planning.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Ο μαρξιστικός αναλυτικός πλαίσιο εξηγεί καλύτερα τις κρίσεις του καπιταλισμού από τη νεοκλασική οικονομία.",
+    "textEn": "The Marxist analytical framework explains capitalist crises better than neoclassical economics.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η ιδιωτική πρωτοβουλία αντιδρά γρηγορότερα και αποτελεσματικότερα από τη γραφειοκρατία.",
+    "textEn": "Private initiative responds faster and more effectively than bureaucracy.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Οι δημόσιες επενδύσεις πρέπει να καθοδηγούν την οικονομική ανάπτυξη, όχι το κέρδος των μετόχων.",
+    "textEn": "Public investment should guide economic development, not shareholder profit.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Οι φόροι πρέπει να παραμείνουν χαμηλοί ώστε να ενισχύεται η ατομική επιχειρηματικότητα.",
+    "textEn": "Taxes should remain low to strengthen individual entrepreneurship.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η ταξική πάλη είναι κεντρική δυναμική της σύγχρονης οικονομίας.",
+    "textEn": "Class struggle is a central dynamic of the modern economy.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η ατομική ιδιοκτησία είναι θεμέλιο της ελευθερίας και της ευημερίας.",
+    "textEn": "Individual property ownership is the foundation of freedom and prosperity.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Το κράτος πρέπει να εγγυάται δημόσιες υπηρεσίες πλήρους απασχόλησης σε περιόδους ύφεσης.",
+    "textEn": "The state should guarantee public works programs during recessions.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Οι αγορές εργασίας λειτουργούν καλύτερα όταν οι μισθοί καθορίζονται από προσφορά και ζήτηση, όχι από κράτος.",
+    "textEn": "Labor markets work best when wages are set by supply and demand, not the state.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Οι κρατικοί μηχανισμοί σταθεροποίησης είναι απαραίτητοι, αλλά δεν πρέπει να αντικαθιστούν μόνιμα την αγορά.",
+    "textEn": "State stabilization mechanisms are necessary but should not permanently replace the market.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 1,
+    "rightScore": 1
+  },
+  {
+    "text": "Η κοινωνικοποίηση των τραπεζών είναι απαραίτητη για δημοκρατικό έλεγχο του πιστωτικού συστήματος.",
+    "textEn": "Bank nationalization is necessary for democratic control of the credit system.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Οι ελεύθερες αγορές κεφαλαίου ενισχύουν την ανάπτυξη περισσότερο από τον κρατικό προστατευτισμό.",
+    "textEn": "Free capital markets drive growth more than state protectionism.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Οι εργαζόμενοι πρέπει να ελέγχουν συλλογικά τους χώρους εργασίας μέσω συνεταιρισμών.",
+    "textEn": "Workers should collectively control workplaces through cooperatives.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η οικονομική ελευθερία προηγείται της κοινωνικής ισότητας ως πολιτικής προτεραιότητας.",
+    "textEn": "Economic freedom precedes social equality as a political priority.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Ο κρατικός προγραμματισμός μπορεί να κατευθύνει την οικονομία προς κοινωνικούς στόχους.",
+    "textEn": "State planning can steer the economy toward social goals.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Οι κρατικές επιχειρήσεις τείνουν να είναι λιγότερο καινοτόμες από τις ιδιωτικές.",
+    "textEn": "State enterprises tend to be less innovative than private ones.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η μικτή οικονομία με ισχυρό κοινωνικό κράτος είναι ρεαλιστικότερο μοντέλο από τον καθαρό καπιταλισμό ή τον σοσιαλισμό.",
+    "textEn": "A mixed economy with a strong welfare state is more realistic than pure capitalism or socialism.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 2,
+    "rightScore": -1
+  },
+  {
+    "text": "Η συγκέντρωση πλούτου στα χέρια λίγων απειλεί τη δημοκρατία.",
+    "textEn": "The concentration of wealth in few hands threatens democracy.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η αναδιανομή πλούτου μέσω φόρων υποσκάπτει τα κίνητρα παραγωγής.",
+    "textEn": "Redistributing wealth through taxes undermines production incentives.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Οι βασικές ανάγκες — στέγαση, τροφή, υγεία — δεν πρέπει να υπόκεινται στην αγορά.",
+    "textEn": "Basic needs — housing, food, health — should not be subject to the market.",
+    "category": "Κράτος & Οικονομία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η οικονομική ισότητα είναι αξία που πρέπει να επιδιώκεται ενεργά από το κράτος.",
+    "textEn": "Economic equality is a value the state should actively pursue.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η ανισότητα αποτελεσμάτων είναι αποδεκτή όταν προκύπτει από διαφορετική προσπάθεια και ταλέντο.",
+    "textEn": "Inequality of outcomes is acceptable when it stems from different effort and talent.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Το κοινωνικό κράτος πρέπει να εγγυάται καθολική πρόσβαση σε υγεία και εκπαίδευση.",
+    "textEn": "The welfare state should guarantee universal access to health and education.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η φιλανθρωπία και η ιδιωτική αλληλεγγύη είναι προτιμότερες από τα κεντρικά κοινωνικά επιδόματα.",
+    "textEn": "Charity and private solidarity are preferable to centralized social benefits.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η φτώχεια είναι δομικό πρόβλημα του συστήματος, όχι αποτέλεσμα τεμπελιάς.",
+    "textEn": "Poverty is a structural problem of the system, not a result of laziness.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η κοινωνική κινητικότητα εξαρτάται κυρίως από ατομική ευθύνη και εργατικό ήθος.",
+    "textEn": "Social mobility depends mainly on individual responsibility and work ethic.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Το βασικό εισόδημα είναι δικαίωμα, όχι ελεημοσύνη.",
+    "textEn": "Basic income is a right, not charity.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Τα γενναιόδωρα επιδόματα δημιουργούν εξάρτηση από το κράτος.",
+    "textEn": "Generous benefits create dependence on the state.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Οι κοινωνικές ανισότητες φύλου και φυλής απαιτούν ενεργές πολιτικές ισότητας.",
+    "textEn": "Gender and racial inequalities require active equality policies.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Οι ποσοστώσεις και οι θετικές διακρίσεις αδικούν άτομα με βάση ομαδική ταυτότητα.",
+    "textEn": "Quotas and affirmative action wrong individuals based on group identity.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η αλληλεγγύη μεταξύ τάξεων και γενεών είναι ηθική υποχρέωση του κράτους.",
+    "textEn": "Solidarity across classes and generations is a moral duty of the state.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η οικογένεια, όχι το κράτος, είναι ο πρωταρχικός φορέας κοινωνικής πρόνοιας.",
+    "textEn": "The family, not the state, is the primary provider of social care.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η ισότητα ευκαιριών αρκεί μόνο αν συνοδεύεται από ισχυρό κοινωνικό δίχτυ ασφαλείας.",
+    "textEn": "Equality of opportunity suffices only when paired with a strong social safety net.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 2,
+    "rightScore": -1
+  },
+  {
+    "text": "Οι πλούσιοι οφείλουν να συνεισφέρουν περισσότερο στη χρηματοδότηση δημόσιων αγαθών.",
+    "textEn": "The wealthy owe a greater contribution to funding public goods.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η ιδιωτική περιουσία είναι δικαίωμα που δεν πρέπει να αμφισβητείται για λόγους ισότητας.",
+    "textEn": "Private wealth is a right that should not be challenged for equality's sake.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η κοινωνική δικαιοσύνη απαιτεί μείωση του χάσματος μεταξύ πλούσιων και φτωχών.",
+    "textEn": "Social justice requires narrowing the gap between rich and poor.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η εστίαση στην ισότητα αποτελεσμάτων οδηγεί σε στασιμότητα και λιγότερη ευημερία για όλους.",
+    "textEn": "Focusing on equality of outcomes leads to stagnation and less prosperity for all.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Οι εργασιακά δικαιώματα πρέπει να υπερισχύουν της ευελιξίας της αγοράς.",
+    "textEn": "Labor rights should prevail over labor market flexibility.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η ευελιξία στην απασχόληση ωφελεί τους εργαζόμενους μακροπρόθεσμα περισσότερο από την αυστηρή ρύθμιση.",
+    "textEn": "Labor flexibility benefits workers long-term more than strict regulation.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η κοινωνική δικαιοσύνη εξισορροπείται καλύτερα με στοχευμένη πρόνοια παρά με καθολική ισοποίηση.",
+    "textEn": "Social justice is best balanced through targeted welfare rather than universal leveling.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 1,
+    "rightScore": 1
+  },
+  {
+    "text": "Η πρόσβαση στην ποιοτική εκπαίδευση δεν πρέπει να εξαρτάται από την οικογενειακή περιουσία.",
+    "textEn": "Access to quality education should not depend on family wealth.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η ιδιωτική εκπαίδευση ενισχύει τον ανταγωνισμό και βελτιώνει τα δημόσια σχολεία.",
+    "textEn": "Private education strengthens competition and improves public schools.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Οι κοινωνικές κατακτήσεις του 20ού αιώνα — συντάξεις, εργατικά δικαιώματα — πρέπει να υπερασπίζονται.",
+    "textEn": "20th-century social gains — pensions, labor rights — must be defended.",
+    "category": "Κοινωνική Δικαιοσύνη",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η εξουσία πρέπει να ασκείται με συμμετοχή των πολιτών, όχι μόνο μέσω αντιπροσώπευσης.",
+    "textEn": "Power should be exercised with citizen participation, not only through representation.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Ο περιορισμός της κρατικής εξουσίας είναι προτεραιότητα για την προστασία της ελευθερίας.",
+    "textEn": "Limiting state power is a priority for protecting freedom.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η δημοκρατία απαιτεί οικονομική ισότητα, όχι μόνο πολιτικά δικαιώματα.",
+    "textEn": "Democracy requires economic equality, not only political rights.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η ατομική ελευθερία πρέπει να προστατεύεται ακόμη κι όταν δημιουργεί κοινωνική αναστάτωση.",
+    "textEn": "Individual freedom should be protected even when it causes social disruption.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Οι μαζικές κινητοποιήσεις είναι νόμιμο μέσο πίεσης σε μη αντιπροσωπευτικές κυβερνήσεις.",
+    "textEn": "Mass mobilization is a legitimate means of pressure on unrepresentative governments.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η τάξη και ο νόμος πρέπει να υπερισχύουν των κοινωνικών διαμαρτυριών όταν παραβιάζουν δικαιώματα άλλων.",
+    "textEn": "Order and law should prevail over protests when they violate others' rights.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η ελευθερία του λόγου περιορίζεται δικαίως όταν ενθαρρύνει βία ή μίσος.",
+    "textEn": "Freedom of speech is justly limited when it incites violence or hatred.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": 1,
+    "rightScore": -1
+  },
+  {
+    "text": "Οι θεσμοί πρέπει να λογοδοτούν άμεσα στον λαό, όχι μόνο στις εκλογές.",
+    "textEn": "Institutions should be directly accountable to the people, not only at elections.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Οι ανεξάρτητοι θεσμοί — δικαστές, κεντρικές τράπεζες — προστατεύουν την ελευθερία από την πλειοψηφία.",
+    "textEn": "Independent institutions — judges, central banks — protect freedom from the majority.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η επανάσταση μπορεί να είναι δικαιολογημένη όταν οι θεσμοί αποτυγχάνουν να εκπροσωπούν τον λαό.",
+    "textEn": "Revolution can be justified when institutions fail to represent the people.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η επαναστατική βία οδηγεί σχεδόν πάντα σε αυταρχισμό και πρέπει να απορρίπτεται.",
+    "textEn": "Revolutionary violence almost always leads to authoritarianism and should be rejected.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η παρακολούθηση πολιτών από το κράτος πρέπει να περιορίζεται αυστηρά.",
+    "textEn": "State surveillance of citizens should be strictly limited.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Ενισχυμένα μέτρα ασφαλείας είναι αποδεκτά όταν προστατεύουν τη δημοκρατία από εξτρεμισμό.",
+    "textEn": "Enhanced security measures are acceptable when they protect democracy from extremism.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Ο κράτος δικαίου προστατεύει ελευθερίες καλύτερα από την άμεση λαϊκή κυριαρχία χωρίς εγγυήσεις.",
+    "textEn": "The rule of law protects liberties better than direct popular rule without safeguards.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": -1,
+    "rightScore": 2
+  },
+  {
+    "text": "Η εξουσία των ελίτ πρέπει να αμφισβητείται συνεχώς για να παραμείνει η δημοκρατία ζωντανή.",
+    "textEn": "Elite power must be constantly challenged for democracy to remain alive.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η σταθερότητα των θεσμών είναι πιο σημαντική από τη συνεχή ανατροπή της πολιτικής τάξης.",
+    "textEn": "Institutional stability matters more than constantly overturning the political order.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Τα ανθρώπινα δικαιώματα είναι καθολικά και ανώτερα των εθνικών νόμων.",
+    "textEn": "Human rights are universal and superior to national laws.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η εθνική κυριαρχία πρέπει να μπορεί να περιορίζει δικαιώματα όταν απαιτείται για την κοινωνική συνοχή.",
+    "textEn": "National sovereignty should be able to limit rights when required for social cohesion.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η ελευθερία της συνείδησης δεν πρέπει να υπόκειται σε θρησκευτική ή ιδεολογική λογοκρισία.",
+    "textEn": "Freedom of conscience should not be subject to religious or ideological censorship.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Οι παραδοσιακές αρχές μπορούν να θέτουν όρια στην ατομική συμπεριφορά για το κοινό καλό.",
+    "textEn": "Traditional norms may set limits on individual behavior for the common good.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η δημοκρατία χρειάζεται τόσο ελευθερία έκφρασης όσο και θεσμούς που αποτρέπουν τον λαϊκισμό.",
+    "textEn": "Democracy needs both freedom of expression and institutions that curb populism.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": 1,
+    "rightScore": 1
+  },
+  {
+    "text": "Οι εργαζόμενοι πρέπει να έχουν δημοκρατικό λόγο στις αποφάσεις που τους αφορούν.",
+    "textEn": "Workers should have democratic say in decisions that affect them.",
+    "category": "Ελευθερία & Εξουσία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Οι παραδοσιακές αξίες παρέχουν κοινωνική συνοχή που η ριζική αλλαγή διαλύει.",
+    "textEn": "Traditional values provide social cohesion that radical change dissolves.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Οι κοινωνικοί θεσμοί πρέπει να εκσυγχρονίζονται ακόμη κι αν προσβάλλουν παραδοσιακές πεποιθήσεις.",
+    "textEn": "Social institutions should modernize even when they offend traditional beliefs.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η οικογένεια ως παραδοσιακός θεσμός αξίζει ιδιαίτερη προστασία από το κράτος.",
+    "textEn": "The family as a traditional institution deserves special protection by the state.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η κοινωνία προοδεύει όταν αμφισβητεί συνήθειες και τελετουργίες που διατηρούν ανισότητες.",
+    "textEn": "Society progresses when it challenges customs and rituals that preserve inequality.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η σεβαστή σχέση προς την ιστορία και τους προγόνους ενισχύει την εθνική ταυτότητα.",
+    "textEn": "Respectful regard for history and ancestors strengthens national identity.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Οι θρησκευτικές αρχές δεν πρέπει να καθορίζουν τη δημόσια πολιτική σε κοσμικό κράτος.",
+    "textEn": "Religious principles should not determine public policy in a secular state.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η παράδοση μπορεί να εμπνέει χωρίς να δεσμεύει τις σύγχρονες κοινωνίες σε παλιές μορφές.",
+    "textEn": "Tradition can inspire without binding modern societies to old forms.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": 1,
+    "rightScore": 1
+  },
+  {
+    "text": "Ο συντηρισμός προσφέρει σταθερότητα σε εποχές ραγδαίας αλλαγής.",
+    "textEn": "Conservatism offers stability in times of rapid change.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Ο φεμινισμός και τα κινήματα για τα δικαιώματα LGBTQ+ εμπλουτίζουν την κοινωνία.",
+    "textEn": "Feminism and LGBTQ+ rights movements enrich society.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Οι βαθιές κοινωνικές αλλαγές πρέπει να προέρχονται σταδιακά, όχι από βίαιες ανατροπές.",
+    "textEn": "Deep social change should come gradually, not through violent upheaval.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Οι πολιτισμικές μειονότητες πρέπει να αναγνωρίζονται ισότιμα στην εθνική αφήγηση.",
+    "textEn": "Cultural minorities should be recognized equally in the national narrative.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η εθνική γλώσσα και ο πολιτισμός πρέπει να προστατεύονται από την ομογενοποίηση.",
+    "textEn": "National language and culture should be protected from homogenization.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η εκκοσμίκευση ενισχύει την ισότητα των πολιτών.",
+    "textEn": "Secularization strengthens equality among citizens.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Οι θρησκευτικές κοινότητες συμβάλλουν ουσιαστικά στη δημόσια ηθική.",
+    "textEn": "Religious communities contribute substantively to public morality.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η κοινωνία χρειάζεται και συνέχεια παράδοσης και καινοτομία στους θεσμούς.",
+    "textEn": "Society needs both continuity of tradition and institutional innovation.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": 1,
+    "rightScore": 1
+  },
+  {
+    "text": "Οι πατριαρχικές δομές πρέπει να αμφισβητούνται ως εμπόδιο στην ισότητα.",
+    "textEn": "Patriarchal structures should be challenged as obstacles to equality.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Οι θεσμοί που επιβίωσαν αιώνες αξίζουν προσοχή πριν από ριζική κατάργηση.",
+    "textEn": "Institutions that survived centuries deserve caution before radical abolition.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η τέχνη και η λογοτεχνία πρέπει να ελευθερώνονται από ηθικούς ή θρησκευτικούς περιορισμούς.",
+    "textEn": "Art and literature should be freed from moral or religious restrictions.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Οι κοινωνικές νόρμες που ρυθμίζουν τη συμπεριφορά ενισχύουν την κοινωνική ειρήνη.",
+    "textEn": "Social norms regulating behavior strengthen social peace.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η αμφισβήτηση της παράδοσης είναι απαραίτητη για κοινωνική πρόοδο.",
+    "textEn": "Challenging tradition is necessary for social progress.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Ο Edmund Burke είχε δίκιο ότι η κοινωνία είναι σύμβαση μεταξύ ζώντων, νεκρών και αγεννημένων.",
+    "textEn": "Edmund Burke was right that society is a contract between the living, the dead, and the unborn.",
+    "category": "Παράδοση & Κοινωνία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Ο διεθνισμός των εργαζομένων υπερισχύει του εθνικού εγωισμού.",
+    "textEn": "Workers' internationalism prevails over national selfishness.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Το έθνος-κράτος παραμένει η κύρια μονάδα πολιτικής ταυτότητας και αλληλεγγύης.",
+    "textEn": "The nation-state remains the primary unit of political identity and solidarity.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Τα ανθρώπινα δικαιώματα των προσφύγων υπερισχύουν των εθνικών συνόρων.",
+    "textEn": "Refugees' human rights prevail over national borders.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Ο εθνικισμός ενισχύει τη δημοκρατική συμμετοχή όταν συνδέεται με κοινή ιστορία.",
+    "textEn": "Nationalism strengthens democratic participation when tied to shared history.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Οι υπερεθνικοί οργανισμοί — ΟΗΕ, ΕΕ — πρέπει να ενισχύονται για την παγκόσμια ειρήνη.",
+    "textEn": "Supranational bodies — UN, EU — should be strengthened for global peace.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η εθνική κυριαρχία δεν πρέπει να υποχωρεί σε διεθνείς οργανισμούς χωρίς δημοκρατική εντολή.",
+    "textEn": "National sovereignty should not yield to international bodies without democratic mandate.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Ο ιμπεριαλισμός και ο νεοαποικιοκρατισμός παραμένουν κεντρικά παγκόσμια προβλήματα.",
+    "textEn": "Imperialism and neocolonialism remain central global problems.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η Δύση έχει εξαγάγει δημοκρατία και ευημερία σε πολλές περιοχές του κόσμου.",
+    "textEn": "The West has exported democracy and prosperity to many parts of the world.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η παγκοσμιοποίηση ωφελεί και βλάπτει· χρειάζεται δημοκρατικός έλεγχος, όχι πλήρη απόρριψη.",
+    "textEn": "Globalization both helps and harms; it needs democratic control, not total rejection.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": 2,
+    "rightScore": -1
+  },
+  {
+    "text": "Η αλληλεγγύη μεταξύ λαών απαιτεί μείωση στρατιωτικών εξόδων και αύξηση αναπτυξιακής βοήθειας.",
+    "textEn": "Solidarity among peoples requires cutting military spending and increasing development aid.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Κάθε έθνος πρέπει πρώτα να φροντίζει τους δικούς του πολίτες πριν αναλάβει παγκόσμια υποχρέωση.",
+    "textEn": "Each nation should first care for its own citizens before taking on global obligations.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Ο πολυπολιτισμικός πλουραλισμός ενισχύει τη δημοκρατία.",
+    "textEn": "Multicultural pluralism strengthens democracy.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η ενσωμάτωση μεταναστών απαιτεί αποδοχή των βασικών αξιών της χώρας υποδοχής.",
+    "textEn": "Immigrant integration requires acceptance of the host country's core values.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Οι πόλεμοι για πετρέλαιο και πόρους είναι αποτέλεσμα του καπιταλιστικού συστήματος.",
+    "textEn": "Wars for oil and resources are a product of the capitalist system.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η στρατιωτική ισχύς είναι απαραίτητη για την προστασία εθνικών συμφερόντων.",
+    "textEn": "Military strength is necessary to protect national interests.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η ευρωπαϊκή ενοποίηση προωθεί ειρήνη, αλλά δεν πρέπει να αντικαθιστά την εθνική δημοκρατία.",
+    "textEn": "European integration promotes peace but should not replace national democracy.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": 1,
+    "rightScore": 1
+  },
+  {
+    "text": "Το κλίμα και το περιβάλλον απαιτούν διεθνή συνεργασία, όχι εθνικό εγωισμό.",
+    "textEn": "Climate and the environment require international cooperation, not national selfishness.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Οι εθνικές πολιτικές δεν πρέπει να υποτάσσονται σε ξένες περιβαλλοντικές δεσμεύσεις.",
+    "textEn": "National policies should not be subordinated to foreign environmental commitments.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Ο αποικιοκρατικός παρελθόν πρέπει να αναγνωρίζεται και να αποζημιώνεται όπου είναι δυνατόν.",
+    "textEn": "The colonial past should be acknowledged and compensated where possible.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η ιστορία των εθνών δεν πρέπει να κρίνεται μόνο από το πρίσμα του αποικιοκρατισμού.",
+    "textEn": "Nations' history should not be judged solely through the lens of colonialism.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η διεθνής αλληλεγγύη απαιτεί άνοιγμα συνόρων σε όσους φεύγουν από πολέμους.",
+    "textEn": "International solidarity requires opening borders to those fleeing wars.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Τα κλειστά σύνορα προστατεύουν κοινωνικές δομές από αλυσιδωτές πιέσεις.",
+    "textEn": "Closed borders protect social structures from cascading pressures.",
+    "category": "Διεθνισμός & Κόσμος",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Ο Μαρξ εντόπισε σωστά ότι η ιστορία είναι ιστορία ταξικών αγώνων.",
+    "textEn": "Marx correctly identified that history is the history of class struggles.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Ο John Locke θεμελίωσε σωστά τα φυσικά δικαιώματα ιδιοκτησίας και ελευθερίας.",
+    "textEn": "John Locke correctly grounded natural rights to property and liberty.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η Γαλλική Επανάσταση σήμανε πρόοδο προς ισότητα και λαϊκή κυριαρχία.",
+    "textEn": "The French Revolution marked progress toward equality and popular sovereignty.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η Αμερικανική Επανάσταση ενσωμάτωσε καλύτερα τους περιορισμούς της εξουσίας από τις ριζικές ευρωπαϊκές επαναστάσεις.",
+    "textEn": "The American Revolution better incorporated limits on power than radical European revolutions.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Ο σοσιαλισμός του 19ου και 20ού αιώνα άνοιξε τον δρόμο για κοινωνικά δικαιώματα.",
+    "textEn": "19th- and 20th-century socialism paved the way for social rights.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Ο φιλελευθερισμός του Διαφωτισμού απελευθέρωσε την επιστήμη, το εμπόριο και την πολιτική σκέψη.",
+    "textEn": "Enlightenment liberalism liberated science, trade, and political thought.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η Οκτωβριανή Επανάσταση ενέπνευσε κινήματα για κοινωνική δικαιοσύνη παγκοσμίως.",
+    "textEn": "The October Revolution inspired movements for social justice worldwide.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Το σοβιετικό πείραμα απέτυχε λόγω συγκέντρωσης εξουσίας, όχι παρά τις ιδεολογικές του στόχους.",
+    "textEn": "The Soviet experiment failed due to power concentration, not despite its ideological goals.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η ιστορία διδάσκει ότι καμία ιδεολογία δεν κατέχει απόλυτη αλήθεια.",
+    "textEn": "History teaches that no ideology holds absolute truth.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 1,
+    "rightScore": 1
+  },
+  {
+    "text": "Ο φασισμός και ο ναζισμός αποτελούν ακραία έκφραση του καπιταλισμού και του εθνικισμού.",
+    "textEn": "Fascism and Nazism are extreme expressions of capitalism and nationalism.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Ο ολοκληρωτισμός και ο κομμουνισμός οδήγησαν σε περισσότερους θανάτους από τον φασισμό τον 20ό αιώνα.",
+    "textEn": "Totalitarianism and communism caused more deaths than fascism in the 20th century.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η Διαφώτιση ενίσχυσε τον ορθολογισμό έναντι της θρησκευτικής δογματικής.",
+    "textEn": "The Enlightenment strengthened rationalism over religious dogma.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Ο συντηρισμός του Burke προειδοποίησε σωστά για τους κινδύνους της αβλεψίας απέναντι στην παράδοση.",
+    "textEn": "Burke's conservatism correctly warned of the dangers of recklessness toward tradition.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η αποικιοκρατία και η δουλεία είναι βασικά εγκλήματα της δυτικής ιστορίας.",
+    "textEn": "Colonialism and slavery are foundational crimes of Western history.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η δυτική παράδοση — δημοκρατία, επιστήμη, δικαιώματα — αξίζει να υπερασπίζεται.",
+    "textEn": "The Western tradition — democracy, science, rights — deserves defense.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Οι επαναστάσεις του 1848 άνοιξαν τον δρόμο για εκλογική δημοκρατία και κοινωνικά δικαιώματα.",
+    "textEn": "The revolutions of 1848 opened the path to electoral democracy and social rights.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η σταθερότητα της Βρετανικής Συνταγματικής Μοναρχίας απέδειξε ότι η μεταρρύθμιση υπερισχύει της επανάστασης.",
+    "textEn": "The stability of the British constitutional monarchy proved reform prevails over revolution.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Ο καπιταλισμός και ο σοσιαλισμός αντλούν και οι δύο από ιδέες του Διαφωτισμού.",
+    "textEn": "Both capitalism and socialism draw from Enlightenment ideas.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 1,
+    "rightScore": 1
+  },
+  {
+    "text": "Η ιστορία της εργασίας και των συνδικάτων είναι κεντρική για την κατανόηση της σύγχρονης πολιτικής.",
+    "textEn": "The history of labor and unions is central to understanding modern politics.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η ιδιωτική πρωτοβουλία και το εμπόριο οδήγησαν την ανθρώπινη πρόοδο περισσότερο από κρατικές εντολές.",
+    "textEn": "Private initiative and trade drove human progress more than state commands.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Ο λαϊκός πολιτισμός και οι μαζικές κινήσεις διαμόρφωσαν την ιστορία όσο και οι ηγέτες.",
+    "textEn": "Popular culture and mass movements shaped history as much as leaders.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Οι μεγάλοι άνδρες και οι θεσμοί διαμόρφωσαν την ιστορία περισσότερο από ανώνυμες μάζες.",
+    "textEn": "Great men and institutions shaped history more than anonymous masses.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": -3,
+    "rightScore": 3
+  },
+  {
+    "text": "Η ισότητα ενώπιον του νόμου είναι κενή χωρίς οικονομική και κοινωνική ισότητα.",
+    "textEn": "Equality before the law is empty without economic and social equality.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": 3,
+    "rightScore": -3
+  },
+  {
+    "text": "Η ελευθερία του ατόμου προηγείται της ισότητας ως πολιτικής αρχής.",
+    "textEn": "Individual liberty precedes equality as a political principle.",
+    "category": "Ιδεολογία & Ιστορία",
+    "leftScore": -3,
+    "rightScore": 3
+  }
+]

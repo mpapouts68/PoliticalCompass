@@ -4,6 +4,7 @@ dist
 server/public
 vite.config.ts.*
 *.tar.gz
+# SQLite DB folder at repo root only (not client/src/data or server/seed/data)
 /data/
 *.db
 *.db-shm
