@@ -1,15 +1,37 @@
-import { Pool, neonConfig } from '@neondatabase/serverless';
-import { drizzle } from 'drizzle-orm/neon-serverless';
-import ws from "ws";
+import Database from "better-sqlite3";
+import { drizzle } from "drizzle-orm/better-sqlite3";
+import { migrate } from "drizzle-orm/better-sqlite3/migrator";
+import fs from "fs";
+import path from "path";
 import * as schema from "@shared/schema";
+import { ensureProfileSchema } from "./ensureProfileSchema";
 
-neonConfig.webSocketConstructor = ws;
-
-if (!process.env.DATABASE_URL) {
-  throw new Error(
-    "DATABASE_URL must be set. Did you forget to provision a database?",
-  );
+function resolveDbPath(): string {
+  const url = process.env.DATABASE_URL;
+  if (url?.startsWith("file:")) {
+    return path.resolve(url.slice("file:".length));
+  }
+  if (url && !url.includes("://")) {
+    return path.resolve(url);
+  }
+  return path.resolve("data", "political-compass.db");
 }
 
-export const pool = new Pool({ connectionString: process.env.DATABASE_URL });
-export const db = drizzle({ client: pool, schema });
+export const dbPath = resolveDbPath();
+
+fs.mkdirSync(path.dirname(dbPath), { recursive: true });
+
+export const sqlite = new Database(dbPath);
+sqlite.pragma("journal_mode = WAL");
+sqlite.pragma("foreign_keys = ON");
+
+export const db = drizzle(sqlite, { schema });
+
+ensureProfileSchema(sqlite);
+
+export function runMigrations(): void {
+  const migrationsFolder = path.resolve("migrations");
+  if (fs.existsSync(migrationsFolder)) {
+    migrate(db, { migrationsFolder });
+  }
+}

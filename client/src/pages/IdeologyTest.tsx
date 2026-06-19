@@ -7,11 +7,12 @@ import { ChevronLeft, Compass } from "lucide-react";
 import { Link } from "wouter";
 import { apiRequest } from "@/lib/queryClient";
 import { useTranslation } from "@/lib/i18n";
+import { useAnonymousProfile } from "@/hooks/useAnonymousProfile";
 
 interface IdeologyQuestion {
   id: number;
   text: string;
-  text_en: string | null;
+  textEn: string | null;
   category: string;
   leftScore: number;
   rightScore: number;
@@ -45,7 +46,8 @@ interface IdeologyTestProps {
 }
 
 export default function IdeologyTest({ questionCount = 30 }: IdeologyTestProps) {
-  const { t } = useTranslation();
+  const { t, translateCategory, language } = useTranslation();
+  const { profileId } = useAnonymousProfile();
   const [sessionId] = useState(() => `ideology-${Date.now()}-${Math.random()}`);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
@@ -72,8 +74,8 @@ export default function IdeologyTest({ questionCount = 30 }: IdeologyTestProps) 
   });
 
   const calculateResultsMutation = useMutation({
-    mutationFn: (sessionId: string) => 
-      apiRequest('POST', '/api/ideology/results', { sessionId }),
+    mutationFn: () => 
+      apiRequest('POST', '/api/ideology/results', { sessionId, profileId }),
     onSuccess: () => {
       setShowResults(true);
       queryClient.invalidateQueries({ queryKey: ['/api/ideology/results', sessionId] });
@@ -99,7 +101,7 @@ export default function IdeologyTest({ questionCount = 30 }: IdeologyTestProps) 
         setCurrentQuestionIndex(prev => prev + 1);
       } else {
         setIsComplete(true);
-        calculateResultsMutation.mutate(sessionId);
+        calculateResultsMutation.mutate();
       }
     }, 800);
   };
@@ -195,7 +197,7 @@ export default function IdeologyTest({ questionCount = 30 }: IdeologyTestProps) 
                   {Math.round(result.percentage)}%
                 </div>
                 <div className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">
-                  {getLocalizedLabel(result.label, t('language'))}
+                  {getLocalizedLabel(result.label, language)}
                 </div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">
                   {t('score')} {result.totalScore.toFixed(2)} ({t('from')} -3 {t('to')} +3)
@@ -230,7 +232,7 @@ export default function IdeologyTest({ questionCount = 30 }: IdeologyTestProps) 
                   </CardHeader>
                   <CardContent>
                     <p className="text-gray-700 dark:text-gray-300">
-                      {result.label ? getIdeologyDescription(result.label, t('language')) : 'No description available'}
+                      {result.label ? getIdeologyDescription(result.label, language) : t('noDescriptionAvailable')}
                     </p>
                   </CardContent>
                 </Card>
@@ -244,14 +246,14 @@ export default function IdeologyTest({ questionCount = 30 }: IdeologyTestProps) 
                   <CardContent>
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300">
                       {(() => {
-                        const characteristics = result.label ? getIdeologyCharacteristics(result.label, t('language')) : [];
+                        const characteristics = result.label ? getIdeologyCharacteristics(result.label, language) : [];
                         return characteristics.length > 0 ? characteristics.map((char, index) => (
                           <li key={index} className="flex items-start">
                             <span className="text-blue-500 mr-2">•</span>
                             {char}
                           </li>
                         )) : (
-                          <li>No characteristics available</li>
+                          <li>{t('noCharacteristicsAvailable')}</li>
                         );
                       })()}
                     </ul>
@@ -340,12 +342,12 @@ export default function IdeologyTest({ questionCount = 30 }: IdeologyTestProps) 
             <div className="mb-8">
               <div className="bg-blue-50 dark:bg-blue-900/20 p-3 rounded-lg mb-6">
                 <p className="text-sm text-blue-800 dark:text-blue-200">
-                  <strong>{t('category')}</strong> {currentQuestion.category}
+                  <strong>{t('category')}</strong> {translateCategory(currentQuestion.category)}
                 </p>
               </div>
               
               <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-8 text-center leading-relaxed">
-                {t('language') === 'el' ? currentQuestion.text : (currentQuestion.text_en || currentQuestion.text)}
+                {language === 'el' ? currentQuestion.text : (currentQuestion.textEn || currentQuestion.text)}
               </h2>
               
               <div className="grid grid-cols-1 gap-3">

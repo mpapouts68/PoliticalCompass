@@ -9,6 +9,7 @@ import type { Party, SurveyResult, QuestionCount } from "@shared/schema";
 import { PartyLogo } from "@/components/party-logos";
 import { PoliticalCompass } from "./political-compass";
 import { SocialSharing } from "./social-sharing";
+import { ExploreParties } from "@/components/PartyLinkButton";
 import { useTranslation, useLanguage } from "@/lib/i18n";
 
 interface ResultsScreenProps {
@@ -66,7 +67,7 @@ export function ResultsScreen({ sessionId, currentQuestionCount, onRestart, onCo
   const topParty = sortedParties[0];
 
   // Get available upgrade options
-  const questionCounts: QuestionCount[] = ["15", "30", "60", "100"];
+  const questionCounts: QuestionCount[] = ["15", "30", "60", "100", "150"];
   const currentIndex = questionCounts.indexOf(currentQuestionCount);
   const availableUpgrades = questionCounts.slice(currentIndex + 1);
 
@@ -143,14 +144,14 @@ export function ResultsScreen({ sessionId, currentQuestionCount, onRestart, onCo
             <div className="flex items-center justify-center space-x-3 mb-4">
               <PartyLogo party={topParty.shortName} className="w-12 h-12" />
               <h3 className="text-2xl font-bold text-primary">
-                {t('language') === 'el' 
+                {language === 'el' 
                   ? `Είστε ψηφοφόρος ${topParty.name}`
                   : `You align with ${t(`parties.${topParty.shortName}`)}`
                 }
               </h3>
             </div>
             <p className="text-neutral-600 mb-4">
-              {t('language') === 'el' 
+              {language === 'el' 
                 ? `Οι απόψεις σας ταιριάζουν κατά ${topParty.alignment}% με το πρόγραμμα του κόμματος`
                 : `Your views match ${topParty.alignment}% with this party's manifesto`
               }
@@ -164,13 +165,19 @@ export function ResultsScreen({ sessionId, currentQuestionCount, onRestart, onCo
         </CardContent>
       </Card>
 
+      <Card className="bg-white shadow-md mb-8">
+        <CardContent className="p-6">
+          <ExploreParties alignments={alignments} limit={3} />
+        </CardContent>
+      </Card>
+
       {/* Results Display */}
       {viewMode === "percentage" ? (
         /* All Party Results */
         <Card className="bg-white shadow-md mb-8">
           <CardContent className="p-8">
             <h3 className="text-xl font-semibold text-neutral-900 mb-6">
-              {t('language') === 'el' ? 'Αναλυτικά Αποτελέσματα' : 'Detailed Results'}
+              {language === 'el' ? 'Αναλυτικά Αποτελέσματα' : 'Detailed Results'}
             </h3>
             
             <div className="space-y-4">
@@ -266,13 +273,19 @@ export function ResultsScreen({ sessionId, currentQuestionCount, onRestart, onCo
       <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
         <Button variant="outline" onClick={onRestart}>
           <RotateCcw className="mr-2 w-4 h-4" />
-          Νέο Τεστ
+          {t('restartSurvey')}
         </Button>
+
+        <Link href="/my-journey">
+          <Button variant="secondary">
+            {t('viewMyJourney')}
+          </Button>
+        </Link>
         
         <Link href="/αποτελεσματα">
           <Button variant="default">
             <BarChart3 className="mr-2 w-4 h-4" />
-            Αποτελέσματα Εκλογών
+            {t('electionDashboard')}
           </Button>
         </Link>
       </div>

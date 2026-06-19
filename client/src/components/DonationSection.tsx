@@ -1,47 +1,36 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Heart, Coffee, Laptop, ExternalLink, Euro } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { useState } from "react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Heart, Coffee, Laptop, Euro } from "lucide-react";
 import PayPalButton from "./PayPalButton";
 import { useTranslation, useLanguage } from "@/lib/i18n";
 
 export function DonationSection() {
-  const [customAmount, setCustomAmount] = useState("");
-  const [selectedAmount, setSelectedAmount] = useState<string | null>(null);
   const { t } = useTranslation();
   const { language } = useLanguage();
-
-  const handleSelectAmount = (amount: string) => {
-    setSelectedAmount(amount);
-  };
-
-  const handleSelectCustomAmount = () => {
-    const amount = parseFloat(customAmount);
-    if (amount && amount > 0) {
-      setSelectedAmount(amount.toFixed(2));
-    }
-  };
+  const [customAmount, setCustomAmount] = useState("");
 
   const donationOptions = [
     {
       amount: "3.50",
+      label: "Καφές",
       icon: <Coffee className="w-5 h-5" />,
-      title: t('buyMeCoffee'),
-      description: t('forTheCreator')
+      title: t("buyMeCoffee"),
+      description: t("forTheCreator"),
     },
     {
-      amount: "7.00", 
+      amount: "7.00",
+      label: "Στήριξη",
       icon: <Heart className="w-5 h-5" />,
-      title: t('supportDevelopment'),
-      description: t('supportTheProject')
+      title: t("supportDevelopment"),
+      description: t("supportTheProject"),
     },
     {
       amount: "15.00",
+      label: "Ανάπτυξη",
       icon: <Laptop className="w-5 h-5" />,
-      title: t('boostDevelopment'),
-      description: t('helpDevelopment')
-    }
+      title: t("boostDevelopment"),
+      description: t("helpDevelopment"),
+    },
   ];
 
   return (
@@ -50,103 +39,73 @@ export function DonationSection() {
         <div className="text-center mb-6">
           <div className="flex justify-center items-center mb-3">
             <Heart className="w-6 h-6 text-red-500 mr-2" />
-            <h3 className="text-xl font-semibold text-gray-800">
-              {t('supportProject')}
-            </h3>
+            <h3 className="text-xl font-semibold text-gray-800">{t("supportProject")}</h3>
           </div>
           <div className="bg-green-50 border border-green-200 rounded-lg p-3 mb-4 inline-block">
             <p className="text-green-700 font-medium text-sm">
-              🆓 {t('freeForAll')} - {t('noHiddenCharges')}
+              🆓 {t("freeForAll")} - {t("noHiddenCharges")}
             </p>
           </div>
           <p className="text-gray-600 max-w-2xl mx-auto text-sm leading-relaxed">
-            {t('donationDescription')}
+            {t("donationDescription")}
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 mb-6">
           {donationOptions.map((option) => (
-            <div key={option.amount} className="bg-white rounded-lg p-4 border border-gray-200 hover:border-blue-300 transition-colors flex flex-col h-full">
+            <div
+              key={option.amount}
+              className="bg-white rounded-lg p-4 border border-gray-200 hover:border-blue-300 transition-colors flex flex-col h-full"
+            >
               <div className="text-center flex-1 flex flex-col">
-                <div className="flex justify-center text-blue-600 mb-2">
-                  {option.icon}
-                </div>
+                <div className="flex justify-center text-blue-600 mb-2">{option.icon}</div>
                 <h4 className="font-semibold text-gray-800 mb-1">{option.title}</h4>
                 <p className="text-sm text-gray-600 mb-3">{option.description}</p>
-                <div className="text-lg font-bold text-blue-600 mb-3 flex-1 flex items-center justify-center">€{option.amount}</div>
-                {selectedAmount === option.amount ? (
-                  <div className="w-full">
-                    <PayPalButton 
-                      amount={option.amount}
-                      currency="EUR"
-                      intent="CAPTURE"
-                    />
-                  </div>
-                ) : (
-                  <Button 
-                    onClick={() => handleSelectAmount(option.amount)}
-                    className="w-full bg-blue-600 hover:bg-blue-700 text-white mt-auto"
-                    size="sm"
-                  >
-                    <Heart className="w-4 h-4 mr-2" />
-                    {language === 'el' ? `Δωρεά €${option.amount}` : `Donate €${option.amount}`}
-                  </Button>
-                )}
+                <div className="text-lg font-bold text-blue-600 mb-3 flex-1 flex items-center justify-center">
+                  €{option.amount}
+                </div>
+                <PayPalButton
+                  amount={option.amount}
+                  currency="EUR"
+                  donationLabel={option.label}
+                />
               </div>
             </div>
           ))}
-          
-          {/* Custom Amount Option */}
+
           <div className="bg-white rounded-lg p-4 border border-gray-200 hover:border-blue-300 transition-colors flex flex-col h-full">
             <div className="text-center flex-1 flex flex-col">
               <div className="flex justify-center text-blue-600 mb-2">
                 <Euro className="w-5 h-5" />
               </div>
               <h4 className="font-semibold text-gray-800 mb-1">
-                {t('language') === 'el' ? 'Προσαρμοσμένο' : 'Custom'}
+                {language === "el" ? "Προσαρμοσμένο" : "Custom"}
               </h4>
-              <p className="text-sm text-gray-600 mb-3">
-                {t('language') === 'el' ? 'Δικό σας ποσό' : 'Your amount'}
+              <p className="text-sm text-gray-600 mb-2">
+                {language === "el" ? "Εισάγετε ποσό" : "Enter amount"}
               </p>
-              <div className="flex-1 flex items-center justify-center mb-3">
-                <Input
+              <div className="flex items-center border border-gray-300 rounded-md mb-2 mx-auto w-full max-w-[140px] overflow-hidden">
+                <span className="px-2 text-gray-500 text-sm bg-gray-50 border-r border-gray-300">€</span>
+                <input
                   type="number"
-                  placeholder="€"
+                  min="1"
+                  step="0.01"
                   value={customAmount}
                   onChange={(e) => setCustomAmount(e.target.value)}
-                  min="0.50"
-                  step="0.50"
-                  className="text-center max-w-20"
+                  placeholder={language === "el" ? "0,00" : "0.00"}
+                  className="w-full py-1.5 px-2 text-sm text-center focus:outline-none"
                 />
               </div>
-              {selectedAmount === customAmount && customAmount ? (
-                <div className="w-full">
-                  <PayPalButton 
-                    amount={customAmount}
-                    currency="EUR"
-                    intent="CAPTURE"
-                  />
-                </div>
-              ) : (
-                <Button 
-                  onClick={handleSelectCustomAmount}
-                  disabled={!customAmount || parseFloat(customAmount) <= 0}
-                  className="w-full bg-green-600 hover:bg-green-700 text-white disabled:bg-gray-300 mt-auto"
-                  size="sm"
-                >
-                  <Heart className="w-4 h-4 mr-2" />
-                  {t('language') === 'el' ? 'Δωρεά' : 'Donate'}
-                </Button>
-              )}
+              <PayPalButton amount="custom" customAmount={customAmount} currency="EUR" donationLabel="Δωρεά" />
             </div>
           </div>
         </div>
-        
+
         <div className="text-center">
           <p className="text-xs text-gray-500">
-            {t('language') === 'el' 
-              ? 'Οι δωρεές επεξεργάζονται με ασφάλεια μέσω PayPal • Η πλατφόρμα παραμένει πάντα δωρεάν για όλους τους χρήστες'
-              : 'Donations processed securely via PayPal • Platform remains always free for all users'}
+            {language === "el"
+              ? "Οι δωρεές επεξεργάζονται με ασφάλεια μέσω PayPal • Η πλατφόρμα παραμένει πάντα δωρεάν για όλους τους χρήστες"
+              : "Donations processed securely via PayPal • Platform remains always free for all users"}
           </p>
         </div>
       </CardContent>

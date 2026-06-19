@@ -19,6 +19,11 @@ import {
 } from "lucide-react";
 import { apiRequest } from "@/lib/queryClient";
 import { useTranslation, useLanguage } from "@/lib/i18n";
+import {
+  calculateCapitalChange,
+  previewCapitalAfter,
+  CAMPAIGN_STARTING_CAPITAL,
+} from "@/lib/pmCampaign";
 
 interface PmScenario {
   id: number;
@@ -63,29 +68,45 @@ interface ScenarioResult {
     economic: number;
     social: number;
   };
+  capitalChange?: number;
+  capitalAfter?: number;
 }
 
 interface PrimeMinisterScenarioProps {
   sessionId: string;
   difficulty?: number;
+  excludeScenarioIds?: number[];
+  politicalCapital?: number;
+  campaignRound?: number;
+  campaignTotalRounds?: number;
+  showCapitalPreview?: boolean;
   onComplete: (result: ScenarioResult) => void;
 }
 
 export function PrimeMinisterScenario({ 
   sessionId, 
   difficulty = 1,
+  excludeScenarioIds = [],
+  politicalCapital,
+  campaignRound,
+  campaignTotalRounds,
+  showCapitalPreview = false,
   onComplete 
 }: PrimeMinisterScenarioProps) {
   const [selectedOptionId, setSelectedOptionId] = useState<number | null>(null);
   const [startTime, setStartTime] = useState<number>(Date.now());
   const [timeLeft, setTimeLeft] = useState<number | null>(null);
-  const { t } = useTranslation();
+  const { t, translateCategory } = useTranslation();
   const { language } = useLanguage();
 
   const { data: scenarioData, isLoading } = useQuery<{ scenario: PmScenario; options: PolicyOption[] }>({
-    queryKey: ['/api/pm/scenario', difficulty],
+    queryKey: ['/api/pm/scenario', difficulty, excludeScenarioIds.join(',')],
     queryFn: async () => {
-      const response = await fetch(`/api/pm/scenario?difficulty=${difficulty}`);
+      const params = new URLSearchParams({ difficulty: String(difficulty) });
+      if (excludeScenarioIds.length > 0) {
+        params.set('exclude', excludeScenarioIds.join(','));
+      }
+      const response = await fetch(`/api/pm/scenario?${params}`);
       return response.json();
     }
   });
@@ -98,6 +119,18 @@ export function PrimeMinisterScenario({
         const chosenOption = scenarioData.options.find(opt => opt.id === selectedOptionId);
         if (chosenOption) {
           const decisionTime = Math.round((Date.now() - startTime) / 1000);
+          const impacts = {
+            political: chosenOption.politicalCost,
+            economic: chosenOption.economicImpact,
+            social: chosenOption.socialImpact,
+          };
+          const capitalChange = showCapitalPreview
+            ? calculateCapitalChange({
+                politicalCost: chosenOption.politicalCost,
+                economicImpact: chosenOption.economicImpact,
+                socialImpact: chosenOption.socialImpact,
+              })
+            : undefined;
           const result: ScenarioResult = {
             scenario: scenarioData.scenario,
             chosenOption,
@@ -105,11 +138,13 @@ export function PrimeMinisterScenario({
             consequences: language === 'el' 
               ? chosenOption.consequences 
               : (chosenOption.consequencesEn || chosenOption.consequences),
-            impacts: {
-              political: chosenOption.politicalCost,
-              economic: chosenOption.economicImpact,
-              social: chosenOption.socialImpact
-            }
+            impacts,
+            ...(capitalChange !== undefined && politicalCapital !== undefined
+              ? {
+                  capitalChange,
+                  capitalAfter: Math.max(0, politicalCapital + capitalChange),
+                }
+              : {}),
           };
           onComplete(result);
         }
@@ -206,6 +241,7 @@ export function PrimeMinisterScenario({
   }
 
   const { scenario, options } = scenarioData;
+  const displayCapital = politicalCapital ?? CAMPAIGN_STARTING_CAPITAL;
 
   return (
     <Card className="w-full max-w-4xl mx-auto">
@@ -216,6 +252,11 @@ export function PrimeMinisterScenario({
             <span>{t('primeMinisterForADay')}</span>
           </CardTitle>
           <div className="flex items-center space-x-4">
+            {campaignRound !== undefined && campaignTotalRounds !== undefined && (
+              <Badge variant="secondary">
+                {t('pmRound')} {campaignRound} / {campaignTotalRounds}
+              </Badge>
+            )}
             {scenario.timePressure === 1 && timeLeft !== null && (
               <div className={`flex items-center space-x-2 px-3 py-1 rounded-full ${
                 timeLeft < 30 ? 'bg-red-100 text-red-700' : 'bg-yellow-100 text-yellow-700'
@@ -228,7 +269,7 @@ export function PrimeMinisterScenario({
             )}
             <Badge variant="outline" className="flex items-center space-x-1">
               {getCategoryIcon(scenario.category)}
-              <span>{scenario.category}</span>
+              <span>{translateCategory(scenario.category)}</span>
             </Badge>
           </div>
         </div>
@@ -242,6 +283,25 @@ export function PrimeMinisterScenario({
           </div>
         )}
       </CardHeader>
+
+      {politicalCapital !== undefined && (
+        <div className="px-6 pb-2">
+          <div className="flex items-center justify-between text-sm mb-1">
+            <span className="font-medium text-purple-900">{t('pmPoliticalCapital')}</span>
+            <span className="font-bold text-purple-900">{displayCapital}/100</span>
+          </div>
+          <Progress
+            value={displayCapital}
+            className={`h-3 ${
+              displayCapital >= 70
+                ? "[&>div]:bg-green-500"
+                : displayCapital >= 40
+                  ? "[&>div]:bg-yellow-500"
+                  : "[&>div]:bg-red-500"
+            }`}
+          />
+        </div>
+      )}
 
       <CardContent className="p-6">
         <div className="space-y-6">
@@ -310,6 +370,22 @@ export function PrimeMinisterScenario({
                             <span className="font-medium">{t('partySupport')}:</span>
                             <span className="ml-1">{option.partyAlignment}</span>
                           </div>
+                          {showCapitalPreview && politicalCapital !== undefined && (() => {
+                            const impacts = {
+                              politicalCost: option.politicalCost,
+                              economicImpact: option.economicImpact,
+                              socialImpact: option.socialImpact,
+                            };
+                            const change = calculateCapitalChange(impacts);
+                            return (
+                            <div className={`text-xs font-medium mt-2 ${
+                              change >= 0 ? 'text-green-700' : 'text-red-700'
+                            }`}>
+                              {t('pmCapitalPreview')}: {change >= 0 ? '+' : ''}
+                              {change} → {previewCapitalAfter(politicalCapital, impacts)}/100
+                            </div>
+                            );
+                          })()}
                         </div>
                       </Label>
                     </div>

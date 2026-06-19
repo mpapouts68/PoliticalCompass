@@ -14,7 +14,7 @@ interface CompassPosition {
 }
 
 export function PoliticalCompass({ parties, userResult }: PoliticalCompassProps) {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
   // Define party positions on the political compass
   const partyPositions: Record<string, CompassPosition> = {
     "ΝΔ": { economic: 1.2, social: 0.3 },
@@ -25,7 +25,10 @@ export function PoliticalCompass({ parties, userResult }: PoliticalCompassProps)
     "ΠΕ": { economic: 1.8, social: 1.5 },
     "ΝΙΚΗ": { economic: -0.2, social: -1.8 },
     "ΣΠΑΡ": { economic: 0.5, social: -2.0 },
-    "ΝΑ": { economic: -1.8, social: 1.8 }
+    "ΝΑ": { economic: -1.8, social: 1.8 },
+    "ΕΛΑΣ": { economic: -1.4, social: 1.0 },
+    "ΕΛΠ": { economic: -0.8, social: 0.9 },
+    "ΦΛ": { economic: 1.6, social: -1.5 }
   };
 
   // Calculate user position based on party alignments
@@ -169,7 +172,7 @@ export function PoliticalCompass({ parties, userResult }: PoliticalCompassProps)
                 fill="#3b82f6"
                 fontWeight="bold"
               >
-                {t('language') === 'el' ? 'ΕΣΕΙΣ' : 'YOU'}
+                {language === 'el' ? 'ΕΣΕΙΣ' : 'YOU'}
               </text>
             </g>
           )}
@@ -180,26 +183,26 @@ export function PoliticalCompass({ parties, userResult }: PoliticalCompassProps)
       <div className="flex justify-center space-x-8 text-sm text-neutral-600">
         <div className="flex items-center space-x-2">
           <div className="w-4 h-4 rounded-full bg-blue-500"></div>
-          <span>{t('language') === 'el' ? 'Η θέση σας' : 'Your position'}</span>
+          <span>{language === 'el' ? 'Η θέση σας' : 'Your position'}</span>
         </div>
         <div className="flex items-center space-x-2">
           <div className="w-4 h-4 rounded border-2 border-neutral-400"></div>
-          <span>{t('language') === 'el' ? 'Κόμματα' : 'Parties'}</span>
+          <span>{language === 'el' ? 'Κόμματα' : 'Parties'}</span>
         </div>
       </div>
 
       {/* Explanation */}
       <div className="mt-4 p-4 bg-neutral-50 rounded text-sm text-neutral-600">
         <p className="mb-2">
-          <strong>{t('politicalCompass')}:</strong> {t('language') === 'el' 
+          <strong>{t('politicalCompass')}:</strong> {language === 'el' 
             ? 'Αυτό το διάγραμμα δείχνει την ιδεολογική θέση κάθε κόμματος και τη δική σας θέση με βάση τις απαντήσεις σας.'
             : 'This diagram shows the ideological position of each party and your position based on your answers.'}
         </p>
         <ul className="list-disc list-inside space-y-1">
-          <li><strong>{t('language') === 'el' ? 'Οριζόντιος άξονας:' : 'Horizontal axis:'}:</strong> {t('language') === 'el' 
+          <li><strong>{language === 'el' ? 'Οριζόντιος άξονας:' : 'Horizontal axis:'}:</strong> {language === 'el' 
             ? 'Οικονομικές απόψεις (Αριστερά ↔ Δεξιά)' 
             : 'Economic views (Left ↔ Right)'}</li>
-          <li><strong>{t('language') === 'el' ? 'Κάθετος άξονας:' : 'Vertical axis:'}:</strong> {t('language') === 'el' 
+          <li><strong>{language === 'el' ? 'Κάθετος άξονας:' : 'Vertical axis:'}:</strong> {language === 'el' 
             ? 'Κοινωνικές απόψεις (Αυταρχικό ↔ Φιλελεύθερο)' 
             : 'Social views (Authoritarian ↔ Libertarian)'}</li>
         </ul>

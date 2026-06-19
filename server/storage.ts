@@ -11,6 +11,8 @@ import {
   pmScenarios,
   pmPolicyOptions,
   pmDecisions,
+  anonymousProfiles,
+  quizSessions,
   type Question, 
   type Party, 
   type SurveyResponse, 
@@ -34,10 +36,15 @@ import {
   type InsertPmScenario,
   type InsertPmPolicyOption,
   type InsertPmDecision,
+  type AnonymousProfile,
+  type InsertAnonymousProfile,
+  type QuizSession,
+  type InsertQuizSession,
   type QuestionCount
 } from "@shared/schema";
 import { db } from "./db";
-import { eq, desc, count, sql } from "drizzle-orm";
+import { eq, desc, count, notInArray, and } from "drizzle-orm";
+import { formatQuizQuestionForClient } from "./seed/formatQuiz";
 
 export interface IStorage {
   // Questions
@@ -76,20 +83,27 @@ export interface IStorage {
   }>;
 }
 
+function shuffle<T>(items: T[]): T[] {
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
 export class DatabaseStorage implements IStorage {
   async getQuestions(count: QuestionCount, excludeIds: number[] = []): Promise<Question[]> {
     const countNum = parseInt(count);
     
     let allQuestions: Question[];
     if (excludeIds.length > 0) {
-      allQuestions = await db.select().from(questions).where(sql`${questions.id} NOT IN (${excludeIds.join(',')})`);
+      allQuestions = await db.select().from(questions).where(notInArray(questions.id, excludeIds));
     } else {
       allQuestions = await db.select().from(questions);
     }
     
-    // Shuffle and return requested count
-    const shuffled = allQuestions.sort(() => Math.random() - 0.5);
-    return shuffled.slice(0, countNum);
+    return shuffle(allQuestions).slice(0, countNum);
   }
 
   async getAllQuestions(): Promise<Question[]> {
@@ -132,8 +146,7 @@ export class DatabaseStorage implements IStorage {
   // Ideology test methods
   async getRandomIdeologyQuestions(count: number): Promise<IdeologyQuestion[]> {
     const allQuestions = await db.select().from(ideologyQuestions);
-    const shuffled = allQuestions.sort(() => Math.random() - 0.5);
-    return shuffled.slice(0, count);
+    return shuffle(allQuestions).slice(0, count);
   }
 
   async saveIdeologyResponse(response: InsertIdeologyResponse): Promise<IdeologyResponse> {
@@ -227,14 +240,15 @@ export class DatabaseStorage implements IStorage {
 
   // Knowledge Challenge Quiz methods
   async getRandomQuizQuestions(count: number, difficulty?: number): Promise<QuizQuestion[]> {
-    let query = db.select().from(quizQuestions);
-    
-    if (difficulty) {
-      query = query.where(eq(quizQuestions.difficulty, difficulty));
-    }
-    
-    const allQuestions = await query;
-    const shuffled = allQuestions.sort(() => Math.random() - 0.5);
+    const allQuestions = difficulty
+      ? await db.select().from(quizQuestions).where(eq(quizQuestions.difficulty, difficulty))
+      : await db.select().from(quizQuestions);
+
+    const valid = allQuestions
+      .map(formatQuizQuestionForClient)
+      .filter((question) => question.wrongAnswers.length >= 3 && question.wrongAnswers.every((a) => a !== "—"));
+
+    const shuffled = shuffle(valid);
     return shuffled.slice(0, count);
   }
 
@@ -253,16 +267,21 @@ export class DatabaseStorage implements IStorage {
   }
 
   // Prime Minister scenarios methods
-  async getRandomPmScenario(difficulty?: number): Promise<PmScenario | undefined> {
-    let query = db.select().from(pmScenarios);
-    
-    if (difficulty) {
-      query = query.where(eq(pmScenarios.difficulty, difficulty));
+  async getRandomPmScenario(difficulty?: number, excludeIds: number[] = []): Promise<PmScenario | undefined> {
+    let scenarios = difficulty
+      ? await db.select().from(pmScenarios).where(eq(pmScenarios.difficulty, difficulty))
+      : await db.select().from(pmScenarios);
+
+    if (excludeIds.length > 0) {
+      const excluded = new Set(excludeIds);
+      const filtered = scenarios.filter((s) => !excluded.has(s.id));
+      if (filtered.length > 0) {
+        scenarios = filtered;
+      }
     }
-    
-    const scenarios = await query;
+
     if (scenarios.length === 0) return undefined;
-    
+
     const randomIndex = Math.floor(Math.random() * scenarios.length);
     return scenarios[randomIndex];
   }
@@ -292,6 +311,183 @@ export class DatabaseStorage implements IStorage {
   async createPmPolicyOption(option: InsertPmPolicyOption): Promise<PmPolicyOption> {
     const [result] = await db.insert(pmPolicyOptions).values(option).returning();
     return result;
+  }
+
+  async getQuizStats(): Promise<{
+    totalAnswers: number;
+    correctAnswers: number;
+    accuracyRate: number;
+    byCategory: Array<{ category: string; total: number; correct: number }>;
+  }> {
+    const results = await db.select().from(quizResults);
+    const questions = await db.select().from(quizQuestions);
+    const questionMap = new Map(questions.map((q) => [q.id, q.category]));
+
+    const byCategory: Record<string, { total: number; correct: number }> = {};
+    let correctAnswers = 0;
+
+    for (const result of results) {
+      if (result.isCorrect) correctAnswers++;
+      const category = questionMap.get(result.questionId) ?? "unknown";
+      if (!byCategory[category]) byCategory[category] = { total: 0, correct: 0 };
+      byCategory[category].total++;
+      if (result.isCorrect) byCategory[category].correct++;
+    }
+
+    const totalAnswers = results.length;
+    return {
+      totalAnswers,
+      correctAnswers,
+      accuracyRate: totalAnswers > 0 ? Math.round((correctAnswers / totalAnswers) * 100) : 0,
+      byCategory: Object.entries(byCategory)
+        .map(([category, stats]) => ({ category, ...stats }))
+        .sort((a, b) => b.total - a.total),
+    };
+  }
+
+  async getPmStats(): Promise<{
+    totalDecisions: number;
+    scenarioCount: number;
+    byCategory: Array<{ category: string; count: number }>;
+    avgDecisionTime: number;
+  }> {
+    const decisions = await db.select().from(pmDecisions);
+    const scenarios = await db.select().from(pmScenarios);
+    const scenarioMap = new Map(scenarios.map((s) => [s.id, s.category]));
+
+    const byCategory: Record<string, number> = {};
+    let totalDecisionTime = 0;
+    let timedDecisions = 0;
+
+    for (const decision of decisions) {
+      const category = scenarioMap.get(decision.scenarioId) ?? "unknown";
+      byCategory[category] = (byCategory[category] || 0) + 1;
+      if (decision.decisionTime) {
+        totalDecisionTime += decision.decisionTime;
+        timedDecisions++;
+      }
+    }
+
+    return {
+      totalDecisions: decisions.length,
+      scenarioCount: scenarios.length,
+      byCategory: Object.entries(byCategory)
+        .map(([category, count]) => ({ category, count }))
+        .sort((a, b) => b.count - a.count),
+      avgDecisionTime: timedDecisions > 0 ? Math.round(totalDecisionTime / timedDecisions) : 0,
+    };
+  }
+
+  async getDatabaseStats(): Promise<Record<string, number>> {
+    const [
+      partyCount,
+      questionCount,
+      ideologyCount,
+      quizCount,
+      pmScenarioCount,
+      surveyResultCount,
+      ideologyResultCount,
+    ] = await Promise.all([
+      db.select({ count: count() }).from(parties),
+      db.select({ count: count() }).from(questions),
+      db.select({ count: count() }).from(ideologyQuestions),
+      db.select({ count: count() }).from(quizQuestions),
+      db.select({ count: count() }).from(pmScenarios),
+      db.select({ count: count() }).from(surveyResults),
+      db.select({ count: count() }).from(ideologyResults),
+    ]);
+
+    return {
+      parties: partyCount[0].count,
+      surveyQuestions: questionCount[0].count,
+      ideologyQuestions: ideologyCount[0].count,
+      quizQuestions: quizCount[0].count,
+      pmScenarios: pmScenarioCount[0].count,
+      surveyResults: surveyResultCount[0].count,
+      ideologyResults: ideologyResultCount[0].count,
+    };
+  }
+
+  async getOrCreateProfile(id: string): Promise<AnonymousProfile> {
+    const [existing] = await db.select().from(anonymousProfiles).where(eq(anonymousProfiles.id, id));
+    if (existing) return existing;
+
+    const [created] = await db.insert(anonymousProfiles).values({ id }).returning();
+    return created;
+  }
+
+  async updateProfileNickname(id: string, nickname: string | null): Promise<AnonymousProfile | undefined> {
+    const [updated] = await db
+      .update(anonymousProfiles)
+      .set({ nickname })
+      .where(eq(anonymousProfiles.id, id))
+      .returning();
+    return updated;
+  }
+
+  async getProfileHistory(profileId: string) {
+    const [profile] = await db.select().from(anonymousProfiles).where(eq(anonymousProfiles.id, profileId));
+    if (!profile) return null;
+
+    const survey = await db
+      .select()
+      .from(surveyResults)
+      .where(eq(surveyResults.profileId, profileId))
+      .orderBy(desc(surveyResults.createdAt));
+
+    const ideology = await db
+      .select()
+      .from(ideologyResults)
+      .where(eq(ideologyResults.profileId, profileId))
+      .orderBy(desc(ideologyResults.createdAt));
+
+    const quiz = await db
+      .select()
+      .from(quizSessions)
+      .where(eq(quizSessions.profileId, profileId))
+      .orderBy(desc(quizSessions.createdAt));
+
+    return { profile, survey, ideology, quiz };
+  }
+
+  async saveQuizSession(session: InsertQuizSession): Promise<QuizSession> {
+    const [created] = await db.insert(quizSessions).values(session).returning();
+    return created;
+  }
+
+  async getQuizLeaderboard(limit = 20, difficulty?: number) {
+    const conditions = difficulty
+      ? and(eq(quizSessions.showOnLeaderboard, 1), eq(quizSessions.difficulty, difficulty))
+      : eq(quizSessions.showOnLeaderboard, 1);
+
+    const rows = await db
+      .select({
+        id: quizSessions.id,
+        profileId: quizSessions.profileId,
+        nickname: anonymousProfiles.nickname,
+        score: quizSessions.score,
+        totalQuestions: quizSessions.totalQuestions,
+        accuracy: quizSessions.accuracy,
+        difficulty: quizSessions.difficulty,
+        durationSeconds: quizSessions.durationSeconds,
+        createdAt: quizSessions.createdAt,
+      })
+      .from(quizSessions)
+      .leftJoin(anonymousProfiles, eq(quizSessions.profileId, anonymousProfiles.id))
+      .where(conditions)
+      .orderBy(desc(quizSessions.score), desc(quizSessions.accuracy), desc(quizSessions.createdAt))
+      .limit(limit);
+
+    return rows.map((row, index) => ({
+      rank: index + 1,
+      nickname: row.nickname,
+      score: row.score,
+      totalQuestions: row.totalQuestions,
+      accuracy: Math.round(row.accuracy),
+      difficulty: row.difficulty,
+      durationSeconds: row.durationSeconds,
+      createdAt: row.createdAt,
+    }));
   }
 }
 

@@ -15,24 +15,24 @@ interface SocialSharingProps {
 
 export function SocialSharing({ result, parties, topParty, questionCount }: SocialSharingProps) {
   const [copied, setCopied] = useState(false);
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
 
   // Find the top party percentage from the result
   const topPartyResult = result.partyAlignments[topParty.shortName];
   const topPercentage = Math.round(topPartyResult || 0);
   
   // Generate sharing text
-  const shareText = t('language') === 'el'
+  const shareText = language === 'el'
     ? `Ολοκλήρωσα το πολιτικό τεστ στο Ιδεολόγος! Η κορυφαία μου συμφωνία είναι με ${topParty.name} (${topPercentage}%). Δες και εσύ ποιος είσαι πολιτικά!`
     : `I completed the political test on Ideologos! My top alignment is with ${t(`parties.${topParty.shortName}`)} (${topPercentage}%). Discover your political identity too!`;
   
   const shareUrl = "https://ideologos.online";
-  const hashtags = t('language') === 'el' 
+  const hashtags = language === 'el' 
     ? '#Ιδεολόγος #ΠολιτικόΤεστ #ΕλληνικήΠολιτική'
     : '#Ideologos #PoliticalTest #GreekPolitics';
 
   // Social media URLs
-  const hashtagsEncoded = t('language') === 'el' 
+  const hashtagsEncoded = language === 'el' 
     ? 'Ιδεολόγος,ΠολιτικόΤεστ,ΕλληνικήΠολιτική'
     : 'Ideologos,PoliticalTest,GreekPolitics';
   const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}&hashtags=${encodeURIComponent(hashtagsEncoded)}`;
@@ -83,7 +83,7 @@ export function SocialSharing({ result, parties, topParty, questionCount }: Soci
         </div>
         
         <p className="text-sm text-muted-foreground mb-4">
-          {t('language') === 'el' 
+          {language === 'el' 
             ? 'Δες τι λένε οι φίλοι σου για τα πολιτικά τους πιστεύω!'
             : 'See what your friends say about their political beliefs!'}
         </p>
@@ -97,7 +97,7 @@ export function SocialSharing({ result, parties, topParty, questionCount }: Soci
               className="w-full justify-start gap-3"
             >
               <Share2 className="w-4 h-4" />
-              {t('language') === 'el' ? 'Μοιράσου' : 'Share'}
+              {language === 'el' ? 'Μοιράσου' : 'Share'}
             </Button>
           )}
 
@@ -114,7 +114,7 @@ export function SocialSharing({ result, parties, topParty, questionCount }: Soci
             className="w-full justify-start gap-3 hover:bg-blue-50 hover:border-blue-200"
           >
             <Twitter className="w-4 h-4 text-blue-500" />
-            {t('language') === 'el' ? 'Μοιράσου στο Twitter' : 'Share on Twitter'}
+            {language === 'el' ? 'Μοιράσου στο Twitter' : 'Share on Twitter'}
           </Button>
 
           {/* Facebook */}
@@ -142,7 +142,7 @@ export function SocialSharing({ result, parties, topParty, questionCount }: Soci
             className="w-full justify-start gap-3 hover:bg-blue-50 hover:border-blue-200"
           >
             <Facebook className="w-4 h-4 text-blue-600" />
-            {t('language') === 'el' ? 'Μοιράσου στο Facebook' : 'Share on Facebook'}
+            {language === 'el' ? 'Μοιράσου στο Facebook' : 'Share on Facebook'}
           </Button>
 
           {/* Copy Link */}
@@ -154,12 +154,12 @@ export function SocialSharing({ result, parties, topParty, questionCount }: Soci
             {copied ? (
               <>
                 <Check className="w-4 h-4 text-green-600" />
-                {t('language') === 'el' ? 'Αντιγράφηκε!' : 'Copied!'}
+                {language === 'el' ? 'Αντιγράφηκε!' : 'Copied!'}
               </>
             ) : (
               <>
                 <Copy className="w-4 h-4" />
-                {t('language') === 'el' ? 'Αντιγραφή κειμένου' : 'Copy text'}
+                {language === 'el' ? 'Αντιγραφή κειμένου' : 'Copy text'}
               </>
             )}
           </Button>
@@ -168,7 +168,7 @@ export function SocialSharing({ result, parties, topParty, questionCount }: Soci
         {/* Preview of share text */}
         <div className="mt-4 p-3 bg-muted rounded-lg">
           <p className="text-sm text-muted-foreground mb-1">
-            {t('language') === 'el' ? 'Προεπισκόπηση κειμένου:' : 'Text preview:'}
+            {language === 'el' ? 'Προεπισκόπηση κειμένου:' : 'Text preview:'}
           </p>
           <p className="text-sm font-medium">{shareText}</p>
           <p className="text-xs text-muted-foreground mt-1">{hashtags}</p>

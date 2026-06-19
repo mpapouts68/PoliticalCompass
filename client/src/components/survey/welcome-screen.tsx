@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ChartPie, Zap, Scale, Microscope, GraduationCap, Info, Play, Compass, Brain, Crown } from "lucide-react";
+import { ChartPie, Zap, Scale, Microscope, GraduationCap, Info, Play, Compass, Brain, Crown, History, Layers } from "lucide-react";
 import type { QuestionCount } from "@shared/schema";
 import { PartyLogo } from "@/components/party-logos";
 import { DonationSection } from "@/components/DonationSection";
@@ -34,14 +34,14 @@ interface WelcomeScreenProps {
 }
 
 export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
 
   const questionOptions = [
     {
       count: "15" as QuestionCount,
       title: t('quickTest'),
       description: `15 ${t('questions')}`,
-      duration: t('language') === 'el' ? "~5 λεπτά" : "~5 min",
+      duration: language === 'el' ? "~5 λεπτά" : "~5 min",
       icon: Zap,
       color: "text-accent"
     },
@@ -49,7 +49,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
       count: "30" as QuestionCount,
       title: t('standardTest'),
       description: `30 ${t('questions')}`,
-      duration: t('language') === 'el' ? "~10 λεπτά" : "~10 min",
+      duration: language === 'el' ? "~10 λεπτά" : "~10 min",
       icon: Scale,
       color: "text-secondary"
     },
@@ -57,7 +57,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
       count: "60" as QuestionCount,
       title: t('detailedTest'),
       description: `60 ${t('questions')}`,
-      duration: t('language') === 'el' ? "~20 λεπτά" : "~20 min",
+      duration: language === 'el' ? "~20 λεπτά" : "~20 min",
       icon: Microscope,
       color: "text-primary"
     },
@@ -65,9 +65,17 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
       count: "100" as QuestionCount,
       title: t('completeTest'),
       description: `100 ${t('questions')}`,
-      duration: t('language') === 'el' ? "~30 λεπτά" : "~30 min",
+      duration: language === 'el' ? "~30 λεπτά" : "~30 min",
       icon: GraduationCap,
       color: "text-neutral-900"
+    },
+    {
+      count: "150" as QuestionCount,
+      title: t('extendedTest'),
+      description: `150 ${t('questions')}`,
+      duration: language === 'el' ? "~45 λεπτά" : "~45 min",
+      icon: Layers,
+      color: "text-indigo-700"
     }
   ];
 
@@ -84,7 +92,15 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
               <p className="text-sm text-gray-600 dark:text-gray-300">online</p>
             </div>
           </div>
-          <LanguageSelector />
+          <div className="flex items-center gap-3">
+            <Link href="/my-journey">
+              <Button variant="outline" size="sm" className="gap-2">
+                <History className="w-4 h-4" />
+                {t('viewMyJourney')}
+              </Button>
+            </Link>
+            <LanguageSelector />
+          </div>
         </div>
       </div>
     </div>
@@ -119,7 +135,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
                 
                 {/* Party Logos Row */}
                 <div className="flex flex-wrap justify-center items-center gap-2 mb-4">
-                  {["ΝΔ", "ΣΥΡΙΖΑ", "ΠΑΣΟΚ", "ΚΚΕ", "ΕΛ", "ΠΕ", "ΝΙΚΗ", "ΣΠΑΡ", "ΝΑ"].map((party) => (
+                  {["ΝΔ", "ΣΥΡΙΖΑ", "ΠΑΣΟΚ", "ΚΚΕ", "ΕΛ", "ΠΕ", "ΝΙΚΗ", "ΣΠΑΡ", "ΝΑ", "ΕΛΑΣ", "ΕΛΠ", "ΦΛ"].map((party) => (
                     <PartyLogo key={party} party={party} className="w-8 h-8" />
                   ))}
                 </div>
@@ -129,7 +145,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
                 </p>
               </div>
 
-              <div className="grid grid-cols-2 gap-3 mb-6">
+              <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 mb-6">
                 {questionOptions.map((option) => {
                   const Icon = option.icon;
                   
@@ -194,7 +210,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-3 mb-6">
+              <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 mb-6">
                 {questionOptions.map((option) => {
                   const Icon = option.icon;
                   
@@ -249,7 +265,42 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
         🎮 {t('newFeatures')}
       </h2>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 gap-6">
+        {/* Prime Minister — featured entry point */}
+        <Link href="/prime-minister">
+          <Card className="cursor-pointer hover:shadow-xl transition-all duration-300 border-2 border-purple-400 hover:border-purple-600 bg-gradient-to-br from-purple-100 via-purple-50 to-indigo-100 ring-2 ring-purple-200">
+            <CardContent className="p-6 md:p-8">
+              <div className="flex flex-col md:flex-row items-center gap-6">
+                <div className="flex-shrink-0">
+                  <Crown className="w-16 h-16 text-purple-600" />
+                </div>
+                <div className="flex-1 text-center md:text-left">
+                  <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 mb-2">
+                    <span className="bg-purple-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                      {t('pmFeaturedBadge')}
+                    </span>
+                    <span className="bg-purple-200 text-purple-800 text-xs px-2 py-1 rounded">
+                      {t('pmCampaignMode')}
+                    </span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-purple-900 mb-2">
+                    {t('primeMinisterForADay')}
+                  </h3>
+                  <p className="text-purple-800 mb-3">
+                    {t('pmCampaignDescription')}
+                  </p>
+                  <div className="flex flex-wrap justify-center md:justify-start gap-2 text-xs text-purple-700">
+                    <span className="bg-purple-200 px-2 py-1 rounded">{t('economy')}</span>
+                    <span className="bg-purple-200 px-2 py-1 rounded">{t('society')}</span>
+                    <span className="bg-purple-200 px-2 py-1 rounded">{t('crises')}</span>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </Link>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Knowledge Challenge Card */}
         <Link href="/quiz">
           <Card className="cursor-pointer hover:shadow-lg transition-all duration-300 border-2 border-blue-200 hover:border-blue-400 bg-gradient-to-br from-blue-50 to-blue-100">
@@ -277,34 +328,7 @@ export function WelcomeScreen({ onStartSurvey }: WelcomeScreenProps) {
             </CardContent>
           </Card>
         </Link>
-
-        {/* Prime Minister Scenario Card */}
-        <Link href="/prime-minister">
-          <Card className="cursor-pointer hover:shadow-lg transition-all duration-300 border-2 border-purple-200 hover:border-purple-400 bg-gradient-to-br from-purple-50 to-purple-100">
-            <CardContent className="p-6 text-center">
-              <div className="flex justify-center mb-4">
-                <Crown className="w-12 h-12 text-purple-600" />
-              </div>
-              <h3 className="text-xl font-bold text-purple-900 mb-2">
-                {t('primeMinisterForADay')}
-              </h3>
-              <p className="text-purple-700 text-sm mb-4">
-                {t('takeOnDecisions')}
-              </p>
-              <div className="flex justify-center space-x-2 text-xs text-purple-600">
-                <span className="bg-purple-200 px-2 py-1 rounded">
-                  {t('economy')}
-                </span>
-                <span className="bg-purple-200 px-2 py-1 rounded">
-                  {t('society')}
-                </span>
-                <span className="bg-purple-200 px-2 py-1 rounded">
-                  {t('crises')}
-                </span>
-              </div>
-            </CardContent>
-          </Card>
-        </Link>
+        </div>
       </div>
     </div>
 

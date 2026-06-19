@@ -13,14 +13,15 @@ import type { Question, QuestionCount, InsertSurveyResponse, AnswerValue } from 
 interface QuestionScreenProps {
   questionCount: QuestionCount;
   sessionId: string;
+  profileId?: string;
   onComplete: () => void;
 }
 
-export function QuestionScreen({ questionCount, sessionId, onComplete }: QuestionScreenProps) {
+export function QuestionScreen({ questionCount, sessionId, profileId, onComplete }: QuestionScreenProps) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, AnswerValue>>({});
   const [currentAnswer, setCurrentAnswer] = useState<string>("");
-  const { t } = useTranslation();
+  const { t, translateCategory } = useTranslation();
   const { language } = useLanguage();
 
   const { data: questions, isLoading } = useQuery<Question[]>({
@@ -48,7 +49,7 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
 
   const calculateResultsMutation = useMutation({
     mutationFn: async () => {
-      const res = await apiRequest("POST", "/api/results", { sessionId });
+      const res = await apiRequest("POST", "/api/results", { sessionId, profileId });
       return res.json();
     },
     onSuccess: () => {
@@ -180,7 +181,7 @@ export function QuestionScreen({ questionCount, sessionId, onComplete }: Questio
         <CardContent className="p-8">
           <div className="mb-6">
             <span className="inline-block bg-secondary/10 text-secondary text-sm font-medium px-3 py-1 rounded-full mb-4">
-              {currentQuestion.category}
+              {translateCategory(currentQuestion.category)}
             </span>
             <h3 className="text-xl font-semibold text-neutral-900 leading-relaxed">
               {language === 'el' 

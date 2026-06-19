@@ -9,6 +9,7 @@ import ElectionDashboard from "@/pages/election-dashboard";
 import IdeologyTest from "@/pages/IdeologyTest";
 import { KnowledgeChallengePage } from "@/pages/knowledge-challenge";
 import { PrimeMinisterPage } from "@/pages/prime-minister";
+import MyJourneyPage from "@/pages/my-journey";
 
 function IdeologyTestWrapper() {
   const searchParams = new URLSearchParams(window.location.search);
@@ -27,6 +28,8 @@ function Router() {
       <Route path="/κουιζ" component={KnowledgeChallengePage} />
       <Route path="/prime-minister" component={PrimeMinisterPage} />
       <Route path="/πρωθυπουργος" component={PrimeMinisterPage} />
+      <Route path="/my-journey" component={MyJourneyPage} />
+      <Route path="/ιστορικο" component={MyJourneyPage} />
       <Route component={NotFound} />
     </Switch>
   );

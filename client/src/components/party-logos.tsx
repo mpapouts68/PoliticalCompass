@@ -1,5 +1,6 @@
 // SVG logos for Greek political parties
 import React from "react";
+import { PARTY_WEBSITES } from "@/data/partyWebsites";
 
 // Import real party logos
 import pasokLogo from "@assets/Flag_of_PASOK_(Panhellenic_Socialist_Movement)_1752220171012.png";
@@ -11,6 +12,9 @@ import ndLogo from "@assets/nd_1752220256393.png";
 import plefsiLogo from "@assets/Plefsi-Eleftherias-Logo-Purple-100mm-width_1752220431867.png";
 import kkeLogo from "@assets/κκε_1752220431868.png";
 import nikiLogo from "@assets/NIKH-v1_1752220538161.png";
+import elasLogo from "@assets/elas-logo.svg";
+import elpLogo from "@assets/elp-logo.png";
+import flLogo from "@assets/fl-logo.png";
 
 interface PartyLogoProps {
   party: string;
@@ -81,6 +85,27 @@ export function PartyLogo({ party, className = "w-8 h-8" }: PartyLogoProps) {
         alt="Νέα Αριστερά Logo"
         className={`${className} object-contain rounded`}
       />
+    ),
+    "ΕΛΑΣ": (
+      <img
+        src={elasLogo}
+        alt="Ελληνική Αριστερή Συμπαράταξη Logo"
+        className={`${className} object-contain rounded`}
+      />
+    ),
+    "ΕΛΠ": (
+      <img
+        src={elpLogo}
+        alt="Ελπίδα για τη Δημοκρατία Logo"
+        className={`${className} object-contain rounded`}
+      />
+    ),
+    "ΦΛ": (
+      <img
+        src={flLogo}
+        alt="Φωνή Λογικής Logo"
+        className={`${className} object-contain rounded`}
+      />
     )
   };
 
@@ -92,18 +117,11 @@ export function PartyLogo({ party, className = "w-8 h-8" }: PartyLogoProps) {
 }
 
 export function PartyLogosSidebar() {
-  const parties = [
-    { shortName: "ΝΔ", website: "https://nd.gr" },
-    { shortName: "ΣΥΡΙΖΑ", website: "https://syriza.gr" },
-    { shortName: "ΠΑΣΟΚ", website: "https://pasok.gr" },
-    { shortName: "ΚΚΕ", website: "https://kke.gr" },
-    { shortName: "ΕΛ", website: "https://elliniki-lysi.gr" },
-    { shortName: "ΠΕ", website: "https://plefsi.gr" },
-    { shortName: "ΝΙΚΗ", website: "https://niki.gr" },
-    { shortName: "ΣΠΑΡ", website: "https://spartiates.gr" },
-    { shortName: "ΝΑ", website: "https://nea-aristera.gr" }
-  ];
-  
+  const parties = Object.entries(PARTY_WEBSITES).map(([shortName, website]) => ({
+    shortName,
+    website,
+  }));
+
   return (
     <div className="fixed right-4 top-1/2 transform -translate-y-1/2 bg-white rounded-lg shadow-lg border border-neutral-200 p-3 z-50">
       <div className="flex flex-col space-y-3">

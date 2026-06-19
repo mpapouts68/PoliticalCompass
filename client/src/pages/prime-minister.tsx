@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useQuery } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -6,6 +7,11 @@ import { Crown, TrendingUp, TrendingDown, Users, DollarSign, AlertTriangle, Home
 import { PrimeMinisterScenario } from "@/components/pm/PrimeMinisterScenario";
 import { useTranslation } from "@/lib/i18n";
 import { Link } from "wouter";
+import {
+  CAMPAIGN_ROUNDS,
+  CAMPAIGN_STARTING_CAPITAL,
+  getCampaignOutcome,
+} from "@/lib/pmCampaign";
 
 interface ScenarioResult {
   scenario: {
@@ -29,14 +35,35 @@ interface ScenarioResult {
     economic: number;
     social: number;
   };
+  capitalChange?: number;
+  capitalAfter?: number;
 }
 
 export function PrimeMinisterPage() {
   const [sessionId] = useState(() => crypto.randomUUID());
   const [selectedDifficulty, setSelectedDifficulty] = useState<number | null>(null);
+  const [gameMode, setGameMode] = useState<"campaign" | "challenge" | "single">("campaign");
   const [isStarted, setIsStarted] = useState(false);
   const [result, setResult] = useState<ScenarioResult | null>(null);
-  const { t } = useTranslation();
+  const [challengeRound, setChallengeRound] = useState(1);
+  const [challengeResults, setChallengeResults] = useState<ScenarioResult[]>([]);
+  const [campaignRound, setCampaignRound] = useState(1);
+  const [politicalCapital, setPoliticalCapital] = useState(CAMPAIGN_STARTING_CAPITAL);
+  const [campaignResults, setCampaignResults] = useState<ScenarioResult[]>([]);
+  const [playedScenarioIds, setPlayedScenarioIds] = useState<number[]>([]);
+  const [campaignEnded, setCampaignEnded] = useState(false);
+  const [scenarioKey, setScenarioKey] = useState(0);
+  const { t, translateCategory, language } = useTranslation();
+
+  const CHALLENGE_ROUNDS = 3;
+
+  const { data: pmStats } = useQuery<{ scenarioCount: number }>({
+    queryKey: ["/api/pm/stats"],
+    queryFn: async () => {
+      const response = await fetch("/api/pm/stats");
+      return response.json();
+    },
+  });
 
   const difficulties = [
     {
@@ -104,11 +131,56 @@ export function PrimeMinisterPage() {
   };
 
   const handleScenarioComplete = (scenarioResult: ScenarioResult) => {
+    if (gameMode === "campaign") {
+      const change = scenarioResult.capitalChange ?? 0;
+      const nextCapital = Math.max(0, politicalCapital + change);
+      const nextResults = [...campaignResults, scenarioResult];
+
+      setCampaignResults(nextResults);
+      setPoliticalCapital(nextCapital);
+      setPlayedScenarioIds((prev) => [...prev, scenarioResult.scenario.id]);
+
+      const collapsed = nextCapital <= 0;
+      const finished = campaignRound >= CAMPAIGN_ROUNDS;
+
+      if (collapsed || finished) {
+        setCampaignEnded(true);
+        setIsStarted(false);
+        return;
+      }
+
+      setCampaignRound((prev) => prev + 1);
+      setScenarioKey((prev) => prev + 1);
+      return;
+    }
+
+    if (gameMode === "challenge") {
+      const nextResults = [...challengeResults, scenarioResult];
+      setChallengeResults(nextResults);
+
+      if (challengeRound < CHALLENGE_ROUNDS) {
+        setChallengeRound((prev) => prev + 1);
+        setScenarioKey((prev) => prev + 1);
+      } else {
+        setIsStarted(false);
+      }
+      return;
+    }
+
     setResult(scenarioResult);
+    setIsStarted(false);
   };
 
   const handleStartScenario = () => {
     if (selectedDifficulty) {
+      setChallengeRound(1);
+      setChallengeResults([]);
+      setCampaignRound(1);
+      setPoliticalCapital(CAMPAIGN_STARTING_CAPITAL);
+      setCampaignResults([]);
+      setPlayedScenarioIds([]);
+      setCampaignEnded(false);
+      setScenarioKey(0);
       setIsStarted(true);
     }
   };
@@ -117,9 +189,132 @@ export function PrimeMinisterPage() {
     setIsStarted(false);
     setResult(null);
     setSelectedDifficulty(null);
+    setChallengeRound(1);
+    setChallengeResults([]);
+    setCampaignRound(1);
+    setPoliticalCapital(CAMPAIGN_STARTING_CAPITAL);
+    setCampaignResults([]);
+    setPlayedScenarioIds([]);
+    setCampaignEnded(false);
+    setScenarioKey(0);
   };
 
-  if (result) {
+  if (gameMode === "campaign" && campaignEnded && !isStarted) {
+    const finalCapital = politicalCapital;
+    const { labelKey } = getCampaignOutcome(finalCapital, campaignRound);
+    const collapsed = finalCapital <= 0;
+
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-100 p-4">
+        <div className="max-w-4xl mx-auto pt-8 space-y-6">
+          <Card>
+            <CardHeader>
+              <div className="flex justify-center mb-4">
+                <Crown className={`w-16 h-16 ${collapsed ? "text-red-600" : "text-purple-600"}`} />
+              </div>
+              <CardTitle className="text-center text-2xl">
+                {collapsed ? t("pmCampaignCollapsed") : t("pmCampaignComplete")}
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="text-center">
+                <p className="text-sm text-gray-600 mb-2">{t("pmPoliticalCapital")}</p>
+                <p className={`text-4xl font-bold ${collapsed ? "text-red-700" : "text-purple-700"}`}>
+                  {finalCapital}/100
+                </p>
+                {!collapsed && labelKey && (
+                  <Badge className="mt-3 text-lg px-4 py-2">{t(labelKey)}</Badge>
+                )}
+                {collapsed && (
+                  <p className="text-red-700 mt-3">{t("pmCampaignCollapsedDetail")}</p>
+                )}
+              </div>
+              {campaignResults.map((r, index) => (
+                <div key={index} className="bg-purple-50 p-4 rounded-lg">
+                  <p className="font-medium text-purple-900">
+                    {index + 1}. {t("language") === "el" ? r.scenario.title : (r.scenario.titleEn || r.scenario.title)}
+                  </p>
+                  <p className="text-sm text-purple-700 mt-1">
+                    {t("language") === "el" ? r.chosenOption.optionText : (r.chosenOption.optionTextEn || r.chosenOption.optionText)}
+                  </p>
+                  {r.capitalChange !== undefined && (
+                    <p className={`text-xs font-medium mt-2 ${r.capitalChange >= 0 ? "text-green-700" : "text-red-700"}`}>
+                      {t("pmCapitalChange")}: {r.capitalChange >= 0 ? "+" : ""}{r.capitalChange} → {r.capitalAfter}/100
+                    </p>
+                  )}
+                </div>
+              ))}
+              <div className="flex justify-center gap-4">
+                <Button onClick={handleTryAgain} variant="outline">
+                  {t("tryAgain")}
+                </Button>
+                <Link href="/">
+                  <Button className="bg-purple-600 hover:bg-purple-700">
+                    {t("backToHome")}
+                  </Button>
+                </Link>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    );
+  }
+
+  if (gameMode === "challenge" && challengeResults.length >= CHALLENGE_ROUNDS && !isStarted) {
+    const avgPolitical = Math.round(
+      challengeResults.reduce((sum, r) => sum + r.impacts.political, 0) / challengeResults.length,
+    );
+    const avgEconomic = Math.round(
+      challengeResults.reduce((sum, r) => sum + r.impacts.economic, 0) / challengeResults.length,
+    );
+    const avgSocial = Math.round(
+      challengeResults.reduce((sum, r) => sum + r.impacts.social, 0) / challengeResults.length,
+    );
+    const { rating, color } = getOverallRating(avgPolitical, avgEconomic, avgSocial);
+
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-100 p-4">
+        <div className="max-w-4xl mx-auto pt-8 space-y-6">
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-center text-2xl">{t('pmChallengeComplete')}</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="text-center">
+                <Badge className={`text-lg px-4 py-2 ${color}`}>{rating}</Badge>
+                <p className="text-sm text-gray-600 mt-2">
+                  {CHALLENGE_ROUNDS} {t('pmRound').toLowerCase()}s · {t('political')}: {avgPolitical}/10
+                </p>
+              </div>
+              {challengeResults.map((r, index) => (
+                <div key={index} className="bg-purple-50 p-4 rounded-lg">
+                  <p className="font-medium text-purple-900">
+                    {index + 1}. {language === 'el' ? r.scenario.title : (r.scenario.titleEn || r.scenario.title)}
+                  </p>
+                  <p className="text-sm text-purple-700 mt-1">
+                    {language === 'el' ? r.chosenOption.optionText : (r.chosenOption.optionTextEn || r.chosenOption.optionText)}
+                  </p>
+                </div>
+              ))}
+              <div className="flex justify-center gap-4">
+                <Button onClick={handleTryAgain} variant="outline">
+                  {t('newScenario')}
+                </Button>
+                <Link href="/">
+                  <Button className="bg-purple-600 hover:bg-purple-700">
+                    {t('backToHome')}
+                  </Button>
+                </Link>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    );
+  }
+
+  if (result && gameMode === "single") {
     const { rating, color } = getOverallRating(
       result.impacts.political,
       result.impacts.economic,
@@ -142,9 +337,9 @@ export function PrimeMinisterPage() {
               {/* Scenario Info */}
               <div className="bg-purple-50 p-4 rounded-lg">
                 <h3 className="font-semibold text-purple-900 mb-2">
-                  {t('language') === 'el' ? result.scenario.title : (result.scenario.titleEn || result.scenario.title)}
+                  {language === 'el' ? result.scenario.title : (result.scenario.titleEn || result.scenario.title)}
                 </h3>
-                <Badge className="mb-2">{result.scenario.category}</Badge>
+                <Badge className="mb-2">{translateCategory(result.scenario.category)}</Badge>
                 <p className="text-sm text-purple-700">
                   {t('decisionTime')} {result.decisionTime} {t('secondsUnit')}
                 </p>
@@ -156,7 +351,7 @@ export function PrimeMinisterPage() {
                   {t('yourDecision')}
                 </h4>
                 <p className="text-blue-800">
-                  {t('language') === 'el' ? result.chosenOption.optionText : (result.chosenOption.optionTextEn || result.chosenOption.optionText)}
+                  {language === 'el' ? result.chosenOption.optionText : (result.chosenOption.optionTextEn || result.chosenOption.optionText)}
                 </p>
               </div>
 
@@ -232,9 +427,20 @@ export function PrimeMinisterPage() {
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-100 p-4">
         <div className="pt-8">
+          {gameMode === "challenge" && (
+            <p className="text-center text-purple-800 font-medium mb-4">
+              {t('pmRound')} {challengeRound} / {CHALLENGE_ROUNDS}
+            </p>
+          )}
           <PrimeMinisterScenario
+            key={scenarioKey}
             sessionId={sessionId}
             difficulty={selectedDifficulty!}
+            excludeScenarioIds={gameMode === "campaign" ? playedScenarioIds : []}
+            politicalCapital={gameMode === "campaign" ? politicalCapital : undefined}
+            campaignRound={gameMode === "campaign" ? campaignRound : undefined}
+            campaignTotalRounds={gameMode === "campaign" ? CAMPAIGN_ROUNDS : undefined}
+            showCapitalPreview={gameMode === "campaign"}
             onComplete={handleScenarioComplete}
           />
         </div>
@@ -256,7 +462,50 @@ export function PrimeMinisterPage() {
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             {t('takeOnDecisions')}
           </p>
+          {pmStats?.scenarioCount ? (
+            <p className="text-purple-700 font-semibold mt-2">
+              {pmStats.scenarioCount}+ {t('pmScenarioCount')}
+            </p>
+          ) : null}
         </div>
+
+        {/* Game mode */}
+        <Card className="mb-6">
+          <CardHeader>
+            <CardTitle>{t('newFeatures')}</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <Card
+                className={`cursor-pointer ${gameMode === "campaign" ? "ring-2 ring-purple-500 bg-purple-50" : ""}`}
+                onClick={() => setGameMode("campaign")}
+              >
+                <CardContent className="p-4">
+                  <h3 className="font-bold text-purple-900">{t("pmCampaignMode")}</h3>
+                  <p className="text-sm text-gray-600 mt-1">{t("pmCampaignDescription")}</p>
+                </CardContent>
+              </Card>
+              <Card
+                className={`cursor-pointer ${gameMode === "challenge" ? "ring-2 ring-purple-500 bg-purple-50" : ""}`}
+                onClick={() => setGameMode("challenge")}
+              >
+                <CardContent className="p-4">
+                  <h3 className="font-bold text-purple-900">{t('pmChallengeMode')}</h3>
+                  <p className="text-sm text-gray-600 mt-1">{t('pmChallengeDescription')}</p>
+                </CardContent>
+              </Card>
+              <Card
+                className={`cursor-pointer ${gameMode === "single" ? "ring-2 ring-purple-500 bg-purple-50" : ""}`}
+                onClick={() => setGameMode("single")}
+              >
+                <CardContent className="p-4">
+                  <h3 className="font-bold text-purple-900">{t('pmSingleMode')}</h3>
+                  <p className="text-sm text-gray-600 mt-1">{t('takeOnDecisions')}</p>
+                </CardContent>
+              </Card>
+            </div>
+          </CardContent>
+        </Card>
 
         {/* Difficulty Selection */}
         <Card className="mb-6">

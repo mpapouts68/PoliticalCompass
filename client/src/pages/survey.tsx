@@ -6,6 +6,7 @@ import type { QuestionCount } from "@shared/schema";
 import { Vote, ArrowLeft } from "lucide-react";
 import { PartyLogosSidebar } from "@/components/party-logos";
 import { useTranslation } from "@/lib/i18n";
+import { useAnonymousProfile } from "@/hooks/useAnonymousProfile";
 
 type SurveyStep = "welcome" | "questions" | "results";
 
@@ -14,6 +15,7 @@ export default function Survey() {
   const [selectedQuestionCount, setSelectedQuestionCount] = useState<QuestionCount | null>(null);
   const [sessionId] = useState(() => `session_${Date.now()}_${Math.random()}`);
   const { t } = useTranslation();
+  const { profileId } = useAnonymousProfile();
 
   const handleStartSurvey = (questionCount: QuestionCount) => {
     setSelectedQuestionCount(questionCount);
@@ -59,6 +61,7 @@ export default function Survey() {
           <QuestionScreen
             questionCount={selectedQuestionCount}
             sessionId={sessionId}
+            profileId={profileId}
             onComplete={handleSurveyComplete}
           />
         )}

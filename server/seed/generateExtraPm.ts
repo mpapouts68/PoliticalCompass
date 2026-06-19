@@ -1,0 +1,348 @@
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+import { option, scenario } from "./pmHelpers";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+const extra: ReturnType<typeof scenario>[] = [
+  scenario(1001,
+    "Τραγωδία στα Τέμπη: Δημόσια Ομολογία", "Tempi Tragedy: Public Accountability",
+    "Μετά τη σιδηροδρομική τραγωδία, η αντιπολίτευση και οι οικογένειες θυμάτων ζητούν πλήρη διερεύνηση και πολιτικές ευθύνες. Τι κάνετε;",
+    "After the rail tragedy, opposition and victims' families demand a full inquiry and political accountability. What do you do?",
+    "Τα μέσα κοινωνικής δικτύωσης είναι σε έκρηξη. Διαδηλώσεις σε όλες τις μεγάλες πόλεις. Οι εισαγγελείς έχουν ήδη αρχίσει έρευνα αλλά η πίεση για ταχύτερη δικαιοσύνη είναι ασφυκτική.",
+    "Social media is exploding. Protests in all major cities. Prosecutors have begun investigations but pressure for swift justice is intense.",
+    "justice", 3, 1,
+    [
+      option("Σύσταση ανεξάρτητης επιτροπής με διεθνή παρατηρητές και δημόσια κατάθεση υπουργών", "Independent committee with international observers and public minister testimony", 6, -1, 4, { ΕΛΠ: 4, ΕΛΑΣ: 4, ΣΥΡΙΖΑ: 4, ΚΚΕ: 4, ΝΔ: 2, ΦΛ: 2 }, "Η διαφάνεια αποκαθιστά μέρος της εμπιστοσύνης αλλά εκθέτει το κόμμα σε σκληρή κριτική.", "Transparency restores some trust but exposes the party to harsh criticism."),
+      option("Στήριξη της δικαστικής διαδικασίας χωρίς πολιτικές παρεμβάσεις", "Support judicial process without political interference", 4, 0, 2, { ΝΔ: 4, ΠΑΣΟΚ: 3, ΕΛ: 3, ΕΛΠ: 2 }, "Η δικαιοσύνη φαίνεται αργή. Μέρος της κοινωνίας παραμένει θυμωμένο.", "Justice appears slow. Part of society remains angry."),
+      option("Αναβολή δημόσιων συζητήσεων μέχρι την ολοκλήρωση της έρευνας", "Postpone public hearings until investigation completes", 8, 0, -3, { ΝΔ: 3, ΦΛ: 3, ΝΙΚΗ: 3 }, "Η αντιπολίτευση κατηγορεί για συγκάλυψη. Οι διαδηλώσεις κλιμακώνονται.", "Opposition accuses cover-up. Protests escalate."),
+    ],
+  ),
+
+  scenario(1002,
+    "Κρίση Στεγαστικής: Ενοίκια σε Ιστορικά Ύψη", "Housing Crisis: Record Rents",
+    "Τα ενοίκια στην Αθήνα και τη Θεσσαλονίκη έχουν αυξηθεί 40% σε τρία χρόνια. Νέα ζευγάρια δεν μπορούν να στεγαστούν.",
+    "Rents in Athens and Thessaloniki rose 40% in three years. Young couples cannot afford housing.",
+    "Το Airbnb έχει μειώσει δραστικά τη διαθέσιμη στέγαση. Φοιτητές και εργαζόμενοι διαδηλώνουν έξω από τη Βουλή.",
+    "Airbnb has drastically reduced available housing. Students and workers protest outside Parliament.",
+    "social", 2, 0,
+    [
+      option("Πλαφόν ενοικίων σε περιοχές υψηλής πίεσης και φόρος σε βραχυχρόνιες μισθώσεις", "Rent caps in high-pressure areas and tax on short-term rentals", 5, -1, 4, { ΕΛΑΣ: 4, ΣΥΡΙΖΑ: 4, ΚΚΕ: 4, ΕΛΠ: 3, ΝΔ: 1, ΦΛ: 1 }, "Οι ιδιοκτήτες διαμαρτύρονται αλλά τα ενοίκια σταθεροποιούνται.", "Landlords protest but rents stabilize."),
+      option("Κίνητρα για κατασκευή κοινωνικής στέγασης με κρατικο-ιδιωτική συνεργασία", "Incentives for social housing via public-private partnership", 4, -2, 3, { ΝΔ: 3, ΠΑΣΟΚ: 4, ΕΛΑΣ: 3, ΕΛ: 2 }, "Αποτελέσματα σε 3-4 χρόνια. Κριτική για καθυστέρηση.", "Results in 3-4 years. Criticism for delay."),
+      option("Απελευθέρωση οικοπέδων και μείωση φόρων ακινήτων για νέα κατασκευή", "Release land and cut property taxes for new construction", 6, 2, -1, { ΝΔ: 4, ΦΛ: 4, ΕΛ: 3, ΠΕ: 3 }, "Οι κατασκευαστές χαίρονται αλλά οι τιμές παραμένουν υψηλές βραχυπρόθεσμα.", "Developers rejoice but prices stay high short-term."),
+    ],
+  ),
+
+  scenario(1003,
+    "Φορολογική Μεταρρύθμιση: 30% Μείωση", "Tax Reform: 30% Cut",
+    "Η Φωνή Λογικής και η αγορά πιέζουν για οριζόντια μείωση φόρων. Το υπουργείο Οικονομικών προειδοποιεί για έλλειμμα.",
+    "Voice of Logic and business lobby push for across-the-board tax cuts. Finance ministry warns of deficit risk.",
+    "Η ΕΕ παρακολουθεί τους δημοσιονομικούς δείκτες. Οι μισθωτοί ζητούν αύξηση καθαρών αποδοχών.",
+    "The EU monitors fiscal indicators. Salaried workers demand higher net pay.",
+    "economic", 2, 0,
+    [
+      option("Οριζόντια μείωση φόρων 15% σε τετραετία με δημοσιονομικούς κανόνες", "15% tax cut over four years with fiscal rules", 5, 1, 2, { ΦΛ: 4, ΝΔ: 4, ΕΛ: 3, ΠΕ: 3 }, "Η ανάπτυξη επιταχύνεται αλλά τα έσοδα πιέζονται.", "Growth accelerates but revenue is squeezed."),
+      option("Στοχευμένες ελαφρύνσεις για χαμηλά εισοδήματα και ΜμΕ", "Targeted relief for low incomes and SMEs", 3, 0, 4, { ΕΛΑΣ: 4, ΣΥΡΙΖΑ: 4, ΠΑΣΟΚ: 4, ΕΛΠ: 3 }, "Κοινωνική αποδοχή υψηλή. Οι επιχειρήσεις μένουν δυσαρεστημένες.", "High social acceptance. Businesses remain dissatisfied."),
+      option("Καμία μείωση — διατήρηση δημοσιονομικής πειθαρχίας", "No cuts — maintain fiscal discipline", 7, 2, -2, { ΚΚΕ: 1, ΕΛΑΣ: 1 }, "Οι αγορές χαιρετίζουν. Πολιτικό κόστος σε εκλογές.", "Markets applaud. Political cost at elections."),
+    ],
+  ),
+
+  scenario(1004,
+    "Μεταναστευτική Πίεση στα Νησιά", "Migration Pressure on Islands",
+    "Χιλιάδες πρόσφυγες έχουν συγκεντρωθεί στη Λέσβο και τη Χίο. Οι νησιώτες κλείνουν το λιμάνι.",
+    "Thousands of refugees have gathered on Lesbos and Chios. Islanders block the port.",
+    "Η Frontex ζητά συντονισμό. Η Τουρκία ανοίγει και κλείνει τα σύνορα. Η ΕΕ καθυστερεί στη χρηματοδότηση.",
+    "Frontex requests coordination. Turkey opens and closes borders. EU delays funding.",
+    "foreign_policy", 3, 1,
+    [
+      option("Επιτάχυνση ασύλου και μεταφορά στην ενδοχώρα με ευρωπαϊκή χρηματοδότηση", "Faster asylum and relocation inland with EU funding", 5, -2, 3, { ΣΥΡΙΖΑ: 4, ΠΑΣΟΚ: 4, ΕΛΑΣ: 4, ΕΛΠ: 3, ΝΔ: 2 }, "Τα νησιά ανακουφίζονται. Αντιδράσεις σε κοινότητες υποδοχής.", "Islands relieved. Pushback in host communities."),
+      option("Αυστηρότερος έλεγχος συνόρων και επέκταση φραγμού", "Stricter border control and barrier extension", 7, -1, -1, { ΝΔ: 4, ΦΛ: 4, ΝΙΚΗ: 4, ΣΠΑΡ: 4, ΕΛ: 3 }, "Μειώνονται οι αφίξεις. Κριτική από ανθρωπιστικές οργανώσεις.", "Arrivals drop. Criticism from humanitarian groups."),
+      option("Διαπραγμάτευση νέας συμφωνίας με Τουρκία και ΕΕ", "Negotiate new deal with Turkey and EU", 6, -1, 1, { ΝΔ: 3, ΠΑΣΟΚ: 3, ΕΛ: 2 }, "Μακρές διαπραγματεύσεις. Προσωρινή ανακούφιση.", "Long negotiations. Temporary relief."),
+    ],
+  ),
+
+  scenario(1005,
+    "Ενεργειακή Ακρίβεια: Ρεύμα +60%", "Energy Prices: Electricity +60%",
+    "Οι λογαριασμοί ρεύματος έχουν εκτοξευθεί. Νοικοκυριά και επιχειρήσεις απειλούν με διακοπή πληρωμών.",
+    "Electricity bills have skyrocketed. Households and businesses threaten payment strikes.",
+    "Η αποσύνδεση από τον ρωσικό αέριο και οι διεθνείς τιμές πιέζουν την οικονομία.",
+    "Decoupling from Russian gas and international prices pressure the economy.",
+    "energy", 2, 1,
+    [
+      option("Επίδομα ενέργειας για ευάλωτα νοικοκυριά και μικρές επιχειρήσεις", "Energy subsidy for vulnerable households and SMEs", 4, -3, 4, { ΣΥΡΙΖΑ: 4, ΠΑΣΟΚ: 4, ΕΛΑΣ: 4, ΚΚΕ: 4, ΕΛΠ: 3 }, "Άμεση ανακούφιση. Το δημοσιονομικό κόστος είναι υψηλό.", "Immediate relief. High fiscal cost."),
+      option("Επιτάχυνση αιολικών και φωτοβολταϊκών πάρκων", "Accelerate wind and solar parks", 5, -2, 2, { ΝΔ: 4, ΕΛ: 3, ΠΑΣΟΚ: 3 }, "Μακροπρόθεσμη λύση. Κριτική για καθυστέρηση.", "Long-term solution. Criticism for delay."),
+      option("Προσωρινή αναστολή ΦΠΑ στο ρεύμα", "Temporary VAT suspension on electricity", 6, -2, 3, { ΦΛ: 4, ΝΔ: 3, ΕΛ: 3 }, "Μειώνονται οι λογαριασμοί. Η ΕΕ ζητά εξηγήσεις.", "Bills drop. EU demands explanations."),
+    ],
+  ),
+
+  scenario(1006,
+    "Απεργία Γενικής Λαϊκής Εξέγερσης", "General Strike",
+    "ΓΣΕΕ και ΑΔΕΔΥ κηρύσσουν 48ωρη απεργία. Μεταφορές, νοσοκομεία και σχολεία παραλύουν.",
+    "GSEE and ADEDY declare 48-hour strike. Transport, hospitals and schools paralyzed.",
+    "Αιτήματα: αύξηση μισθών, κατάργηση ιδιωτικοποιήσεων, ενίσχυση ΕΣΥ.",
+    "Demands: wage hikes, halt privatizations, strengthen NHS.",
+    "economic", 2, 1,
+    [
+      option("Διαπραγμάτευση για αύξηση κατώτατου μισθού 10% και πάγωμα απολύσεων", "Negotiate 10% minimum wage hike and hiring freeze on layoffs", 4, -2, 4, { ΣΥΡΙΖΑ: 4, ΕΛΑΣ: 4, ΚΚΕ: 4, ΠΑΣΟΚ: 4 }, "Η απεργία αναστέλλεται. Οι επιχειρηματίες αντιδρούν.", "Strike suspended. Business pushback."),
+      option("Συνάντηση με συνδικάτα χωρίς δεσμευτικές υποσχέσεις", "Meet unions without binding commitments", 6, 0, -1, { ΝΔ: 3 }, "Η απεργία συνεχίζεται. Κλιμάκωση έντασης.", "Strike continues. Tension escalates."),
+      option("Ενεργοποίηση πολιτικής επιτάξεων για κρίσιμες υπηρεσίες", "Activate civil mobilization for critical services", 9, 0, -4, { ΝΔ: 4, ΦΛ: 3 }, "Λειτουργικότητα αποκαθίσταται. Διεθνής κριτική για συνδικαλιστικά δικαιώματα.", "Functionality restored. International criticism on labor rights."),
+    ],
+  ),
+
+  scenario(1007,
+    "Σκάνδαλο Διαφθοράς σε Δημόσιο Έργο", "Corruption Scandal in Public Project",
+    "Η ΕΛΠ και τα ΜΜΕ αποκαλύπτουν μίζες 50 εκατ. ευρώ σε έργο υποδομών. Υπουργός σας εμπλέκεται.",
+    "ELP and media reveal 50M euro bribes in infrastructure project. Your minister is implicated.",
+    "Η αντιπολίτευση ζητά παραίτηση κυβέρνησης. Οι εισαγγελείς έχουν ήδη στοιχεία.",
+    "Opposition demands government resignation. Prosecutors already have evidence.",
+    "justice", 3, 1,
+    [
+      option("Άμεση παραίτηση υπουργού και πλήρης συνεργασία με τη δικαιοσύνη", "Immediate minister resignation and full cooperation with justice", 3, -1, 4, { ΕΛΠ: 4, ΕΛΑΣ: 4, ΣΥΡΙΖΑ: 4, ΠΑΣΟΚ: 4, ΝΔ: 3 }, "Αποκαθίσταται μέρος της εμπιστοσύνης. Το κόμμα πληγώνεται.", "Some trust restored. Party is wounded."),
+      option("Ανάληψη πολιτικής ευθύνης χωρίς παραίτηση υπουργού μέχρι την απόφαση", "Political responsibility without minister resignation pending verdict", 7, 0, -2, { ΝΔ: 2 }, "Κατηγορίες για συγκάλυψη. Διαδηλώσεις συνεχίζονται.", "Cover-up accusations. Protests continue."),
+      option("Εσωτερική έρευνα και αναβολή δημόσιων αποφάσεων", "Internal inquiry and delay public decisions", 9, 0, -4, { ΦΛ: 1 }, "Κατάρρευση εμπιστοσύνης. Κίνδυνος πρόωρων εκλογών.", "Trust collapse. Risk of early elections."),
+    ],
+  ),
+
+  scenario(1008,
+    "Ψηφιακή Δημοκρατία: Διαρροή Δεδομένων", "Digital Democracy: Data Breach",
+    "Χάκερς διέρρευσαν προσωπικά δεδομένα 2 εκατομμυρίων πολιτών από κυβερνητική πλατφόρμα.",
+    "Hackers leaked personal data of 2 million citizens from a government platform.",
+    "Η ΕΛΑΣ είχε προτείνει ανοιχτό κώδικα και διαφάνεια. Οι πολίτες φοβούνται για την gov.gr.",
+    "ELAS had proposed open source and transparency. Citizens fear for gov.gr.",
+    "technology", 2, 1,
+    [
+      option("Άμεση αποκάλυψη, αποζημίωση πολιτών και ανεξάρτητος ελεγκτής", "Immediate disclosure, citizen compensation and independent auditor", 4, -2, 4, { ΕΛΑΣ: 4, ΕΛΠ: 4, ΣΥΡΙΖΑ: 4, ΠΑΣΟΚ: 4 }, "Η εμπιστοσύνη αποκαθίσταται σταδιακά. Υψηλό κόστος.", "Trust gradually restored. High cost."),
+      option("Σιωπηρή επιδιόρθωση χωρίς δημόσια ανακοίνωση", "Silent fix without public announcement", 9, 0, -5, { ΝΔ: 1 }, "Νέα διαρροή εκθέτει την κυβέρνηση. Σκάνδαλο.", "New leak exposes government. Scandal."),
+      option("Επένδυση 500 εκατ. σε κυβερνοασφάλεια και εκπαίδευση", "500M investment in cybersecurity and training", 5, -3, 3, { ΝΔ: 4, ΠΑΣΟΚ: 3, ΕΛ: 3 }, "Μακροπρόθεσμη προστασία. Κριτική για το παρελθόν.", "Long-term protection. Criticism for the past."),
+    ],
+  ),
+
+  scenario(1009,
+    "Αγροτική Κινητοποίηση: Κλειστοί Δρόμοι", "Farmers Protest: Roads Blocked",
+    "Αγρότες κλείνουν την Εθνική Οδό με τρακτέρ. Ζητούν ελάφρυνση ενεργειακού κόστους και στήριξη τιμών.",
+    "Farmers block the highway with tractors. They demand energy cost relief and price support.",
+    "Τα προϊόντα μένουν στα χωράφια. Ο τουρισμός πιέζεται για αποκλεισμούς.",
+    "Produce rots in fields. Tourism sector pressures over blockades.",
+    "economic", 2, 0,
+    [
+      option("Επιδότηση καυσίμων αγροτών και εγγύηση ελάχιστης τιμής", "Fuel subsidy for farmers and minimum price guarantee", 5, -2, 3, { ΣΥΡΙΖΑ: 4, ΠΑΣΟΚ: 4, ΕΛΑΣ: 3, ΝΔ: 2, ΕΛ: 3 }, "Οι δρόμοι ανοίγουν. Το κόστος είναι σημαντικό.", "Roads open. Cost is significant."),
+      option("Διαπραγμάτευση με μεσολάβηση περιφερειαρχών", "Negotiate with regional governors as mediators", 4, -1, 2, { ΠΑΣΟΚ: 4, ΝΔ: 3, ΕΛΠ: 3 }, "Μερική ικανοποίηση. Ορισμένοι αγρότες παραμένουν.", "Partial satisfaction. Some farmers remain."),
+      option("Αστυνομική επιχείρηση απομάκρυνσης", "Police operation to remove blockades", 8, -1, -3, { ΝΔ: 3, ΦΛ: 3 }, "Σύγκρουση στους δρόμους. Εικόνα διχασμού.", "Clashes on roads. Image of division."),
+    ],
+  ),
+
+  scenario(1010,
+    "Σεισμός 6.8 Ρίχτερ στην Αθήνα", "6.8 Earthquake in Athens",
+    "Ισχυρός σεισμός προκαλεί κατάρρευση κτιρίων. Εκατοντάδες εγκλωβισμένοι. Χρειάζονται άμεσες αποφάσεις.",
+    "Strong earthquake causes building collapses. Hundreds trapped. Immediate decisions needed.",
+    "Τα νοσοκομεία υπερφορτώνονται. Ο στρατός είναι σε ετοιμότητα.",
+    "Hospitals overloaded. Army on standby.",
+    "crisis", 1, 1,
+    [
+      option("Κήρυξη κατάστασης έκτακτης ανάγκης και κινητοποίηση όλων των δυνάμεων", "State of emergency and mobilize all forces", 2, -3, 5, { ΝΔ: 4, ΣΥΡΙΖΑ: 4, ΠΑΣΟΚ: 4, ΚΚΕ: 4, ΕΛΑΣ: 4, ΕΛΠ: 4, ΦΛ: 4 }, "Αποτελεσματική αντιμετώπιση. Εθνική συσπείρωση.", "Effective response. National unity."),
+      option("Αναμονή αξιολόγησης ζημιών πριν τη μαζική κινητοποίηση", "Wait for damage assessment before mass mobilization", 7, -2, -3, { ΝΔ: 1 }, "Καθυστερήσεις στη διάσωση. Σκληρή κριτική.", "Rescue delays. Harsh criticism."),
+      option("Διεθνής βοήθεια από την πρώτη ώρα", "International aid from hour one", 3, -2, 4, { ΠΑΣΟΚ: 4, ΣΥΡΙΖΑ: 4, ΕΛΑΣ: 3 }, "Γρήγορη στήριξη. Μερική κριτική για εξάρτηση.", "Fast support. Partial criticism for dependency."),
+    ],
+  ),
+
+  scenario(1011,
+    "Εκπαιδευτική Μεταρρύθμιση: Ιδιωτικά Πανεπιστήμια", "Education Reform: Private Universities",
+    "Η κυβέρνηση προτείνει νομοθεσία για μη κρατικά πανεπιστήμια. Οι φοιτητές καταλαμβάνουν τη Σύγκλητο.",
+    "Government proposes legislation for non-state universities. Students occupy the Senate.",
+    "Το άρθρο 16 συζητείται ξανά. Ακαδημαϊκή κοινότητα διχασμένη.",
+    "Article 16 debated again. Academic community divided.",
+    "social", 3, 0,
+    [
+      option("Ψήφιση με συνταγματική αναθεώρηση και κοινωνικό διάλογο", "Pass via constitutional amendment and social dialogue", 7, 1, -2, { ΝΔ: 4, ΦΛ: 3, ΕΛ: 3 }, "Μακρές διαδικασίες. Έντονες αντιδράσεις.", "Long procedures. Strong reactions."),
+      option("Αναβολή νομοθεσίας και ενίσχυση δημόσιων ΑΕΙ", "Postpone legislation and strengthen public universities", 4, -2, 4, { ΣΥΡΙΖΑ: 4, ΕΛΑΣ: 4, ΚΚΕ: 4, ΕΛΠ: 3, ΠΑΣΟΚ: 4 }, "Οι φοιτητές αποχωρούν. Οι μεταρρυθμιστές απογοητεύονται.", "Students leave. Reformers disappointed."),
+      option("Συνιδιόκτηση δημόσιων-ιδιωτικών σχολών σε ξένες γλώσσες", "Public-private joint schools in foreign languages", 6, 2, 0, { ΝΔ: 3, ΠΑΣΟΚ: 2 }, "Μερική λύση. Κανείς πλήρως ικανοποιημένος.", "Partial solution. Nobody fully satisfied."),
+    ],
+  ),
+
+  scenario(1012,
+    "Εκλογές 2026: Συμμαχία ή Μονοκομματική;", "2026 Elections: Coalition or Single Party?",
+    "Οι δημοσκοπήσεις δείχνουν κυβέρνηση μειοψηφίας. ΕΛΑΣ, ΕΛΠ και ΦΛ πιέζουν για ρόλους.",
+    "Polls show minority government. ELAS, ELP and FL press for roles.",
+    "Η αγορά ανησυχεί για πολιτική αστάθεια. Οι πολίτες θέλουν σταθερότητα.",
+    "Markets worry about instability. Citizens want stability.",
+    "politics", 3, 0,
+    [
+      option("Σχηματισμός ευρείας συμμαχίας με ΠΑΣΟΚ και μεταρρυθμιστική ατζέντα", "Broad coalition with PASOK and reform agenda", 5, 0, 2, { ΠΑΣΟΚ: 4, ΝΔ: 3, ΕΛΑΣ: 2, ΕΛΠ: 2 }, "Σταθερότητα αλλά πολιτικές συμβιβασμοί.", "Stability but political compromises."),
+      option("Μονοκομματική κυβέρνηση μειοψηφίας με ψήφο εμπιστοσύνης", "Minority single-party government with confidence vote", 8, -1, -1, { ΝΔ: 4, ΣΥΡΙΖΑ: 3 }, "Αβεβαιότητα. Κίνδυνος πρόωρων εκλογών.", "Uncertainty. Risk of snap elections."),
+      option("Συμφωνία με ΕΛΠ για κράτος δικαίου και με ΕΛΑΣ για κοινωνικό κράτος", "Deal with ELP on rule of law and ELAS on social state", 6, -1, 3, { ΕΛΠ: 4, ΕΛΑΣ: 4, ΣΥΡΙΖΑ: 2 }, "Νέα πολιτική χαρτογράφηση. Έκπληξη στα ΜΜΕ.", "New political map. Media surprise."),
+    ],
+  ),
+
+  scenario(1013,
+    "Τουρκία: Νέα NAVTEX στην Κρήτη", "Turkey: New NAVTEX off Crete",
+    "Η Τουρκία δεσμεύει περιοχή έρευνας νότια της Κρήτης. Το ΝΑΤΟ καλεί σε ψυχραιμία.",
+    "Turkey declares research area south of Crete. NATO calls for calm.",
+    "Ελληνικά πολεμικά πλοία έχουν αναπτυχθεί. Η κοινή γνώμη είναι σε οξεία κατάσταση.",
+    "Greek warships deployed. Public opinion is acute.",
+    "foreign_policy", 3, 1,
+    [
+      option("Διπλωματική κλιμάκωση στον ΟΗΕ και την ΕΕ με ελληνικά δικαιώματα", "Diplomatic escalation at UN and EU on Greek rights", 5, -1, 2, { ΝΔ: 4, ΠΑΣΟΚ: 4, ΕΛΑΣ: 3, ΕΛΠ: 3 }, "Διεθνής στήριξη. Η ένταση παραμένει.", "International support. Tension remains."),
+      option("Ανάπτυξη πολεμικού στόλου στην περιοχή", "Deploy naval fleet to the area", 8, -3, 1, { ΝΔ: 3, ΕΛ: 4, ΝΙΚΗ: 4, ΣΠΑΡ: 4 }, "Κίνδυνος επεισόδιου. Εσωτερική στήριξη εθνικισμού.", "Incident risk. Domestic nationalist support."),
+      option("Προσφορά κοινοπραξίας ενέργειας με όρους", "Offer energy joint venture with conditions", 7, 2, -2, { ΣΥΡΙΖΑ: 3, ΚΚΕ: 2, ΕΛΑΣ: 2 }, "Μείωση έντασης. Κριτική για υποχώρηση.", "Tension drops. Criticism for concession."),
+    ],
+  ),
+
+  scenario(1014,
+    "Υγεία: Ουρές 18 Μηνών για Εγχειρήσεις", "Health: 18-Month Surgery Waiting Lists",
+    "Τα νοσοκομεία δεν επαρκούν. Ασθενείς διαδηλώνουν με μασκές οξυγόνου έξω από το Ευαγγελισμό.",
+    "Hospitals cannot cope. Patients protest with oxygen masks outside Evangelismos hospital.",
+    "1.500 γιατροί έχουν φύγει στο εξωτερικό τα τελευταία 3 χρόνια.",
+    "1,500 doctors left abroad in the last 3 years.",
+    "social", 2, 0,
+    [
+      option("Μαζική πρόσληψη γιατρών και αύξηση μισθών ΕΣΥ 20%", "Mass hiring and 20% NHS wage increase", 5, -3, 5, { ΣΥΡΙΖΑ: 4, ΕΛΑΣ: 4, ΚΚΕ: 4, ΠΑΣΟΚ: 4, ΕΛΠ: 3 }, "Οι ουρές μειώνονται σε 12 μήνες. Υψηλό δημοσιονομικό κόστος.", "Queues drop in 12 months. High fiscal cost."),
+      option("Σύμβαση με ιδιωτικές κλινικές για δημόσιες επεμβάσεις", "Contract private clinics for public surgeries", 6, -2, 3, { ΝΔ: 4, ΠΑΣΟΚ: 3 }, "Ταχύτερη εξυπηρέτηση. Κριτική για ιδιωτικοποίηση.", "Faster service. Privatization criticism."),
+      option("Ψηφιακή λίστα αναμονής και αναδιάταξη προτεραιοτήτων", "Digital waiting list and priority reordering", 4, -1, 2, { ΝΔ: 3, ΕΛΑΣ: 3, ΕΛΠ: 3 }, "Βελτίωση διαφάνειας. Οι ουρές παραμένουν μεγάλες.", "Transparency improves. Queues remain long."),
+    ],
+  ),
+
+  scenario(1015,
+    "Τουρισμός: Υπερβάλλουσα Τουριστική Πίεση", "Tourism: Overtourism",
+    "Σαντορίνη και Μύκονος «πνίγονται» από επισκέπτες. Κάτοικοι ζητούν όρια επισκεπτών.",
+    "Santorini and Mykonos drowning in visitors. Residents demand visitor caps.",
+    "Τα έσοδα από τον τουρισμό είναι 25% του ΑΕΠ αλλά η ποιότητα ζωής καταρρέει.",
+    "Tourism revenue is 25% of GDP but quality of life collapses.",
+    "economic", 2, 0,
+    [
+      option("Όρια επισκεπτών και φόρος διανυκτέρευσης για επένδυση σε υποδομές", "Visitor caps and overnight tax for infrastructure", 5, 1, 3, { ΕΛΠ: 3, ΣΥΡΙΖΑ: 3, ΠΑΣΟΚ: 3, ΕΛ: 4 }, "Βιωσιμότερος τουρισμός. Μείωση εσόδων βραχυπρόθεσμα.", "More sustainable tourism. Short-term revenue drop."),
+      option("Επέκταση τουριστικής σεζόν και νέοι προορισμοί", "Extend season and new destinations", 4, 2, 1, { ΝΔ: 4, ΦΛ: 3 }, "Αποσυμφόρηση αλλά αργά αποτελέσματα.", "Decongestion but slow results."),
+      option("Καμία περιοριστική πολιτική — ελεύθερη αγορά", "No restrictive policy — free market", 7, 3, -3, { ΝΔ: 3, ΦΛ: 4, ΕΛ: 3 }, "Μέγιστα έσοδα. Κοινωνική αντίδραση στα νησιά.", "Maximum revenue. Social backlash on islands."),
+    ],
+  ),
+
+  scenario(1016,
+    "Κλιματική Καταστροφή: Πλημμύρες στη Θεσσαλία", "Climate Disaster: Thessaly Floods",
+    "Η καταιγίδα Daniel επαναλαμβάνεται με νέες πλημμύρες. Χιλιάδες άστεγοι.",
+    "Storm Daniel repeats with new floods. Thousands homeless.",
+    "Οι αποζημιώσεις από την προηγούμενη καταστροφή δεν έχουν ολοκληρωθεί.",
+    "Compensation from previous disaster not yet completed.",
+    "crisis", 2, 1,
+    [
+      option("Άμεση έκτακτη χρηματοδότηση 2 δισ. και εκκένωση πλημμυρισμένων περιοχών", "Immediate 2B emergency funding and evacuate flooded areas", 3, -4, 5, { ΝΔ: 4, ΣΥΡΙΖΑ: 4, ΕΛΑΣ: 4, ΕΛΠ: 4, ΠΑΣΟΚ: 4 }, "Σώζονται ζωές. Τεράστιο δημοσιονομικό βάρος.", "Lives saved. Huge fiscal burden."),
+      option("Αναμονή ευρωπαϊκών κονδυλίων πριν τη δράση", "Wait for EU funds before acting", 8, 0, -4, { ΝΔ: 1 }, "Καθυστερήσεις. Καταστροφή εμπιστοσύνης.", "Delays. Trust destroyed."),
+      option("Απαγόρευση οικοδόμησης σε κινδυνευόμενες ζώνες", "Ban construction in risk zones", 6, -1, 4, { ΕΛΠ: 4, ΕΛΑΣ: 3, ΣΥΡΙΖΑ: 3 }, "Μακροπρόθεσμη προστασία. Αντιδράσεις ιδιοκτητών.", "Long-term protection. Owner backlash."),
+    ],
+  ),
+
+  scenario(1017,
+    "ΜΜΕ: Έλεγχος Παραπολιτικής Διαφήμισης", "Media: Control of State Advertising",
+    "Η ΕΛΠ κατηγορεί ότι η κυβέρνηση κατευθύνει δημόσια διαφήμιση μόνο σε φιλικά ΜΜΕ.",
+    "ELP accuses government of directing public ads only to friendly media.",
+    "Η ΕΣΗΕΙΑ ζητά διαφανή κανόνες. Η αντιπολίτευση μιλά για «ΜΜΕ-τσέπη».",
+    "Journalists union demands transparent rules. Opposition speaks of pocket media.",
+    "politics", 2, 0,
+    [
+      option("Ανεξάρτητη επιτροπή κατανομής δημόσιας διαφήμισης", "Independent committee for public ad allocation", 4, 0, 4, { ΕΛΠ: 4, ΕΛΑΣ: 4, ΣΥΡΙΖΑ: 4, ΠΑΣΟΚ: 4 }, "Αποκατάσταση εμπιστοσύνης στον Τύπο. Μείωση ελέγχου.", "Press trust restored. Less control."),
+      option("Διατήρηση υπουργικής ευχέρειας με δημοσιοποίηση ποσών", "Ministerial discretion with amount disclosure", 6, 0, 1, { ΝΔ: 3 }, "Μερική διαφάνεια. Συνεχής κριτική.", "Partial transparency. Ongoing criticism."),
+      option("Κατάργηση κρατικής διαφήμισης σε ιδιωτικά ΜΜΕ", "Abolish state ads in private media", 7, 0, 2, { ΚΚΕ: 4, ΕΛΑΣ: 3 }, "ΜΜΕ σε κρίση. Πολιτική ανεξαρτησία αυξάνεται.", "Media in crisis. Political independence rises."),
+    ],
+  ),
+
+  scenario(1018,
+    "Τράπεζες: Τραπεζικό Run σε Μεσαίο Πιστωτικό", "Banks: Run on Mid-Size Lender",
+    "Φήμες για αδυναμία τράπεζας οδηγούν σε αναλήψεις 2 δισ. σε 48 ώρες.",
+    "Rumors of bank weakness drive 2B in withdrawals in 48 hours.",
+    "Η ΕΚΤ παρακολουθεί. Οι καταθέτες πανικοβάλλονται.",
+    "ECB monitoring. Depositors panic.",
+    "economic", 3, 1,
+    [
+      option("Εγγύηση καταθέσεων και κεφαλαιακή ενίσχυση από το ΤΧΔ", "Deposit guarantee and HFSF capital injection", 5, -4, 3, { ΝΔ: 4, ΠΑΣΟΚ: 4, ΣΥΡΙΖΑ: 3 }, "Ο πανικός σταματά. Δημόσιο κόστος.", "Panic stops. Public cost."),
+      option("Συγχώνευση με μεγάλη τράπεζα με κρατική μεσολάβηση", "Merger with major bank via state mediation", 6, -2, 2, { ΝΔ: 4, ΕΛ: 2 }, "Σταθεροποίηση. Κριτική για συγκέντρωση.", "Stabilization. Concentration criticism."),
+      option("Αφήνετε την αγορά να αποφασίσει", "Let the market decide", 9, -5, -5, { ΦΛ: 2 }, "Κατάρρευση τράπεζας. Συστημικός κίνδυνος.", "Bank collapse. Systemic risk."),
+    ],
+  ),
+
+  scenario(1019,
+    "Άμυνα: Αύξηση Δαπανών ΝΑΤΟ στο 3%", "Defense: NATO Spending to 3%",
+    "Οι ΗΠΑ απαιτούν αύξηση αμυντικών δαπανών στο 3% του ΑΕΠ. Το υπουργείο Οικονομικών αντιδρά.",
+    "US demands defense spending rise to 3% of GDP. Finance ministry objects.",
+    "Η Τουρκία αυξάνει τον εξοπλισμό της. Η κοινή γνώμη είναι διχασμένη.",
+    "Turkey increases armaments. Public opinion divided.",
+    "defense", 3, 0,
+    [
+      option("Αύξηση στο 2,5% με εγχώρια βιομηχανία όπλων", "Increase to 2.5% with domestic arms industry", 6, -3, 1, { ΝΔ: 4, ΕΛ: 4, ΝΙΚΗ: 4, ΣΠΑΡ: 4 }, "Ενίσχυση αποτρεπτικής ισχύος. Κόστος.", "Deterrence strengthened. Cost."),
+      option("Διατήρηση στο 2% με ευρωπαϊκή συνεργασία", "Maintain 2% with European cooperation", 4, -1, 2, { ΠΑΣΟΚ: 4, ΣΥΡΙΖΑ: 3, ΕΛΑΣ: 3 }, "Ισορροπία. Πίεση από συμμάχους.", "Balance. Ally pressure."),
+      option("Μείωση δαπανών και επένδυση σε διπλωματία", "Cut spending and invest in diplomacy", 8, 1, 2, { ΚΚΕ: 4, ΕΛΑΣ: 3, ΣΥΡΙΖΑ: 2 }, "Ειρήνιστη εικόνα. Κριτική για αδυναμία.", "Peaceful image. Weakness criticism."),
+    ],
+  ),
+
+  scenario(1020,
+    "Συνταξιοδοτικό: Ανοιχτό Μέτωπο με Συνταξιούχους", "Pensions: Open Front with Retirees",
+    "Οι συντάξεις δεν επαρκούν για βασικές ανάγκες. Συνταξιούχοι διαδηλώνουν μηνιαία.",
+    "Pensions insufficient for basic needs. Retirees protest monthly.",
+    "Το ασφαλιστικό σύστημα πιέζεται από γήρανση πληθυσμού.",
+    "Social security strained by aging population.",
+    "economic", 2, 0,
+    [
+      option("13η σύνταξη για χαμηλές συντάξεις και αναπροσαρμογή EKAS", "13th pension for low pensions and EKAS adjustment", 5, -3, 4, { ΣΥΡΙΖΑ: 4, ΕΛΑΣ: 4, ΚΚΕ: 4, ΠΑΣΟΚ: 4 }, "Ικανοποίηση συνταξιούχων. Δημοσιονομική πίεση.", "Retiree satisfaction. Fiscal pressure."),
+      option("Μεταρρύθμιση με κινητικότητα ηλικίας και ιδιωτικά ταμεία", "Reform with flexible retirement age and private funds", 7, 1, -2, { ΝΔ: 4, ΦΛ: 3, ΕΛ: 3 }, "Μακροπρόθεσμη βιωσιμότητα. Άμεση δυσαρέσκεια.", "Long-term sustainability. Immediate discontent."),
+      option("Εισφορά υπερπόντων πλουτοκρατών για το ταμείο", "Wealth tax on ultra-rich for pension fund", 6, 0, 3, { ΕΛΑΣ: 4, ΣΥΡΙΖΑ: 4, ΚΚΕ: 4, ΕΛΠ: 3 }, "Δημοφιλής επιλογή. Φοροδιαφυγή αντιδρά.", "Popular choice. Tax evasion pushback."),
+    ],
+  ),
+];
+
+// Batch 2 — more scenarios
+const batch2 = [
+  scenario(1021, "Ναρκωτικά: Έκρηξη στη νέα γενιά", "Drugs: Youth Epidemic", "Τα νοσοκομεία καταγράφουν αύξηση 80% σε υπερδόσεις. Γονείς διαδηλώνουν.", "Hospitals report 80% rise in overdoses. Parents protest.", "Η αστυνομία ζητά περισσότερους πόρους. Οι κοινωνικοί φορείς ζητούν πρόληψη.", "Police want more resources. NGOs demand prevention.", "social", 2, 0, [
+    option("Εθνικό πρόγραμμα πρόληψης στα σχολεία και κέντρα αποκατάστασης", "National school prevention and rehab centers", 4, -2, 4, { ΣΥΡΙΖΑ: 4, ΠΑΣΟΚ: 4, ΕΛΑΣ: 4, ΕΛΠ: 3 }, "Μακροπρόθεσμα αποτελέσματα. Άμεση κριτική για αργή δράση.", "Long-term results. Criticism for slow action."),
+    option("Σκληρότερες ποινές και επιχειρήσεις στα κέντρα", "Tougher penalties and center raids", 6, -1, 1, { ΝΔ: 4, ΦΛ: 4, ΕΛ: 3 }, "Μείωση εμπορίου. Κριτική για ποινικοποίηση.", "Trade drops. Criminalization criticism."),
+    option("Αποποινικοποίηση χρήσης και θεραπεία αντί φυλακής", "Decriminalize use and treatment not prison", 7, -1, 2, { ΕΛΑΣ: 3, ΣΥΡΙΖΑ: 3, ΚΚΕ: 4 }, "Προοδευτική εικόνα. Πολιτική αμφισβήτηση.", "Progressive image. Political controversy."),
+  ]),
+  scenario(1022, "Εργασία: 4ήμερη Εβδομάδα", "Labor: 4-Day Work Week", "Εταιρείες τεχνολογίας πιλοτικά εισάγουν 4ήμερη εβδομάδα. Συνδικάτα ζητούν νομοθεσία.", "Tech firms pilot 4-day week. Unions want legislation.", "Η παραγωγικότητα αυξάνεται σε πιλοτικά αλλά οι ΜμΕ αντιδρούν.", "Productivity rises in pilots but SMEs object.", "economic", 1, 0, [
+    option("Πειραματική νομοθεσία για εθελοντική 4ήμερη με κρατικά κίνητρα", "Pilot law for voluntary 4-day with state incentives", 4, 0, 3, { ΕΛΑΣ: 4, ΣΥΡΙΖΑ: 3, ΠΑΣΟΚ: 3 }, "Καινοτομία. Αβεβαιότητα για ΜμΕ.", "Innovation. SME uncertainty."),
+    option("Διατήρηση 5ήμερου — αυξησία ωριαίου μισθού", "Keep 5-day — raise hourly wage", 5, -1, 3, { ΚΚΕ: 4, ΣΥΡΙΖΑ: 4, ΕΛΑΣ: 3 }, "Προστασία εργαζομένων. Επιχειρηματική αντίδραση.", "Worker protection. Business pushback."),
+    option("Πλήρης 4ήμερη υποχρεωτική", "Full mandatory 4-day week", 8, -2, 2, { ΕΛΑΣ: 2 }, "Ριζική αλλαγή. Σοβαρή αντίσταση επιχειρήσεων.", "Radical change. Serious business resistance."),
+  ]),
+  scenario(1023, "Πολιτισμός: Μαρμάρινα Γλυπτά", "Culture: Parthenon Marbles", "Η Βρετανία προτείνει «δανεισμό» γλυπτών. Το υπουργείο Πολιτισμού διχάζεται.", "UK offers sculpture loan. Culture ministry divided.", "Διεθνής ευαισθησία. Ακαδημαϊκή κοινότητα ενωμένη για επιστροφή.", "International sensitivity. Academia united for return.", "foreign_policy", 2, 0, [
+    option("Απόρριψη δανεισμού — απαίτηση πλήρους επιστροφής", "Reject loan — demand full return", 5, 0, 3, { ΝΔ: 3, ΣΥΡΙΖΑ: 4, ΕΛΑΣ: 4, ΕΛΠ: 3, ΠΑΣΟΚ: 4 }, "Εθνική ικανοποίηση. Διπλωματική αδιέξοδος.", "National satisfaction. Diplomatic deadlock."),
+    option("Αποδοχή προσωρινής έκθεσης στην Αθήνα", "Accept temporary Athens exhibition", 6, 1, 1, { ΝΔ: 4, ΠΑΣΟΚ: 3 }, "Πρόοδος αλλά κατηγορίες για συμβιβασμό.", "Progress but compromise accusations."),
+    option("Διεθνής δικαστική προσφυγή", "International legal action", 7, -1, 2, { ΕΛΠ: 4, ΣΥΡΙΖΑ: 3 }, "Μακρά διαδικασία. Συμβολική νίκη.", "Long process. Symbolic win."),
+  ]),
+  scenario(1024, "Νερό: Λειτουργία ΕΥΔΑΠ", "Water: EYDAP Operation", "Η ιδιωτικοποίηση της ύδρευσης συζητείται ξανά μετά από βλάβες δικτύου.", "Water utility privatization debated again after network failures.", "Χιλιάδες νοικοκυριά χωρίς νερό για μέρες στη Δυτική Αττική.", "Thousands without water for days in West Attica.", "social", 2, 1, [
+    option("Δημόσια διαχείριση και επένδυση 1 δισ. σε δίκτυα", "Public management and 1B network investment", 5, -3, 4, { ΣΥΡΙΖΑ: 4, ΕΛΑΣ: 4, ΚΚΕ: 4, ΕΛΠ: 3 }, "Αξιοπιστία αυξάνεται. Υψηλό κόστος.", "Reliability rises. High cost."),
+    option("Σύμβαση παραχώρησης σε ιδιώτη με κοινωνικές ρήτρες", "Concession to private operator with social clauses", 7, 1, -1, { ΝΔ: 4, ΕΛ: 3 }, "Ταχύτερη επιδιόρθωση. Κριτική για κέρδη.", "Faster repair. Profit criticism."),
+    option("Έκτακτη χρηματοδότηση χωρίς αλλαγή μοντέλου", "Emergency funding without model change", 4, -2, 2, { ΠΑΣΟΚ: 4, ΝΔ: 3 }, "Προσωρινή λύση. Το πρόβλημα παραμένει.", "Temporary fix. Problem remains."),
+  ]),
+  scenario(1025, "Κυβερνοεπίθεση σε ΔΕΔΔΗΕ", "Cyber Attack on Power Grid", "Χάκερς διακόπτουν το δίκτυο ηλεκτρικού σε 3 περιφέρειες.", "Hackers disrupt power grid in 3 regions.", "Μαύρο σε νοσοκομεία και αεροδρόμια για 6 ώρες.", "Blackouts at hospitals and airports for 6 hours.", "technology", 3, 1, [
+    option("Κήρυξη κυβερνοασφάλειας εθνικής προτεραιότητας", "Declare cybersecurity national priority", 3, -3, 4, { ΝΔ: 4, ΣΥΡΙΖΑ: 4, ΕΛΑΣ: 4, ΕΛΠ: 4 }, "Αποκατάσταση σε 24 ώρες. Μακροπρόθεσμη θωράκιση.", "Restored in 24h. Long-term hardening."),
+    option("Συνεργασία με ΝΑΤΟ Cyber Defence", "Cooperate with NATO Cyber Defence", 5, -1, 2, { ΝΔ: 4, ΕΛ: 3 }, "Τεχνική βοήθεια. Κριτική για εξάρτηση.", "Technical aid. Dependency criticism."),
+    option("Αποσιώπηση μέχρι αποκατάστασης", "Silence until restoration", 9, -2, -4, {}, "Διαρροή προκαλεί χάος. Κατάρρευση εμπιστοσύνης.", "Leak causes chaos. Trust collapse."),
+  ]),
+  scenario(1026, "ΦΠΑ στον Τουρισμό: Αύξηση ή Μείωση;", "Tourism VAT: Raise or Cut?", "Οι ξενοδόχοι ζητούν μείωση ΦΠΑ. Το υπουργείο Οικονομικών χρειάζεται έσοδα.", "Hoteliers want VAT cut. Finance ministry needs revenue.", "Η ανταγωνιστικότητα με Τουρκία πιέζει.", "Competitiveness vs Turkey pressures.", "economic", 1, 0, [
+    option("Μείωση ΦΠΑ διαμονής στο 6%", "Cut accommodation VAT to 6%", 5, -2, 2, { ΝΔ: 4, ΦΛ: 4, ΕΛ: 3 }, "Τουρισμός αναζωογονείται. Έλλειμμα αυξάνεται.", "Tourism revives. Deficit rises."),
+    option("Διατήρηση ισχύοντος — επένδυση σε προβολή", "Keep current — invest in promotion", 4, 0, 1, { ΠΑΣΟΚ: 3, ΝΔ: 3 }, "Σταθερότητα. Ο κλάδος μένει δυσαρεστημένος.", "Stability. Sector remains unhappy."),
+    option("Αύξηση ΦΠΑ για χρηματοδότηση πράσινης ενέργειας", "Raise VAT to fund green energy", 7, 1, -2, { ΕΛΑΣ: 2, ΚΚΕ: 2 }, "Περιβαλλοντικό κέρδος. Τουριστική αντίδραση.", "Environmental gain. Tourism backlash."),
+  ]),
+  scenario(1027, "Δικαστήρια: Υπερφόρτωση & Καθυστερήσεις", "Courts: Overload and Delays", "Υποθέσεις καθυστερούν 5+ χρόνια. Επιχειρήσεις και πολίτες απελπίζονται.", "Cases delayed 5+ years. Businesses and citizens despair.", "Η ΕΛΠ προτείνει ανεξάρτητη εισαγγελέα.", "ELP proposes independent prosecutor.", "justice", 2, 0, [
+    option("Πρόσληψη 1.000 δικαστών και ψηφιοποίηση δικαστηρίων", "Hire 1,000 judges and digitize courts", 5, -3, 4, { ΕΛΠ: 4, ΕΛΑΣ: 4, ΠΑΣΟΚ: 4, ΣΥΡΙΖΑ: 4 }, "Οι καθυστερήσεις μειώνονται. Υψηλό κόστος.", "Delays shrink. High cost."),
+    option("Διαιτησία για εμπορικές διαφορές", "Arbitration for commercial disputes", 4, 1, 2, { ΝΔ: 4, ΕΛ: 3 }, "Ταχύτερη επιχειρηματική δικαιοσύνη. Κριτική για διπλό σύστημα.", "Faster business justice. Dual system criticism."),
+    option("Αναβολή μεταρρυθμίσεων λόγω κόστους", "Postpone reforms due to cost", 8, 0, -3, { ΝΔ: 2 }, "Συνεχής απογοήτευση. ΕΛΠ κερδίζει πολιτικά.", "Ongoing disappointment. ELP gains politically."),
+  ]),
+  scenario(1028, "Πανεπιστημιακό Άσυλο: Σύγκρουση", "University Asylum: Clash", "Κατάληψη ΑΣΟΕΕ με αιτήματα αστυνομικής παρέμβασης.", "ASOEE occupation with calls for police intervention.", "Αντιπολίτευση και φοιτητές σε αντιπαράθεση.", "Opposition and students clash.", "social", 2, 1, [
+    option("Διάλογος με φοιτητικές εκπροσώπους και μεταρρύθμιση άσυλου", "Dialogue with student reps and asylum reform", 5, 0, 3, { ΕΛΑΣ: 4, ΣΥΡΙΖΑ: 4, ΠΑΣΟΚ: 4 }, "Η κατάληψη λήγει ειρηνικά. Μερική ικανοποίηση.", "Occupation ends peacefully. Partial satisfaction."),
+    option("Αστυνομική είσοδος στο πανεπιστήμιο", "Police entry into university", 8, 0, -4, { ΝΔ: 3, ΦΛ: 4 }, "Σύγκρουση και διεθνής κριτική.", "Clash and international criticism."),
+    option("Αναμονή χωρίς παρέμβαση", "Wait without intervention", 6, 0, -1, { ΣΥΡΙΖΑ: 2 }, "Η κατάληψη παρατείνεται. Κριτική από όλες τις πλευρές.", "Occupation prolonged. Criticism from all sides."),
+  ]),
+  scenario(1029, "Εκκλησία-Κράτος: Συζήτηση για Διαχωρισμό", "Church-State: Separation Debate", "Σκάνδαλο σε Μητρόπολη αναζητά συζήτηση για μισθοδοσία κληρικών.", "Metropolis scandal revives clergy payroll debate.", "Η Εκκλησία ζητά διάλογο. Η ΦΛ αντιδρά έντονα.", "Church seeks dialogue. FL reacts strongly.", "politics", 3, 0, [
+    option("Κατάργηση μισθοδοσίας — εθελοντική συνεισφορά πιστών", "End payroll — voluntary contributions", 8, 1, -2, { ΕΛΑΣ: 3, ΣΥΡΙΖΑ: 3 }, "Δημοσιονομικό κέρδος. Έντονη θρησκευτική αντίδραση.", "Fiscal gain. Strong religious backlash."),
+    option("Διαφάνεια και έλεγχος περιουσίας Εκκλησίας", "Transparency and Church asset audit", 5, 0, 2, { ΕΛΠ: 4, ΕΛΑΣ: 3, ΠΑΣΟΚ: 3 }, "Μερική μεταρρύθμιση. Ικανοποίηση μετρίων.", "Partial reform. Moderate satisfaction."),
+    option("Καμία αλλαγή — πλήρης διατήρηση status quo", "No change — full status quo", 4, 0, -1, { ΝΔ: 3, ΦΛ: 4, ΝΙΚΗ: 4 }, "Σταθερότητα με συντηρητικούς. Προοδευτική κριτική.", "Stability with conservatives. Progressive criticism."),
+  ]),
+  scenario(1030, "Κλιματική Νομοθεσία: Απαγόρευση Πλαστικού", "Climate Law: Plastic Ban", "Η ΕΕ απαιτεί απαγόρευση μίας χρήσης πλαστικού. Μικρές επιχειρήσεις αντιδρούν.", "EU requires single-use plastic ban. Small businesses object.", "Χρειάζονται εναλλακτικές συσκευασίες με υψηλότερο κόστος.", "Alternative packaging needed at higher cost.", "environment", 1, 0, [
+    option("Πλήρης εφαρμογή με κρατική επιδότηση μετάβασης", "Full implementation with state transition subsidy", 4, -2, 4, { ΣΥΡΙΖΑ: 4, ΕΛΑΣ: 4, ΠΑΣΟΚ: 4, ΕΛΠ: 3 }, "Συμμόρφωση με ΕΕ. Κόστος για κράτος.", "EU compliance. State cost."),
+    option("Σταδιακή εφαρμογή σε 5 χρόνια", "Phased implementation over 5 years", 5, 0, 2, { ΝΔ: 4, ΠΑΣΟΚ: 3 }, "Λογική μετάβαση. Κριτική από περιβαλλοντικές οργανώσεις.", "Smooth transition. Green NGO criticism."),
+    option("Αίτημα παράτασης στην ΕΕ", "Request EU extension", 7, 0, -1, { ΦΛ: 3, ΕΛ: 3 }, "Ανακούφιση επιχειρήσεων. Εικόνα καθυστέρησης.", "Business relief. Delay image."),
+  ]),
+];
+
+const all = [...extra, ...batch2];
+
+const outPath = path.join(__dirname, "data", "extraPmScenarios.json");
+fs.writeFileSync(outPath, JSON.stringify(all, null, 2));
+console.log(`Generated ${all.length} extra PM scenarios (${all.length * 3} options)`);

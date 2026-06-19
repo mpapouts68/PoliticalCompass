@@ -36,11 +36,12 @@ export const translations = {
     error: 'Σφάλμα',
     
     // Survey questions and interface
-    surveyLength: 'με 15 έως 100 ερωτήσεις',
+    surveyLength: 'με 15 έως 150 ερωτήσεις',
     quickTest: 'Γρήγορο Τεστ',
     standardTest: 'Κανονικό Τεστ',
     detailedTest: 'Αναλυτικό Τεστ',
     completeTest: 'Πλήρες Τεστ',
+    extendedTest: 'Εκτεταμένο Τεστ',
     questions: 'ερωτήσεις',
     
     // Answer options
@@ -91,7 +92,7 @@ export const translations = {
     
     // Ideology Test
     ideologyTest: 'Ιδεολογικό Τεστ',
-    ideologyTestDescription: 'Ανακαλύψτε την πολιτική σας θέση στο φάσμα αριστερά-κέντρο-δεξιά',
+    ideologyTestDescription: 'Ερωτήσεις από τα επίσημα προγράμματα των κομμάτων — δείτε πού βρίσκεστε στο φάσμα αριστερά-κέντρο-δεξιά.',
     ideologyResults: 'Αποτελέσματα Ιδεολογικού Τεστ',
     yourPoliticalPosition: 'Η πολιτική σας θέση στο φάσμα αριστερά-κέντρο-δεξιά',
     loadingQuestions: 'Φόρτωση ερωτήσεων...',
@@ -113,6 +114,8 @@ export const translations = {
     progress: 'Πρόοδος',
     autoAdvanceMessage: 'Η επόμενη ερώτηση θα εμφανιστεί αυτόματα μετά την επιλογή σας',
     savingAnswer: 'Αποθήκευση απάντησης...',
+    noDescriptionAvailable: 'Δεν υπάρχει διαθέσιμη περιγραφή',
+    noCharacteristicsAvailable: 'Δεν υπάρχουν διαθέσιμα χαρακτηριστικά',
     
     // Contact and Statistics
     contactInformation: 'Επικοινωνία',
@@ -126,7 +129,7 @@ export const translations = {
     chooseQuestionCount: 'Επιλέξτε αριθμό ερωτήσεων',
     selectQuestionCount: 'Επιλέξτε τον αριθμό ερωτήσεων για να ξεκινήσει αυτόματα το τεστ',
     educationalDisclaimer: 'Αυτό το εργαλείο έχει εκπαιδευτικό χαρακτήρα και βοηθά στην κατανόηση των πολιτικών θέσεων. Δεν αντικαθιστά την προσωπική έρευνα και κρίση.',
-    partyAlignmentDescription: 'Ανακαλύψτε ποιο κόμμα ταιριάζει περισσότερο στις απόψεις σας',
+    partyAlignmentDescription: 'Όλες οι ερωτήσεις βασίζονται στα επίσημα προγράμματα των κομμάτων. Ανακαλύψτε ποιο κόμμα ταιριάζει περισσότερο στις απόψεις σας',
     
     // Contact Section
     socialMedia: 'Κοινωνικά Δίκτυα',
@@ -145,6 +148,7 @@ export const translations = {
     noQuestionsAvailable: 'Δεν υπάρχουν διαθέσιμες ερωτήσεις',
     difficulty: 'Δυσκολία',
     correct: 'Σωστό!',
+    correctAnswer: 'Σωστή απάντηση',
     incorrect: 'Λάθος',
     submitAnswer: 'Υποβολή Απάντησης',
     nextQuestion: 'Επόμενη Ερώτηση',
@@ -154,6 +158,26 @@ export const translations = {
     
     // Prime Minister Scenario
     primeMinisterForADay: 'Πρωθυπουργός για μια Μέρα',
+    pmFeaturedBadge: 'Δοκιμάστε πρώτα',
+    pmScenarioCount: 'σενάρια κρίσης',
+    pmChallengeMode: 'Πρόκληση 3 Αποφάσεων',
+    pmSingleMode: 'Μία Απόφαση',
+    pmChallengeDescription: 'Αντιμετωπίστε 3 διαδοχικά κρίσιμα διλήμματα και δείτε πώς κυβερνάτε',
+    pmCampaignMode: 'Εκστρατεία — Πολιτικό Κεφάλαιο',
+    pmCampaignDescription: '5 αποφάσεις με 100 μονάδες πολιτικού κεφαλαίου. Μην καταρρεύσει η κυβέρνησή σας!',
+    pmPoliticalCapital: 'Πολιτικό Κεφάλαιο',
+    pmCapitalPreview: 'Εκτίμηση κεφαλαίου',
+    pmCapitalChange: 'Αλλαγή κεφαλαίου',
+    pmCampaignComplete: 'Τέλος Εκστρατείας',
+    pmCampaignCollapsed: 'Η κυβέρνηση κατέρρευσε',
+    pmCampaignCollapsedDetail: 'Το πολιτικό κεφάλαιο έφτασε στο μηδέν. Η κοινοβουλευτική σας πλειοψηφία διαλύθηκε.',
+    pmCampaignVictoryStrong: 'Ισχυρή κυβέρνηση — εξαιρετική διακυβέρνηση!',
+    pmCampaignVictoryStable: 'Σταθερή κυβέρνηση — ολοκληρώσατε τη θητεία σας.',
+    pmCampaignVictoryWeak: 'Εύθραυστη πλειοψηφία — επιβιώσατε, αλλά με δυσκολίες.',
+    pmCampaignVictoryBarely: 'Οριακή επιβίωση — η επόμενη κρίση μπορεί να σας ρίξει.',
+    pmRound: 'Απόφαση',
+    pmChallengeComplete: 'Ολοκλήρωση Πρόκλησης',
+    continueToNext: 'Επόμενο Σενάριο',
     loadingScenario: 'Φόρτωση σεναρίου...',
     noScenariosAvailable: 'Δεν υπάρχουν διαθέσιμα σενάρια',
     urgentScenario: 'ΕΠΕΙΓΟΝ ΣΕΝΑΡΙΟ',
@@ -240,6 +264,28 @@ export const translations = {
     helpDevelopment: 'Βοήθεια στην ανάπτυξη',
     noHiddenCharges: 'Χωρίς κρυφές χρεώσεις',
 
+    // Anonymous profile & history
+    myJourney: 'Το Ταξίδι μου',
+    myJourneyDescription: 'Δείτε πώς αλλάζουν τα αποτελέσματά σας με τον χρόνο — χωρίς να αποκαλύπτετε την ταυτότητά σας.',
+    anonymousPrivacyNote: 'Δεν ζητάμε όνομα, email ή στοιχεία. Ένα ανώνυμο ID αποθηκεύεται μόνο στο δικό σας browser. Μπορείτε να ψηφίσετε ειλικρινά — κανείς δεν θα σας αναγνωρίσει.',
+    optionalNickname: 'Ψευδώνυμο (προαιρετικό)',
+    nicknamePlaceholder: 'π.χ. Πολίτης_42',
+    saveNickname: 'Αποθήκευση',
+    partyAlignmentOverTime: 'Συμβατότητα με κόμμα στον χρόνο',
+    surveyHistory: 'Ιστορικό τεστ κομμάτων',
+    ideologyHistory: 'Ιστορικό ιδεολογικού τεστ',
+    quizHistory: 'Ιστορικό κουίζ',
+    noHistoryYet: 'Δεν υπάρχουν αποτελέσματα ακόμα. Κάντε ένα τεστ!',
+    viewMyJourney: 'Το ταξίδι μου',
+    quizLeaderboard: 'Κατάταξη κουίζ',
+    leaderboardEmpty: 'Κανείς δεν έχει μπει ακόμα στην κατάταξη. Γίνε ο πρώτος!',
+    anonymousPlayer: 'Ανώνυμος παίκτης',
+    leaderboardOptIn: 'Εμφάνιση στη δημόσια κατάταξη (μόνο ψευδώνυμο, όχι προσωπικά στοιχεία)',
+    explorePartyWebsites: 'Δείτε τα επίσημα sites των κομμάτων που σας ταιριάζουν:',
+    exploreYourMatches: 'Εξερευνήστε τα κόμματά σας',
+    visitPartyWebsite: 'Επίσημη ιστοσελίδα',
+    partyLinkDisclaimer: 'Σύνδεσμοι προς επίσημες ιστοσελίδες κομμάτων. Το Ιδεολόγος δεν συνδέεται οικονομικά με κανένα κόμμα.',
+
     // Parties (keep Greek names but add descriptions)
     parties: {
       'ΝΔ': 'Νέα Δημοκρατία',
@@ -250,7 +296,10 @@ export const translations = {
       'Πλεύση Ελευθερίας': 'Πλεύση Ελευθερίας',
       'Νίκη': 'Νίκη',
       'Σπαρτιάτες': 'Σπαρτιάτες',
-      'ΝΑ': 'Νέα Αριστερά'
+      'ΝΑ': 'Νέα Αριστερά',
+      'ΕΛΑΣ': 'Ελληνική Αριστερή Συμπαράταξη',
+      'ΕΛΠ': 'Ελπίδα για τη Δημοκρατία',
+      'ΦΛ': 'Φωνή Λογικής'
     }
   },
   en: {
@@ -268,17 +317,19 @@ export const translations = {
     error: 'Error',
     
     // Survey questions and interface
-    surveyLength: 'with 15 to 100 questions',
+    surveyLength: 'with 15 to 150 questions',
     quickTest: 'Quick Test',
     standardTest: 'Standard Test',
     detailedTest: 'Detailed Test',
     completeTest: 'Complete Test',
+    extendedTest: 'Extended Test',
     
     // Knowledge Challenge
     knowledgeChallenge: 'Knowledge Challenge',
     noQuestionsAvailable: 'No questions available',
     difficulty: 'Difficulty',
     correct: 'Correct!',
+    correctAnswer: 'Correct answer',
     incorrect: 'Incorrect',
     submitAnswer: 'Submit Answer',
     nextQuestion: 'Next Question',
@@ -288,6 +339,26 @@ export const translations = {
     
     // Prime Minister Scenario
     primeMinisterForADay: 'Prime Minister for a Day',
+    pmFeaturedBadge: 'Try this first',
+    pmScenarioCount: 'crisis scenarios',
+    pmChallengeMode: '3-Decision Challenge',
+    pmSingleMode: 'Single Decision',
+    pmChallengeDescription: 'Face 3 consecutive critical dilemmas and see how you govern',
+    pmCampaignMode: 'Campaign — Political Capital',
+    pmCampaignDescription: '5 decisions with 100 political capital. Don\'t let your government collapse!',
+    pmPoliticalCapital: 'Political Capital',
+    pmCapitalPreview: 'Capital estimate',
+    pmCapitalChange: 'Capital change',
+    pmCampaignComplete: 'Campaign Complete',
+    pmCampaignCollapsed: 'Government collapsed',
+    pmCampaignCollapsedDetail: 'Political capital hit zero. Your parliamentary majority fell apart.',
+    pmCampaignVictoryStrong: 'Strong government — outstanding leadership!',
+    pmCampaignVictoryStable: 'Stable government — you completed your term.',
+    pmCampaignVictoryWeak: 'Fragile majority — you survived, but barely.',
+    pmCampaignVictoryBarely: 'Hanging by a thread — the next crisis could topple you.',
+    pmRound: 'Decision',
+    pmChallengeComplete: 'Challenge Complete',
+    continueToNext: 'Next Scenario',
     loadingScenario: 'Loading scenario...',
     noScenariosAvailable: 'No scenarios available',
     urgentScenario: 'URGENT SCENARIO',
@@ -374,7 +445,29 @@ export const translations = {
     supportTheProject: 'Support the project',
     helpDevelopment: 'Help development',
     noHiddenCharges: 'No hidden charges',
-    
+
+    // Anonymous profile & history
+    myJourney: 'My Journey',
+    myJourneyDescription: 'See how your results shift over time — without revealing who you are.',
+    anonymousPrivacyNote: 'We never ask for your name, email, or personal details. An anonymous ID lives only in your browser. Answer honestly — nobody can identify you.',
+    optionalNickname: 'Nickname (optional)',
+    nicknamePlaceholder: 'e.g. Citizen_42',
+    saveNickname: 'Save',
+    partyAlignmentOverTime: 'Party alignment over time',
+    surveyHistory: 'Party test history',
+    ideologyHistory: 'Ideology test history',
+    quizHistory: 'Quiz history',
+    noHistoryYet: 'No results yet. Take a test!',
+    viewMyJourney: 'My journey',
+    quizLeaderboard: 'Quiz leaderboard',
+    leaderboardEmpty: 'No scores yet. Be the first!',
+    anonymousPlayer: 'Anonymous player',
+    leaderboardOptIn: 'Show on public leaderboard (nickname only, no personal data)',
+    explorePartyWebsites: 'Visit official websites of parties that match your views:',
+    exploreYourMatches: 'Explore your party matches',
+    visitPartyWebsite: 'Official website',
+    partyLinkDisclaimer: 'Links to official party websites. Ideologos has no financial affiliation with any party.',
+
     // Answer options
     stronglyDisagree: 'Strongly Disagree',
     disagree: 'Disagree',
@@ -423,7 +516,7 @@ export const translations = {
     
     // Ideology Test
     ideologyTest: 'Ideology Test',
-    ideologyTestDescription: 'Discover your political position on the left-center-right spectrum',
+    ideologyTestDescription: 'Questions drawn from the same official party programs — see where you sit on the left-center-right spectrum.',
     ideologyResults: 'Ideology Test Results',
     yourPoliticalPosition: 'Your political position on the left-center-right spectrum',
     description: 'Description',
@@ -445,6 +538,8 @@ export const translations = {
     progress: 'Progress',
     autoAdvanceMessage: 'Next question will appear automatically after your selection',
     savingAnswer: 'Saving answer...',
+    noDescriptionAvailable: 'No description available',
+    noCharacteristicsAvailable: 'No characteristics available',
     
     // Contact and Statistics
     contactInformation: 'Contact Information',
@@ -458,7 +553,7 @@ export const translations = {
     chooseQuestionCount: 'Choose question count',
     selectQuestionCount: 'Select the number of questions to automatically start the test',
     educationalDisclaimer: 'This tool is educational and helps understand political positions. It does not replace personal research and judgment.',
-    partyAlignmentDescription: 'Discover which party best matches your views',
+    partyAlignmentDescription: 'All questions are based on official party programs. Discover which party best matches your views',
     
     // Contact Section
     socialMedia: 'Social Media & Updates',
@@ -482,10 +577,121 @@ export const translations = {
       'Πλεύση Ελευθερίας': 'Course of Freedom',
       'Νίκη': 'Victory (Niki)',
       'Σπαρτιάτες': 'Spartans',
-      'ΝΑ': 'New Left (NA)'
+      'ΝΑ': 'New Left (NA)',
+      'ΕΛΑΣ': 'Greek Left Alliance (ELAS)',
+      'ΕΛΠ': 'Hope for Democracy (ELP)',
+      'ΦΛ': 'Voice of Logic (FL)'
     }
   }
 };
+
+const CATEGORY_LABELS: Record<Language, Record<string, string>> = {
+  el: {
+    "Οικονομία": "Οικονομία",
+    "Κοινωνικά": "Κοινωνικά",
+    "Περιβάλλον": "Περιβάλλον",
+    "Άμυνα": "Άμυνα",
+    "Εξωτερική Πολιτική": "Εξωτερική Πολιτική",
+    "Δικαιοσύνη": "Δικαιοσύνη",
+    "Διοίκηση": "Διοίκηση",
+    "Ευρωπαϊκή Πολιτική": "Ευρωπαϊκή Πολιτική",
+    "Αγροτική Πολιτική": "Αγροτική Πολιτική",
+    "Ασφάλεια": "Ασφάλεια",
+    "Μεταφορές": "Μεταφορές",
+    "Πολεοδομία": "Πολεοδομία",
+    "Πολιτισμός": "Πολιτισμός",
+    "Κράτος & Οικονομία": "Κράτος & Οικονομία",
+    "Κοινωνική Δικαιοσύνη": "Κοινωνική Δικαιοσύνη",
+    "Ελευθερία & Εξουσία": "Ελευθερία & Εξουσία",
+    "Παράδοση & Κοινωνία": "Παράδοση & Κοινωνία",
+    "Διεθνισμός & Κόσμος": "Διεθνισμός & Κόσμος",
+    "Ιδεολογία & Ιστορία": "Ιδεολογία & Ιστορία",
+    economic: "Οικονομία",
+    social: "Κοινωνικά",
+    crisis: "Κρίση",
+    foreign_policy: "Εξωτερική Πολιτική",
+    justice: "Δικαιοσύνη",
+    politics: "Πολιτική",
+    environment: "Περιβάλλον",
+    energy: "Ενέργεια",
+    health: "Υγεία",
+    education: "Εκπαίδευση",
+    technology: "Τεχνολογία",
+    defense: "Άμυνα",
+    society: "Κοινωνία",
+    economy: "Οικονομία",
+    modern_history: "Σύγχρονη Ιστορία",
+    parties: "Κόμματα",
+    constitutional: "Σύνταγμα",
+    leaders: "Ηγέτες",
+    elections: "Εκλογές",
+    eu: "Ευρωπαϊκή Ένωση",
+    "2026-election": "Εκλογές 2026",
+    "pre-1974": "Προ-1974",
+    "1974-1990": "1974-1990",
+    "1990-2010": "1990-2010",
+    "2010-present": "2010-σήμερα",
+  },
+  en: {
+    "Οικονομία": "Economy",
+    "Κοινωνικά": "Social Issues",
+    "Περιβάλλον": "Environment",
+    "Άμυνα": "Defense",
+    "Εξωτερική Πολιτική": "Foreign Policy",
+    "Δικαιοσύνη": "Justice",
+    "Διοίκηση": "Governance",
+    "Εκπαίδευση": "Education",
+    "Υγεία": "Healthcare",
+    "Εργασία": "Labor",
+    "Μετανάστευση": "Immigration",
+    "Τεχνολογία": "Technology",
+    "Κοινωνική Πολιτική": "Social Policy",
+    "Σύνταγμα": "Constitution",
+    "Ευρωπαϊκή Πολιτική": "European Policy",
+    "Ενέργεια": "Energy",
+    "Στέγαση": "Housing",
+    "Αγροτική Πολιτική": "Agricultural Policy",
+    "Ασφάλεια": "Public Safety",
+    "Μεταφορές": "Transport",
+    "Πολεοδομία": "Urban Planning",
+    "Πολιτισμός": "Culture",
+    "Κράτος & Οικονομία": "State & Economy",
+    "Κοινωνική Δικαιοσύνη": "Social Justice",
+    "Ελευθερία & Εξουσία": "Liberty & Authority",
+    "Παράδοση & Κοινωνία": "Tradition & Society",
+    "Διεθνισμός & Κόσμος": "Nationalism & World",
+    "Ιδεολογία & Ιστορία": "Ideology & History",
+    economic: "Economy",
+    social: "Social Issues",
+    crisis: "Crisis",
+    foreign_policy: "Foreign Policy",
+    justice: "Justice",
+    politics: "Politics",
+    environment: "Environment",
+    energy: "Energy",
+    health: "Healthcare",
+    education: "Education",
+    technology: "Technology",
+    defense: "Defense",
+    society: "Society",
+    economy: "Economy",
+    modern_history: "Modern History",
+    parties: "Parties",
+    constitutional: "Constitution",
+    leaders: "Leaders",
+    elections: "Elections",
+    eu: "European Union",
+    "2026-election": "2026 Election",
+    "pre-1974": "Pre-1974",
+    "1974-1990": "1974-1990",
+    "1990-2010": "1990-2010",
+    "2010-present": "2010-Present",
+  },
+};
+
+export function translateCategory(category: string, language: Language): string {
+  return CATEGORY_LABELS[language][category] ?? category;
+}
 
 export function useTranslation() {
   const language = useLanguage((state) => state.language);
@@ -514,5 +720,5 @@ export function useTranslation() {
     return typeof value === 'string' ? value : key;
   };
   
-  return { t, language };
+  return { t, language, translateCategory: (category: string) => translateCategory(category, language) };
 }

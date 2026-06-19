@@ -19,14 +19,14 @@ export function ElectionResults() {
   const { data: stats, isLoading } = useQuery<ElectionStats>({
     queryKey: ["/api/election-stats"],
   });
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
 
   if (isLoading) {
     return (
       <Card className="bg-white shadow-md">
         <CardContent className="p-8 text-center">
           <div className="text-lg text-neutral-600">
-            {t('language') === 'el' ? 'Φόρτωση στατιστικών...' : 'Loading statistics...'}
+            {language === 'el' ? 'Φόρτωση στατιστικών...' : 'Loading statistics...'}
           </div>
         </CardContent>
       </Card>
@@ -38,10 +38,10 @@ export function ElectionResults() {
       <Card className="bg-white shadow-md">
         <CardContent className="p-8 text-center">
           <div className="text-lg text-neutral-600">
-            {t('language') === 'el' ? 'Δεν υπάρχουν ακόμα αποτελέσματα' : 'No results yet'}
+            {language === 'el' ? 'Δεν υπάρχουν ακόμα αποτελέσματα' : 'No results yet'}
           </div>
           <p className="text-sm text-neutral-500 mt-2">
-            {t('language') === 'el' ? 'Γίνε ο πρώτος που θα πάρει το τεστ!' : 'Be the first to take the test!'}
+            {language === 'el' ? 'Γίνε ο πρώτος που θα πάρει το τεστ!' : 'Be the first to take the test!'}
           </p>
         </CardContent>
       </Card>
@@ -57,7 +57,10 @@ export function ElectionResults() {
     "ΠΕ": "Πλεύση Ελευθερίας",
     "ΝΙΚΗ": "Νίκη",
     "ΣΠΑΡ": "Σπαρτιάτες",
-    "ΝΑ": "Νέα Αριστερά"
+    "ΝΑ": "Νέα Αριστερά",
+    "ΕΛΑΣ": "Ελληνική Αριστερή Συμπαράταξη",
+    "ΕΛΠ": "Ελπίδα για τη Δημοκρατία",
+    "ΦΛ": "Φωνή Λογικής"
   };
 
   return (
@@ -68,18 +71,18 @@ export function ElectionResults() {
           <div className="text-center">
             <BarChart3 className="w-16 h-16 mx-auto mb-4" />
             <h2 className="text-3xl font-bold mb-2">
-              {t('language') === 'el' ? 'Αποτελέσματα Πολιτικού Τεστ' : 'Political Test Results'}
+              {language === 'el' ? 'Αποτελέσματα Πολιτικού Τεστ' : 'Political Test Results'}
             </h2>
             <div className="flex items-center justify-center space-x-6 mt-4">
               <div className="flex items-center space-x-2">
                 <Users className="w-5 h-5" />
                 <span className="text-lg font-semibold">
-                  {stats.totalVotes.toLocaleString()} {t('language') === 'el' ? 'συμμετοχές' : 'participants'}
+                  {stats.totalVotes.toLocaleString()} {language === 'el' ? 'συμμετοχές' : 'participants'}
                 </span>
               </div>
               <div className="flex items-center space-x-2">
                 <TrendingUp className="w-5 h-5" />
-                <span className="text-sm">{t('language') === 'el' ? 'Ζωντανά αποτελέσματα' : 'Live results'}</span>
+                <span className="text-sm">{language === 'el' ? 'Ζωντανά αποτελέσματα' : 'Live results'}</span>
               </div>
             </div>
           </div>

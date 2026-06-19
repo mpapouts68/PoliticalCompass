@@ -40,7 +40,7 @@ export function IdeologyMiniResults() {
   const { data: stats, isLoading } = useQuery<IdeologyStats>({
     queryKey: ["/api/ideology-stats"],
   });
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
 
   if (isLoading || !stats || stats.totalTests === 0) {
     return null; // Don't show if no data yet
@@ -76,7 +76,7 @@ export function IdeologyMiniResults() {
               <div className="flex-1">
                 <div className="flex justify-between items-center mb-1">
                   <span className="text-sm font-medium text-gray-700">
-                    {getLocalizedLabel(ideology.label, t('language'))}
+                    {getLocalizedLabel(ideology.label, language)}
                   </span>
                   <span className="text-sm font-bold text-purple-600">{ideology.percentage}%</span>
                 </div>

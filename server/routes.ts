@@ -8,14 +8,32 @@ import {
   insertIdeologyResultSchema,
   insertQuizResultSchema,
   insertPmDecisionSchema,
+  insertQuizSessionSchema,
+  insertAnonymousProfileSchema,
   questionCountSchema, 
   ideologyQuestions 
 } from "@shared/schema";
 import { z } from "zod";
 import { createPaypalOrder, capturePaypalOrder, loadPaypalDefault } from "./paypal";
-import { db } from "./db";
+import { db, dbPath } from "./db";
 
 export async function registerRoutes(app: Express): Promise<Server> {
+  // Health & database status
+  app.get("/api/health", async (_req, res) => {
+    try {
+      const stats = await storage.getDatabaseStats();
+      res.json({
+        status: "ok",
+        database: "sqlite",
+        path: dbPath,
+        stats,
+      });
+    } catch (error) {
+      console.error("Health check failed:", error);
+      res.status(500).json({ status: "error", message: "Database unavailable" });
+    }
+  });
+
   // Get questions for survey
   app.get("/api/questions/:count", async (req, res) => {
     try {
@@ -63,10 +81,14 @@ export async function registerRoutes(app: Express): Promise<Server> {
   // Calculate and save survey results
   app.post("/api/results", async (req, res) => {
     try {
-      const { sessionId } = req.body;
+      const { sessionId, profileId } = req.body;
       
       if (!sessionId) {
         return res.status(400).json({ error: "Session ID required" });
+      }
+
+      if (profileId) {
+        await storage.getOrCreateProfile(profileId);
       }
 
       const responses = await storage.getSurveyResponses(sessionId);
@@ -101,6 +123,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
       const result = await storage.saveSurveyResult({
         sessionId,
+        profileId: profileId ?? null,
         partyAlignments,
         questionCount: responses.length
       });
@@ -181,10 +204,14 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
   app.post("/api/ideology/results", async (req, res) => {
     try {
-      const { sessionId } = req.body;
+      const { sessionId, profileId } = req.body;
       
       if (!sessionId) {
         return res.status(400).json({ error: "Session ID required" });
+      }
+
+      if (profileId) {
+        await storage.getOrCreateProfile(profileId);
       }
 
       const responses = await storage.getIdeologyResponses(sessionId);
@@ -249,6 +276,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
       const result = await storage.saveIdeologyResult({
         sessionId,
+        profileId: profileId ?? null,
         totalScore: averageScore,
         label,
         percentage
@@ -330,11 +358,89 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  app.get("/api/quiz/stats", async (_req, res) => {
+    try {
+      const stats = await storage.getQuizStats();
+      res.json(stats);
+    } catch (error) {
+      console.error("Error fetching quiz stats:", error);
+      res.status(500).json({ error: "Failed to fetch quiz statistics" });
+    }
+  });
+
+  app.get("/api/quiz/leaderboard", async (req, res) => {
+    try {
+      const limit = req.query.limit ? Math.min(50, parseInt(req.query.limit as string, 10)) : 20;
+      const difficulty = req.query.difficulty ? parseInt(req.query.difficulty as string, 10) : undefined;
+      const leaderboard = await storage.getQuizLeaderboard(limit, difficulty);
+      res.json(leaderboard);
+    } catch (error) {
+      console.error("Error fetching quiz leaderboard:", error);
+      res.status(500).json({ error: "Failed to fetch leaderboard" });
+    }
+  });
+
+  app.post("/api/quiz/sessions", async (req, res) => {
+    try {
+      const sessionData = insertQuizSessionSchema.parse(req.body);
+      await storage.getOrCreateProfile(sessionData.profileId);
+      const session = await storage.saveQuizSession(sessionData);
+      res.json(session);
+    } catch (error) {
+      console.error("Error saving quiz session:", error);
+      res.status(400).json({ error: "Invalid quiz session data" });
+    }
+  });
+
+  // Anonymous profile routes (no personal data — device-local ID only)
+  app.post("/api/profile", async (req, res) => {
+    try {
+      const { id } = insertAnonymousProfileSchema.pick({ id: true }).parse(req.body);
+      const profile = await storage.getOrCreateProfile(id);
+      res.json(profile);
+    } catch (error) {
+      res.status(400).json({ error: "Invalid profile data" });
+    }
+  });
+
+  app.patch("/api/profile/:id", async (req, res) => {
+    try {
+      const { id } = req.params;
+      const nickname = req.body.nickname === null || req.body.nickname === ""
+        ? null
+        : String(req.body.nickname).trim().slice(0, 24);
+      await storage.getOrCreateProfile(id);
+      const profile = await storage.updateProfileNickname(id, nickname);
+      res.json(profile);
+    } catch (error) {
+      res.status(400).json({ error: "Failed to update profile" });
+    }
+  });
+
+  app.get("/api/profile/:id/history", async (req, res) => {
+    try {
+      const history = await storage.getProfileHistory(req.params.id);
+      if (!history) {
+        return res.status(404).json({ error: "Profile not found" });
+      }
+      res.json(history);
+    } catch (error) {
+      console.error("Error fetching profile history:", error);
+      res.status(500).json({ error: "Failed to fetch history" });
+    }
+  });
+
   // Prime Minister scenario routes
   app.get("/api/pm/scenario", async (req, res) => {
     try {
       const difficulty = req.query.difficulty ? parseInt(req.query.difficulty as string) : undefined;
-      const scenario = await storage.getRandomPmScenario(difficulty);
+      const excludeIds = req.query.exclude
+        ? String(req.query.exclude)
+            .split(",")
+            .map((id) => parseInt(id, 10))
+            .filter((id) => !Number.isNaN(id))
+        : [];
+      const scenario = await storage.getRandomPmScenario(difficulty, excludeIds);
       
       if (!scenario) {
         return res.status(404).json({ error: "No scenarios available" });
@@ -367,6 +473,16 @@ export async function registerRoutes(app: Express): Promise<Server> {
     } catch (error) {
       console.error("Error fetching PM decisions:", error);
       res.status(500).json({ error: "Failed to fetch decisions" });
+    }
+  });
+
+  app.get("/api/pm/stats", async (_req, res) => {
+    try {
+      const stats = await storage.getPmStats();
+      res.json(stats);
+    } catch (error) {
+      console.error("Error fetching PM stats:", error);
+      res.status(500).json({ error: "Failed to fetch PM statistics" });
     }
   });
 

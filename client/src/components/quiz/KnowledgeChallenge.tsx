@@ -34,7 +34,7 @@ interface KnowledgeChallengeProps {
   sessionId: string;
   questionCount?: number;
   difficulty?: number;
-  onComplete: (score: number, totalQuestions: number) => void;
+  onComplete: (score: number, totalQuestions: number, durationSeconds: number) => void;
 }
 
 export function KnowledgeChallenge({ 
@@ -49,8 +49,9 @@ export function KnowledgeChallenge({
   const [showExplanation, setShowExplanation] = useState(false);
   const [isAnswered, setIsAnswered] = useState(false);
   const [startTime, setStartTime] = useState<number>(Date.now());
+  const [quizStartTime] = useState<number>(Date.now());
   const [score, setScore] = useState(0);
-  const { t } = useTranslation();
+  const { t, translateCategory } = useTranslation();
   const { language } = useLanguage();
 
   const { data: questions, isLoading } = useQuery<QuizQuestion[]>({
@@ -72,12 +73,33 @@ export function KnowledgeChallenge({
   const currentQuestion = questions?.[currentQuestionIndex];
   const progress = questions ? Math.round(((currentQuestionIndex + 1) / questions.length) * 100) : 0;
 
-  // Shuffle answers for display (memoized to prevent re-shuffling on re-renders)
-  const shuffledAnswers = useMemo(() => {
+  const normalizeWrongAnswers = (raw: unknown, correct: string): string[] => {
+    if (Array.isArray(raw)) {
+      return raw.map(String).filter((a) => a && a !== correct).slice(0, 3);
+    }
+    return [];
+  };
+
+  // Stable shuffled options with letter labels (avoids RadioGroup duplicate-value bugs)
+  const answerOptions = useMemo(() => {
     if (!currentQuestion) return [];
-    return [currentQuestion.correctAnswer, ...currentQuestion.wrongAnswers]
-      .sort(() => Math.random() - 0.5);
-  }, [currentQuestion?.id]); // Only re-shuffle when question changes
+    const wrong = normalizeWrongAnswers(currentQuestion.wrongAnswers, currentQuestion.correctAnswer);
+    const options = [currentQuestion.correctAnswer, ...wrong].filter(Boolean);
+    const unique = [...new Set(options)].slice(0, 4);
+    if (unique.length < 4) return [];
+
+    const letters = ["Α", "Β", "Γ", "Δ"];
+    return unique
+      .map((text) => ({ text }))
+      .sort(() => Math.random() - 0.5)
+      .map((option, index) => ({
+        id: `q${currentQuestion.id}-opt${index}`,
+        letter: letters[index],
+        text: option.text,
+      }));
+  }, [currentQuestion?.id]);
+
+  const selectedOption = answerOptions.find((option) => option.id === selectedAnswer);
 
   useEffect(() => {
     if (currentQuestion) {
@@ -88,22 +110,24 @@ export function KnowledgeChallenge({
     }
   }, [currentQuestion]);
 
-  const handleAnswerSelect = (answer: string) => {
+  const handleAnswerSelect = (optionId: string) => {
     if (isAnswered) return;
-    setSelectedAnswer(answer);
+    setSelectedAnswer(optionId);
+    const option = answerOptions.find((item) => item.id === optionId);
+    if (!option) return;
     
-    // Auto-advance after selection with delay (like survey questions)
     setTimeout(() => {
-      handleSubmitAnswer(answer);
+      handleSubmitAnswer(option.text);
     }, 800);
   };
 
-  const handleSubmitAnswer = (answer?: string) => {
-    const answerToSubmit = answer || selectedAnswer;
+  const handleSubmitAnswer = (answerText?: string) => {
+    const answerToSubmit = answerText || selectedOption?.text;
     if (!currentQuestion || !answerToSubmit || isAnswered) return;
 
     const timeTaken = Math.round((Date.now() - startTime) / 1000);
     const isCorrect = answerToSubmit === currentQuestion.correctAnswer;
+    const newScore = isCorrect ? score + 1 : score;
     
     setAnswers(prev => ({
       ...prev,
@@ -111,7 +135,7 @@ export function KnowledgeChallenge({
     }));
 
     if (isCorrect) {
-      setScore(prev => prev + 1);
+      setScore(newScore);
     }
 
     // Save result to database
@@ -128,17 +152,12 @@ export function KnowledgeChallenge({
     
     // Auto-advance to next question after showing explanation
     setTimeout(() => {
-      handleNextQuestion();
-    }, 2500); // Show explanation for 2.5 seconds before auto-advancing
-  };
-
-  const handleNextQuestion = () => {
-    if (currentQuestionIndex < (questions?.length || 0) - 1) {
-      setCurrentQuestionIndex(prev => prev + 1);
-    } else {
-      // Quiz complete
-      onComplete(score, questions?.length || 0);
-    }
+      if (currentQuestionIndex < (questions?.length || 0) - 1) {
+        setCurrentQuestionIndex(prev => prev + 1);
+      } else {
+        onComplete(newScore, questions?.length || 0, Math.round((Date.now() - quizStartTime) / 1000));
+      }
+    }, 2500);
   };
 
   if (isLoading) {
@@ -198,7 +217,7 @@ export function KnowledgeChallenge({
               </p>
               <div className="flex items-center space-x-4 mt-2 text-sm text-blue-700">
                 <span className="bg-blue-200 px-2 py-1 rounded">
-                  {currentQuestion.category}
+                  {translateCategory(currentQuestion.category)}
                 </span>
                 {currentQuestion.era && (
                   <span className="bg-blue-200 px-2 py-1 rounded">
@@ -213,36 +232,39 @@ export function KnowledgeChallenge({
             </div>
 
             {/* Answer Options */}
+            {answerOptions.length === 0 ? (
+              <p className="text-sm text-amber-700 bg-amber-50 p-3 rounded-lg">{t('noQuestionsAvailable')}</p>
+            ) : (
             <RadioGroup value={selectedAnswer} onValueChange={handleAnswerSelect}>
               <div className="space-y-3">
-                {shuffledAnswers.map((answer, index) => (
-                  <div key={index} className="flex items-center space-x-3">
+                {answerOptions.map((option) => (
+                  <div key={option.id} className="flex items-center space-x-3">
                     <RadioGroupItem 
-                      value={answer} 
-                      id={`answer-${index}`}
+                      value={option.id} 
+                      id={option.id}
                       disabled={isAnswered}
                     />
                     <Label 
-                      htmlFor={`answer-${index}`} 
+                      htmlFor={option.id} 
                       className={`flex-1 p-3 rounded-lg border cursor-pointer transition-colors ${
                         isAnswered
-                          ? answer === currentQuestion.correctAnswer
+                          ? option.text === currentQuestion.correctAnswer
                             ? 'bg-green-100 border-green-300 text-green-800'
-                            : answer === selectedAnswer && answer !== currentQuestion.correctAnswer
+                            : option.id === selectedAnswer && option.text !== currentQuestion.correctAnswer
                             ? 'bg-red-100 border-red-300 text-red-800'
                             : 'bg-gray-100 border-gray-300'
-                          : selectedAnswer === answer
+                          : selectedAnswer === option.id
                           ? 'bg-blue-100 border-blue-300'
                           : 'bg-white border-gray-200 hover:bg-gray-50'
                       }`}
                     >
-                      <div className="flex items-center justify-between">
-                        <span>{answer}</span>
-                        {isAnswered && answer === currentQuestion.correctAnswer && (
-                          <CheckCircle className="w-5 h-5 text-green-600" />
+                      <div className="flex items-center justify-between gap-3">
+                        <span><span className="font-semibold mr-2">{option.letter}.</span>{option.text}</span>
+                        {isAnswered && option.text === currentQuestion.correctAnswer && (
+                          <CheckCircle className="w-5 h-5 text-green-600 shrink-0" />
                         )}
-                        {isAnswered && answer === selectedAnswer && answer !== currentQuestion.correctAnswer && (
-                          <XCircle className="w-5 h-5 text-red-600" />
+                        {isAnswered && option.id === selectedAnswer && option.text !== currentQuestion.correctAnswer && (
+                          <XCircle className="w-5 h-5 text-red-600 shrink-0" />
                         )}
                       </div>
                     </Label>
@@ -250,32 +272,38 @@ export function KnowledgeChallenge({
                 ))}
               </div>
             </RadioGroup>
+            )}
 
             {/* Explanation */}
             {showExplanation && (
               <div className={`p-4 rounded-lg ${
-                selectedAnswer === currentQuestion.correctAnswer 
+                selectedOption?.text === currentQuestion.correctAnswer 
                   ? 'bg-green-50 border border-green-200' 
                   : 'bg-red-50 border border-red-200'
               }`}>
                 <div className="flex items-start space-x-2">
-                  {selectedAnswer === currentQuestion.correctAnswer ? (
+                  {selectedOption?.text === currentQuestion.correctAnswer ? (
                     <CheckCircle className="w-5 h-5 text-green-600 mt-0.5" />
                   ) : (
                     <XCircle className="w-5 h-5 text-red-600 mt-0.5" />
                   )}
                   <div>
                     <p className={`font-medium ${
-                      selectedAnswer === currentQuestion.correctAnswer 
+                      selectedOption?.text === currentQuestion.correctAnswer 
                         ? 'text-green-800' 
                         : 'text-red-800'
                     }`}>
-                      {selectedAnswer === currentQuestion.correctAnswer 
+                      {selectedOption?.text === currentQuestion.correctAnswer 
                         ? t('correct') 
                         : t('incorrect')}
                     </p>
+                    {selectedOption?.text !== currentQuestion.correctAnswer && (
+                      <p className="mt-1 text-sm text-red-700">
+                        {t('correctAnswer')}: <strong>{currentQuestion.correctAnswer}</strong>
+                      </p>
+                    )}
                     <p className={`mt-2 text-sm ${
-                      selectedAnswer === currentQuestion.correctAnswer 
+                      selectedOption?.text === currentQuestion.correctAnswer 
                         ? 'text-green-700' 
                         : 'text-red-700'
                     }`}>

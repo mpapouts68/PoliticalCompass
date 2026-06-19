@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1667" height="318" viewBox="0 0 1667 318">
+  <title>Colored diagonal rays</title>
+  <!-- Crimson / dark red -->
+  <polygon points="0,284 1667,2 1667,49 894,318 0,318" fill="rgb(164,0,68)"/>
+  <!-- Gold / yellow -->
+  <polygon points="894,318 1667,49 1667,111 1071,318" fill="rgb(238,187,0)"/>
+  <!-- Sky blue -->
+  <polygon points="1071,318 1667,111 1667,149 1182,318" fill="rgb(114,190,213)"/>
+  <!-- Navy blue -->
+  <polygon points="1182,318 1667,149 1667,318" fill="rgb(18,47,113)"/>
+</svg>

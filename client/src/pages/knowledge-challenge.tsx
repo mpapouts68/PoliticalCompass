@@ -4,8 +4,13 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Brain, Trophy, Clock, Home, Star } from "lucide-react";
 import { KnowledgeChallenge } from "@/components/quiz/KnowledgeChallenge";
+import { QuizLeaderboard } from "@/components/quiz/QuizLeaderboard";
 import { useTranslation } from "@/lib/i18n";
 import { Link } from "wouter";
+import { useAnonymousProfile } from "@/hooks/useAnonymousProfile";
+import { apiRequest } from "@/lib/queryClient";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Label } from "@/components/ui/label";
 
 interface QuizResult {
   score: number;
@@ -21,7 +26,9 @@ export function KnowledgeChallengePage() {
   const [selectedQuestionCount, setSelectedQuestionCount] = useState<number | null>(null);
   const [isStarted, setIsStarted] = useState(false);
   const [result, setResult] = useState<QuizResult | null>(null);
+  const [showOnLeaderboard, setShowOnLeaderboard] = useState(true);
   const { t } = useTranslation();
+  const { profileId } = useAnonymousProfile();
 
   const difficulties = [
     {
@@ -75,9 +82,24 @@ export function KnowledgeChallengePage() {
     }
   };
 
-  const handleQuizComplete = (score: number, totalQuestions: number) => {
+  const handleQuizComplete = async (score: number, totalQuestions: number, durationSeconds: number) => {
     const accuracy = (score / totalQuestions) * 100;
     const { grade, feedback } = calculateGrade(accuracy);
+
+    try {
+      await apiRequest("POST", "/api/quiz/sessions", {
+        profileId,
+        sessionId,
+        score,
+        totalQuestions,
+        accuracy,
+        difficulty: selectedDifficulty,
+        durationSeconds,
+        showOnLeaderboard: showOnLeaderboard ? 1 : 0,
+      });
+    } catch {
+      // History save is best-effort; still show results
+    }
     
     setResult({
       score,
@@ -230,9 +252,7 @@ export function KnowledgeChallengePage() {
           <CardHeader>
             <CardTitle className="flex items-center space-x-2">
               <Clock className="w-5 h-5" />
-              <span>
-                {t('selectNumberOfQuestions')}
-              </span>
+              <span>{t('selectNumberOfQuestions')}</span>
             </CardTitle>
           </CardHeader>
           <CardContent>
@@ -249,9 +269,7 @@ export function KnowledgeChallengePage() {
                 >
                   <CardContent className="p-4 text-center">
                     <div className="text-2xl font-bold text-blue-600 mb-1">{count}</div>
-                    <div className="text-sm text-gray-600">
-                      {t('questions')}
-                    </div>
+                    <div className="text-sm text-gray-600">{t('questions')}</div>
                     <div className="text-xs text-gray-500">
                       ~{Math.ceil(count / 3)} {t('minAbbrev')}
                     </div>
@@ -261,6 +279,21 @@ export function KnowledgeChallengePage() {
             </div>
           </CardContent>
         </Card>
+
+        <div className="mb-6 flex items-center gap-2 justify-center">
+          <Checkbox
+            id="leaderboard-opt-in"
+            checked={showOnLeaderboard}
+            onCheckedChange={(checked) => setShowOnLeaderboard(checked === true)}
+          />
+          <Label htmlFor="leaderboard-opt-in" className="text-sm text-gray-700 cursor-pointer">
+            {t('leaderboardOptIn')}
+          </Label>
+        </div>
+
+        <div className="mb-6">
+          <QuizLeaderboard difficulty={selectedDifficulty ?? undefined} limit={10} />
+        </div>
 
         {/* Start Button */}
         <div className="text-center space-y-4">
