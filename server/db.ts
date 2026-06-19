@@ -27,11 +27,12 @@ sqlite.pragma("foreign_keys = ON");
 
 export const db = drizzle(sqlite, { schema });
 
-ensureProfileSchema(sqlite);
-
 export function runMigrations(): void {
-  const migrationsFolder = path.resolve("migrations");
+  const migrationsFolder = path.resolve(process.cwd(), "migrations");
   if (fs.existsSync(migrationsFolder)) {
     migrate(db, { migrationsFolder });
   }
 }
+
+runMigrations();
+ensureProfileSchema(sqlite);

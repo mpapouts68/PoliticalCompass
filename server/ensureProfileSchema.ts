@@ -1,5 +1,12 @@
 import type Database from "better-sqlite3";
 
+function tableExists(db: Database.Database, table: string): boolean {
+  const row = db
+    .prepare(`SELECT name FROM sqlite_master WHERE type = 'table' AND name = ?`)
+    .get(table) as { name: string } | undefined;
+  return row !== undefined;
+}
+
 function columnExists(db: Database.Database, table: string, column: string): boolean {
   const columns = db.prepare(`PRAGMA table_info(${table})`).all() as Array<{ name: string }>;
   return columns.some((c) => c.name === column);
@@ -27,10 +34,10 @@ export function ensureProfileSchema(db: Database.Database): void {
     );
   `);
 
-  if (!columnExists(db, "survey_results", "profile_id")) {
+  if (tableExists(db, "survey_results") && !columnExists(db, "survey_results", "profile_id")) {
     db.exec(`ALTER TABLE survey_results ADD COLUMN profile_id TEXT`);
   }
-  if (!columnExists(db, "ideology_results", "profile_id")) {
+  if (tableExists(db, "ideology_results") && !columnExists(db, "ideology_results", "profile_id")) {
     db.exec(`ALTER TABLE ideology_results ADD COLUMN profile_id TEXT`);
   }
 }
