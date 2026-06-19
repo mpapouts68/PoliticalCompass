@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Mail, MessageCircle, Github, Twitter, Globe, Users, Shield, Info } from 'lucide-react';
+import { CONTACT_EMAILS } from "@/config/site";
 import { useTranslation, useLanguage } from '@/lib/i18n';
 
 export function ContactSection() {
@@ -12,8 +13,8 @@ export function ContactSection() {
     {
       icon: Mail,
       label: language === 'el' ? 'Email' : 'Email',
-      value: 'info@ideologos.online',
-      href: 'mailto:info@ideologos.online',
+      value: CONTACT_EMAILS.info,
+      href: `mailto:${CONTACT_EMAILS.info}`,
       description: language === 'el' 
         ? 'Για γενικές ερωτήσεις και υποστήριξη'
         : 'For general inquiries and support'
@@ -21,8 +22,8 @@ export function ContactSection() {
     {
       icon: MessageCircle,
       label: language === 'el' ? 'Τεχνική Υποστήριξη' : 'Technical Support',
-      value: 'support@ideologos.online', 
-      href: 'mailto:support@ideologos.online',
+      value: CONTACT_EMAILS.support,
+      href: `mailto:${CONTACT_EMAILS.support}`,
       description: language === 'el'
         ? 'Για τεχνικά προβλήματα και σφάλματα'
         : 'For technical issues and bug reports'
@@ -30,8 +31,8 @@ export function ContactSection() {
     {
       icon: Users,
       label: language === 'el' ? 'Συνεργασίες' : 'Partnerships',
-      value: 'partnerships@ideologos.online',
-      href: 'mailto:partnerships@ideologos.online', 
+      value: CONTACT_EMAILS.partnerships,
+      href: `mailto:${CONTACT_EMAILS.partnerships}`, 
       description: language === 'el'
         ? 'Για ακαδημαϊκές συνεργασίες και ερευνητικά έργα'
         : 'For academic collaborations and research projects'
@@ -134,7 +135,7 @@ export function ContactSection() {
           </div>
           <div className="pt-2">
             <Button variant="outline" size="sm" asChild>
-              <a href="mailto:privacy@ideologos.online">
+              <a href={`mailto:${CONTACT_EMAILS.privacy}`}>
                 {t('privacyQuestions')}
               </a>
             </Button>

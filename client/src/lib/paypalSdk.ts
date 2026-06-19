@@ -34,7 +34,8 @@ export function loadPayPalSdk(): Promise<void> {
         "client-id": PAYPAL_CLIENT_ID,
         components: "buttons",
         currency: "EUR",
-        "enable-funding": "paypal",
+        intent: "capture",
+        locale: "el_GR",
         "disable-funding": "venmo,paylater,card,credit,bancontact,blik,eps,giropay,ideal,mybank,p24,sofort",
       });
       const script = document.createElement("script");

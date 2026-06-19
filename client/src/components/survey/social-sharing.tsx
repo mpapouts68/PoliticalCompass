@@ -5,6 +5,7 @@ import { Share2, Twitter, Facebook, Copy, Check } from 'lucide-react';
 import { SurveyResult, Party } from '@shared/schema';
 import { useState } from 'react';
 import { useTranslation } from '@/lib/i18n';
+import { SITE_URL } from '@/config/site';
 
 interface SocialSharingProps {
   result: SurveyResult;
@@ -26,7 +27,7 @@ export function SocialSharing({ result, parties, topParty, questionCount }: Soci
     ? `Ολοκλήρωσα το πολιτικό τεστ στο Ιδεολόγος! Η κορυφαία μου συμφωνία είναι με ${topParty.name} (${topPercentage}%). Δες και εσύ ποιος είσαι πολιτικά!`
     : `I completed the political test on Ideologos! My top alignment is with ${t(`parties.${topParty.shortName}`)} (${topPercentage}%). Discover your political identity too!`;
   
-  const shareUrl = "https://ideologos.online";
+  const shareUrl = SITE_URL;
   const hashtags = language === 'el' 
     ? '#Ιδεολόγος #ΠολιτικόΤεστ #ΕλληνικήΠολιτική'
     : '#Ideologos #PoliticalTest #GreekPolitics';

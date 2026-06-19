@@ -6,7 +6,6 @@ interface PayPalButtonProps {
   amount: string;
   customAmount?: string;
   currency?: string;
-  /** Override checkout item name (defaults from tier) */
   donationLabel?: string;
 }
 
@@ -24,6 +23,57 @@ const BUTTON_STYLE = {
   height: 35,
   tagline: false,
 };
+
+type PayPalActions = {
+  order: {
+    create: (payload: unknown) => Promise<string>;
+    capture: () => Promise<unknown>;
+  };
+};
+
+function buildOrderPayload(currency: string, value: string, itemName: string) {
+  return {
+    purchase_units: [
+      {
+        description: `Ιδεολόγος — ${itemName}`,
+        amount: {
+          currency_code: currency,
+          value,
+        },
+      },
+    ],
+    application_context: {
+      shipping_preference: "NO_SHIPPING",
+      brand_name: "Ιδεολόγος",
+      user_action: "PAY_NOW",
+    },
+  };
+}
+
+function buildButtonConfig(
+  currency: string,
+  value: string,
+  itemName: string,
+  fundingSource?: string,
+) {
+  return {
+    ...(fundingSource ? { fundingSource } : {}),
+    style: BUTTON_STYLE,
+    createOrder: (_data: unknown, actions: PayPalActions) =>
+      actions.order.create(buildOrderPayload(currency, value, itemName)),
+    onApprove: async (_data: unknown, actions: PayPalActions) => {
+      await actions.order.capture();
+      alert("Η δωρεά ολοκληρώθηκε επιτυχώς! Ευχαριστούμε για την υποστήριξή σας!");
+    },
+    onCancel: () => {
+      alert("Η δωρεά ακυρώθηκε.");
+    },
+    onError: (err: unknown) => {
+      console.error("PayPal error:", err);
+      alert("Υπήρξε σφάλμα με το PayPal. Παρακαλώ δοκιμάστε ξανά.");
+    },
+  };
+}
 
 export default function PayPalButton({
   amount,
@@ -61,65 +111,31 @@ export default function PayPalButton({
         if (cancelled || !container) return;
 
         const paypal = window.paypal;
-        const fundingSource = paypal?.FUNDING?.PAYPAL;
-        if (!paypal?.Buttons || !fundingSource) {
+        if (!paypal?.Buttons) {
           throw new Error("PayPal Buttons component unavailable");
         }
 
         const value = isCustom ? chargeAmount : amount;
         if (!value) return;
 
-        const button = paypal.Buttons({
-          fundingSource,
-          style: BUTTON_STYLE,
-          createOrder: (_data: unknown, actions: { order: { create: (payload: unknown) => Promise<string> } }) =>
-            actions.order.create({
-              purchase_units: [
-                {
-                  description: `Ιδεολόγος — ${itemName}`,
-                  amount: {
-                    currency_code: currency,
-                    value,
-                    breakdown: {
-                      item_total: {
-                        currency_code: currency,
-                        value,
-                      },
-                    },
-                  },
-                  items: [
-                    {
-                      name: itemName,
-                      description: "Δωρεά στο Ιδεολόγος",
-                      unit_amount: {
-                        currency_code: currency,
-                        value,
-                      },
-                      quantity: "1",
-                      category: "DONATION",
-                    },
-                  ],
-                },
-              ],
-            }),
-          onApprove: async (_data: unknown, actions: { order: { capture: () => Promise<unknown> } }) => {
-            await actions.order.capture();
-            alert("Η δωρεά ολοκληρώθηκε επιτυχώς! Ευχαριστούμε για την υποστήριξή σας!");
-          },
-          onCancel: () => {
-            alert("Η δωρεά ακυρώθηκε.");
-          },
-          onError: (err: unknown) => {
-            console.error("PayPal error:", err);
-            alert("Υπήρξε σφάλμα με το PayPal. Παρακαλώ δοκιμάστε ξανά.");
-          },
-        });
+        const fundingSource = paypal.FUNDING?.PAYPAL;
+        const configs = [
+          fundingSource ? buildButtonConfig(currency, value, itemName, fundingSource) : null,
+          buildButtonConfig(currency, value, itemName),
+        ].filter(Boolean) as ReturnType<typeof buildButtonConfig>[];
 
-        if (!button.isEligible()) {
-          throw new Error("PayPal is not available for this browser");
+        let rendered = false;
+        for (const config of configs) {
+          const button = paypal.Buttons(config);
+          if (!button.isEligible()) continue;
+          await button.render(container);
+          rendered = true;
+          break;
         }
 
-        await button.render(container);
+        if (!rendered) {
+          throw new Error("PayPal is not available for this browser");
+        }
       } catch (err) {
         console.error("PayPal render failed:", err);
         if (!cancelled) {
