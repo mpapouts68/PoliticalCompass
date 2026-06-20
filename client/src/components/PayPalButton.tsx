@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import { getDonationLabel } from "@/config/paypalDonations";
-import { isPayPalConfigured, loadPayPalSdk } from "@/lib/paypalSdk";
+import { getDonationLabel, getHostedButtonIdForAmount } from "@/config/paypalDonations";
+import { getPayPalConfig, loadPayPalSdk, type PayPalRuntimeConfig } from "@/lib/paypalSdk";
 
 interface PayPalButtonProps {
   amount: string;
@@ -58,7 +58,7 @@ async function captureServerOrder(orderID: string): Promise<void> {
   }
 }
 
-function buildButtonConfig(currency: string, value: string, itemName: string, fundingSource?: string) {
+function buildServerButtonConfig(currency: string, value: string, itemName: string, fundingSource?: string) {
   return {
     ...(fundingSource ? { fundingSource } : {}),
     style: BUTTON_STYLE,
@@ -78,6 +78,51 @@ function buildButtonConfig(currency: string, value: string, itemName: string, fu
   };
 }
 
+async function renderServerButton(
+  container: HTMLElement,
+  config: PayPalRuntimeConfig,
+  currency: string,
+  value: string,
+  itemName: string,
+): Promise<void> {
+  await loadPayPalSdk(config.clientId, "buttons");
+
+  const paypal = window.paypal;
+  if (!paypal?.Buttons) {
+    throw new Error("PayPal Buttons component unavailable");
+  }
+
+  const fundingSource = paypal.FUNDING?.PAYPAL;
+  const configs = [
+    fundingSource ? buildServerButtonConfig(currency, value, itemName, fundingSource) : null,
+    buildServerButtonConfig(currency, value, itemName),
+  ].filter(Boolean) as ReturnType<typeof buildServerButtonConfig>[];
+
+  for (const buttonConfig of configs) {
+    const button = paypal.Buttons(buttonConfig);
+    if (!button.isEligible()) continue;
+    await button.render(container);
+    return;
+  }
+
+  throw new Error("PayPal is not available for this browser");
+}
+
+async function renderHostedButton(
+  container: HTMLElement,
+  config: PayPalRuntimeConfig,
+  hostedButtonId: string,
+): Promise<void> {
+  await loadPayPalSdk(config.clientId, "hosted-buttons");
+
+  const paypal = window.paypal;
+  if (!paypal?.HostedButtons) {
+    throw new Error("PayPal Hosted Buttons unavailable");
+  }
+
+  await paypal.HostedButtons({ hostedButtonId }).render(container);
+}
+
 export default function PayPalButton({
   amount,
   customAmount,
@@ -91,18 +136,12 @@ export default function PayPalButton({
   const isCustom = amount === "custom";
   const chargeAmount = isCustom ? formatAmount(customAmount ?? "") : amount;
   const itemName = donationLabel ?? getDonationLabel(amount);
+  const hostedButtonId = getHostedButtonIdForAmount(amount);
 
   useEffect(() => {
     let cancelled = false;
     const container = containerRef.current;
     if (!container) return;
-
-    if (isCustom && !chargeAmount) {
-      container.innerHTML = "";
-      setLoading(false);
-      setError(null);
-      return;
-    }
 
     container.innerHTML = "";
     setError(null);
@@ -110,35 +149,28 @@ export default function PayPalButton({
 
     async function renderPayPal() {
       try {
-        await loadPayPalSdk();
+        const config = await getPayPalConfig();
         if (cancelled || !container) return;
 
-        const paypal = window.paypal;
-        if (!paypal?.Buttons) {
-          throw new Error("PayPal Buttons component unavailable");
-        }
-
         const value = isCustom ? chargeAmount : amount;
-        if (!value) return;
 
-        const fundingSource = paypal.FUNDING?.PAYPAL;
-        const configs = [
-          fundingSource ? buildButtonConfig(currency, value, itemName, fundingSource) : null,
-          buildButtonConfig(currency, value, itemName),
-        ].filter(Boolean) as ReturnType<typeof buildButtonConfig>[];
-
-        let rendered = false;
-        for (const config of configs) {
-          const button = paypal.Buttons(config);
-          if (!button.isEligible()) continue;
-          await button.render(container);
-          rendered = true;
-          break;
+        if (config.serverReady) {
+          if (isCustom && !value) {
+            return;
+          }
+          if (!value) {
+            throw new Error("Invalid donation amount");
+          }
+          await renderServerButton(container, config, currency, value, itemName);
+          return;
         }
 
-        if (!rendered) {
-          throw new Error("PayPal is not available for this browser");
+        if (hostedButtonId) {
+          await renderHostedButton(container, config, hostedButtonId);
+          return;
         }
+
+        throw new Error("Το PayPal δεν έχει ρυθμιστεί στον διακομιστή.");
       } catch (err) {
         console.error("PayPal render failed:", err);
         if (!cancelled) {
@@ -155,19 +187,7 @@ export default function PayPalButton({
       cancelled = true;
       if (container) container.innerHTML = "";
     };
-  }, [amount, chargeAmount, currency, isCustom, itemName]);
-
-  if (!isPayPalConfigured()) {
-    return (
-      <p className="text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded p-2">
-        PayPal is not configured.
-      </p>
-    );
-  }
-
-  if (isCustom && !chargeAmount) {
-    return null;
-  }
+  }, [amount, chargeAmount, currency, hostedButtonId, isCustom, itemName]);
 
   return (
     <div className="w-full h-[35px] relative">

@@ -305,6 +305,17 @@ export async function registerRoutes(app: Express): Promise<Server> {
   });
 
   // PayPal routes
+  app.get("/api/paypal/config", (_req, res) => {
+    const clientId =
+      process.env.PAYPAL_CLIENT_ID?.trim() ||
+      process.env.VITE_PAYPAL_CLIENT_ID?.trim() ||
+      "";
+    const serverReady = Boolean(
+      process.env.PAYPAL_CLIENT_ID?.trim() && process.env.PAYPAL_CLIENT_SECRET?.trim(),
+    );
+    res.json({ clientId, serverReady });
+  });
+
   app.get("/paypal/setup", async (req, res) => {
     await loadPaypalDefault(req, res);
   });

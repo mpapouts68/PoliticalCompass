@@ -1,4 +1,4 @@
-/** PayPal donation config — client ID from your PayPal embed code. */
+/** PayPal hosted-button client ID (works with dashboard hosted buttons as fallback). */
 export const PAYPAL_CLIENT_ID =
   (import.meta.env.VITE_PAYPAL_CLIENT_ID as string | undefined)?.trim() ||
   "BAA5OZw-BfpwsFEZkx46RD7tNx2A0JV_RL0nJdCixwQmx6IPv6db0Rhsltws3eDLw7HRw7ZUSZyPOWOfpE";
