@@ -66,24 +66,16 @@
   }
 }
 
-/* PayPal — single wallet button only (35px) */
+/* PayPal — hosted button container (dashboard embed) */
 .paypal-button-container {
   width: 100%;
-  height: 35px;
-  overflow: hidden;
-}
-
-.paypal-button-container > div {
-  height: 35px !important;
-  max-height: 35px !important;
-  overflow: hidden !important;
+  min-height: 40px;
 }
 
 .paypal-button-container iframe {
   width: 100% !important;
   max-width: 100% !important;
-  height: 35px !important;
-  max-height: 35px !important;
+  min-height: 35px !important;
 }
 
 @layer utilities {

@@ -306,10 +306,11 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
   // PayPal routes
   app.get("/api/paypal/config", (_req, res) => {
+    const fallbackClientId = "BAA5OZw-BfpwsFEZkx46RD7tNx2A0JV_RL0nJdCixwQmx6IPv6db0Rhsltws3eDLw7HRw7ZUSZyPOWOfpE";
     const clientId =
       process.env.PAYPAL_CLIENT_ID?.trim() ||
       process.env.VITE_PAYPAL_CLIENT_ID?.trim() ||
-      "";
+      fallbackClientId;
     const serverReady = Boolean(
       process.env.PAYPAL_CLIENT_ID?.trim() && process.env.PAYPAL_CLIENT_SECRET?.trim(),
     );

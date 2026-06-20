@@ -22,7 +22,7 @@ declare global {
 }
 
 let configPromise: Promise<PayPalRuntimeConfig> | null = null;
-const scriptPromises = new Map<string, Promise<void>>();
+let sdkPromise: Promise<void> | null = null;
 
 export function isPayPalConfigured(): boolean {
   return Boolean(FALLBACK_CLIENT_ID);
@@ -44,51 +44,36 @@ export async function getPayPalConfig(): Promise<PayPalRuntimeConfig> {
   return configPromise;
 }
 
-export function loadPayPalSdk(
-  clientId: string,
-  components: "buttons" | "hosted-buttons" = "buttons",
-): Promise<void> {
+/** Load PayPal SDK once per page — matches dashboard embed (hosted-buttons + buttons). */
+export function loadPayPalSdk(clientId: string): Promise<void> {
   if (!clientId) {
     return Promise.reject(new Error("PayPal client ID is not configured"));
   }
 
-  const cacheKey = `${clientId}:${components}`;
-  if (window.paypal) {
-    const hasButtons = Boolean(window.paypal.Buttons);
-    const hasHosted = Boolean(window.paypal.HostedButtons);
-    if ((components === "buttons" && hasButtons) || (components === "hosted-buttons" && hasHosted)) {
-      return Promise.resolve();
-    }
+  if (window.paypal?.HostedButtons && window.paypal?.Buttons) {
+    return Promise.resolve();
   }
 
-  const existing = scriptPromises.get(cacheKey);
-  if (existing) return existing;
+  if (sdkPromise) return sdkPromise;
 
-  const promise = new Promise<void>((resolve, reject) => {
+  sdkPromise = new Promise<void>((resolve, reject) => {
     const params = new URLSearchParams({
       "client-id": clientId,
-      components,
+      components: "hosted-buttons,buttons",
       currency: "EUR",
-      intent: "capture",
-      locale: "el_GR",
+      "disable-funding": "venmo",
     });
-
-    if (components === "buttons") {
-      params.set(
-        "disable-funding",
-        "venmo,paylater,card,credit,bancontact,blik,eps,giropay,ideal,mybank,p24,sofort",
-      );
-    }
 
     const script = document.createElement("script");
     script.src = `https://www.paypal.com/sdk/js?${params.toString()}`;
     script.async = true;
-    script.dataset.paypalSdk = cacheKey;
     script.onload = () => resolve();
-    script.onerror = () => reject(new Error("Failed to load PayPal SDK"));
+    script.onerror = () => {
+      sdkPromise = null;
+      reject(new Error("Failed to load PayPal SDK"));
+    };
     document.body.appendChild(script);
   });
 
-  scriptPromises.set(cacheKey, promise);
-  return promise;
+  return sdkPromise;
 }
