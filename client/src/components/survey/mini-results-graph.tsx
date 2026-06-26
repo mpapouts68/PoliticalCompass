@@ -24,8 +24,7 @@ export function MiniResultsGraph() {
     return null; // Don't show if no data yet
   }
 
-  // Take top 5 parties
-  const topParties = stats.partyStats.slice(0, 5);
+  const parties = stats.partyStats;
 
   return (
     <Card className="bg-gradient-to-br from-blue-50 to-indigo-50 border-blue-200 shadow-md">
@@ -45,7 +44,7 @@ export function MiniResultsGraph() {
         </div>
 
         <div className="space-y-3">
-          {topParties.map((party, index) => (
+          {parties.map((party, index) => (
             <div key={party.party} className="flex items-center gap-3">
               <div className="flex items-center justify-center w-6 h-6 bg-primary text-white text-xs font-bold rounded-full">
                 {index + 1}

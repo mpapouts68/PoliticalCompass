@@ -46,8 +46,7 @@ export function IdeologyMiniResults() {
     return null; // Don't show if no data yet
   }
 
-  // Take top 5 ideologies
-  const topIdeologies = stats.ideologyStats.slice(0, 5);
+  const ideologies = stats.ideologyStats;
 
   return (
     <Card className="bg-gradient-to-br from-purple-50 to-pink-50 border-purple-200 shadow-md">
@@ -67,7 +66,7 @@ export function IdeologyMiniResults() {
         </div>
 
         <div className="space-y-3">
-          {topIdeologies.map((ideology, index) => (
+          {ideologies.map((ideology, index) => (
             <div key={ideology.label} className="flex items-center gap-3">
               <div className="flex items-center justify-center w-6 h-6 bg-purple-600 text-white text-xs font-bold rounded-full">
                 {index + 1}
