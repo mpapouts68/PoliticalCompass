@@ -58,6 +58,10 @@ const preferredPath = resolveDbPath();
 const opened = openDatabase(preferredPath);
 
 export const dbPath = opened.path;
+export const isVolatileStorage =
+  dbPath.includes(`${path.sep}tmp${path.sep}`) ||
+  dbPath.startsWith("/tmp/") ||
+  dbPath.startsWith(os.tmpdir());
 export const sqlite = opened.db;
 sqlite.pragma("journal_mode = WAL");
 sqlite.pragma("foreign_keys = ON");

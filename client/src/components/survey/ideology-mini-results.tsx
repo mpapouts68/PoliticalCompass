@@ -37,16 +37,50 @@ function getLocalizedLabel(label: string, language: string): string {
 }
 
 export function IdeologyMiniResults() {
-  const { data: stats, isLoading } = useQuery<IdeologyStats>({
+  const { data: stats, isLoading, isError } = useQuery<IdeologyStats>({
     queryKey: ["/api/ideology-stats"],
   });
   const { t, language } = useTranslation();
 
-  if (isLoading || !stats || stats.totalTests === 0) {
-    return null; // Don't show if no data yet
+  if (isLoading) {
+    return (
+      <Card className="bg-gradient-to-br from-purple-50 to-pink-50 border-purple-200 shadow-md">
+        <CardContent className="p-6 text-center text-sm text-gray-600">
+          {t('loadingResults')}
+        </CardContent>
+      </Card>
+    );
   }
 
-  const ideologies = stats.ideologyStats;
+  if (isError || !stats) {
+    return (
+      <Card className="bg-gradient-to-br from-purple-50 to-pink-50 border-purple-200 shadow-md">
+        <CardContent className="p-6 text-center text-sm text-red-600">
+          {t('errorLoadingResults')}
+        </CardContent>
+      </Card>
+    );
+  }
+
+  const ideologies = stats.ideologyStats ?? [];
+
+  if (stats.totalTests === 0 || ideologies.length === 0) {
+    return (
+      <Card className="bg-gradient-to-br from-purple-50 to-pink-50 border-purple-200 shadow-md">
+        <CardContent className="p-6">
+          <div className="flex items-center gap-2 mb-4">
+            <Compass className="w-5 h-5 text-purple-600" />
+            <h3 className="text-lg font-semibold text-gray-800">
+              {t('ideologyResults')}
+            </h3>
+          </div>
+          <p className="text-sm text-gray-600 text-center">
+            {t('noResultsYet')}
+          </p>
+        </CardContent>
+      </Card>
+    );
+  }
 
   return (
     <Card className="bg-gradient-to-br from-purple-50 to-pink-50 border-purple-200 shadow-md">

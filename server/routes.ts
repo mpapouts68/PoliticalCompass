@@ -15,7 +15,7 @@ import {
 } from "@shared/schema";
 import { z } from "zod";
 import { createPaypalOrder, capturePaypalOrder, loadPaypalDefault } from "./paypal";
-import { db, dbPath } from "./db";
+import { db, dbPath, isVolatileStorage } from "./db";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Health & database status
@@ -26,6 +26,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         status: "ok",
         database: "sqlite",
         path: dbPath,
+        volatileStorage: isVolatileStorage,
         stats,
       });
     } catch (error) {

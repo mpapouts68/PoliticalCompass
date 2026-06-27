@@ -61,6 +61,8 @@ export const translations = {
     continueWithMore: 'Συνέχισε με περισσότερες ερωτήσεις',
     restartSurvey: 'Ξεκίνα από την Αρχή',
     calculateResults: 'Υπολογισμός αποτελεσμάτων...',
+    loadingResults: 'Φόρτωση αποτελεσμάτων...',
+    noResultsYet: 'Δεν υπάρχουν ακόμα αποτελέσματα. Γίνε ο πρώτος που θα πάρει το τεστ!',
     errorLoadingResults: 'Σφάλμα κατά τη φόρτωση των αποτελεσμάτων',
     
     // Social sharing
@@ -485,6 +487,8 @@ export const translations = {
     continueWithMore: 'Continue with More Questions',
     restartSurvey: 'Start Over',
     calculateResults: 'Calculating results...',
+    loadingResults: 'Loading results...',
+    noResultsYet: 'No results yet. Be the first to take the test!',
     errorLoadingResults: 'Error loading results',
     
     // Social sharing

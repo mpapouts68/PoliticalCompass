@@ -15,16 +15,50 @@ interface ElectionStats {
 }
 
 export function MiniResultsGraph() {
-  const { data: stats, isLoading } = useQuery<ElectionStats>({
+  const { data: stats, isLoading, isError } = useQuery<ElectionStats>({
     queryKey: ["/api/election-stats"],
   });
   const { t } = useTranslation();
 
-  if (isLoading || !stats || stats.totalVotes === 0) {
-    return null; // Don't show if no data yet
+  if (isLoading) {
+    return (
+      <Card className="bg-gradient-to-br from-blue-50 to-indigo-50 border-blue-200 shadow-md">
+        <CardContent className="p-6 text-center text-sm text-gray-600">
+          {t('loadingResults')}
+        </CardContent>
+      </Card>
+    );
   }
 
-  const parties = stats.partyStats;
+  if (isError || !stats) {
+    return (
+      <Card className="bg-gradient-to-br from-blue-50 to-indigo-50 border-blue-200 shadow-md">
+        <CardContent className="p-6 text-center text-sm text-red-600">
+          {t('errorLoadingResults')}
+        </CardContent>
+      </Card>
+    );
+  }
+
+  const parties = stats.partyStats ?? [];
+
+  if (stats.totalVotes === 0 || parties.length === 0) {
+    return (
+      <Card className="bg-gradient-to-br from-blue-50 to-indigo-50 border-blue-200 shadow-md">
+        <CardContent className="p-6">
+          <div className="flex items-center gap-2 mb-4">
+            <BarChart3 className="w-5 h-5 text-primary" />
+            <h3 className="text-lg font-semibold text-gray-800">
+              {t('liveResults')}
+            </h3>
+          </div>
+          <p className="text-sm text-gray-600 text-center">
+            {t('noResultsYet')}
+          </p>
+        </CardContent>
+      </Card>
+    );
+  }
 
   return (
     <Card className="bg-gradient-to-br from-blue-50 to-indigo-50 border-blue-200 shadow-md">
