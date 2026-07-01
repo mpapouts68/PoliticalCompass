@@ -1,8 +1,23 @@
 import express, { type Request, Response, NextFunction } from "express";
+import { registerOutagePages } from "./outagePages";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
 
 const app = express();
+app.set("trust proxy", true);
+
+registerOutagePages(app);
+
+const CANONICAL_HOST = (process.env.CANONICAL_HOST || "ideologos.site").replace(/^www\./, "");
+
+app.use((req, res, next) => {
+  const host = (req.hostname || "").toLowerCase();
+  if (host === `www.${CANONICAL_HOST}`) {
+    return res.redirect(301, `https://${CANONICAL_HOST}${req.originalUrl}`);
+  }
+  next();
+});
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
